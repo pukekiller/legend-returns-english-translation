@@ -2,31 +2,31 @@
 <string_table>
 
 	<string id="ui_st_abandoned_sawmill">
-		<text>Sawmill [Zaton]</text>
+		<text>Abandoned Sawmill (Zaton)</text>
 	</string>
 
 	<string id="ui_st_abandoned_school">
-		<text>Abandoned school</text>
+		<text>Abandoned School</text>
 	</string>
 
 	<string id="ui_st_abandoned_village">
-		<text>Abandoned village</text>
+		<text>Abandoned Village</text>
 	</string>
 
 	<string id="ui_st_brain_scorcher">
-		<text>"Dyatel-1" radar system</text>
+		<text>"Dyatel-1" Radar System</text>
 	</string>
 
 	<string id="ui_st_cultural_center">
-		<text>Pripyat - "Energetik" Palace of culture [Faction's base]</text>
+		<text>"Energetik" Palace of Culture (Pripyat - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_construction_site">
-		<text>Wild Territory - Construction site</text>
+		<text>Construction Site (Wild Territory)</text>
 	</string>
 
 	<string id="ui_st_container_warehouse">
-		<text>Container warehouse [Jupiter]</text>
+		<text>Container Warehouse (Jupiter)</text>
 	</string>
 
 	<string id="ui_st_eastern_checkpoint">
@@ -38,19 +38,19 @@
 	</string>
 
 	<string id="ui_st_factory_complex">
-		<text>Medpribor - Factory [Faction's base]</text>
+		<text>Factory (MedPribor - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_hermanns_bunker">
-		<text>Scientist bunker [Jupiter]</text>
+		<text>Scientist Bunker (Jupiter)</text>
 	</string>
 
 	<string id="ui_st_hidden_base">
-		<text>Hidden camp [Swamps]</text>
+		<text>Hidden Camp (Great Swamp)</text>
 	</string>
 
 	<string id="ui_st_kopachy_village">
-		<text>Kopachi village [Jupiter]</text>
+		<text>Kopachy Village (Jupiter)</text>
 	</string>
 
 	<string id="ui_st_lodging_house">
@@ -58,71 +58,71 @@
 	</string>
 
 	<string id="ui_st_machine_yard">
-		<text>Swamps - Machine yard</text>
+		<text>Machine Yard (Great Swamp)</text>
 	</string>
 
 	<string id="ui_st_makeshift_barracks">
-		<text>Bar - Bunker [Faction's base]</text>
+		<text>Bunker (Bar - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_military_base">
-		<text>Silent Hills - Army base</text>
+		<text>Army Base (Silent Hills)</text>
 	</string>
 
 	<string id="ui_st_northern_factory">
-		<text>Dead Valley - Repair facility</text>
+		<text>Repair Facility (Dead Valley)</text>
 	</string>
 
 	<string id="ui_st_hideout">
-		<text>Stash in high-rise building [Pripyat]</text>
+		<text>Stash in High-rise Building (Pripyat)</text>
 	</string>
 
 	<string id="ui_st_power_station">
-		<text>Power plant outskirts [Southern CNPP]</text>
+		<text>Power Plant Outskirts (Southern CNPP)</text>
 	</string>
 
 	<string id="ui_st_processing_station">
-		<text>Waste processing station [Zaton]</text>
+		<text>Waste Processing Station (Zaton)</text>
 	</string>
 
 	<string id="ui_st_pumping_station">
-		<text>Pumping station [Swamps]</text>
+		<text>Pumping Station (Great Swamp)</text>
 	</string>
 	
 	<string id="ui_st_river_port">
-		<text>River port [Pripyat]</text>
+		<text>River Port (Pripyat)</text>
 	</string>
 
 	<string id="ui_st_rookie_village">
-		<text>Cordon - Village [Faction's base]</text>
+		<text>Rookie Village (Cordon - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_research_institute">
-		<text>"MedPribor" Research Institute [Faction's base]</text>
+		<text>"MedPribor" Research Institute (Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_sakharovs_bunker">
-		<text>Yantar - Mobile camp [Faction's base]</text>
+		<text>Mobile Camp (Yantar - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_skadovsk_shipwreck">
-		<text>Skadovsk</text>
+		<text>Skadovsk Shipwreck</text>
 	</string>
 
 	<string id="ui_st_southern_checkpoint">
-		<text>Cordon - Southern checkpoint [Faction's base]</text>
+		<text>Southern Checkpoint (Cordon - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_sports_center">
-		<text>Bright Path City - Grocery store [Faction's base]</text>
+		<text>Grocery Store (Bright Path City - Faction's Base)</text>
 	</string>
 
 	<string id="ui_st_train_hangar">
-		<text>Garbage - Hangar</text>
+		<text>Train Hangar (Garbage)</text>
 	</string>
 
 	<string id="ui_st_tunnel_entrance">
-		<text>Jupiter Underground</text>
+		<text>Tunnel Entrance</text>
 	</string>
 
 	<string id="ui_st_tunnel_refuge">
@@ -130,35 +130,35 @@
 	</string>
 
 	<string id="ui_st_tuzla_outpost">
-		<text>Swamps - East of Tuzla outpost</text>
+		<text>Tuzla Outpost (Great Swamp)</text>
 	</string>
 
 	<string id="ui_st_village_ruins">
-		<text>Swamps - Abandoned village</text>
+		<text>Abandoned Village (Great Swamp)</text>
 	</string>
 
 	<string id="ui_st_yanov_station">
-		<text>Yanov station</text>
+		<text>Yanov Station</text>
 	</string>
 
 	<string id="ui_st_darkscape_depot">
-		<text>Bowels of the Zone - Timber warehouse [Faction's base]</text>
+		<text>Bowels of the Zone - Timber Warehouse [Faction's Base]</text>
 	</string>
 
 	<string id="ui_st_generator_lab">
-		<text>Generators - Control room</text>
+		<text>Control Room (Generators)</text>
 	</string>
 	
 	<string id="ui_st_marsh_camp">
-		<text>Swamps - Machine yard</text>
+		<text>Machine Yard (Great Swamp)</text>
 	</string>
 	
 	<string id="ui_st_valley_camp">
-		<text>Dead Valley - Farmstead</text>
+		<text>Farmstead (Dead Valley)</text>
 	</string>
 	
 	<string id="ui_st_minecraft">
-		<text>Red Forest - Mine [Faction's base]</text>
+		<text>Mine (Red Forest - Faction's Base)</text>
 	</string>
 	
 </string_table>

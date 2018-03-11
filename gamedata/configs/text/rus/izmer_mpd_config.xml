@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-		<string id="st_radiacion_none">
+	<string id="st_radiacion_none">
 		<text>Уровень облучения: %c[0,51,255,102]минимальный (безопасно)</text>
 	</string>
 	<string id="st_radiacion_nal_none">

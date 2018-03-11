@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-		<string id="st_radiacion_none">
+	<string id="st_radiacion_none">
 		<text>Exposure level: %c[0,51,255,102]minimal (safe)</text>
 	</string>
 	<string id="st_radiacion_nal_none">

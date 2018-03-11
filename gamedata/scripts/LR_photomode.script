@@ -1,0 +1,234 @@
+----- LR Photomode
+----- Author: XMODER (XMODER-ua)
+----- Отдельное спасибо: ALEX1197 за Cinematic In-Game DOF Controll
+----- ЗАПРЕЩАЕТСЯ ИСПОЛЬЗОВАНИЕ ЭТОЙ СИСТЕМЫ В СБОРКЕ СТАСОНА И ГДЕ ЛИБО ЕЩЕ. Попробуйте склепать на этой платформе что-нибудь САМИ.
+----- Надеюсь у вас есть хотя бы совесть и уважение к чужому труду.
+
+menu_mode = 0
+hud_mode = 0
+fov_mode_minus = 0
+fov_mode_plus = 0
+dof_mode_plus = 0
+
+-- ========== MAIN FUNCTIONS ========== --
+
+function on_key_press(key)
+if not db.actor:alive() then
+return 
+end
+if(key == DIK_keys["DIK_MINUS"] ) then -- here you can change hud disable key
+if menu_mode == 0 then
+run_dynamic_element(LR_photomode())
+menu_mode = 1
+end
+end
+end
+
+function on_game_start()
+RegisterScriptCallback("on_key_press",on_key_press)
+end
+
+-- ============================================================== GUI WINDOWS =========================================================================== --
+
+class "LR_photomode" (CUIScriptWnd)
+
+function LR_photomode:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function LR_photomode:__finalize()
+end
+
+function LR_photomode:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	xml:ParseFile("LR_photomode.xml")
+	self.main_frame = xml:InitFrame("main_frame", self)
+	self.main_text = xml:InitStatic("main_frame:main_text", self.main_frame)
+	self:Register(xml:Init3tButton("main_frame:reg_hud", self.main_frame), "reg_hud")
+	self:Register(xml:Init3tButton("main_frame:reg_fov_minus", self.main_frame), "reg_fov_minus")
+	self:Register(xml:Init3tButton("main_frame:reg_fov_standart", self.main_frame), "reg_fov_standart")
+	self:Register(xml:Init3tButton("main_frame:reg_fov_plus", self.main_frame), "reg_fov_plus")
+	self.fov_text = xml:InitStatic("main_frame:fov_text", self.main_frame)
+	self:Register(xml:Init3tButton("main_frame:reg_dof_plus", self.main_frame), "reg_dof_plus")
+	self.dof_text = xml:InitStatic("main_frame:dof_text", self.main_frame)		
+	self:Register(xml:Init3tButton("main_frame:reg_demo_record", self.main_frame), "reg_demo_record")
+	self:Register(xml:Init3tButton("main_frame:exit_menu", self.main_frame), "exit_menu")
+
+end
+
+function LR_photomode:InitCallBacks()
+	self:AddCallback("reg_hud", ui_events.BUTTON_CLICKED, self.reg_hud_button_clicked, self)
+	self:AddCallback("reg_fov_minus", ui_events.BUTTON_CLICKED, self.reg_fov_minus_button_clicked, self)
+	self:AddCallback("reg_fov_standart", ui_events.BUTTON_CLICKED, self.reg_fov_standart_button_clicked, self)
+	self:AddCallback("reg_fov_plus", ui_events.BUTTON_CLICKED, self.reg_fov_plus_button_clicked, self)
+	self:AddCallback("reg_dof_plus", ui_events.BUTTON_CLICKED, self.reg_dof_plus_button_clicked, self)	
+	self:AddCallback("reg_demo_record", ui_events.BUTTON_CLICKED, self.reg_demo_record_button_clicked, self)
+	self:AddCallback("exit_menu", ui_events.BUTTON_CLICKED, self.exit_menu_button_clicked, self)
+end
+
+function LR_photomode:reg_hud_button_clicked()
+local hud = get_hud()
+if hud_mode == 0 then
+get_console():execute("hud_draw 0")
+get_console():execute("hud_crosshair 0")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("HUD - Выключен")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+hud_mode = 1
+elseif hud_mode == 1 then
+get_console():execute("hud_draw 1")
+get_console():execute("hud_crosshair 1")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("HUD - Включен")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+hud_mode = 0
+end
+end
+
+function LR_photomode:reg_fov_minus_button_clicked()
+local hud = get_hud()
+if fov_mode_minus == 0 then
+get_console():execute("fov 55")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 55 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_minus = 1
+elseif fov_mode_minus == 1 then
+get_console():execute("fov 45")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 45 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_minus = 2
+elseif fov_mode_minus == 2 then
+get_console():execute("fov 35")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 35 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_minus = 3
+elseif fov_mode_minus == 3 then
+get_console():execute("fov 25")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 25 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_minus = 4
+elseif fov_mode_minus == 4 then
+get_console():execute("fov 15")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 15 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_minus = 0
+end
+end
+
+function LR_photomode:reg_fov_standart_button_clicked()
+local hud = get_hud()
+get_console():execute("fov 65")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - стандартный")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 0
+fov_mode_minus = 0
+end
+
+function LR_photomode:reg_fov_plus_button_clicked()
+local hud = get_hud()
+if fov_mode_plus == 0 then
+get_console():execute("fov 70")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 70 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 1
+elseif fov_mode_plus == 1 then
+get_console():execute("fov 75")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 75 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 2
+elseif fov_mode_plus == 2 then
+get_console():execute("fov 80")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 80 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 3
+elseif fov_mode_plus == 3 then
+get_console():execute("fov 85")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 85 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 4
+elseif fov_mode_plus == 4 then
+get_console():execute("fov 90")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Угол обзора - 90 гр.")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+fov_mode_plus = 0
+end
+end
+
+function LR_photomode:reg_dof_plus_button_clicked()
+local hud = get_hud()
+if dof_mode_plus == 0 then
+get_console():execute("r2_dof_far 25.0")
+get_console():execute("r2_dof_near 0.25")
+get_console():execute("r2_dof_focus 0.89")
+get_console():execute("r2_dof_kernel 6")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Modern")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+dof_mode_plus = 1
+elseif dof_mode_plus == 1 then
+get_console():execute("r2_dof_far 25.0")
+get_console():execute("r2_dof_near 0.1")
+get_console():execute("r2_dof_focus 0.2")
+get_console():execute("r2_dof_kernel 5")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Neutral")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+dof_mode_plus = 2
+elseif dof_mode_plus == 2 then
+get_console():execute("r2_dof_far 4.0")
+get_console():execute("r2_dof_near 0.1")
+get_console():execute("r2_dof_focus 0.2")
+get_console():execute("r2_dof_kernel 7")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Closer")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+dof_mode_plus = 3
+elseif dof_mode_plus == 3 then
+get_console():execute("r2_dof_far 30.0")
+get_console():execute("r2_dof_near 0.1")
+get_console():execute("r2_dof_focus 0.2")
+get_console():execute("r2_dof_kernel 5")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Distance")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+dof_mode_plus = 4
+elseif dof_mode_plus == 4 then
+get_console():execute("r2_dof_far 800.")
+get_console():execute("r2_dof_near -0.4")
+get_console():execute("r2_dof_focus 1.4")
+get_console():execute("r2_dof_kernel 2")
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Standart/Off")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+dof_mode_plus = 0
+end
+end
+
+function LR_photomode:reg_demo_record_button_clicked()
+get_console():execute("demo_record 1")
+self:HideDialog()
+menu_mode = 0
+end
+
+function LR_photomode:exit_menu_button_clicked()
+self:HideDialog()
+menu_mode = 0
+end
+
+function LR_photomode:Hide()
+self:HideDialog()
+menu_mode = 0	
+end

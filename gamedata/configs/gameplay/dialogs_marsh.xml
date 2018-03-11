@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+    <!------------- ecolog_companion_task_1 ----------->
+    <!------------- mar_base_owl_stalker_trader ---------->
+    <!------------- marsh_stalker_barmen ---------------->
+    <dialog id="mar_smart_terrain_base_barman_background">
+        <phrase_list>
+            <phrase id="0">
+                <text>dm_dialog_character_history</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>marsh_stalker_barman_background</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <!------------------- marsh_stalker_tech -------------------->
+    <dialog id="mar_smart_terrain_base_tech_background">
+        <phrase_list>
+            <phrase id="0">
+                <text>dm_dialog_character_history</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>marsh_stalker_tech_background</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <!------------------ marsh_stalker_leader ------------------------>
+    <!----------------------------- mar_smart_terrain_base_doctor --------->
+    <dialog id="mar_smart_terrain_base_doctor_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>mar_smart_terrain_base_doctor_start_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_smart_terrain_base_doctor_need_health_care">
+        <phrase_list>
+            <phrase id="11">
+                <text>mar_smart_terrain_base_doctor_need_health_care_11</text>
+                <action>dialogs.medic_magic_potion</action>
+                <next>111</next>
+            </phrase>
+            <phrase id="111">
+                <text>mar_smart_terrain_base_doctor_need_health_care_111</text>
+            </phrase>
+            <phrase id="1">
+                <text>mar_smart_terrain_base_doctor_need_health_care_1</text>
+                <precondition>dialogs.actor_needs_bless</precondition>
+                <next>11</next>
+            </phrase>
+            <phrase id="2">
+                <text>mar_smart_terrain_base_doctor_need_health_care_2</text>
+                <precondition>dialogs.actor_is_damn_healthy</precondition>
+            </phrase>
+            <phrase id="0">
+                <text>mar_smart_terrain_base_doctor_need_health_care_0</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <!----------------------------- mar_smart_terrain_base_stalker_guide_marsh --------->
+    <dialog id="marsh_stalker_barmen_start_dialog">
+        <phrase_list>
+            <phrase id="1">
+                <text />
+                <next>111</next>
+                <next>112</next>
+            </phrase>
+            <phrase id="111">
+                <text>marsh_stalker_barmen_start_dialog_1</text>
+                <dont_has_info>marsh_stalker_barmen_setup</dont_has_info>
+                <give_info>marsh_stalker_barmen_setup</give_info>
+            </phrase>
+            <phrase id="112">
+                <text>marsh_stalker_barmen_start_dialog_2</text>
+                <has_info>marsh_stalker_barmen_setup</has_info>
+            </phrase>
+            <phrase id="0">
+                <text />
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_smart_terrain_base_trader_background">
+        <phrase_list>
+            <phrase id="1">
+                <text>marsh_stalker_trader_background</text>
+            </phrase>
+            <phrase id="0">
+                <text />
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_smart_terrain_base_leader_background">
+        <phrase_list>
+            <phrase id="1">
+                <text>marsh_stalker_leader_background</text>
+            </phrase>
+            <phrase id="0">
+                <text />
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_smart_terrain_base_doctor_background">
+        <phrase_list>
+            <phrase id="1">
+                <text>marsh_stalker_medic_background</text>
+            </phrase>
+            <phrase id="0">
+                <text />
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="cit_doctor_hello_dialog">
+        <has_info>doc_tz_dialog_unlock</has_info>
+        <dont_has_info>story_mode_disabled</dont_has_info>
+        <phrase_list>
+            <phrase id="2">
+                <text></text>
+                <has_info>cit_jail_doctor_pryp_task</has_info>
+                <next>21</next>
+            </phrase>
+            <phrase id="1">
+                <text></text>
+                <dont_has_info>cit_jail_doctor_pryp_task</dont_has_info>
+                <next>11</next>
+            </phrase>
+            <phrase id="21">
+                <text>cit_doctor_hello_dialog_21</text>
+            </phrase>
+            <phrase id="11">
+                <text>cit_doctor_hello_dialog_11</text>
+            </phrase>
+            <phrase id="0">
+                <text></text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="marsh_stalker_tech_start">
+        <phrase_list>
+            <phrase id="0">
+                <text>marsh_stalker_tech_start_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_smart_terrain_base_leader_csky_history">
+        <phrase_list>
+            <phrase id="1">
+                <text>marsh_csky_history_ask2</text>
+                <next>100</next>
+            </phrase>
+            <phrase id="2">
+                <text>marsh_csky_history_destroyed1</text>
+                <next>22</next>
+            </phrase>
+            <phrase id="22">
+                <text>marsh_csky_history_destroyed2</text>
+                <next>100</next>
+            </phrase>
+            <phrase id="99">
+                <text></text>
+            </phrase>
+            <phrase id="100">
+                <text></text>
+                <next>101</next>
+            </phrase>
+            <phrase id="101">
+                <text></text>
+                <next>2</next>
+                <next>99</next>
+            </phrase>
+            <phrase id="0">
+                <text>marsh_csky_history_ask1</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="mar_base_owl_stalker_trader_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>mar_base_owl_stalker_trader_start_dialog_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="ecolog_companion_task_1_dialog">
+        <phrase_list>
+            <phrase id="1">
+                <text></text>
+                <next>111</next>
+                <next>112</next>
+                <next>113</next>
+            </phrase>
+            <phrase id="1111">
+                <text></text>
+            </phrase>
+            <phrase id="112">
+                <text></text>
+                <precondition>dialogs_marsh.ecolog_companion_task_1_not_complete</precondition>
+                <give_info>ecolog_companion_task_1_started</give_info>
+                <has_info>ecolog_companion_task_1_started</has_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="1113">
+                <text></text>
+                <action>dialogs_marsh.ecolog_companion_task_1_give_reward</action>
+                <action>dialogs_marsh.ecolog_companion_task_1_complete_task</action>
+            </phrase>
+            <phrase id="113">
+                <text></text>
+                <precondition>dialogs_marsh.ecolog_companion_task_1_complete</precondition>
+                <next>1113</next>
+            </phrase>
+            <phrase id="111">
+                <text></text>
+                <precondition>dialogs_marsh.ecolog_companion_task_1_not_complete</precondition>
+                <dont_has_info>ecolog_companion_task_1_started</dont_has_info>
+                <give_info>ecolog_companion_task_1_started</give_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="0">
+                <text></text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="cit_doctor_main_dialog">
+        <has_info>doc_tz_dialog_unlock</has_info>
+        <dont_has_info>story_mode_disabled</dont_has_info>
+        <dont_has_info>cit_jail_doctor_pryp_task</dont_has_info>
+        <phrase_list>
+            <phrase id="6">
+                <text></text>
+                <give_info>cit_doctor_meet_conclusion_info</give_info>
+            </phrase>
+            <phrase id="31">
+                <text>cit_doctor_main_dialog_31</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="11">
+                <text>cit_doctor_main_dialog_11</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="0">
+                <text>cit_doctor_main_dialog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="5">
+                <text>cit_doctor_main_dialog_5</text>
+                <give_info>cit_doctor_meet_conclusion_info</give_info>
+            </phrase>
+            <phrase id="41">
+                <text>cit_doctor_main_dialog_41</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="3">
+                <text>cit_doctor_main_dialog_3</text>
+                <next>31</next>
+            </phrase>
+            <phrase id="21">
+                <text>cit_doctor_main_dialog_21</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="4">
+                <text>cit_doctor_main_dialog_4</text>
+                <action>dialogs_marsh.take_key</action>
+                <give_info>cit_jail_doctor_pryp_task</give_info>
+                <give_info>mar_doctor_found</give_info>
+                <next>41</next>
+            </phrase>
+            <phrase id="2">
+                <text>cit_doctor_main_dialog_2</text>
+                <next>21</next>
+            </phrase>
+            <phrase id="1">
+                <text>cit_doctor_main_dialog_1</text>
+                <action>dialogs_escape.remove_travka</action>
+                <give_info>cit_fail_first_task</give_info>
+                <next>11</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	<!----------------------------- greh --------->
+	<!----------------------------- greh --------->
+	<!----------------------------- greh --------->
+	<!----------------------------- greh --------->
+<dialog id="greh_barter_1">
+<precondition>dialogs_escape.check_greh_true</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>Мне нужно некоторое снаряжение.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Обменяю на сердца сталкеров, что тебе нужно?</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+            </phrase>
+            <phrase id="9">
+                <text>Мне ничего не нужно.</text>
+            </phrase>
+			<phrase id="8">
+                <text>Мне нужен Призывной Череп(7 сердец).</text>
+				<precondition>dialogs_red_forest.mojno</precondition>
+				<precondition>dialogs_escape.obmeb_heart_7</precondition>
+				<action>dialogs_escape.obmen_7heart</action>
+				<action>dialogs_escape.obmen_sinner_spawner</action>
+			</phrase>	
+			<phrase id="7">
+                <text>Мне нужна ритуальная маска(3 сердца).</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_helm_greh</action>
+            </phrase>
+            <phrase id="6">
+                <text>Мне нужны патроны.</text>
+				<next>555</next>                
+            </phrase>
+			<phrase id="555">
+                <text>Давай посмотрим.</text>
+				<next>5551</next>
+				<next>5552</next> 
+				<next>5553</next> 
+				<next>5554</next> 
+				<next>5555</next>
+				<next>5556</next>
+				<next>5557</next>
+				<next>5558</next>
+				<next>5559</next>				
+				<next>5560</next>	
+            </phrase>
+			<phrase id="5551">
+                <text>Мне нужны патроны для дробовика(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_drob</action>
+            </phrase>
+			<phrase id="5552">
+                <text>Мне нужны патроны 5.45х39(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_5_45</action>
+            </phrase>
+			<phrase id="5553">
+                <text>Мне нужны патроны 9х18(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_9x18</action>
+            </phrase>
+			<phrase id="5554">
+                <text>Мне нужны патроны 9х19(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_9x19</action>
+            </phrase>			
+			<phrase id="5555">
+                <text>Мне нужны патроны для аномального калаша(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_ammoanom1</action>
+            </phrase>
+			<phrase id="5556">
+                <text>Мне нужны патроны для аномального дробовика(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_ammoanom2</action>
+            </phrase>
+			<phrase id="5557">
+                <text>Мне нужны патроны для аномального кольта(3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_ammoanom3</action>
+            </phrase>
+			<phrase id="5558">
+                <text>Мне нужны гранаты(5 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_granati</action>
+            </phrase>
+			<phrase id="5559">
+                <text>Мне нужны патроны для "Цербера"(5 сердец).</text>
+				<precondition>dialogs_red_forest.mojno</precondition>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_ammo_gauss_greh</action>
+            </phrase>
+			<phrase id="5560">
+                <text>Мне ничего не нужно.</text>                
+            </phrase>
+            <phrase id="4">
+                <text>Мне нужна броня.</text>                
+				<next>333</next>				
+            </phrase>
+			<phrase id="333">
+                <text>Давай поглядим.</text>                
+				<next>3331</next>
+				<next>3332</next>
+				<next>3333</next>
+				<next>3334</next>				
+            </phrase>
+			<phrase id="3331">
+                <text>Возьму плащ (5 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+                <action>dialogs_escape.obmen_5heart</action>
+                <action>dialogs_escape.obmen_plash</action>
+			</phrase>
+			<phrase id="3332">
+                <text>Возьму укрепленный плащ(15 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_15</precondition>
+                <action>dialogs_escape.obmen_15heart</action>
+                <action>dialogs_escape.obmen_plash1</action>
+			</phrase>
+			<phrase id="3333">
+                <text>Возьму аномальный плащ(30 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_30</precondition>
+                <action>dialogs_escape.obmen_30heart</action>
+                <action>dialogs_escape.obmen_plash2</action>
+			</phrase>
+			<phrase id="3334">
+                <text>Мне ничего не нужно.</text>                
+			</phrase>
+            <phrase id="2">
+                <text>Мне нужны стволы.</text>
+				<next>222</next>				
+            </phrase>
+			<phrase id="3">
+                <text>Мне нужен "Ритуальный" нож(5 сердец).</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_greh_knife</action>
+			</phrase>
+			<phrase id="222">
+                <text>Давай посмотрим.</text>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>  
+				<next>30</next>
+				<next>299</next> 
+            </phrase>
+			<phrase id="21">
+                <text>Возьму ПМ (2 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_2</precondition>
+                <action>dialogs_escape.obmen_2heart</action>
+                <action>dialogs_escape.obmen_pmm</action>
+            </phrase>
+			<phrase id="22">
+                <text>Возьму двухстволку (3 сердца).</text>
+                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+                <action>dialogs_escape.obmen_3heart</action>
+                <action>dialogs_escape.obmen_toz</action>
+            </phrase>
+			<phrase id="23">
+                <text>Возьму аксу (5 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+                <action>dialogs_escape.obmen_5heart</action>
+                <action>dialogs_escape.obmen_aksu</action>
+            </phrase>
+			<phrase id="24">
+                <text>Возьму МП-5 (5 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+                <action>dialogs_escape.obmen_5heart</action>
+                <action>dialogs_escape.obmen_mp5</action>
+            </phrase>
+			<phrase id="25">
+                <text>Возьму АКС-74 (7 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_7</precondition>
+                <action>dialogs_escape.obmen_7heart</action>
+                <action>dialogs_escape.obmen_ak74</action>
+            </phrase>
+			<phrase id="26">
+                <text>Возьму чейзер (7 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_7</precondition>
+                <action>dialogs_escape.obmen_7heart</action>
+                <action>dialogs_escape.obmen_wincheaster</action>
+            </phrase>
+			<phrase id="27">
+                <text>Возьму аномальный кольт (7 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_7</precondition>
+                <action>dialogs_escape.obmen_7heart</action>
+                <action>dialogs_escape.obmen_coltsinr</action>
+            </phrase>
+			<phrase id="28">
+                <text>Возьму аномальный АК (15 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_15</precondition>
+                <action>dialogs_escape.obmen_15heart</action>
+                <action>dialogs_escape.obmen_aksinr</action>
+            </phrase>
+			<phrase id="29">
+                <text>Возьму аномальную помповуху (15 сердец).</text>
+                <precondition>dialogs_escape.obmeb_heart_15</precondition>
+                <action>dialogs_escape.obmen_15heart</action>
+                <action>dialogs_escape.obmen_wincheastersinr</action>
+            </phrase>
+			<phrase id="30">
+                <text>Возьму обгорелое ружье (7 сердец).</text>
+				<precondition>dialogs_escape.obmeb_heart_7</precondition>
+				<action>dialogs_escape.obmen_7heart</action>
+				<action>dialogs_escape.obmen_wpn_greh_toz</action>
+            </phrase>
+			<phrase id="299">
+                <text>Мне ничего не нужно.</text>                
+            </phrase>
+			
+        </phrase_list>
+    </dialog>
+    <dialog id="greh_barter_2">
+	<precondition>dialogs_escape.check_greh_true</precondition>
+        <phrase_list>
+            <phrase id="4">
+                <text>army_barter_2_4</text>
+            </phrase>
+            <phrase id="3">
+                <text>army_barter_2_3</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+                <action>dialogs_escape.obmen_5heart</action>
+                <action>dialogs_escape.obmen_rem_br</action>
+            </phrase>
+            <phrase id="2">
+                <text>army_barter_2_2</text>
+                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+                <action>dialogs_escape.obmen_5heart</action>
+                <action>dialogs_escape.obmen_rem_or</action>
+            </phrase>
+            <phrase id="1">
+                <text>army_barter_2_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+            </phrase>
+            <phrase id="0">
+                <text>army_barter_2_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+<dialog id="greh_barter_3">
+	<precondition>dialogs_escape.check_greh_true</precondition>
+	<precondition>dialogs_escape.obmeb_heart_3</precondition>
+        <phrase_list>            
+			<phrase id="0">
+                <text>Мне нужна "скорость" (3 сердца).</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_speed</action>
+								 
+						   
+																						 
+							  
+            </phrase>
+        </phrase_list>
+    </dialog>
+	<dialog id="csky_start_new_story">
+	<precondition>dialogs_new.check_csky_true</precondition>
+	<dont_has_info>start_quest_start</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>csky_story_start_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>csky_story_start_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>csky_story_start_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>csky_story_start_3</text>
+				<give_info>start_quest_start</give_info>
+				<action>dialogs_new.give_start_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+    <dialog id="csky_start_new_story_done">
+	<has_info>start_quest_start</has_info>
+	<dont_has_info>infu_pda_prines</dont_has_info>
+	<precondition>dialogs_new.is_has_quest_item_1</precondition>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>csky_first_dialog_0</text>
+				<action>dialogs_new.strelok_friends_pda_to_vedrov</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>csky_first_dialog_1</text>
+				<give_info>infu_pda_prines</give_info>
+				<action>dialogs_new.give_next_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="csky_second_story_task">
+	<has_info>infu_pda_prines</has_info>
+	<dont_has_info>zapisky_strelku_prines</dont_has_info>
+	<precondition>dialogs_new.is_has_quest_item_2</precondition>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>csky_second_story_task_0</text>
+				<action>dialogs_new.strelok_zapiska_to_vedrov</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>csky_second_story_task_1</text>
+				<give_info>zapisky_strelku_prines</give_info>
+				<action>dialogs_new.give_talk_to_sidor_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="mechanik_unlock">
+	<has_info>stalker_killed_for_sidor</has_info>
+	<dont_has_info>talk_to_csky_mechanik_done</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>mechanik_unlock_0</text>
+				<action>dialogs_new.pda_to_mechanik</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>mechanik_unlock_1</text>
+				<give_info>talk_to_csky_mechanik_done</give_info>
+				<action>dialogs_new.talk_to_vedrov_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="talk_to_vedrov">
+	<has_info>talk_to_csky_mechanik_done</has_info>
+	<dont_has_info>talk_to_vedrov_done</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>talk_to_vedrov_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>talk_to_vedrov_1</text>
+				<give_info>talk_to_vedrov_done</give_info>
+				<action>dialogs_new.kill_strelok_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="strelok_killed">
+	<has_info>talk_to_vedrov_done</has_info>
+	<dont_has_info>strelok_killed</dont_has_info>
+	<has_info>strelok_death</has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>strelok_killed_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>strelok_killed_1</text>
+				<give_info>strelok_killed</give_info>
+				<action>dialogs_new.give_poisk_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="poisk">
+	<has_info>strelok_killed</has_info>
+	<dont_has_info>naydeni</dont_has_info>
+	<precondition>dialogs_new.otryad_nayden</precondition>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>poisk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>poisk_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>poisk_2</text>
+				<action>dialogs_new.pda_leader_to_vedrov</action>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>poisk_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+			    <text>poisk_4</text>
+				<give_info>naydeni</give_info>
+				<action>dialogs_new.give_task_poisk_pda_sharama</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="pda_zapisky_prines">
+	<has_info>naydeni</has_info>
+	<dont_has_info>nashol_pda_zapisky</dont_has_info>
+	<precondition>dialogs_new.prines_pda_zapisky_shrama</precondition>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>dolozhit_0</text>
+				<action>dialogs_new.pda_zapiska_shrama_to_vedrov</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>dolozhit_1</text>
+				<give_info>nashol_pda_zapisky</give_info>
+				<action>dialogs_new.give_task_talk_mechan</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pda_remont">
+	<has_info>nashol_pda_zapisky</has_info>
+	<dont_has_info>talk_to_mechan_done</dont_has_info>
+	<precondition>dialogs_new.est_pda_shrama</precondition>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>remont_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>remont_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>remont_2</text>
+				<action>dialogs_new.pda_to_mechan</action>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>remont_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+			    <text>remont_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+			    <text>remont_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+			    <text>remont_6</text>
+			    <next>7</next>
+			</phrase>
+			<phrase id="7">
+			    <text>remont_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+			    <text>remont_8</text>
+				<give_info>talk_to_mechan_done</give_info>
+				<action>dialogs_new.give_task_talk_vedrov</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="talk_to_osvedomitel_quest_start">
+	<has_info>talk_to_mechan_done</has_info>
+	<dont_has_info>talk_to_vedrov_2_done</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>dolozhit_vedrovy_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>dolozhit_vedrovy_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>dolozhit_vedrovy_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>dolozhit_vedrovy_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+			    <text>dolozhit_vedrovy_4</text>
+				<give_info>talk_to_vedrov_2_done</give_info>
+				<action>dialogs_new.give_task_talk_to_osvedomitel</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="mar_shram_start_dialog">
+	<has_info>stepan_death</has_info>
+	<dont_has_info>talk_to_shram_task_done</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>start_shram_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>start_shram_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>start_shram_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>start_shram_dialog_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+			    <text>start_shram_dialog_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+			    <text>start_shram_dialog_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+			    <text>start_shram_dialog_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+			    <text>start_shram_dialog_7</text>
+				<action>dialogs_new.create_freedom_squad_marsh</action>
+				<give_info>talk_to_shram_task_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="vedrov_talk_info">
+	<has_info>talk_to_shram_task_done</has_info>
+	<dont_has_info>talk_to_csky_leader_done</dont_has_info>
+	    <phrase_list>
+		    <phrase id="0">
+			    <text>skazat_vedrovy_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+			    <text>skazat_vedrovy_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+			    <text>skazat_vedrovy_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+			    <text>skazat_vedrovy_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+			    <text>skazat_vedrovy_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+			    <text>skazat_vedrovy_5</text>
+				<give_info>talk_to_csky_leader_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+</game_dialogs>

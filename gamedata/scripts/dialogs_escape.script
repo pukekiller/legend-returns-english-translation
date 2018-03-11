@@ -1,0 +1,1748 @@
+--=============================================================
+--
+-- FUNCTIONS FOR DIALOGS
+--	CoC : Legend Returns
+--
+--	Modified by: DoctorX, Legend Returns Dev`s
+--	Last revised: Jan 29, 2018
+--
+--=============================================================
+
+-- ------------------------------------------------------------------------------------------------
+
+-- army_story-
+
+
+function army_story_give()      
+         task_manager.get_task_manager():give_task("army_task")        
+end 
+
+function army_story_end(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_1_quest_case")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_2_lab_x18_documents")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_3_lab_x16_documents")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_4_lab_x10_documents")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_5_lab_x8_documents")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_6_jup_ug_documents")
+	  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_7_mon_con_documents")      
+end 
+
+function army_have_docs(first_speaker, second_speaker) 
+      return ((db.actor:object("main_story_1_quest_case") ~= nil) and (db.actor:object("main_story_2_lab_x18_documents") ~= nil) and (db.actor:object("main_story_2_lab_x18_documents") ~= nil) and (db.actor:object("main_story_3_lab_x16_documents") ~= nil) and (db.actor:object("main_story_4_lab_x10_documents") ~= nil) and (db.actor:object("main_story_5_lab_x8_documents") ~= nil) and (db.actor:object("main_story_5_lab_x8_documents") ~= nil) and (db.actor:object("main_story_6_jup_ug_documents") ~= nil) and (db.actor:object("main_story_7_mon_con_documents") ~= nil))
+	  
+end
+
+-- ------------------------------------------------------------------------------------------------
+
+function mojno_vstupit(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "experienced" or rank == "professional" or rank == "veteran" or rank == "expert" or rank == "master" or rank == "legend") then
+     return true
+   else
+     return false
+   end
+end
+
+function nelza_vstupit(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "novice" or rank == "trainee") then
+     return true
+   else
+     return false
+   end
+end
+
+function mojno_vstupit1(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "professional" or rank == "veteran" or rank == "expert" or rank == "master" or rank == "legend") then
+     return true
+   else
+     return false
+   end
+end
+
+function nelza_vstupit1(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "novice" or rank == "trainee" or rank == "experienced") then
+     return true
+   else
+     return false
+   end
+end
+
+function mojno_vstupit2(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "veteran" or rank == "expert" or rank == "master" or rank == "legend") then
+     return true
+   else
+     return false
+   end
+end
+
+function nelza_vstupit2(actor)
+	local rank = ranks.get_obj_rank_name(actor)
+	if (rank == "novice" or rank == "trainee" or rank == "experienced" or rank == "professional") then
+     return true
+   else
+     return false
+   end
+end
+
+function if_friend_army_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", 2000})
+end
+
+function if_friend_army_to_actor2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", 3000})
+end
+
+function if_friend_ecolog_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"ecolog", 500})
+end
+
+function if_friend_ecolog_to_actor_2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"ecolog", 3000})
+end
+
+function if_friend_ecolog_to_actor_3(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"ecolog", 2000})
+end
+
+function if_friend_bandit_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"bandit", 2000})
+end
+
+function if_friend_killer_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 2000})
+end
+
+function if_friend_dolg_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 3000})
+end
+
+function if_friend_dolg_to_actor2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 2000})
+end
+
+function if_friend_freedom_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 3000})
+end
+
+function if_friend_freedom_to_actor5(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 500})
+end
+
+function if_friend_stalker_to_actor2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 2000})
+end
+
+function if_friend_stalker_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 3000})
+end
+
+function if_friend_monolith_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"monolith", 3000})
+end
+
+function if_friend_freedom_to_actor_2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 2000})
+end
+
+function if_friend_csky_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", 2000})
+end
+
+function if_friend_csky_to_actor_2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", 3000})
+end
+
+function if_friend_slime_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", 3000})
+end
+
+function if_friend_zombied_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"zombied", 3000})
+end
+
+function if_enemy_zombied_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"zombied", -3000})
+end
+
+function if_enemy_stalker_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", -3000})
+end
+
+function if_enemy_csky_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", -3000})
+end
+
+function if_enemy_freedom_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", -3000})
+end
+
+function if_enemy_freedom_to_actor2(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", -500})
+end
+
+function if_enemy_dolg_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -3000})
+end
+
+function if_enemy_dolg_to_actor1(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -2000})
+end
+
+function if_enemy_stalker_to_actor1(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", -2000})
+end
+
+function if_enemy_monolith_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"monolith", -3000})
+end
+
+function if_enemy_slime_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", -3000})
+end
+
+function if_enemy_ecolog_to_actor(a,b)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"ecolog", -3000})
+end
+
+function v_merc(actor, npc)
+   db.actor:set_character_community("actor_killer",0,0)
+   faction_functions.write_variable("stat_community","actor_killer")
+   
+end
+
+function check_merc_true()
+  if character_community(db.actor) == 'actor_killer' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_ecolog(actor, npc)
+   db.actor:set_character_community("actor_ecolog",0,0)
+   faction_functions.write_variable("stat_community","actor_ecolog")
+   
+end
+
+function check_ecolog_true()
+  if character_community(db.actor) == 'actor_ecolog' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_army(actor, npc)
+   db.actor:set_character_community("actor_army",0,0)
+   faction_functions.write_variable("stat_community","actor_army")
+   
+end
+
+function check_army_true()
+  if character_community(db.actor) == 'actor_army' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_slime(actor, npc)
+   db.actor:set_character_community("actor_slime",0,0)
+   faction_functions.write_variable("stat_community","actor_slime")
+   
+end
+
+function check_slime_true()
+  if character_community(db.actor) == 'actor_slime' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_bandit(actor, npc)
+   db.actor:set_character_community("actor_bandit",0,0)
+   faction_functions.write_variable("stat_community","actor_bandit")
+   
+end
+
+function check_bandit_true()
+  if character_community(db.actor) == 'actor_bandit' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_greh_true()
+  if character_community(db.actor) == 'actor_sin' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_neutral_true()
+  if character_community(db.actor) == 'neutral' then
+     return true
+   else
+     return false
+   end
+end
+function check_dolg_true()
+  if character_community(db.actor) == 'actor_dolg' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_freedom_true()
+  if character_community(db.actor) == 'actor_freedom' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_cs_army_true()
+  if character_community(db.actor) == 'actor_army' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_cs_true()
+  if character_community(db.actor) == 'actor_csky' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_zombi()
+  if character_community(db.actor) ~= 'zombied' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_zombi_true()
+  if character_community(db.actor) == 'zombied' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_cs()
+  if character_community(db.actor) ~= 'actor_csky' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_monolith()
+  if character_community(db.actor) ~= 'actor_monolith' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_monolith_true()
+  if character_community(db.actor) == 'actor_monolith' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_monolith(actor, npc)
+   db.actor:set_character_community("actor_monolith",0,0)
+   faction_functions.write_variable("stat_community","actor_monolith")
+   
+end
+
+function v_cs(actor, npc)
+   db.actor:set_character_community("actor_csky",0,0)
+   faction_functions.write_variable("stat_community","actor_csky")
+   
+end
+
+function check_dolg()
+  if character_community(db.actor) ~= 'actor_dolg' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_dolg(actor, npc)
+   db.actor:set_character_community("actor_dolg",0,0)
+   faction_functions.write_variable("stat_community","actor_dolg")
+   
+end
+
+function check_freedom()
+  if character_community(db.actor) ~= 'actor_freedom' then
+     return true
+   else
+     return false
+   end
+end
+
+function v_freedom(actor, npc)
+   db.actor:set_character_community("actor_freedom",0,0)
+   faction_functions.write_variable("stat_community","actor_freedom")
+   
+end
+
+function v_loner(actor, npc)
+   db.actor:set_character_community("actor_stalker",0,0)
+   faction_functions.write_variable("stat_community","actor_stalker")
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"monolith", -5000})
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", -4000})
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", -4000})
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"bandit", -4000})
+end
+
+function check_loner()
+  if character_community(db.actor) ~= 'actor_stalker' then
+     return true
+   else
+     return false
+   end
+end
+
+function check_loner_true()
+  if character_community(db.actor) == 'actor_stalker' then
+     return true
+   else
+     return false
+   end
+end
+
+
+
+-- barter_army-
+
+function obmeb_vozmojen(first_speaker, second_speaker) 
+     local n = 2
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmen_2pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",2)
+	   
+      
+end 
+
+function obmen_3pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",3)
+	   
+      
+end 
+
+function punch(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bread1")     
+end 
+function obmeb_vozmojen_3(first_speaker, second_speaker) 
+     local n = 3
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmen_5pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",5)
+	   
+      
+end 
+
+function obmeb_vozmojen_5(first_speaker, second_speaker) 
+     local n = 5
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end
+
+function obmen_7pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",7)
+	   
+      
+end 
+
+function obmen_7heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",7)
+	   
+      
+end 
+
+function obmen_5heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",5)
+	   
+      
+end 
+
+function obmen_2heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",2)
+	   
+      
+end 
+
+function obmen_3heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",3)
+	   
+      
+end 
+
+function obmen_15heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",15)
+	   
+      
+end 
+
+function obmen_30heart(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "heart",30)
+	   
+      
+end 
+function obmeb_vozmojen_7(first_speaker, second_speaker) 
+     local n = 7
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_7(first_speaker, second_speaker) 
+     local n = 7
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_5(first_speaker, second_speaker) 
+     local n = 5
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_3(first_speaker, second_speaker) 
+     local n = 3
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_15(first_speaker, second_speaker) 
+     local n = 15
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_2(first_speaker, second_speaker) 
+     local n = 2
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+
+function obmeb_heart_30(first_speaker, second_speaker) 
+     local n = 30
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "heart" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end 
+function obmen_9pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",9)
+	   
+      
+end 
+
+function obmeb_vozmojen_9(first_speaker, second_speaker) 
+     local n = 9
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end
+
+function obmen_15pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",15)
+	   
+      
+end 
+
+function obmeb_vozmojen_15(first_speaker, second_speaker) 
+     local n = 15
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end
+
+function obmen_30pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",30)
+	   
+      
+end 
+
+function obmeb_vozmojen_50(first_speaker, second_speaker) 
+     local n = 50
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end
+
+function obmen_50pda(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs",50)
+	   
+      
+end 
+
+function obmeb_vozmojen_30(first_speaker, second_speaker) 
+     local n = 30
+	 local count = 0
+	 db.actor:iterate_inventory (function (dummy,item) if
+	 item:section() == "stalker_docs" then count=count + 1 end end,nil)
+	 if count >= n then
+	 return true
+	 else
+	 return false
+	 end
+	 
+end
+
+
+
+function obmen_pmm(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pm")
+end 
+
+function obmen_gauss(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_gauss")
+end 
+
+function obmen_pb(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pb")
+end
+
+function obmen_fort(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_fort")
+end
+
+function obmen_aksu(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_ak74u")
+end
+
+function obmen_ak74(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_ak74")
+end
+
+function obmen_ah94(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_abakan")
+end
+
+function obmen_akms(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_akms_mf1")
+end
+
+function obmen_vss(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_vintorez")
+end
+
+function obmen_val(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_val")
+end
+
+function obmen_groza(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_groza")
+end
+
+function obmen_toz(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_toz34")
+end
+
+function obmen_mp5(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_mp5")
+end
+
+function obmen_wincheaster(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_wincheaster1300")
+end
+
+function obmen_coltsinr(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_coltsinr")
+end
+
+function obmen_aksinr(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_aksinr")
+end
+
+function obmen_wincheastersinr(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_wincheastersinr")
+end
+
+function obmen_pkm(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pkm")
+end
+
+function obmen_svd(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_svd")
+end
+
+function obmen_svu(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_svu")
+end
+
+function obmen_g36(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_g36")
+end
+
+function obmen_fn2000(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_fn2000")
+end
+
+function obmen_forma(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "military_novice_outfit")
+end
+
+function obmen_plash(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "greh_outfit")
+end
+
+function obmen_plash1(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "greh_outfit_heavy")
+end
+
+function obmen_plash2(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "greh_outfit_anomaly")
+end
+
+function obmen_berril(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "specops_outfit")
+end
+
+function obmen_bulat(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "military_outfit")
+end
+
+function obmen_dolgex(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "dolg_exo_outfit")
+end
+
+function obmen_mercex(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "merc_exo_outfit")
+end
+
+function obmen_frex(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "svoboda_exo_outfit")
+end
+
+function obmen_monex(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "monolith_exo_outfit")
+end
+
+function obmen_csecz(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "exo_outfit")
+end
+
+function obmen_frseva(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "svoboda_scientific_outfit")
+end
+
+function obmen_meseva(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "merc_scientific_outfit")
+end
+
+function obmen_csseva(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "cs_scientific_outfit")
+end
+
+function obmen_monseva(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "monolith_scientific_outfit")
+end
+
+function obmen_dolgh(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "dolg_heavy_outfit")
+end
+
+function obmen_protivogas(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_respirator")
+end
+
+function obmen_shlem(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_hardhat")
+end
+
+function obmen_zaslon(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_protective")
+end
+
+function obmen_tactic(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_tactic")
+end
+
+function obmen_sfera(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_battle")
+end
+
+function obmen_5_45(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_5.45x39_fmj",3)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_5.45x39_ap")
+end
+
+function obmen_7_62(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_7.62x39_fmj",3)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_7.62x39_ap")
+end
+
+function obmen_bat(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_gauss")
+end
+
+function obmen_9x39(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x39_pab9",3)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x39_ap")
+end
+
+function obmen_7_62pkm(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_pkm_100")
+end
+
+function obmen_9x18(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x18_fmj",2)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x18_pmm")
+end
+
+function obmen_9x19(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x19_fmj",2)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x19_pbp")
+end
+
+function obmen_ammoanom1(first_speaker, second_speaker)     
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_5.45x39_sin")
+end
+
+function obmen_ammoanom2(first_speaker, second_speaker)     
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_12x70_sinr")
+end
+
+function obmen_ammoanom3(first_speaker, second_speaker)     
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_bult_chim_sinr")
+end
+
+function obmen_drob(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_12x70_buck",2)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_12x76_zhekan",2)
+end
+
+function obmen_granati(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_rgd5",2)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_f1")
+end
+
+function obmen_granativog25(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_vog-25",3)
+end
+
+function obmen_med(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit_army",2)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage",5)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "antirad",3)
+end
+
+function obmen_eda(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bread",3)
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "conserva")
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "vodka")
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "kolbasa")
+	 
+end
+
+function obmen_speed(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "amphetamin")
+end
+
+function obmen_greh_knife(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_greh_knife")
+end
+
+function obmen_wpn_greh_toz(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_greh_toz")
+end
+
+function obmen_sinner_spawner(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "sinner_spawner")
+end
+
+function obmen_ammo_gauss_greh(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_gauss_greh",2)
+end
+
+function obmen_helm_greh(first_speaker, second_speaker) 
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_greh")
+end
+function give_butilka(first_speaker, second_speaker)     
+	 dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "vodka")	
+end
+
+function obmen_glushitel(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_silencer")
+end
+
+function obmen_opt2_7(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_scope_x2.7")
+end
+
+function obmen_opt(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_scope")
+end
+
+function obmen_opt_pnv(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_scope_night")
+end
+
+function obmen_opt_ik(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_scope_detector")
+end
+
+function obmen_koster(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_addon_grenade_launcher")
+end
+
+function obmen_rem_or(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_gunsmith_toolkit")
+end
+
+function obmen_rem_br(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_outfit_toolkit")
+end
+
+function give_docs(first_speaker, second_speaker) 
+     dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "avgusts_docs")
+end
+
+-- ------------------------------------------------------------------------------------------------
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel500-
+
+
+function osvedomitel500(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 500)        
+end
+
+function osvedomitel500u(first_speaker, second_speaker)      
+         return db.actor:money() >= 500 
+end  
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel200-
+
+
+function osvedomitel200(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 200)        
+end
+
+function osvedomitel200u(first_speaker, second_speaker)      
+         return db.actor:money() >= 200 
+end  
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel1000-
+
+
+function osvedomitel1000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 1000)        
+end
+
+function osvedomitel1000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 1000 
+end      
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel1500-
+
+
+function osvedomitel1500(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 1500)        
+end
+
+function osvedomitel1500u(first_speaker, second_speaker)      
+         return db.actor:money() >= 1500 
+end    
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel2000-
+
+
+function osvedomitel2000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 2000)        
+end
+
+function osvedomitel2000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 2000 
+end    
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel2500-
+
+
+function osvedomitel2500(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 2500)        
+end
+
+function osvedomitel2500u(first_speaker, second_speaker)      
+         return db.actor:money() >= 2500 
+end    
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel3000-
+
+
+function osvedomitel3000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 3000)        
+end
+
+function osvedomitel3000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 3000 
+end   
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel4000-
+
+
+function osvedomitel4000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 4000)        
+end
+
+function osvedomitel4000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 4000 
+end   
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel10000-
+
+
+function osvedomitel10000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 10000)        
+end 
+
+function osvedomitel10000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 10000 
+end
+
+-- ------------------------------------------------------------------------------------------------
+-- osvedomitel20000-
+
+
+function osvedomitel20000(first_speaker, second_speaker)      
+         dialogs.relocate_money_from_actor(first_speaker, second_speaker, 20000)        
+end 
+
+function osvedomitel20000u(first_speaker, second_speaker)      
+         return db.actor:money() >= 20000 
+end
+
+
+-- ------------------------------------------------------------------------------------------------
+-- sidor1-
+
+
+function esc_2_12_stalker_trader_give_quest1()      
+         task_manager.get_task_manager():give_task("vangut_task2")        
+end 
+
+-- ------------------------------------------------------------------------------------------------
+-- habarwik_task1-
+
+
+function esc_medic_about_habarwik_give()      
+         task_manager.get_task_manager():give_task("habarwik_task1")        
+end 
+
+-- ------------------------------------------------------------------------------------------------
+-- habarwik_task2-
+
+
+function habarwik_open_boxes()      
+         task_manager.get_task_manager():give_task("habarwik_task2")        
+end 
+
+-- ------------------------------------------------------------------------------------------------
+-- hanter_task-
+
+
+function hanter_task_give_quest()      
+         task_manager.get_task_manager():give_task("hanter_task")        
+end 
+
+
+
+-- ------------------------------------------------------------------------------------------------
+-- sidor0-
+
+
+function esc_2_12_stalker_trader_give_quest()      
+         task_manager.get_task_manager():give_task("vangut_task1")        
+end 
+
+function esc_2_12_stalker_trader_yes(first_speaker, second_speaker) 
+      return ( (db.actor:object("af_compass") ~= nil)) 
+end 
+
+function esc_2_12_stalker_trader_no(first_speaker, second_speaker) 
+      return ((db.actor:object("af_compass") == nil)) 
+end 
+
+function esc_2_12_stalker_trader_relocates_arts(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_compass") 
+      
+end      
+
+function esc_2_12_stalker_trader_reward(first_speaker, second_speaker) 
+      dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
+	  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "scientific_germ_outfit")
+end 
+
+
+
+-- ------------------------------------------------------------------------------------------------
+-- FANATIC-
+
+
+function esc_2_12_stalker_fanat_about_quest(a,b)
+	local npc = dialogs.who_is_npc(a,b)
+	if (npc:has_info("npcx_is_companion") == true) then
+		return false
+	end
+
+	return xr_conditions.has_task_not_completed(nil,nil,{"esc_m_trader_task_1"})
+end
+
+
+function actor_dont_has_esc_m_trader_task_2(a,b)
+	return not xr_conditions.has_task_not_completed(nil,nil,{"esc_m_trader_task_1"})
+end
+
+
+function actor_has_esc_m_trader_task_2(a,b)
+	return xr_conditions.has_task_not_completed(nil,nil,{"esc_m_trader_task_1"})
+end
+
+
+function set_esc_2_12_stalker_fanat_as_companion(a,b)
+	local npc = dialogs.who_is_npc(a,b)
+	local squad = get_object_squad(npc)
+	if not (squad) then
+		return
+	end
+	axr_companions.companion_squads[squad.id] = squad
+	for k in squad:squad_members() do
+		local npc = k.id and (db.storage[k.id] and db.storage[k.id].object or level.object_by_id(k.id))
+		if (npc) then
+			utils.se_obj_save_var(k.id,k.object:name(),"companion",true)
+			utils.se_obj_save_var(k.id,k.object:name(),"companion_cannot_dismiss",true)
+			utils.se_obj_save_var(k.id,k.object:name(),"companion_cannot_teleport",true)
+			axr_companions.setup_companion_logic(npc,db.storage[k.id],false,true)
+		end
+	end
+end
+
+
+-- ------------------------------------------------------------------------------------------------
+-- NIMBLE-
+
+
+function actor_has_mar_base_owl_stalker_trader_task_1_pda(a,b)
+	return db.actor:object("mar_base_owl_stalker_trader_task_1_pda") ~= nil or false
+end
+
+
+function actor_dont_has_mar_base_owl_stalker_trader_task_1_pda(a,b)
+	return db.actor:object("mar_base_owl_stalker_trader_task_1_pda") == nil or false
+end
+
+
+function mar_base_owl_stalker_trader_task_1_give_reward(a,b)
+	--esc_2_12_stalker_nimble_mar_base_owl_stalker_trader_task_1
+	local itm = db.actor:object("mar_base_owl_stalker_trader_task_1_pda")
+	local npc = dialogs.who_is_npc(a,b)
+	dialogs.relocate_item_section(npc, "mar_base_owl_stalker_trader_task_1_pda", "out", 1)
+	if (itm) then
+		local sim = alife()
+		local se_itm = sim:object(itm:id())
+		sim:release(se_itm, true)
+	end
+	dialogs.relocate_money_to_actor(a,b,300)
+	task_manager.get_task_manager():set_task_completed("mar_base_owl_stalker_trader_task_1")
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", 50})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 50})
+end
+
+
+------------------------------------------------------------------------------
+nimble_trade_instead = false
+esc_2_12_buy_item_table = nil
+item_count_by_category = nil
+esc_2_12_costs_table = nil
+local nimble_max_items = 0
+function init_nimble_tables()
+	if (esc_2_12_buy_item_table) then 
+		return
+	end
+	
+	esc_2_12_costs_table = {}
+	item_count_by_category = {}
+	esc_2_12_buy_item_table = {}
+	
+	local ini = ini_file("plugins\\nimble_orders.ltx")
+	nimble_trade_instead = ini:r_bool_ex("settings","nimble_trade_instead",false)
+	nimble_max_items = ini:r_float_ex("settings","item_count") or 0
+	for i=1,nimble_max_items do 
+		item_count_by_category[i] = ini:r_float_ex("item_count","category_"..i) or 1
+		local str = ini:r_string_ex("costs_table","category_"..i) or "700, 1400, 2800"
+		local t = parse_names(str)
+		
+		esc_2_12_costs_table[i] = {}
+		esc_2_12_costs_table[i].prepay_agreed = tonumber(t[1]) or 700 
+		esc_2_12_costs_table[i].prepay_refused = tonumber(t[2]) or 1400 
+		esc_2_12_costs_table[i].cost = tonumber(t[3]) or 2800
+		
+		esc_2_12_buy_item_table[i] = {}
+		
+		local sec = "buy_item_table_"..i
+		local count = ini:line_count(sec)
+		t = empty_table(t)
+		for n=1,count do 
+			local value = ini:r_string_ex(sec,"item"..n)
+			if (value) then
+				local item_list = value ~= "" and alun_utils.str_explode(value,",") or {}
+				table.insert(t,{item=item_list})
+			end
+		end
+		
+		esc_2_12_buy_item_table[i] = t
+	end
+	--alun_utils.print_table(esc_2_12_buy_item_table,"nimble")
+end 
+
+function nimble_can_trade(a,b)
+	init_nimble_tables()
+	return nimble_trade_instead == true
+end 
+
+function nimble_cant_trade(a,b)
+	return not nimble_can_trade()
+end 
+
+function esc_2_12_randomize_item(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i)) then
+			local esc_2_12_available_items_table = {}
+			for j = 1, item_count_by_category[i] do
+				if not has_alife_info("esc_2_12_done_item_"..tostring(i).."_"..tostring(j)) then
+					table.insert(esc_2_12_available_items_table, j)
+				end
+			end
+			give_info("esc_2_12_ordered_item_"..tostring(i).."_"..tostring(esc_2_12_available_items_table[math.random(1,#esc_2_12_available_items_table)]))
+		end
+	end
+end
+
+
+function esc_2_12_give_prepay(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i))  then
+			if not has_alife_info("esc_2_12_order_refused") then
+				dialogs.relocate_money_from_actor(first_speaker, second_speaker, esc_2_12_costs_table[i].prepay_agreed)
+				return
+			end
+			dialogs.relocate_money_from_actor(first_speaker, second_speaker, esc_2_12_costs_table[i].prepay_refused)
+			return
+		end
+	end
+end
+
+
+function esc_2_12_has_prepay(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i))  then
+			if not has_alife_info("esc_2_12_order_refused") then
+				return db.actor:money() >= esc_2_12_costs_table[i].prepay_agreed
+			end
+			return db.actor:money() >= esc_2_12_costs_table[i].prepay_refused
+		end
+	end
+end
+
+
+function esc_2_12_hasnt_prepay(first_speaker, second_speaker)
+	return not esc_2_12_has_prepay(first_speaker, second_speaker)
+end
+
+
+function esc_2_12_buy_item(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i)) then
+			for j = 1,#esc_2_12_buy_item_table[i] do
+				if has_alife_info("esc_2_12_ordered_item_"..tostring(i).."_"..tostring(j)) then
+					for k,v in pairs(esc_2_12_buy_item_table[i][j].item) do
+						dialogs.relocate_item_section_to_actor(first_speaker, second_speaker,v)
+					end
+					dialogs.relocate_money_from_actor(first_speaker, second_speaker, esc_2_12_costs_table[i].cost)
+					disable_info("esc_2_12_processing_category_"..tostring(i))
+					disable_info("esc_2_12_ordered_item_"..tostring(i).."_"..tostring(j))
+					give_info("esc_2_12_done_item_"..tostring(i).."_"..tostring(j))
+					break
+				end
+			end
+			local category_finishing = true
+			for j = 1,#esc_2_12_buy_item_table[i] do
+				if not has_alife_info("esc_2_12_done_item_"..tostring(i).."_"..tostring(j)) then
+					category_finishing = false
+					break
+				end
+			end
+			if category_finishing == true then
+				give_info("esc_2_12_finishing_category_"..tostring(i))
+			end
+			return
+		end
+	end
+end
+
+
+function esc_2_12_refuse_item(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i)) then
+			for j = 1,#esc_2_12_buy_item_table[i] do
+				if has_alife_info("esc_2_12_ordered_item_"..tostring(i).."_"..tostring(j)) then
+					disable_info("esc_2_12_processing_category_"..tostring(i))
+					disable_info("esc_2_12_ordered_item_"..tostring(i).."_"..tostring(j))
+					give_info("esc_2_12_done_item_"..tostring(i).."_"..tostring(j))
+					break
+				end
+			end
+			local category_finishing = true
+			for j = 1,#esc_2_12_buy_item_table[i] do
+				if not has_alife_info("esc_2_12_done_item_"..tostring(i).."_"..tostring(j)) then
+					category_finishing = false
+					break
+				end
+			end
+			if category_finishing == true then
+				give_info("esc_2_12_finishing_category_"..tostring(i))
+			end
+			return
+		end
+	end
+end
+
+
+function esc_2_12_has_item_cost(first_speaker, second_speaker)
+	init_nimble_tables()
+	for i = 1,nimble_max_items do
+		if has_alife_info("esc_2_12_processing_category_"..tostring(i)) then
+			return db.actor:money() >= esc_2_12_costs_table[i].cost
+		end
+	end
+	return false
+end
+
+function esc_2_12_hasnt_item_cost(first_speaker, second_speaker)
+	return not esc_2_12_has_item_cost(first_speaker, second_speaker)
+end
+
+------------------------------------------------------------------------------
+function tm_find_artefact_1()
+   task_manager.get_task_manager():give_task("tm_find_artefact_1")
+end
+
+function is_has_medusa_sidor(first_speaker, second_speaker)
+return first_speaker:object("af_medusa") ~= nil 
+end 
+
+function transfer_medusa_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_medusa")
+end
+
+function tm_find_artefact_2()
+   task_manager.get_task_manager():give_task("tm_find_artefact_2")
+end
+
+function is_has_cristall_sidor(first_speaker, second_speaker)
+return first_speaker:object("af_cristall_flower") ~= nil 
+end 
+
+function transfer_cristall_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_cristall_flower")
+end
+
+function tm_find_artefact_3()
+   task_manager.get_task_manager():give_task("tm_find_artefact_3")
+end
+
+function is_has_night_sidor(first_speaker, second_speaker)
+return first_speaker:object("af_night_star") ~= nil 
+end 
+
+function transfer_night_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_night_star")
+end
+
+function tm_find_artefact_4()
+   task_manager.get_task_manager():give_task("tm_find_artefact_4")
+end
+
+function is_has_meat_sidor(first_speaker, second_speaker)
+return first_speaker:object("af_mincer_meat") ~= nil 
+end 
+
+function transfer_meat_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_mincer_meat")
+end
+
+function tm_monster_part_1()
+   task_manager.get_task_manager():give_task("tm_monster_part_1")
+end
+
+function is_has_jaw_sidor(first_speaker, second_speaker)
+return first_speaker:object("mutant_part_krovosos_jaw") ~= nil 
+end 
+
+function transfer_jaw_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_krovosos_jaw")
+end
+
+function tm_monster_part_2()
+   task_manager.get_task_manager():give_task("tm_monster_part_2")
+end
+
+function is_has_tail_p_sidor(first_speaker, second_speaker)
+return first_speaker:object("mutant_part_psevdodog_tail") ~= nil 
+end 
+
+function transfer_tail_p_to_sidor(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_psevdodog_tail")
+end
+
+function remove_info() 
+      db.actor:disable_info_portion("medusa_sid_1")
+end
+
+function remove_info_1() 
+      db.actor:disable_info_portion("cristall_sid_1")
+end
+
+function remove_info_2() 
+      db.actor:disable_info_portion("meat_sid_1")
+end
+
+function remove_info_3() 
+      db.actor:disable_info_portion("night_sid_1")
+end
+
+function remove_info_4() 
+      db.actor:disable_info_portion("medusa_vip")
+end
+
+function remove_info_5() 
+      db.actor:disable_info_portion("cristall_vip")
+end
+
+function remove_info_6() 
+      db.actor:disable_info_portion("night_vip")
+end
+
+function remove_info_7() 
+      db.actor:disable_info_portion("meat_vip")
+end
+
+function remove_info_8() 
+      db.actor:disable_info_portion("jaw_sid_1")
+end
+
+function give_info_backer_sin() 
+      db.actor:give_info_portion("backer_sin")
+end
+function remove_info_9() 
+      db.actor:disable_info_portion("tail_p_sid_1")
+end
+
+function remove_info_10() 
+      db.actor:disable_info_portion("jaw_vip")
+end
+
+function remove_info_11() 
+      db.actor:disable_info_portion("tail_p_vip")
+end
+
+function tm_kill_stalker_1()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_1")
+end
+
+function tm_kill_stalker_2()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_2")
+end
+
+function tm_kill_stalker_3()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_3")
+end
+
+function tm_kill_stalker_4()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_4")
+end
+
+function tm_kill_stalker_5()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_5")
+end
+
+function tm_kill_stalker_6()
+   task_manager.get_task_manager():give_task("tm_kill_stalker_6")
+end
+
+function gar_dead_military_1_spawn() 
+alife(alife_l02_garbage):create("gar_dead_military_1",vector():set(-110.03650665283,6.0819191932678,8.2111558914185),93509,725):on_death()
+end 
+
+function gar_dead_military_2_spawn() 
+alife(alife_l02_garbage):create("gar_dead_military_2",vector():set(-67.620239257813,10.527099609375,8.5795660018921),118764,725):on_death()
+end 
+
+function give_tz_doc_quest(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "travka")
+	task_manager.get_task_manager():give_task("meet_doc_task")
+end
+
+function give_task_exp(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("sidor_and_army_task_2")
+end
+
+function remove_army_docs(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "gar_military_docs")
+end
+
+function gar_mil_docs_have()
+    if db.actor:object("gar_military_docs") then
+        return true
+    end
+    return false
+end
+
+function remove_travka(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "travka")
+end
+
+function doverie_quest_start()
+	task_manager.get_task_manager():give_task("mil_toad_doverie_task")
+	alife(alife_l07_military):create("mil_dead_freedom",vector():set(-215.74151611328,-20.46919631958,246.2982635498),106370,2054):on_death()
+end
+
+function toad_relocate_spiral(first_speaker, second_speaker)
+	dialogs.relocate_item_section(npc, "af_spiralka", "out", 1)
+end
+
+function toad_relocate_bulizhnik(first_speaker, second_speaker)
+	dialogs.relocate_item_section(npc, "art_bulizhnik", "out", 1)
+end
+
+function give_bulizhnik(first_speaker, second_speaker)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 850)
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "art_bulizhnik")
+end
+
+function toad_give_reward(first_speaker, second_speaker) 
+      dialogs.relocate_money_to_actor(first_speaker, second_speaker, 3000)
+end 
+
+function money_bitch(first_speaker, second_speaker)
+    return first_speaker:money() >= 10000
+end
+
+function easy_docks(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "stalker_docs", 3)
+end 
+
+function money_for_docks(first_speaker, second_speaker) 
+      dialogs.relocate_money_from_actor(first_speaker, second_speaker, 10000)
+end 
+
+function easy_money(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_docs", 5)
+end 
+
+function money_for_docks_1(first_speaker, second_speaker) 
+      dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end 
+  
+function actor_about_ghost()
+task_manager.get_task_manager():give_task("actor_about_ghost")
+end
+
+function ghost_bye()
+level.add_pp_effector("sleep_fade.ppe", 1313, false)
+end
+
+function ghost_bye_angry()
+level.add_pp_effector("sleep_fade.ppe", 1313, false)
+local snd1 = sound_object("x18_laugh")
+snd1:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+end
+
+function actor_ghost_cancel()
+task_manager.get_task_manager():give_task("actor_ghost_cancel")
+end
+
+function actor_about_ghost_killer()
+alife(alife_l06_rostok):create("unknown_faggot",vector():set(-274.36785888672,0.42102870345116,29.395309448242),1771,871)
+task_manager.get_task_manager():give_task("actor_about_ghost_killer")
+end
+
+function find_spider_task()
+alife(alife_l06_rostok):create("spider_plant",vector():set(270.10229492188,0.54243719577789,-138.36151123047),311714,181)
+task_manager.get_task_manager():give_task("find_spider")
+end
+
+function spider_from(first_speaker, second_speaker)
+dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "spider_plant")
+end
+
+function boyar_to(first_speaker, second_speaker)
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "boyarushnik")
+end
+
+function on_game_load()	
+      if (level.name() == "l10_limansk" and has_alife_info("ghost_dialog_5") and not has_alife_info("cancel_repeating_spawn_ghost")) then
+      db.actor:give_info_portion("cancel_repeating_spawn_ghost")
+	  db.actor:give_game_news("Голос:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Сталкер..спасибо, что помог мне тогда... настало время тебя отблагодарить", "ui_inGame2_Neizvestniy", 10, 41000)
+	  alife():create("af_soul_ghost",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+      end   
+end 
+
+function on_game_start()
+RegisterScriptCallback("on_game_load",on_game_load)
+end
+function ghost_cutscene()
+local snd1 = sound_object("characters_voice\\human_02\\stalker\\talk\\use\\abuse_2")
+snd1:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+xr_effects.disable_ui_ghost()
+db.actor:give_info_portion("suicide_done")
+end
+ 
+   function action_timer()
+      remove_info() 
+      remove_info_1() 
+      remove_info_2() 
+      remove_info_3() 
+      remove_info_4() 
+      remove_info_5() 
+      remove_info_6() 
+      remove_info_7() 
+   end
+ 
+   function start_timer()
+      -- взводим таймер на 10 секунд
+      local iTimer = time_global() + 36000000
+ 
+
+      local function check_timer()
+         return time_global() > iTimer
+      end
+ 
+
+      level.add_call(check_timer, action_timer)
+   end

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+		<string id="st_radiacion_none">
+		<text>Exposure level: %c[0,51,255,102]minimal (safe)</text>
+	</string>
+	<string id="st_radiacion_nal_none">
+		<text>Irradiation: %c[0,51,255,102]absent (safe)</text>
+	</string>
+	<string id="st_radiacion_nal_away">
+		<text>Irradiation: %c[255,238,153,26]present</text>
+	</string>
+	<string id="st_radiacion_esy">
+		<text>Exposure level: %c[255,238,153,26]negligible</text>
+	</string>
+	<string id="st_radiacion_normal">
+		<text>Exposure level: %c[0,204,0,51]significant</text>
+	</string>
+	<string id="st_radiacion_hard">
+		<text>Exposure level: %c[0,204,0,51]critical</text>
+	</string>
+	<string id="st_outcast">
+		<text>You have been expelled from your faction due to a worsened reputation!</text>
+	</string>
+	<string id="st_radiacion_0">
+		<text>Exposure level: ~0,0007 msV/h (safe)</text>
+	</string>
+	<string id="st_radiacion_1">
+		<text>Exposure level: ~0,0014 msV/h</text>
+	</string>
+	<string id="st_radiacion_2">
+		<text>Exposure level: ~0,01 msV/h)</text>
+	</string>
+	<string id="st_radiacion_3">
+		<text>Exposure level: ~0,05 msV/h</text>
+	</string>
+	<string id="st_radiacion_4">
+		<text>Exposure level: ~0,1 msV/h</text>
+	</string>
+	<string id="st_radiacion_5">
+		<text>Exposure level: ~0,3 msV/h</text>
+	</string>
+	<string id="st_radiacion_6">
+		<text>Exposure level: ~0,6 msV/h</text>
+	</string>
+	<string id="st_radiacion_7">
+		<text>Exposure level: ~1 msV/h</text>
+	</string>
+	<string id="st_radiacion_8">
+		<text>Exposure level: ~2 msV/h</text>
+	</string>
+	<string id="st_radiacion_9">
+		<text>Exposure level: ~5 msV/h</text>
+	</string>
+	<string id="st_radiacion_10">
+		<text>Exposure level: ~10 msV/h</text>
+	</string>
+	<string id="st_radiacion_11">
+		<text>Exposure level: ~12 msV/h</text>
+	</string>
+	<string id="st_radiacion_11">
+		<text>Exposure level: ~15 msV/h</text>
+	</string>
+	<string id="st_radiacion_12">
+		<text>Exposure level: ~20 msV/h</text>
+	</string>
+	<string id="st_radiacion_13">
+		<text>Exposure level: ~23 msV/h</text>
+	</string>
+	<string id="st_radiacion_14">
+		<text>Exposure level: ~25 msV/h</text>
+	</string>
+	<string id="st_radiacion_15">
+		<text>Exposure level: ~28 msV/h</text>
+	</string>
+	<string id="st_radiacion_16">
+		<text>Exposure level: ~30 msV/h</text>
+	</string>
+	<string id="st_radiacion_17">
+		<text>Exposure level: ~32 msV/h</text>
+	</string>
+	<string id="st_radiacion_18">
+		<text>Exposure level: ~35 msV/h</text>
+	</string>
+	<string id="st_radiacion_19">
+		<text>Exposure level: ~38 msV/h</text>
+	</string>
+	<string id="st_radiacion_20">
+		<text>Exposure level: ~%c[255,238,153,26]40 msV/h</text>
+	</string>
+	<string id="st_radiacion_21">
+		<text>Exposure level: ~%c[255,238,153,26]45 msV/h</text>
+	</string>
+	<string id="st_radiacion_22">
+		<text>Exposure level: ~%c[255,238,153,26]48 msV/h</text>
+	</string>
+	<string id="st_radiacion_23">
+		<text>Exposure level: ~%c[255,238,153,26]50 msV/h</text>
+	</string>
+	<string id="st_radiacion_24">
+		<text>Exposure level: ~%c[255,238,153,26]53 msV/h</text>
+	</string>
+	<string id="st_radiacion_25">
+		<text>Exposure level: ~%c[255,238,153,26]58 msV/h</text>
+	</string>
+	<string id="st_radiacion_26">
+		<text>Exposure level: ~%c[255,238,153,26]62 msV/h</text>
+	</string>
+	<string id="st_radiacion_27">
+		<text>Exposure level: ~%c[255,238,153,26]65 msV/h</text>
+	</string>
+	<string id="st_radiacion_28">
+		<text>Exposure level: ~%c[255,238,153,26]68 msV/h</text>
+	</string>
+	<string id="st_radiacion_29">
+		<text>Exposure level: ~%c[255,238,153,26]70 msV/h</text>
+	</string>
+	<string id="st_radiacion_30">
+		<text>Exposure level: ~%c[255,238,153,26]72 msV/h</text>
+	</string>
+	<string id="st_radiacion_31">
+		<text>Exposure level: ~%c[255,238,153,26]75 msV/h</text>
+	</string>
+	<string id="st_radiacion_32">
+		<text>Exposure level: ~%c[255,238,153,26]78 msV/h</text>
+	</string>
+	<string id="st_radiacion_33">
+		<text>Exposure level: ~%c[255,238,153,26]80 msV/h</text>
+	</string>
+	<string id="st_radiacion_34">
+		<text>Exposure level: ~%c[255,238,153,26]83 msV/h</text>
+	</string>
+	<string id="st_radiacion_35">
+		<text>Exposure level: ~%c[255,238,153,26]85 msV/h</text>
+	</string>
+	<string id="st_radiacion_36">
+		<text>Exposure level: ~%c[255,238,153,26]87 msV/h</text>
+	</string>
+	<string id="st_radiacion_37">
+		<text>Exposure level: ~%c[255,238,153,26]90 msV/h</text>
+	</string>
+	<string id="st_radiacion_38">
+		<text>Exposure level: ~%c[255,238,153,26]92 msV/h</text>
+	</string>
+	<string id="st_radiacion_39">
+		<text>Exposure level: ~%c[255,238,153,26]96 msV/h</text>
+	</string>
+	<string id="st_radiacion_40">
+		<text>Exposure level: ~%c[0,204,0,51]100 msV/h</text>
+	</string>
+	<string id="st_radiacion_41">
+		<text>Exposure level: ~%c[0,204,0,51]115 msV/h</text>
+	</string>
+	<string id="st_radiacion_42">
+		<text>Exposure level: ~%c[0,204,0,51]130 msV/h</text>
+	</string>
+	<string id="st_radiacion_43">
+		<text>Exposure level: ~%c[0,204,0,51]145 msV/h</text>
+	</string>
+	<string id="st_radiacion_44">
+		<text>Exposure level: ~%c[0,204,0,51]160 msV/h</text>
+	</string>
+	<string id="st_radiacion_45">
+		<text>Exposure level: ~%c[0,204,0,51]175 msV/h</text>
+	</string>
+	<string id="st_radiacion_46">
+		<text>Exposure level: ~%c[0,204,0,51]180 msV/h</text>
+	</string>
+	<string id="st_radiacion_47">
+		<text>Exposure level: ~%c[0,204,0,51]190 msV/h</text>
+	</string>
+	<string id="st_radiacion_48">
+		<text>Exposure level: ~%c[0,204,0,51]200 msV/h</text>
+	</string>
+	<string id="st_radiacion_49">
+		<text>Exposure level: ~%c[0,204,0,51]210 msV/h</text>
+	</string>
+	<string id="st_radiacion_50">
+		<text>Exposure level: ~%c[0,204,0,51]250 msV/h</text>
+	</string>
+	<string id="st_radiacion_51">
+		<text>Exposure level: ~%c[0,204,0,51]270 msV/h</text>
+	</string>
+	<string id="st_radiacion_52">
+		<text>Exposure level: ~%c[0,204,0,51]295 msV/h</text>
+	</string>
+	<string id="st_radiacion_53">
+		<text>Exposure level: ~%c[0,204,0,51]305 msV/h</text>
+	</string>
+	<string id="st_radiacion_54">
+		<text>Exposure level: ~%c[0,204,0,51]327 msV/h</text>
+	</string>
+	<string id="st_radiacion_55">
+		<text>Exposure level: ~%c[0,204,0,51]350 msV/h</text>
+	</string>
+	<string id="st_radiacion_56">
+		<text>Exposure level: ~%c[0,204,0,51]380 msV/h</text>
+	</string>
+	<string id="st_radiacion_57">
+		<text>Exposure level: ~%c[0,204,0,51]400 msV/h</text>
+	</string>
+	<string id="st_radiacion_58">
+		<text>Exposure level: ~%c[0,204,0,51]412 msV/h</text>
+	</string>
+	<string id="st_radiacion_59">
+		<text>Exposure level: ~%c[0,204,0,51]431 msV/h</text>
+	</string>
+	<string id="st_radiacion_60">
+		<text>Exposure level: ~%c[0,204,0,51]450 msV/h</text>
+	</string>
+	<string id="st_radiacion_61">
+		<text>Exposure level: ~%c[0,204,0,51]460 msV/h</text>
+	</string>
+	<string id="st_radiacion_62">
+		<text>Exposure level: ~%c[0,204,0,51]469 msV/h</text>
+	</string>
+	<string id="st_radiacion_63">
+		<text>Exposure level: ~%c[0,204,0,51]474 msV/h</text>
+	</string>
+	<string id="st_radiacion_64">
+		<text>Exposure level: ~%c[0,204,0,51]490 msV/h</text>
+	</string>
+	<string id="st_radiacion_65">
+		<text>Exposure level: ~%c[0,204,0,51]500 msV/h</text>
+	</string>
+	<string id="st_radiacion_66">
+		<text>Exposure level: ~%c[0,204,0,51]515 msV/h</text>
+	</string>
+	<string id="st_radiacion_67">
+		<text>Exposure level: ~%c[0,204,0,51]523 msV/h</text>
+	</string>
+	<string id="st_radiacion_68">
+		<text>Exposure level: ~%c[0,204,0,51]538 msV/h</text>
+	</string>
+	<string id="st_radiacion_69">
+		<text>Exposure level: ~%c[0,204,0,51]540 msV/h</text>
+	</string>
+	<string id="st_radiacion_70">
+		<text>Exposure level: ~%c[0,204,0,51]550 msV/h</text>
+	</string>
+	<string id="st_radiacion_71">
+		<text>Exposure level: ~%c[0,204,0,51]570 msV/h</text>
+	</string>
+	<string id="st_radiacion_72">
+		<text>Exposure level: ~%c[0,204,0,51]605 msV/h</text>
+	</string>
+	<string id="st_radiacion_73">
+		<text>Exposure level: ~%c[0,204,0,51]620 msV/h</text>
+	</string>
+	<string id="st_radiacion_74">
+		<text>Exposure level: ~%c[0,204,0,51]638 msV/h</text>
+	</string>
+	<string id="st_radiacion_75">
+		<text>Exposure level: ~%c[0,204,0,51]650 msV/h</text>
+	</string>
+	<string id="st_radiacion_76">
+		<text>Exposure level: ~%c[0,204,0,51]679 msV/h</text>
+	</string>
+	<string id="st_radiacion_77">
+		<text>Exposure level: ~%c[0,204,0,51]702 msV/h</text>
+	</string>
+	<string id="st_radiacion_78">
+		<text>Exposure level: ~%c[0,204,0,51]715 msV/h</text>
+	</string>
+	<string id="st_radiacion_79">
+		<text>Exposure level: ~%c[0,204,0,51]729 msV/h</text>
+	</string>
+	<string id="st_radiacion_80">
+		<text>Exposure level: ~%c[0,204,0,51]750 msV/h</text>
+	</string>
+	<string id="st_radiacion_81">
+		<text>Exposure level: ~%c[0,204,0,51]765 msV/h</text>
+	</string>
+	<string id="st_radiacion_82">
+		<text>Exposure level: ~%c[0,204,0,51]780 msV/h</text>
+	</string>
+	<string id="st_radiacion_83">
+		<text>Exposure level: ~%c[0,204,0,51]800 msV/h</text>
+	</string>
+	<string id="st_radiacion_84">
+		<text>Exposure level: ~%c[0,204,0,51]812 msV/h</text>
+	</string>
+	<string id="st_radiacion_85">
+		<text>Exposure level: ~%c[0,204,0,51]825 msV/h</text>
+	</string>
+	<string id="st_radiacion_86">
+		<text>Exposure level: ~%c[0,204,0,51]845 msV/h</text>
+	</string>
+	<string id="st_radiacion_87">
+		<text>Exposure level: ~%c[0,204,0,51]860 msV/h</text>
+	</string>
+	<string id="st_radiacion_88">
+		<text>Exposure level: ~%c[0,204,0,51]874 msV/h</text>
+	</string>
+	<string id="st_radiacion_89">
+		<text>Exposure level: ~%c[0,204,0,51]888 msV/h</text>
+	</string>
+	<string id="st_radiacion_90">
+		<text>Exposure level: ~%c[0,204,0,51]900 msV/h</text>
+	</string>
+	<string id="st_radiacion_91">
+		<text>Exposure level: ~%c[0,204,0,51]920 msV/h</text>
+	</string>
+	<string id="st_radiacion_92">
+		<text>Exposure level: ~%c[0,204,0,51]935 msV/h</text>
+	</string>
+	<string id="st_radiacion_93">
+		<text>Exposure level: ~%c[0,204,0,51]950 msV/h</text>
+	</string>
+	<string id="st_radiacion_94">
+		<text>Exposure level: ~%c[0,204,0,51]975 msV/h</text>
+	</string>
+	<string id="st_radiacion_95">
+		<text>Exposure level: ~%c[0,204,0,51]1000 msV/h</text>
+	</string>
+	<string id="st_radiacion_96">
+		<text>Exposure level: ~%c[0,204,0,51]1050 msV/h</text>
+	</string>
+	<string id="st_radiacion_97">
+		<text>Exposure level: ~%c[0,204,0,51]1100 msV/h</text>
+	</string>
+	<string id="st_radiacion_98">
+		<text>Exposure level: ~%c[0,204,0,51]1150 msV/h</text>
+	</string>
+	<string id="st_radiacion_99">
+		<text>Exposure level: ~%c[0,204,0,51]1200 msV/h</text>
+	</string>
+	<string id="st_radiacion_100">
+		<text>Exposure level: ~%c[0,204,0,51]1250 msV/h</text>
+	</string>
+</string_table>

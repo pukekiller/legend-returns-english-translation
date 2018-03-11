@@ -1,0 +1,170 @@
+---------------------------------------
+-- LR. Рандомные события на локациях
+-- Автор: XMODER
+-- Отдельное спасибо: makdm и LtPetrov
+---------------------------------------
+
+function sinoptik_message()
+db.actor:give_game_news("Cиноптик:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Погода сегодня тёплая и ничего не происходит.", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+-- Коля, я тут удалил квест с кейсом. Сделай просто продажу кейса Сидору. Спасибо.
+-- Сообщение синоптика сделано для теста. Потом строчки закомментируешь.
+
+-- Проверка для всех локаций
+function on_game_load()	
+      if level.name() == "l01_escape" then   -- Добавлять elseif для каждой новой локации и прописывать свои функции с ивентами под каждую локу
+      this.escape_events()
+	  elseif level.name() == "l03_agroprom" then
+	  this.agroprom_events()
+	  elseif level.name() == "l05_bar" then
+	  this.bar_events()	  
+	  elseif level.name() == "factory" then
+	  this.rostok_events()	 
+	  elseif level.name() == "l07_military" then
+	  this.military_events()	  	  
+      end 	  
+end 
+
+-- Ивенты для Кордона
+function escape_events()
+local event = math.random(1, 5) -- Функция рандомно выбирает из списка прописанные ивенты.
+if event == 1 and not has_alife_info("esc_event_1") then -- Получаем ивент и инфопоршень-заглушку, чтобы он больше в игре не повторялся
+db.actor:give_info_portion("esc_event_1") -- заглушка
+this.case_event() -- наш ивент
+elseif event == 2 and not has_alife_info("esc_event_2") then
+db.actor:give_info_portion("esc_event_2")
+this.controller_event()
+elseif event == 3 and not has_alife_info("esc_event_3") then
+db.actor:give_info_portion("esc_event_3")
+this.sos_event()
+-- elseif event >= 3 then
+-- sinoptik_message()
+end
+end
+
+-- Ивенты для Агропрома
+function agroprom_events()
+local event = math.random(1, 5)
+if event == 1 and not has_alife_info("agr_event_1") then
+db.actor:give_info_portion("agr_event_1")
+this.agr_event()
+-- elseif event >= 2 then
+-- sinoptik_message()
+end
+end
+
+-- Ивенты для Бара
+function bar_events()
+local event = math.random(1, 5)
+if event == 1 and not has_alife_info("bar_event_1") then
+db.actor:give_info_portion("bar_event_1")
+this.bar_event()
+-- elseif event >= 2 then
+-- sinoptik_message()
+end
+end
+
+-- Ивенты для Ростка
+function rostok_events()
+local event = math.random(1, 6)
+if event == 1 and not has_alife_info("ros_event_1") then
+db.actor:give_info_portion("ros_event_1")
+this.ros_event()
+-- elseif event >= 2 then
+-- sinoptik_message()
+end
+end
+
+-- Ивенты для Милитари
+function military_events()
+local event = math.random(1, 7)
+if event == 1 and not has_alife_info("mil_event_1") then
+db.actor:give_info_portion("mil_event_1")
+this.mil_event()
+-- elseif event >= 2 then
+-- sinoptik_message()
+end
+end
+
+-- Оcновные функции
+-- Ивент SOS
+function sos_event() 
+alife():create("stalker_ghost",vector():set(-79.645951721191,-1.3292594385147,159.47309790039),193484,590) 
+db.actor:give_game_news("Сигнал SOS:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Сталкеры, помогите, я в тоннеле возле железнодорожной насыпи! Помогите, а то копыта двину! Блин, да есть кто-нибудь рядом?!", "ui_inGame2_Neizvestniy", 10, 14000)
+db.actor:give_info_portion("ghost_help")
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с кейсом
+function case_event() 
+alife():create("esc_event_case",vector():set(-103.15029907227,-30.628393173218,-395.87661743164),159216,449) 
+db.actor:give_game_news("Перехваченое сообщение:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Оставил кейс возле южного блокпоста, где куча всякого металлолома и прочего мусора. Сидорович, пошли кого-то из своих, пока никто не заметил пропажу.", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с контроллёром
+function controller_event() 
+alife():create("m_controller_psy",vector():set(-152.19631958008,-29.790487289429,-393.86337280273),100243,449) 
+db.actor:give_game_news("Общий канал:", "%c[255,255,160,0]" .. "%c[255,255,160,0]На блокпосту какая-то ахинея творится. Ребята, лучше из насиженных мест не высовывайтесь, пока всё не утихнет.", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с кейсом Агропрома
+function agr_event() 
+alife():create("agr_event_case",vector():set(-147.71751403809,10.909010887146,-198.52601623535),68148,977) 
+db.actor:give_game_news("Общий канал:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Видел как вояки раскопали какие-то документы. Думаю, торговцы хорошо заплатят за эти документы.", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с собаками Фурина в Баре
+function bar_event() 
+alife():create("pseudodog_strong",vector():set(230.00207519531,-0.01031619310379,-30.616577148438),59726,1769) 
+alife():create("pseudodog_strong",vector():set(217.97288513184,-0.011512339115143,-28.76417350769),54824,1769) 
+alife():create("pseudodog_strong",vector():set(224.31301879883,-0.049422472715378,-22.831945419312),57170,1768) 
+alife():create("pseudodog_strong",vector():set(220.15362548828,-0.03378614783287,-38.492942810059),55748,1769) 
+alife():create("pseudodog_strong",vector():set(211.67294311523,-0.0082746744155884,-12.567485809326),52641,1768) 
+db.actor:give_game_news("Общий канал:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Проклятые мутанты лезут в Бар! Ребята, поможем отбится!", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с кровосоусом на Ростке
+function ros_event() 
+alife():create("bloodsucker_black_strong",vector():set(-38.098762512207,-34.470615386963,-50.643882751465),276032,5334) 
+db.actor:give_game_news("Общий канал:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Помогите, СОС! Тут стрёмный мутант! Я на стройке!", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+-- Ивент с нападением на базу наёмников
+function mil_event() 
+alife():create("bloodsucker_green_normal",vector():set(-5.9031772613525,-6.1362442970276,83.621398925781),287020,2102) 
+alife():create("chimera_weak",vector():set(-3.6460189819336,-6.3164348602295,23.429565429688),289089,2082) 
+alife():create("burer_normal",vector():set(-18.331504821777,-8.6580238342285,9.6272087097168),274326,2082) 
+alife():create("bloodsucker_red_normal",vector():set(2.4210069179535,-8.8739814758301,1.5400133132935),293924,2069) 
+alife():create("burer_normal",vector():set(-1.1516617536545,-8.9061431884766,-46.60083770752),290882,2095) 
+alife():create("controller_tubeman",vector():set(-70.232513427734,-6.7716536521912,-24.233154296875),230908,2093) 
+alife():create("chimera_weak",vector():set(-77.900947570801,-12.493486404419,2.3637166023254),224609,2149) 
+db.actor:give_game_news("Общий канал:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Помогите отбится от мутантов! Мы на военной базе!", "ui_inGame2_Events_LR", 10, 7000)
+xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+-- Функции диалогов для ивентов (Меля)
+function sidor_case_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "esc_event_case",1)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2000)
+end
+function agr_case_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "agr_event_case",1)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 4250)
+end
+function esc_case_check()
+    if db.actor:object("esc_event_case") then
+        return true
+    end
+    return false
+end
+function agr_case_check()
+    if db.actor:object("agr_event_case") then
+        return true
+    end
+    return false
+end
+
+function on_game_start()
+RegisterScriptCallback("on_game_load",on_game_load)
+end

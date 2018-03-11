@@ -1,0 +1,1013 @@
+----- LR Skills System
+----- Author: XMODER (XMODER-ua), av661194
+----- ЗАПРЕЩАЕТСЯ ИСПОЛЬЗОВАНИЕ ЭТОЙ СИСТЕМЫ В СБОРКЕ СТАСОНА И ГДЕ ЛИБО ЕЩЕ. Попробуйте склепать на этой платформе что-нибудь САМИ.
+----- Надеюсь у вас есть хотя бы совесть и уважение к чужому труду.
+
+actor_level = 0
+hud_disable_flag = 0
+skill_points = 0
+flag_gui = 0
+
+need_rank = 200
+
+-- ========== HUD SKILLS DISABLING ========== --
+
+function hud_skills_on()
+get_hud():AddCustomStatic("skill_texture")
+get_hud():AddCustomStatic("rank_static")
+get_hud():AddCustomStatic("level_static")
+get_hud():AddCustomStatic("skill_point_texture")
+get_hud():AddCustomStatic("skill_points_num")
+end
+function hud_skills_off()
+get_hud():RemoveCustomStatic("rank_static")
+get_hud():RemoveCustomStatic("level_static")
+get_hud():RemoveCustomStatic("skill_texture")
+get_hud():RemoveCustomStatic("skill_point_texture")
+get_hud():RemoveCustomStatic("skill_points_num")
+end
+
+function on_key_press(key)
+if not db.actor:alive() then
+return 
+end
+if(key == DIK_keys["DIK_B"] ) then -- and here you can change skills menu key
+if flag_gui == 0 then
+run_dynamic_element(skills_gui())
+db.actor:give_info_portion("add_hud_skills")
+hud_skills_on()
+flag_gui = 1
+end
+end
+end
+
+-- ========== MAIN FUNCTIONS ========== --
+
+function checking_levels()
+local tbl = {
+{"get_new_level1", 200, 500, levelup_effect},
+{"get_new_level2", 500, 1000, levelup_effect},
+{"get_new_level3", 1000, 2000, levelup_effect},
+{"get_new_level4", 2000, 3000, levelup_effect},
+{"get_new_level5", 3000, 4000, levelup_effect},
+{"get_new_level6", 4000, 5000, levelup_effect},
+{"get_new_level7", 5000, 6000, levelup_effect},
+{"get_new_level8", 6000, 7000, levelup_effect},
+{"get_new_level9", 7000, 8000, levelup_effect},
+{"get_new_level10", 8000, 9000, levelup_effect},
+{"get_new_level11", 9000, 10000, levelup_effect},
+{"get_new_level12", 10000, 11000, levelup_effect},
+{"get_new_level13", 11000, 12000, levelup_effect},
+{"get_new_level14", 12000, 13000, levelup_effect},
+{"get_new_level15", 13000, 14000, 	levelup_effect},
+{"get_new_level16", 14000, 15000, 	levelup_effect},
+{"get_new_level17", 15000, 16000, 	levelup_effect},
+{"get_new_level18", 16000, 17000, 	levelup_effect},
+{"get_new_level19", 17000, 18000, 	levelup_effect},
+{"get_new_level20", 18000, 19000, 	levelup_effect},
+{"get_new_level21", 19000, 20000, 	levelup_effect},
+{"get_new_level22", 20000, 21000, 	levelup_effect},
+{"get_new_level23", 21000, 22000, 	levelup_effect},
+{"get_new_level24", 22000, 23000, 	levelup_effect},
+{"get_new_level25", 23000, 24000, 	levelup_effect},
+{"get_new_level26", 24000, 25000, 	levelup_effect},
+{"get_new_level27", 25000, 26000, 	levelup_effect},
+{"get_new_level28", 26000, 27000, 	levelup_effect},
+{"get_new_level29", 27000, 28000, 	levelup_effect},
+{"get_new_level30", 28000, 28000, 	levelup_effect_15},
+			}
+--[[ заносим в табличку значения:
+
+{[1] = инфопорция,[2] = ранг для not "long_skills_on", [3] = need_rank для not "long_skills_on", [4] = функция, [2] = ранг для "long_skills_on", [3] = need_rank для "long_skills_on"}
+лучше сделать все ранги для "long_skills_on" просто в два раза больше, чем когда этой инфопорции нет - меньше писанины и проще скрипт, но разрабам виднее :)
+-- прим. Сани - так и сделаю.
+]]--
+local rank = db.actor:character_rank()
+		for k,v in pairs(tbl) do
+			if not has_alife_info(v[1]) and rank >= v[2] then
+			give_info(v[1])
+			local do_it = v[4]
+			do_it()
+			need_rank = v[3]
+			break
+			end
+		end
+end
+
+function skill_point_effect()
+skill_points = skill_points + 1
+end
+
+function levelup_effect_15()
+local hud = get_hud()
+local levelup_snd = sound_object("skills\\levelup_15")
+levelup_snd:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+actor_level = actor_level + 1
+hud:AddCustomStatic("newlevel_texture", true)
+hud:AddCustomStatic("newlevel_text", true)
+hud:AddCustomStatic("newlevel_text_skill", true)
+hud:GetCustomStatic("newlevel_text"):wnd():TextControl():SetTextST("Вы достигли максимального "..actor_level.."-го уровня")
+hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST("Очки навыков: + 1")
+hud:GetCustomStatic("newlevel_text").m_endTime = time_global()/1000 + 5
+hud:GetCustomStatic("newlevel_texture").m_endTime = time_global()/1000 + 5
+hud:GetCustomStatic("newlevel_text_skill").m_endTime = time_global()/1000 + 5
+skill_point_effect()
+end
+
+function levelup_effect()
+local hud = get_hud()
+local levelup_snd = sound_object("skills\\levelup")
+levelup_snd:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+actor_level = actor_level + 1
+skill_point_effect()
+hud:AddCustomStatic("newlevel_texture", true)
+hud:AddCustomStatic("newlevel_text", true)
+hud:AddCustomStatic("newlevel_text_skill", true)
+hud:GetCustomStatic("newlevel_text"):wnd():TextControl():SetTextST("Вы достигли "..actor_level.."-го уровня")
+hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST("Очки навыков: + 1")
+hud:GetCustomStatic("newlevel_text").m_endTime = time_global()/1000 + 5
+hud:GetCustomStatic("newlevel_texture").m_endTime = time_global()/1000 + 5
+hud:GetCustomStatic("newlevel_text_skill").m_endTime = time_global()/1000 + 5
+end
+
+-- ========== LEVEL 1 FUNCTIONS ========== --
+
+function add_l1p1_perk()
+alife():create("wpn_knife_perk", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id()) 
+end
+function add_l1p2_perk()
+db.actor:give_info_portion("l1p2_perk_have")
+end
+function add_l1p3_perk()
+db.actor:give_info_portion("l1p3_perk_have")
+end
+
+-- ========== LEVEL 4 FUNCTIONS ========== --
+
+function add_l4p1_perk()
+alife():create("af_dummy_dummy_perk", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id()) 
+end
+function add_l4p2_perk()
+db.actor:give_info_portion("l4p2_perk_have")
+end
+function add_l4p3_perk()
+db.actor:give_info_portion("achieved_patriarch")
+end
+
+-- ========== LEVEL 7 FUNCTIONS ========== --
+
+function add_l7p1_perk()
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"zombied", 5000})
+end
+function add_l7p2_perk()
+alife():create("af_night_star_perk", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id()) 
+end
+function add_l7p3_perk()
+alife():create("af_cristall_perk", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id()) 
+end
+
+-- ========== LEVEL 10 FUNCTIONS ========== --
+
+function add_l10p1_perk()
+db.actor:give_info_portion("l13p2_perk_have")
+end
+
+function add_l10p2_perk()
+db.actor:give_info_portion("agr_smart_terrain_1_6_army_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("bar_visitors_stalker_mechanic_upgrade_tier_3")
+db.actor:give_info_portion("cit_killers_merc_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("val_smart_terrain_7_3_bandit_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("esc_smart_terrain_5_7_loner_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("jup_b217_stalker_tech_upgrade_tier_3")
+db.actor:give_info_portion("mar_base_stalker_tech_upgrade_tier_3")
+db.actor:give_info_portion("mil_smart_terrain_7_7_freedom_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("pri_monolith_monolith_mechanic_stalker_upgrade_tier_3")
+db.actor:give_info_portion("zat_a2_stalker_mechanic_upgrade_tier_3")
+end
+function add_l10p3_perk()
+db.actor:give_info_portion("achieved_heavy_pockets")
+end
+
+-- ========== LEVEL 13 FUNCTIONS ========== --
+
+function add_l13p1_perk()
+alife():create("af_fireball_perk", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id()) 
+end
+
+-- ========== UPDATE ========== --
+function on_game_load()	
+	hud_skills_on()		
+	get_console():execute("time_factor 1")
+end 
+function actor_on_update()
+	if has_alife_info("add_hud_skills") then
+	get_hud():GetCustomStatic("rank_static"):wnd():TextControl():SetTextST("Ваш опыт: "..db.actor:character_rank().."/"..need_rank.."")
+	get_hud():GetCustomStatic("level_static"):wnd():TextControl():SetTextST("Уровень - "..actor_level.."")	
+	get_hud():GetCustomStatic("skill_points_num"):wnd():TextControl():SetTextST(""..skill_points.."")		
+	elseif not has_alife_info("add_hud_skills") then
+	hud_skills_off()
+	end
+	
+-- Checking for level
+	if (db.actor:character_rank() > 0) then
+	checking_levels() 
+	end	
+	
+-- Checking actor death	
+    if not db.actor:alive() then
+    hud_skills_off()
+    end	
+	end
+
+-- ========== SAVE & LOAD FUNCTIONS ========== --
+	
+-- SAVE
+function save_state(m_data)
+	if not (m_data.LR_skills_system) then
+		m_data.LR_skills_system = {}
+	end
+	m_data.LR_skills_system.actor_level = actor_level
+	m_data.LR_skills_system.skill_points = skill_points
+	m_data.LR_skills_system.need_rank = need_rank
+end	
+-- LOAD	
+function load_state(m_data)	
+	if not (m_data.LR_skills_system) then
+		return
+	end
+	actor_level = m_data.LR_skills_system.actor_level or actor_level
+	skill_points = m_data.LR_skills_system.skill_points or skill_points
+	need_rank = m_data.LR_skills_system.need_rank or need_rank	
+	m_data.LR_skills_system = nil
+end	
+
+-- ============================================================== GUI WINDOWS =========================================================================== --
+
+----- LR Skills System - GUI Window
+----- Authors: XMODER (XMODER-ua)
+
+-- ============================================================== SKILLS MENU =========================================================================== --
+
+class "skills_gui" (CUIScriptWnd)
+
+function skills_gui:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function skills_gui:__finalize()
+end
+
+function skills_gui:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	xml:ParseFile("skills_gui.xml")
+	self.frame = xml:InitStatic("frame", self)
+	self.main_img = xml:InitStatic("frame:main_img", self.frame)
+	self.text_strength = xml:InitStatic("frame:main_img:text_strength", self.main_img)
+	self.text_medic = xml:InitStatic("frame:main_img:text_medic", self.main_img)
+	self.text_bandit = xml:InitStatic("frame:main_img:text_bandit", self.main_img)
+	self.text_repair = xml:InitStatic("frame:main_img:text_repair", self.main_img)
+	self.text_survival = xml:InitStatic("frame:main_img:text_survival", self.main_img)
+	self:Register(xml:Init3tButton("frame:main_img:perks_menu_b", self.main_img), "perks_menu_b")
+	self:Register(xml:Init3tButton("frame:main_img:exit_b", self.main_img), "exit_b")
+	self.main_skills_text = xml:InitStatic("frame:main_img:main_skills_text", self.main_img)	
+	self.shooting_b = xml:Init3tButton("frame:main_img:shooting_b", self.main_img)
+    self:Register(self.shooting_b, "shooting_b")
+	self.medic_b = xml:Init3tButton("frame:main_img:medic_b", self.main_img)
+    self:Register(self.medic_b, "medic_b")
+	self.bandit_b = xml:Init3tButton("frame:main_img:bandit_b", self.main_img)
+    self:Register(self.bandit_b, "bandit_b")	
+	self.repair_b = xml:Init3tButton("frame:main_img:repair_b", self.main_img)
+    self:Register(self.repair_b, "repair_b")
+	self.survive_b = xml:Init3tButton("frame:main_img:survive_b", self.main_img)
+    self:Register(self.survive_b, "survive_b")	
+	
+	if has_alife_info("power_5_add") then
+	self.shooting_b:Enable(false)
+	end
+	if has_alife_info("medic_5_add") then
+	self.medic_b:Enable(false)
+	end	
+	if has_alife_info("bandit_5_add") then
+	self.bandit_b:Enable(false)
+	end		
+	if has_alife_info("repair_5_add") then
+	self.repair_b:Enable(false)
+	end		
+	if has_alife_info("survive_5_add") then
+	self.survive_b:Enable(false)
+	end			
+end
+
+function skills_gui:InitCallBacks()
+	self:AddCallback("shooting_b", ui_events.BUTTON_CLICKED, self.shooting_b_button_clicked, self)
+	self:AddCallback("medic_b", ui_events.BUTTON_CLICKED, self.medic_b_button_clicked, self)
+	self:AddCallback("bandit_b", ui_events.BUTTON_CLICKED, self.bandit_b_button_clicked, self)
+	self:AddCallback("repair_b", ui_events.BUTTON_CLICKED, self.repair_b_button_clicked, self)
+	self:AddCallback("survive_b", ui_events.BUTTON_CLICKED, self.survive_b_button_clicked, self)
+	self:AddCallback("perks_menu_b", ui_events.BUTTON_CLICKED, self.perks_menu_b_button_clicked, self)
+	self:AddCallback("exit_b", ui_events.BUTTON_CLICKED, self.exit_b_button_clicked, self)
+end
+
+-- ========== MAIN FUNCTIONS ========== --
+
+function skill_off_message()
+local hud = get_hud()
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Вы не можете повысить этот навык")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skill_on_message()
+local hud = get_hud()
+local skillup_snd = sound_object("skills\\skill_added")
+skillup_snd:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Навык успешно повышен!")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+flag_gui = 0
+skill_points = skill_points - 1
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+-- ========== SKILL BUTTONS ========== --
+
+function skills_gui:shooting_b_button_clicked()
+local hud = get_hud()
+if skill_points == 0 then
+skill_off_message()
+elseif skill_points >= 1 and not has_alife_info ("power_1_add") then
+give_info("power_1_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("1/5 - теперь вы можете носить некоторое количество тяжелой брони")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("power_2_add") and has_alife_info ("power_1_add") then
+give_info("power_2_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("2/5 - теперь вы можете использовать тяжелое оружие и реже получать критический урон")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("power_3_add") and has_alife_info ("power_2_add") then
+give_info("power_3_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("3/5 - научные тяжелые костюмы больше вам не помеха")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("power_4_add") and has_alife_info ("power_3_add") then
+give_info("power_4_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("4/5 - вы узнали, как устроена Гаусс-пушка, а также можете пинать мелких мутантов")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("power_5_add") and has_alife_info ("power_4_add") then
+give_info("power_5_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("5/5 - вы крепки настолько, что теперь можете носить тяжелые экзоскелеты и сопротивляться критическим ранениям")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+end
+self:HideDialog()
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skills_gui:medic_b_button_clicked()
+local hud = get_hud()
+if skill_points == 0 then
+skill_off_message()
+elseif skill_points >= 1 and not has_alife_info ("medic_1_add") then
+give_info("medic_1_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("1/5 - аптечки действуют эффективнее")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("medic_2_add") and has_alife_info ("medic_1_add") then
+give_info("medic_2_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("2/5 - появилась возможность разбирать медкомплекты, а медикаменты действуют эффективнее")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("medic_3_add") and has_alife_info ("medic_2_add") then
+give_info("medic_3_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("3/5 - в медкомплектах появились антирады и армейские аптечки, а медикаменты действуют более эффективно")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("medic_4_add") and has_alife_info ("medic_3_add") then
+give_info("medic_4_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("4/5 - в медкомплектах появились таблетки, а медикаменты действуют ещё эффективнее")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("medic_5_add") and has_alife_info ("medic_4_add") then
+give_info("medic_5_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("5/5 - в медкомплектах появились научные аптечки, а медикаменты максимально эффективны")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+end
+self:HideDialog()
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skills_gui:bandit_b_button_clicked()
+local hud = get_hud()
+if skill_points == 0 then
+skill_off_message()
+elseif skill_points >= 1 and not has_alife_info ("bandit_1_add") then
+give_info("bandit_1_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("1/5 - теперь вы можете снимать с трупов деньги")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("bandit_2_add") and has_alife_info ("bandit_1_add") then
+give_info("bandit_2_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("2/5 - теперь вы можете получать наводки на тайники")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("bandit_3_add") and has_alife_info ("bandit_2_add") then
+give_info("bandit_3_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("3/5 - теперь вы находите больше денег в трупах")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("bandit_4_add") and has_alife_info ("bandit_3_add") then
+give_info("bandit_4_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("4/5 - теперь вы частенько находите наводки на тайники в трупах")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("bandit_5_add") and has_alife_info ("bandit_4_add") then
+give_info("bandit_5_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("5/5 - вы достигли максимального навыка мародерства и научились грабить арсеналы группировок")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+end
+self:HideDialog()
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skills_gui:repair_b_button_clicked()
+local hud = get_hud()
+if skill_points == 0 then
+skill_off_message()
+elseif skill_points >= 1 and not has_alife_info ("repair_1_add") then
+give_info("repair_1_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("1/5 - вы научились ремонтировать оружие с помощью ремкомплектов")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("repair_2_add") and has_alife_info ("repair_1_add") then
+give_info("repair_2_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("2/5 - вы научились ремонтировать броню с помощью ремкомплектов")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("repair_3_add") and has_alife_info ("repair_2_add") then
+give_info("repair_3_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("3/5 - вы научились эффективнее использовать ремкомплекты")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("repair_4_add") and has_alife_info ("repair_3_add") then
+give_info("repair_4_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("4/5 - вы научились более эффективно использовать ремкомплекты")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("repair_5_add") and has_alife_info ("repair_4_add") then
+give_info("repair_5_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("5/5 - вы достигли максимального навыка ремонта")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+end
+self:HideDialog()
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skills_gui:survive_b_button_clicked()
+local hud = get_hud()
+if skill_points == 0 then
+skill_off_message()
+elseif skill_points >= 1 and not has_alife_info ("survive_1_add") then
+give_info("survive_1_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("1/5 - вы научились разрезать мутантов")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("survive_2_add") and has_alife_info ("survive_1_add") then
+give_info("survive_2_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("2/5 - вы можете есть мясо мутантов без особого вреда здоровью")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("survive_3_add") and has_alife_info ("survive_2_add") then
+give_info("survive_3_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("3/5 - обычная еда для вас более эффективная")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("survive_4_add") and has_alife_info ("survive_3_add") then
+give_info("survive_4_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("4/5 - артефакты для вас больше не настолько смертельны")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+elseif skill_points >= 1 and not has_alife_info ("survive_5_add") and has_alife_info ("survive_4_add") then
+give_info("survive_5_add")
+hud:AddCustomStatic("secondary_task", true)
+hud:GetCustomStatic("secondary_task"):wnd():TextControl():SetTextST("5/5 - артефакты больше не наносят вам урон")
+hud:GetCustomStatic("secondary_task").m_endTime = time_global()/1000 + 5
+skill_on_message()
+end
+self:HideDialog()
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+-- ========== OTHERS ========== --
+
+function skills_gui:perks_menu_b_button_clicked()
+flag_gui = 1
+self:HideDialog()
+run_dynamic_element(perks_gui())
+end
+
+function skills_gui:exit_b_button_clicked()
+flag_gui = 0
+self:HideDialog()
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function skills_gui:Hide()
+	self:HideDialog()
+end
+
+-- ============================================================== PERKS MENU =========================================================================== --
+
+class "perks_gui" (CUIScriptWnd)
+
+function perks_gui:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function perks_gui:__finalize()
+end
+
+function perks_gui:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	xml:ParseFile("perks_gui.xml")
+		self.main_image = xml:InitStatic("main_image", self)
+	self.menu_text = xml:InitStatic("main_image:menu_text", self.main_image)
+	self.menu_desc = xml:InitStatic("main_image:menu_desc", self.main_image)
+	self.l1p1 = xml:Init3tButton("main_image:l1p1", self.main_image)
+    self:Register(self.l1p1, "l1p1")
+	self.l1p2 = xml:Init3tButton("main_image:l1p2", self.main_image)
+    self:Register(self.l1p2, "l1p2")
+	self.l1p3 = xml:Init3tButton("main_image:l1p3", self.main_image)
+    self:Register(self.l1p3, "l1p3")	
+	self.l4p1 = xml:Init3tButton("main_image:l4p1", self.main_image)
+    self:Register(self.l4p1, "l4p1")
+	self.l4p2 = xml:Init3tButton("main_image:l4p2", self.main_image)
+    self:Register(self.l4p2, "l4p2")
+	self.l4p3 = xml:Init3tButton("main_image:l4p3", self.main_image)
+    self:Register(self.l4p3, "l4p3")
+	self.l7p1 = xml:Init3tButton("main_image:l7p1", self.main_image)
+    self:Register(self.l7p1, "l7p1")
+	self.l7p1:Enable(false)
+	self.l7p2 = xml:Init3tButton("main_image:l7p2", self.main_image)
+    self:Register(self.l7p2, "l7p2")
+	self.l7p3 = xml:Init3tButton("main_image:l7p3", self.main_image)
+    self:Register(self.l7p3, "l7p3")
+	self.l10p1 = xml:Init3tButton("main_image:l10p1", self.main_image)
+    self:Register(self.l10p1, "l10p1")
+	self.l10p2 = xml:Init3tButton("main_image:l10p2", self.main_image)
+    self:Register(self.l10p2, "l10p2")
+	self.l10p3 = xml:Init3tButton("main_image:l10p3", self.main_image)
+    self:Register(self.l10p3, "l10p3")
+	self.l13p1 = xml:Init3tButton("main_image:l13p1", self.main_image)
+    self:Register(self.l13p1, "l13p1")
+	self.l13p2 = xml:Init3tButton("main_image:l13p2", self.main_image)
+    self:Register(self.l13p2, "l13p2")
+	self.back_button = xml:Init3tButton("main_image:back_button", self.main_image)
+    self:Register(self.back_button, "back_button")	
+	self.exit_button = xml:Init3tButton("main_image:exit_button", self.main_image)
+    self:Register(self.exit_button, "exit_button")
+	
+	if has_alife_info("l1p1_perk_add") then
+	self.l1p1:Enable(false)
+	end
+	if has_alife_info("l1p2_perk_add") then
+	self.l1p2:Enable(false)
+	end
+	if has_alife_info("l1p3_perk_add") then
+	self.l1p3:Enable(false)
+	end
+	if has_alife_info("l4p1_perk_add") then
+	self.l4p1:Enable(false)
+	end
+	if has_alife_info("l4p2_perk_add") then
+	self.l4p2:Enable(false)
+	end
+	if has_alife_info("l4p3_perk_add") then
+	self.l4p3:Enable(false)
+	end
+	if has_alife_info("l7p1_perk_add") then
+	self.l7p1:Enable(false)
+	end
+	if has_alife_info("l7p2_perk_add") then
+	self.l7p2:Enable(false)
+	end
+	if has_alife_info("l7p3_perk_add") then
+	self.l7p3:Enable(false)
+	end
+	if has_alife_info("l10p1_perk_add") then
+	self.l10p1:Enable(false)
+	end
+	if has_alife_info("l10p2_perk_add") then
+	self.l10p2:Enable(false)
+	end
+	if has_alife_info("l10p3_perk_add") then
+	self.l10p3:Enable(false)
+	end
+	if has_alife_info("l13p1_perk_add") then
+	self.l13p1:Enable(false)
+	end
+	if has_alife_info("l13p2_perk_add") then
+	self.l13p2:Enable(false)
+	end
+end
+
+function perks_gui:InitCallBacks()
+	self:AddCallback("l1p1", ui_events.BUTTON_CLICKED, self.l1p1_button_clicked, self)
+	self:AddCallback("l1p2", ui_events.BUTTON_CLICKED, self.l1p2_button_clicked, self)
+	self:AddCallback("l1p3", ui_events.BUTTON_CLICKED, self.l1p3_button_clicked, self)
+	self:AddCallback("l4p1", ui_events.BUTTON_CLICKED, self.l4p1_button_clicked, self)
+	self:AddCallback("l4p2", ui_events.BUTTON_CLICKED, self.l4p2_button_clicked, self)
+	self:AddCallback("l4p3", ui_events.BUTTON_CLICKED, self.l4p3_button_clicked, self)
+	self:AddCallback("l7p1", ui_events.BUTTON_CLICKED, self.l7p1_button_clicked, self)
+	self:AddCallback("l7p2", ui_events.BUTTON_CLICKED, self.l7p2_button_clicked, self)
+	self:AddCallback("l7p3", ui_events.BUTTON_CLICKED, self.l7p3_button_clicked, self)
+	self:AddCallback("l10p1", ui_events.BUTTON_CLICKED, self.l10p1_button_clicked, self)
+	self:AddCallback("l10p2", ui_events.BUTTON_CLICKED, self.l10p2_button_clicked, self)
+	self:AddCallback("l10p3", ui_events.BUTTON_CLICKED, self.l10p3_button_clicked, self)
+	self:AddCallback("l13p1", ui_events.BUTTON_CLICKED, self.l13p1_button_clicked, self)
+	self:AddCallback("l13p2", ui_events.BUTTON_CLICKED, self.l13p2_button_clicked, self)
+	self:AddCallback("back_button", ui_events.BUTTON_CLICKED, self.back_button_button_clicked, self)
+	self:AddCallback("exit_button", ui_events.BUTTON_CLICKED, self.exit_button_button_clicked, self)
+end
+
+-- ========== MAIN FUNCTIONS ========== --
+
+function perk_off_message()
+local hud = get_hud()
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Вы не достигли определенного уровня или у вас мало очков, чтобы активировать этот перк")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+function perk_on_message()
+local hud = get_hud()
+local perk_snd_on = sound_object("skills\\perk_added")
+perk_snd_on:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Вы успешно активировали новый перк!")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+flag_gui = 0
+skill_points = skill_points - 1
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+function perk_prev_message()
+local hud = get_hud()
+hud:AddCustomStatic("main_task", true)
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Вы не можете активировать этот перк, если не выбрали перк предыдущего уровн¤")
+hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
+flag_gui = 0
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+-- ========== LEVEL 1 FUNCTIONS ========== --
+
+function perks_gui:l1p1_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level5") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level5") then
+perk_on_message()
+LR_skills_system.add_l1p1_perk()
+self.l1p1:Enable(false)
+db.actor:give_info_portion("l1p1_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l1p2_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level5") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level5") then
+perk_on_message()
+LR_skills_system.add_l1p2_perk()
+self.l1p2:Enable(false)
+db.actor:give_info_portion("l1p2_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l1p3_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level5") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level5") then
+perk_on_message()
+LR_skills_system.add_l1p3_perk()
+self.l1p3:Enable(false)
+db.actor:give_info_portion("l1p3_perk_add")
+end
+self:HideDialog()
+end
+
+-- ========== LEVEL 4 FUNCTIONS ========== --
+
+function perks_gui:l4p1_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level10") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level10") then
+perk_on_message()
+LR_skills_system.add_l4p1_perk()
+self.l4p1:Enable(false)
+db.actor:give_info_portion("l4p1_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l4p2_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level10") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level10") then
+perk_on_message()
+LR_skills_system.add_l4p2_perk()
+self.l4p2:Enable(false)
+db.actor:give_info_portion("l4p2_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l4p3_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level10") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level10") then
+perk_on_message()
+LR_skills_system.add_l4p3_perk()
+self.l4p3:Enable(false)
+db.actor:give_info_portion("l4p3_perk_add")
+end
+self:HideDialog()
+end
+
+-- ========== LEVEL 7 FUNCTIONS ========== --
+
+function perks_gui:l7p1_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level10") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level10") then
+perk_on_message()
+LR_skills_system.add_l7p1_perk()
+self.l7p1:Enable(false)
+db.actor:give_info_portion("l7p1_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l7p2_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level20") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level20") then
+perk_on_message()
+LR_skills_system.add_l7p2_perk()
+self.l7p2:Enable(false)
+db.actor:give_info_portion("l7p2_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l7p3_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level20") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level20") then
+perk_on_message()
+LR_skills_system.add_l7p3_perk()
+self.l7p3:Enable(false)
+db.actor:give_info_portion("l7p3_perk_add")
+end
+self:HideDialog()
+end
+
+-- ========== LEVEL 10 FUNCTIONS ========== --
+
+function perks_gui:l10p1_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level20") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level20") then
+perk_on_message()
+LR_skills_system.add_l10p1_perk()
+self.l10p1:Enable(false)
+db.actor:give_info_portion("l10p1_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l10p2_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level20") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level20") then
+perk_on_message()
+LR_skills_system.add_l10p2_perk()
+self.l10p2:Enable(false)
+db.actor:give_info_portion("l10p2_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l10p3_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level20") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level20") then
+perk_on_message()
+LR_skills_system.add_l10p3_perk()
+self.l10p3:Enable(false)
+db.actor:give_info_portion("l10p3_perk_add")
+end
+self:HideDialog()
+end
+
+-- ========== LEVEL 13 FUNCTIONS ========== --
+
+function perks_gui:l13p1_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level25") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level25") then
+perk_on_message()
+LR_skills_system.add_l13p1_perk()
+self.l13p1:Enable(false)
+db.actor:give_info_portion("l13p1_perk_add")
+end
+self:HideDialog()
+end
+
+function perks_gui:l13p2_button_clicked()
+if skill_points == 0 then
+perk_off_message()
+self:HideDialog()
+return
+end
+if not has_alife_info ("get_new_level25") then
+perk_off_message()
+self:HideDialog()
+return
+elseif has_alife_info ("get_new_level25") then
+perk_on_message()
+self.l13p2:Enable(false)
+db.actor:give_info_portion("l13p2_perk_add")
+end
+self:HideDialog()
+end
+
+-- ========== OTHERS ========== --
+
+function perks_gui:back_button_button_clicked()
+flag_gui = 1
+self:HideDialog()
+run_dynamic_element(skills_gui())
+end
+
+function perks_gui:exit_button_button_clicked()
+flag_gui = 0
+self:HideDialog()
+disable_info("add_hud_skills")
+hud_skills_off()
+end
+
+function perks_gui:Hide()
+	self:HideDialog()
+end
+
+function on_game_start()
+RegisterScriptCallback("on_key_press",on_key_press)
+RegisterScriptCallback("actor_on_update",actor_on_update)
+RegisterScriptCallback("on_game_load",on_game_load)
+RegisterScriptCallback("save_state",save_state)
+RegisterScriptCallback("load_state",load_state)
+end

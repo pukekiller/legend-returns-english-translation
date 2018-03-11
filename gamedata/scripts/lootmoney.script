@@ -1,0 +1,120 @@
+function lootmoney(npc)
+if has_alife_info ("bandit_1_add") then -- LR ADDED
+	if npc:money() < 10000 then
+		local actor = db.actor
+		local money = npc:money()
+		if money ~= nil and money > 0 then
+			local deadmoney = money
+			local npc_rank
+			npc_rank = ranks.get_obj_rank_name(npc)
+			if not has_alife_info ("bandit_3_add") then -- LR ADDED
+			if npc_rank ~= nil then
+				if 	 npc_rank == "novice" and deadmoney >=400 then deadmoney=math.random(5,15)    
+				elseif npc_rank == "trainee" and deadmoney >=500 then deadmoney=math.random(5,30)  
+				elseif npc_rank == "experienced" and deadmoney >=550 then deadmoney=math.random(5,50)  
+				elseif npc_rank == "professional" and deadmoney >=600 then deadmoney=math.random(5,75) 
+				elseif npc_rank == "veteran" and deadmoney >=650 then deadmoney=math.random(5,100) 
+				elseif npc_rank == "expert" and deadmoney >=700 then deadmoney=math.random(5,200)  
+				elseif npc_rank == "master" and deadmoney >=750 then deadmoney=math.random(5,300)  
+				elseif npc_rank == "legend" and deadmoney >=800 then deadmoney=math.random(5,400)  
+			  end
+			end
+end			
+			if has_alife_info ("bandit_2_add") then -- LR ADDED
+			if npc_rank ~= nil then
+				if 	 npc_rank == "novice" and deadmoney >=400 then deadmoney=math.random(5,15)    
+				elseif npc_rank == "trainee" and deadmoney >=500 then deadmoney=math.random(10,30)  
+				elseif npc_rank == "experienced" and deadmoney >=550 then deadmoney=math.random(15,50)  
+				elseif npc_rank == "professional" and deadmoney >=600 then deadmoney=math.random(20,75) 
+				elseif npc_rank == "veteran" and deadmoney >=650 then deadmoney=math.random(25,100) 
+				elseif npc_rank == "expert" and deadmoney >=700 then deadmoney=math.random(30,200)  
+				elseif npc_rank == "master" and deadmoney >=750 then deadmoney=math.random(35,300)  
+				elseif npc_rank == "legend" and deadmoney >=800 then deadmoney=math.random(40,400)  
+			  end
+			end
+end	
+			if has_alife_info ("bandit_5_add") then -- LR ADDED
+			if npc_rank ~= nil then
+				if 	 npc_rank == "novice" and deadmoney >=400 then deadmoney=math.random(5,15)    
+				elseif npc_rank == "trainee" and deadmoney >=500 then deadmoney=math.random(15,30)  
+				elseif npc_rank == "experienced" and deadmoney >=550 then deadmoney=math.random(30,50)  
+				elseif npc_rank == "professional" and deadmoney >=600 then deadmoney=math.random(45,75) 
+				elseif npc_rank == "veteran" and deadmoney >=650 then deadmoney=math.random(60,100) 
+				elseif npc_rank == "expert" and deadmoney >=700 then deadmoney=math.random(75,200)  
+				elseif npc_rank == "master" and deadmoney >=750 then deadmoney=math.random(90,300)  
+				elseif npc_rank == "legend" and deadmoney >=800 then deadmoney=math.random(105,400)  
+			  end
+			end
+end				
+if has_alife_info ("bandit_1_add") and db.actor:object("wpn_greh_knife") then  -- LR ADDED
+if npc_rank ~= nil then
+local human_part = math.random(1, 6)
+if human_part == 1 then
+alife():create("eye",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Вырезана часть тела: Глаз", "ui_inGame2_Predmet_poluchen", 10, 7000)
+elseif human_part == 2 then
+alife():create("uho",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Отрезана часть тела: Ухо", "ui_inGame2_Predmet_poluchen", 10, 7000)
+elseif human_part == 3 then
+alife():create("finger",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Отрезана часть тела: Палец", "ui_inGame2_Predmet_poluchen", 10, 7000)
+elseif human_part == 4 then
+alife():create("liver",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Вырезана часть тела: Печень", "ui_inGame2_Predmet_poluchen", 10, 7000)
+elseif human_part == 5 then
+alife():create("brain",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Вырезана часть тела: Мозг", "ui_inGame2_Predmet_poluchen", 10, 7000)
+elseif human_part == 6 then
+alife():create("heart",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+db.actor:give_game_news("Шинкование:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Вырезана часть тела: Сердце", "ui_inGame2_Predmet_poluchen", 10, 7000)
+end
+end
+end
+			local news_caption = "Покойник: "..npc:character_name()
+			local news_text = "Обнаружено денег: %c[255,255,0,0]"..game.translate_string(deadmoney).."%c[default] руб."
+			--xr_sound.set_sound_play(actor:id(), "pda_news")
+			actor:give_game_news(news_caption, news_text, "ui_iconsTotal_found_money", 0, 10000)
+			actor:give_money(deadmoney)
+			-- game_stats.money_quest_update(deadmoney) 
+			npc:give_money(-money)
+			-- game_stats.money_quest_update(-money)
+if has_alife_info ("bandit_4_add") then -- LR ADDED			
+if (math.random(20,100) >= 90) then
+coc_treasure_manager.create_random_stash(nil,npc:character_name()..". Его тайник.")
+end	
+end	
+if has_alife_info ("bandit_5_add") then -- LR ADDED			
+if (math.random(30,100) >= 90) then
+coc_treasure_manager.create_random_stash(nil,npc:character_name()..". Его тайник.")
+end	
+end	
+		end
+	end
+end
+end
+
+function lootmoney_effect(npc,corpse_npc)
+	if corpse_npc:money() < 10000 then
+		local num=corpse_npc:money() 
+		if num and num >0 then 
+			local deadmoney = num
+			local gi_rank
+			gi_rank = ranks.get_obj_rank_name(corpse_npc)
+			if gi_rank ~= nil then
+				if 	 npc_rank == "novice" and deadmoney >=400 then deadmoney=math.random(5,15)    
+				elseif npc_rank == "trainee" and deadmoney >=500 then deadmoney=math.random(15,30)  
+				elseif npc_rank == "experienced" and deadmoney >=550 then deadmoney=math.random(30,50)  
+				elseif npc_rank == "professional" and deadmoney >=600 then deadmoney=math.random(50,75) 
+				elseif npc_rank == "veteran" and deadmoney >=650 then deadmoney=math.random(75,100) 
+				elseif npc_rank == "expert" and deadmoney >=700 then deadmoney=math.random(100,200)  
+				elseif npc_rank == "master" and deadmoney >=750 then deadmoney=math.random(200,300)  
+				elseif npc_rank == "legend" and deadmoney >=800 then deadmoney=math.random(300,400)  
+				end
+			end
+			npc:give_money(deadmoney) 
+			-- game_stats.money_quest_update(deadmoney) 
+			corpse_npc:give_money(-num) 
+			-- game_stats.money_quest_update(-num) 
+		end
+	end
+end

@@ -4,13 +4,13 @@
 		<text>Random assignment: find the case in the Cordon</text>
 	</string>
 	<string id="esc_event_case_1_descr">
-		<text>According to an intercepted message, a case has been left for Sidorovich near an outpost in a pile of garbage. If I'll be the first to find it, maybe I will get a reward.</text>
+		<text>According to an intercepted message, someone has left a case for Sidorovich near an outpost in a pile of rubbish. The first one must be found.</text>
 	</string>
 	<string id="esc_event_case_2">
 		<text>Random assignment: deliver the case to Sidorovich</text>
 	</string>
 	<string id="esc_event_case_2_descr">
-		<text>The case has been found. Now, it must be delivered to Sidorovich.</text>
+		<text>You have discovered the case. Now, it must be delivered to Sidorovich.</text>
 	</string>
 
 	<string id="esc_event_case">

@@ -1,0 +1,82 @@
+function freedom_monster_part_1()
+   task_manager.get_task_manager():give_task("freedom_monster_part_1")
+end
+
+function is_has_leg_lukash(first_speaker, second_speaker)
+return first_speaker:object("mutant_part_boar_leg") ~= nil 
+end 
+
+function transfer_leg_to_lukash(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_boar_leg")
+end
+
+function freedom_kill_stalker_4()
+   task_manager.get_task_manager():give_task("freedom_kill_stalker_4")
+end
+
+function freedom_kill_stalker_5()
+   task_manager.get_task_manager():give_task("freedom_kill_stalker_5")
+end
+
+function freedom_kill_stalker_6()
+   task_manager.get_task_manager():give_task("freedom_kill_stalker_6")
+end
+
+function maddog_first_quest()      
+         task_manager.get_task_manager():give_task("maddog_first_task")         
+end 
+
+function maddog_have_outfit(first_speaker, second_speaker) 
+      return ((db.actor:object("dolg_novice_outfit") ~= nil)) 
+end 
+
+function maddog_not_have_outfit(first_speaker, second_speaker) 
+      return ((db.actor:object("dolg_novice_outfit") == nil)) 
+end 
+
+function maddog_relocates_outfit(first_speaker, second_speaker) 
+      dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "dolg_novice_outfit")  
+end      
+
+function maddog_relocates_money_to_actor(first_speaker, second_speaker) 
+      dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1000) 
+end 
+
+function maddog_relocates_money_to_actor_4(first_speaker, second_speaker) 
+      dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1700) 
+end 
+
+function give_outfit(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "dolg_quest_novice_outfit")
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_coltkiller")
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_11.43x23_hydro")
+end
+
+function give_only_outfit(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "dolg_quest_novice_outfit")
+end
+
+function retutn_outfit(first_speaker, second_speaker) 
+dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "dolg_quest_novice_outfit")
+end
+
+function return_docs(first_speaker, second_speaker) 
+dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "main_story_1_quest_case")
+end
+
+function return_spiral(first_speaker, second_speaker) 
+dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_spiralka")
+end
+
+function maddog_second_quest()      
+         task_manager.get_task_manager():give_task("maddog_second_task")         
+end 
+
+function help_toad()      
+    local unable_art = "ПОДСКАЗКА!"
+db.actor:give_game_news("Для обновления ассортимента Жабы необходимо сохраниться и загрузиться.", unable_art, "ui_inGame2_Medkomplekt", 1, 1000)        
+end 
+
+function maddog_3_quest()      
+         task_manager.get_task_manager():give_task("maddog_3_task")         
+end 

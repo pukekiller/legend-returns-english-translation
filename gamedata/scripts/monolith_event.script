@@ -1,0 +1,88 @@
+
+function on_game_load()	
+      if (level.name() == "l10_radar" and character_community(db.actor) == 'actor_monolith' and not has_alife_info("cancel_repeating_spawn")) then
+      db.actor:give_info_portion("cancel_repeating_spawn")
+	  db.actor:give_info_portion("bar_deactivate_radar_done")
+	  task_manager.get_task_manager():give_task("cresh_talk_task")
+	  db.actor:give_game_news("Крэш:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Брат! Великому Монолиту нужна твоя помощь! Направляйся в бункер управления выжигателем, мы будем ждать тебя там. Слава Монолиту!", "ui_inGame2_Neizvestniy", 10, 41000)
+	  alife(alife_l10_radar):create("monolith_cresh",vector():set(2.5010888576508,-17.454805374146,23.7598285675005),6806,3939)
+      end   
+end 
+
+function on_game_start()
+RegisterScriptCallback("on_game_load",on_game_load)
+end
+
+function lab_x8_task()
+      task_manager.get_task_manager():give_task("neyron_talk_task")
+	  alife(alife_l10_radar):create("monolith_neyron",vector():set(-72.178764343262,-28.283676147461,71.531684875488),5223,5101)
+	  alife(alife_l10_radar):create("sim_default_monolith_0",vector():set(-71.178764343262,-28.283676147461,73.531684875488),5223,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_monolith_1",vector():set(-79.226905822754,-28.400873184204,72.480278015137),3362,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-79.101173400879,-27.28394317627,78.51163482666),3377,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-74.917579650879,-28.49107170105,75.768821716309),4279,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_monolith_2",vector():set(-90.196571350098,-28.429430007935,70.266624450684),1616,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-87.9814453125,-28.484479904175,78.484115600586),1921,5101):on_death()
+	  alife(alife_l10_radar):create("sim_default_monolith_2",vector():set(-81.18994140625,-28.469289779663,64.215927124023),3010,5106):on_death()
+      end 
+	  
+function neyron_x8_task()
+      task_manager.get_task_manager():give_task("haron_talk_task")
+      end   
+
+function haron_x8_task()
+      task_manager.get_task_manager():give_task("avangers_talk_task")
+	  alife(alife_l10_radar):create("container_gauss",vector():set(-164.67477416992,3.2151684761047,-33.994480133057),4292,2770)
+	  alife(alife_l10_radar):create("neyron_docks",vector():set(-165.0919342041,3.2151684761047,-33.994480133057),4217,2770)
+	  alife(alife_l10_radar):create("about_shaman_docks",vector():set(-164.30065917969,3.2151684761047,-33.994480133057),4292,2770)
+      end
+
+function haron_find_x8_task()
+      task_manager.get_task_manager():give_task("info_for_monolith_task")
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-151.41073608398,2.3150696754456,-51.320487976074),5708,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_1",vector():set(-151.41073608398,2.3150696754456,-51.320487976074),5708,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-151.41073608398,2.3150696754456,-51.320487976074),5708,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_1",vector():set(-151.41073608398,2.3150696754456,-51.320487976074),5708,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-151.41073608398,2.3150696754456,-51.320487976074),5708,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_1",vector():set(-120.0636138916,2.3790442943573,-53.809703826904),7555,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-120.0636138916,2.3790442943573,-53.809703826904),7555,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_1",vector():set(-120.0636138916,2.3790442943573,-53.809703826904),7555,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_0",vector():set(-120.0636138916,2.3790442943573,-53.809703826904),7555,2836)
+	  alife(alife_l10_radar):create("sim_default_sin_1",vector():set(-120.0636138916,2.3790442943573,-53.809703826904),7555,2836)
+      end
+	  
+function relocate_gauss(first_speaker, second_speaker)   
+     dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "wpn_gauss_greh")
+	 dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "about_shaman_docks")
+	 alife(alife_l04_darkvalley):create("old_sinner",vector():set(-155.18426513672,1.4549959897995,-93.049705505371),42790,2411)
+     alife(alife_l04_darkvalley):create("old_medic",vector():set(-154.18426513672,1.4549959897995,-94.049705505371),44363,2411)
+end
+
+function relocate_pda_shamana(first_speaker, second_speaker)   
+     dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "shaman_pda")
+end
+
+function relocate_pda_neyrona(first_speaker, second_speaker)   
+     dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "neyron_docks")
+end
+
+function has_things()
+    if db.actor:object("about_shaman_docks") and db.actor:object("neyron_docks") and db.actor:object("wpn_gauss_greh") then
+        return true
+    end
+    return false
+end
+
+function has_pda()
+    if db.actor:object("shaman_pda") then
+        return true
+    end
+    return false
+end
+
+function shaman_kill_task()
+      task_manager.get_task_manager():give_task("shaman_kill_task")
+      end
+	  
+function cresh_after_kill_task()
+      task_manager.get_task_manager():give_task("cresh_after_kill_task")
+      end	  

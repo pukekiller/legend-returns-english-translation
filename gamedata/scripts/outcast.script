@@ -1,0 +1,14 @@
+
+
+function on_game_load()	
+      if (db.actor:character_reputation() < -1000) and not has_alife_info("outcast_done")then
+	  db.actor:give_game_news("Уведомления:", "%c[255,255,160,0]" .. "%c[255,255,160,0]Вы были исключены из группировки из-за испорченной репутации!", "ui_inGame2_Temniy_biznes", 10, 17000)
+	  db.actor:set_character_community("actor_outcast",0,0)
+      faction_functions.write_variable("stat_community","actor_outcast")
+	  db.actor:give_info_portion("outcast_done")
+      end   
+end 
+
+function on_game_start()
+RegisterScriptCallback("on_game_load",on_game_load)
+end

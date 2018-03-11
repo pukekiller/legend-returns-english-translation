@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_radiacion_izmer_1_em">
-		<text>Dosimeter-Radiometer В«DA-2В»</text>
+		<text>Дозиметр-радиометр «ДА-2»</text>
 	</string>
 	<string id="st_radiacion_izmer_2_em">
-		<text>Dosimeter В«IDSВ»</text>
+		<text>Дозиметр «ИДС»</text>
 	</string>
 	<string id="st_radiacion_izmer_3_em">
-		<text>Dosimeter В«Pripyat-9В»</text>
+		<text>Дозиметр «Припять-9»</text>
 	</string>
 
 	<string id="st_radiacion_izmer_1_em_descr">
-		<text>Rough artisanal modification of the radiometer "Pripyat" RKS-20.03, created by an unknown craftsman to work in the conditions of modern Chernobyl Exclusion Zone.  Distributed semi-legally in small batches. It is an essential attribute of almost any novice explorer in the Zone. The device is able to detect some anomalies, as well as radiation pockets, producing characteristic sounds. The device is able to determine the presence of active radionuclides in the body, but because of malfunctions it can not show the exact radiation dose.</text>
+		<text>Грубая кустарная модификация радиометра «Припять» РКС-20.03, созданная неизвестным умельцем для работы в условиях современной ЧЗО. Распространяется полулегально малыми партиями. Является неотъемлемым атрибутом почти любого начинающего ходока в Зону. Прибор способен обнаруживать некоторые аномалии, а также очаги радиации, издавая характерные звуки. Прибор способен определить наличие активных радионуклидов в организме, но из-за сбоев не может показать дозу облучения.</text>
 	</string>
 	<string id="st_radiacion_izmer_2_em_descr">
-		<text>The IDS is an advanced and quite common device among stalkers. It measures the equivalent dose of ionizing radiation in the body of the carrier. Despite its advantages, it has a number of shortcomings, among which are malfunctions and possible inaccuracies in measurements. Shows only the approximate level of contamination.</text>
+		<text>ИДС является продвинутым и довольно распространённым среди сталкеров прибором. Делает замер эквивалентной дозы ионизирующего излучения в организме носителя. Несмотря на свои достоинства, обладает рядом недостатков, среди которых сбои в работе и возможные неточности в замерах. Показывает лишь приблизительный уровень заражения.</text>
 	</string>
 	<string id="st_radiacion_izmer_3_em_descr">
-		<text>"Pripyat-9" is designed specifically to work in the conditions of the modern Chernobyl Exclusion Zone. The installation of special filters allows the device to "bypass" the radiation from the abnormal environment, thereby eliminating all possible errors. It's able to measure the levels of radioactive contamination in the user's body and show the result with extreme accuracy.</text>
+		<text>«Припять-9» разработан специально для работы в условиях современной Чернобыльской Зоны отчуждения. Установка специальных фильтров позволило прибору «обходить» излучение от аномальной среды, тем самым сводя все вероятные ошибки на нет. Способен делать замеры радиационного заражения организма и показывать результат.</text>
 	</string>
 </string_table>

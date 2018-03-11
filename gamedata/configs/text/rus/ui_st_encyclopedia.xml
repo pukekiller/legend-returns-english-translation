@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<!-- PDA -->
+	<string id="pda_btn_encyclopedia">
+		<text>Справочник</text>
+	</string>
+	
+	<string id="pda_btn_encyclopedia_hint">
+		<text>Прочитать</text>
+	</string>
+	
+	<string id="pda_btn_encyclopedia_title">
+		<text>Записная книжка сталкера</text>
+	</string>
+	
+	<string id="pda_btn_encyclopedia_notify">
+		<text>Статья недоступна</text>
+	</string>
+	
+	<string id="pda_btn_encyclopedia_locked">
+		<text>
+			Вы ещё не разблокировали эту статью.\n
+			\n Статьи могут быть разблокированы путём посещения локаций, общения с важными персонажами либо других действий.
+		</text>
+	</string>
+	
+</string_table>

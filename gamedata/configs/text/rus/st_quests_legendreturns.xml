@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+
+<!--      Barman TZ task -->
+	<string id="talk_to_barman_task_title_0"> 
+       <text>Контракт : Встретиться с Барменом на Ростке</text> 
+</string> 
+<string id="talk_to_barman_task_text_0"> 
+       <text>Сидорович порекомендовал меня Бармену на выполнение какого-то контракта, вероятно, связанного с поисками какой-то документации. Ну что же, это может быть взаимовыгодное сотрудничество.</text> 
+</string> 
+<string id="talk_to_barman_task_title_1"> 
+       <text>Контракт : Поговорить с Дуплетом</text> 
+</string> 
+<string id="talk_to_barman_task_text_1"> 
+       <text>За контракт уже взялся некий Жека Дуплет. Следует перетереть с ним и обсудить кое-что.</text> 
+</string> 
+
+<!--      Darklab Secrets -->
+	<string id="find_darklab_docs_task_title_0"> 
+       <text>Спуск : Найти 2 части документации в Х-18</text> 
+</string> 
+<string id="find_darklab_docs_task_text_0"> 
+       <text>Известно о месте, называемом «Темной Лабораторией», а также о её секретном индексе «Х» и проводимых там экспериментах, о деталях каких можно только гадать. Моя задача - добыть оттуда документацию в двух частях.</text> 
+</string> 
+<string id="find_darklab_docs_task_title_1"> 
+       <text>Спуск : Отдать добычу Бармену</text> 
+</string> 
+<string id="find_darklab_docs_task_text_1"> 
+       <text>Всё, что можно, было найдено. Следует выбираться отсюда и возвращаться к Бармену.</text> 
+</string> 
+
+<!--      Registrators -->
+<string id="registrator_task_text_1"> 
+       <text>Прибор найден, надо отдать его Зобу.</text> 
+</string> 
+
+	<string id="first_registrator_task_title_0"> 
+       <text>Первый регистратор : Забрать прибор</text> 
+</string> 
+<string id="first_registrator_task_text_0"> 
+       <text>Первый регистратор находится на заднем дворе цементного завода, рядом с воротами и огненной аномалией.</text> 
+</string> 
+<string id="first_registrator_task_title_1"> 
+       <text>Первый регистратор : Отдать прибор Зобу</text> 
+</string> 
+
+	<string id="second_registrator_task_title_0"> 
+       <text>Второй регистратор : Забрать прибор</text> 
+</string> 
+<string id="second_registrator_task_text_0"> 
+       <text>Второй регистратор находится внутри мусорного контейнера на северо-восточной части Янтаря неподалеку от бетонных труб.</text> 
+</string> 
+<string id="second_registrator_task_title_1"> 
+       <text>Второй регистратор : Отдать прибор Зобу</text> 
+</string> 
+
+	<string id="third_registrator_task_title_0"> 
+       <text>Третий регистратор : Забрать прибор</text> 
+</string> 
+<string id="third_registrator_task_text_0"> 
+       <text>Третий регистратор находится на островке посреди болот недалеко от научного лагеря.</text> 
+</string> 
+<string id="third_registrator_task_title_1"> 
+       <text>Третий регистратор : Отдать прибор Зобу</text> 
+</string> 
+
+<!--      Find Cockdakov -->
+	<string id="cockdakov_task_title_0"> 
+       <text>Пропавший доцент : Узнать о судьбе учёного</text> 
+</string> 
+<string id="cockdakov_task_text_0"> 
+       <text>Учёный из бункера - Виталий Никитович - бесследно пропал вскоре после установки сканеров. Сигнал пропал, а его судьба неизвестна. Сахаров просит узнать о нём, но, по-моему, всё и так ясно.</text> 
+</string> 
+<string id="cockdakov_task_title_1"> 
+       <text>Пропавший доцент : Отчитаться за задание</text> 
+</string> 
+<string id="cockdakov_task_text_1"> 
+       <text>Доцент Кондаков сошёл с ума, его уже вряд ли представляется возможным спасти. Пусть покоится с миром, а мне нужно рассказать об этом Сахарову.</text> 
+</string> 
+	
+<!--      Death Group -->
+	<string id="deathgroup_task_title_0"> 
+       <text>Отряд Смерти : Найти схрон группы</text> 
+</string> 
+<string id="deathgroup_task_text_0"> 
+       <text>Смерть рассказал мне о судьбе своей группы, а также мне удалось выманить у него местоположение схрона. Всё содержимое, кроме записки, будет моим. Сам схрон находится на болотах, на вышке рядом с бывшей базой «Чистого неба».</text> 
+</string> 
+<string id="deathgroup_task_title_1"> 
+       <text>Отряд Смерти : Вернуть записку Смерти</text> 
+</string> 
+<string id="deathgroup_task_text_1"> 
+       <text>Нашёл тайник и забрал записку сталкера. Внизу меня поджидали неизвестные ребята, но с ними я разберусь потом. Надо будет забежать к Смерти как-нибудь, да отдать то, что обещал.</text> 
+</string> 
+
+<!--      Napadenie -->
+	<string id="napadenie_task_title_0"> 
+       <text>Нападение : Отбиться от нападавших и забрать информацию</text> 
+</string> 
+<string id="napadenie_task_text_0"> 
+       <text>На меня напали! Кто нападал - визуально определить не получилось. Надеюсь, у их командира будет хоть какая-то инфа.</text> 
+</string> 
+<string id="napadenie_task_title_1"> 
+       <text>Нападение : Отдать ПДА на расшифровку</text> 
+</string> 
+<string id="napadenie_task_text_1"> 
+       <text>ПДА оказался заблокированным. Надо попытаться взломать его.</text> 
+</string> 
+
+<!--      Deti Podzemeliy -->
+	<string id="detipod_task_title_0"> 
+       <text>Дети Подземелий : Обыскать «Х-8» под Припятью</text> 
+</string> 
+<string id="detipod_task_text_0"> 
+       <text>Расшифровка ПДА дала результаты. Мне удалось выяснить, что каким-то образом нападавшие связаны с объектом «Х-8» под Припятью. Теперь путь ведёт туда. Мне нужно .</text> 
+</string> 
+
+<!--      Freedom Spy -->
+	<string id="freedom_spy_task_title_0"> 
+       <text>Шпион в Баре : Взять маскировочный костюм и встретиться со шпионом</text> 
+</string> 
+<string id="freedom_spy_task_text_0"> 
+       <text>Миклуха мне поручил деликатное дело. Нужно замаскироваться под одиночку и проникнуть на территорию долговцев - в Бар. Там я должен встретиться с нашим человеком - Осведомителем - и получить от него разведданные.</text> 
+</string> 
+	<string id="freedom_spy_task_title_1"> 
+       <text>Шпион в Баре : Доложить Миклухе</text> 
+</string> 
+<string id="freedom_spy_task_text_1"> 
+       <text>Возвращаться к боссу с добытой информацией.</text> 
+</string> 
+
+<!--      Freedom Case -->
+	<string id="freedom_case_task_title_0"> 
+       <text>Похищение : Найти кейс на территории «Долга»</text> 
+</string> 
+<string id="freedom_case_task_text_0"> 
+       <text>Было поручено достать кейс с секретными данными исследовательских групп. По предварительным данным, кейс находится где-то на территории базы «красных». Следует быть осторожным.</text> 
+</string> 
+	<string id="freedom_case_task_title_1"> 
+       <text>Похищение : Вернуться с добычей к Скряге</text> 
+</string> 
+<string id="freedom_case_task_text_1"> 
+       <text>Меня раскрыли, что и следовало ожидать. Но, тем не менее, товар у меня. Нужно доставить это торговцу.</text> 
+</string> 
+
+<!--      Poiski Nimbla -->
+	<string id="finding_nimble_task_title_0"> 
+       <text>Поиск Шустрого : Найти бывшего сталкера «Чистого неба»</text> 
+</string> 
+<string id="finding_nimble_task_text_0"> 
+       <text>Да уж, драматичная история у этого Степана. Мне даже жаль его. Буду на Кордоне - надо будет поискать его. Вдруг он цел. Говорят, что он на Сидора работает.</text> 
+</string> 
+	<string id="finding_nimble_task_title_1"> 
+       <text>Поиск Шустрого : Рассказать Новикову</text> 
+</string> 
+<string id="finding_nimble_task_text_1"> 
+       <text>Шустрый на удивление держится бодрячком, хоть жизнь его и потрепала. Буду на Медприборе - забегу к технарю.</text> 
+</string> 
+
+<!--      Аутфит для Шустрого -->
+	<string id="outfit_for_nimble_task_title_0"> 
+       <text>Бизнес : Найти шлем Шустрого</text> 
+</string> 
+<string id="outfit_for_nimble_task_text_0"> 
+       <text>Найти шлем для Шустрого. Вроде бы, он оставил его на крыше элеватора. Благо, недалеко, сбегаю.</text> 
+</string> 
+	<string id="outfit_for_nimble_task_title_1"> 
+       <text>Бизнес : Вернуть шлем заказчику</text> 
+</string> 
+<string id="outfit_for_nimble_task_text_1"> 
+       <text>Вернуть шлем Шустрому.</text> 
+</string> 
+
+<!--      Доки Ведра -->
+	<string id="vedrov_x16_docs_task_title_1"> 
+       <text>Совершенно секретно : Найти 5 частей информации в Х-16</text> 
+</string> 
+<string id="vedrov_x16_docs_task_text_1"> 
+       <text>Ведров поручил мне выполнить выгодный, но не безопасный контракт для учёных - проникнуть в лабораторию под Янтарем и отыскать секретные документы. Надо подготовиться, как следует.</text> 
+</string> 
+
+<!--      Вернуть Сахарку доки Ведра -->
+	<string id="saharok_give_x16_docs_task_title_1"> 
+       <text>Отдать секретную документацию проф.Сахарову</text> 
+</string> 
+<string id="saharok_give_x16_docs_task_text_1"> 
+       <text>Чтобы лишний раз не бегать, Ведров сказал, что доки сразу нужно отдать профессору в бункере учёных.</text> 
+</string> 
+
+<!-- RANDOM TASKS -->
+<!-- VORON QUESTS -->
+	
+	<string id="red_voron_task_1_name">
+		<text>Жертвоприношение</text>
+	</string>
+	<string id="red_voron_task_1_text">
+		<text>Один из сталкеров провинился перед Зоной и теперь неугоден ей. Нужно уничтожить.</text>
+	</string>
+	<string id="red_voron_task_1_about">
+		<text>Мы долго следили за одним неугодным Зоне человеком. Такой мусор не достоин топтать священную землю и должен её окропить своей кровью.</text>
+	</string>
+	<string id="red_voron_task_1_finish">
+		<text>Хорошая работа... Надеюсь, он умирал в муках и страданиях.</text>
+	</string>
+	
+	<string id="red_voron_task_2_name">
+		<text>Очистка логова</text>
+	</string>
+	<string id="red_voron_task_2_text">
+		<text>Нужно очистить логово от мутантов.</text>
+	</string>
+	<string id="red_voron_task_2_about">
+		<text>Хоть мы и дети Зоны, как и местные звери, но некоторые братья наши меньшие выходят из-под нашего контроля. Нужно предать их тела земле.</text>
+	</string>
+	<string id="red_voron_task_2_finish">
+		<text>Отлично.</text>
+	</string>
+	
+	<string id="red_voron_task_3_name">
+		<text>Уничтожение «слизня»</text>
+	</string>
+	<string id="red_voron_task_3_text">
+		<text>Один из сталкеров узнал слишком много тайн Зоны и теперь скрывается в «Черных слизнях». Следует уничтожить его, пока информация не попала в плохие руки.</text>
+	</string>
+	<string id="red_voron_task_3_about">
+		<text>Один из сталкеров узнал слишком много тайн Зоны и теперь скрывается в «Черных слизнях». Следует уничтожить его, пока информация не попала в плохие руки.</text>
+	</string>
+	<string id="red_voron_task_3_finish">
+		<text>Отлично.</text>
+	</string>
+	
+<!-- KURKUL QUESTS -->
+
+	<string id="red_kurkul_task_1_name">
+		<text>Медкомплект для Куркуля</text>
+	</string>
+	<string id="red_kurkul_task_1_text">
+		<text>Найти медкомплект и отдать его Куркулю. Тот будет снабжать Раста и всех нуждающихся медикаментами.</text>
+	</string>
+	<string id="red_kurkul_task_1_about">
+		<text>Наше объединение нуждается в медикаментах. Из-за вечной сырости и аномальности, наши люди болеют. Наш медик Раст, разбирается в медицине и заказал нам медкомплект для оказывания помощи.</text>
+	</string>
+	<string id="red_kurkul_task_1_fetch_finish">
+		<text>Отлично.</text>
+	</string>
+	
+<!-- Toad -->
+
+	<string id="mil_toad_task_1_name">
+		<text>Найти %s</text>
+	</string>
+	<string id="mil_toad_task_1_text">
+		<text>Жаба попросил достать ему определенное оружие. Оно должно быть в хорошем состоянии, иначе клиент не станет его покупать.</text>
+	</string>
+	<string id="mil_toad_task_1_about">
+		<text>В общем, есть один клиент, который ищет определённое оружие, и мне нужен кто-то, кто сможет его достать. Если интересует, могу рассказать подробности. Ну так что?</text>
+	</string>
+	<string id="mil_toad_task_1_fetch_about">
+		<text>%s... Вот что мне нужно, но запомни: состояние оружия должно быть отличным. Клиент заплатил немалые деньги, и я не думаю, что ему понравится какой-нибудь ржавый кусок дерьма, который клинит через выстрел. Получишь больший процент от его суммы, если сделаешь все как надо. Возвращайся, когда найдешь.</text>
+	</string>
+	<string id="mil_toad_task_1_fetch_finish">
+		<text>Отлично.</text>
+	</string>
+	
+	<string id="mil_toad_task_2_name">
+		<text>Устранение угрозы</text>
+	</string>
+	<string id="mil_toad_task_2_text">
+		<text>Нужно расправиться с особо опасным сталкером, который скрывает свою личность и особо опасен для бизнеса Жабы.</text>
+	</string>
+	<string id="mil_toad_task_2_about">
+		<text>Имеется опасное задание. Есть один сталкер, который представляет угрозу моему бизнесу. Инфы по нему крайне мало, но знаю, где его искать. Берешься?</text>
+	</string>
+	<string id="mil_toad_task_2_finish">
+		<text>Отлично.</text>
+	</string>
+	<string id="rostok_task_2">
+		<text>Поиск документов на Ростке</text>
+	</string>
+	<string id="rostok_task_2_descr">
+		<text>Бармен поручил найти своего разведчика и документы, которые должны быть при нем.</text>
+	</string>
+	
+	<string id="actor_about_ghost">
+		<text>«Проклятие»</text>
+	</string>
+	<string id="actor_about_ghost_1">
+		<text>После отказа Голосу я начал чувствовать, что бесконечный поток мыслей в моей голове сменился на мёртвую тишину... Кажется, я больше не когда не смогу уснуть... Нужно отправляться к Болотному Доктору, только он знает, как мне помочь.</text>
+	</string>
+	<string id="actor_about_ghost_2">
+		<text>Душа сталкера отомщена, нужно сообщить Голосу об этом.</text>
+	</string>
+	<string id="find_spider_desc">
+		<text>Доктор поручил найти «Паутинник» чтобы решить мою проблему.</text>
+	</string>
+	<string id="find_spider">
+		<text>Найти уникальное растение</text>
+	</string>
+	
+	<string id="kill_faggot">
+		<text>«Месть»</text>
+	</string>
+	<string id="kill_faggot_descr">
+		<text>Голос пригрозил мне вечными муками, если я не избавлюсь от того, кто предал его.</text>
+	</string>
+
+</string_table>

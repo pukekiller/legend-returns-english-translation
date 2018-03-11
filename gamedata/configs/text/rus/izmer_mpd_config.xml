@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+		<string id="st_radiacion_none">
+		<text>Ировень облучения: %c[0,51,255,102]минимальный (безопасно)</text>
+	</string>
+	<string id="st_radiacion_nal_none">
+		<text>Наличие облучения: %c[0,51,255,102]отсутствует (безопасно)</text>
+	</string>
+	<string id="st_radiacion_nal_away">
+		<text>Наличие облучения: %c[255,238,153,26]присутствует</text>
+	</string>
+	<string id="st_radiacion_esy">
+		<text>Ировень облучения: %c[255,238,153,26]незначительный</text>
+	</string>
+	<string id="st_radiacion_normal">
+		<text>Ировень облучения: %c[0,204,0,51]значительный</text>
+	</string>
+	<string id="st_radiacion_hard">
+		<text>Ировень облучения: %c[0,204,0,51]критический</text>
+	</string>
+	<string id="st_outcast">
+		<text>Вы были исключены из группировки из-за испорченной репутации!</text>
+	</string>
+	<string id="st_radiacion_0">
+		<text>Ировень облучения: ~0,0007 мЗв/час (безопасно)</text>
+	</string>
+	<string id="st_radiacion_1">
+		<text>Ировень облучения: ~0,0014 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_2">
+		<text>Ировень облучения: ~0,01 мЗв/час)</text>
+	</string>
+	<string id="st_radiacion_3">
+		<text>Ировень облучения: ~0,05 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_4">
+		<text>Ировень облучения: ~0,1 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_5">
+		<text>Ировень облучения: ~0,3 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_6">
+		<text>Ировень облучения: ~0,6 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_7">
+		<text>Ировень облучения: ~1 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_8">
+		<text>Ировень облучения: ~2 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_9">
+		<text>Ировень облучения: ~5 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_10">
+		<text>Ировень облучения: ~10 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_11">
+		<text>Ировень облучения: ~12 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_11">
+		<text>Ировень облучения: ~15 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_12">
+		<text>Ировень облучения: ~20 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_13">
+		<text>Ировень облучения: ~23 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_14">
+		<text>Ировень облучения: ~25 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_15">
+		<text>Ировень облучения: ~28 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_16">
+		<text>Ировень облучения: ~30 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_17">
+		<text>Ировень облучения: ~32 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_18">
+		<text>Ировень облучения: ~35 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_19">
+		<text>Ировень облучения: ~38 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_20">
+		<text>Ировень облучения: ~%c[255,238,153,26]40 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_21">
+		<text>Ировень облучения: ~%c[255,238,153,26]45 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_22">
+		<text>Ировень облучения: ~%c[255,238,153,26]48 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_23">
+		<text>Ировень облучения: ~%c[255,238,153,26]50 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_24">
+		<text>Ировень облучения: ~%c[255,238,153,26]53 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_25">
+		<text>Ировень облучения: ~%c[255,238,153,26]58 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_26">
+		<text>Ировень облучения: ~%c[255,238,153,26]62 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_27">
+		<text>Ировень облучения: ~%c[255,238,153,26]65 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_28">
+		<text>Ировень облучения: ~%c[255,238,153,26]68 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_29">
+		<text>Ировень облучения: ~%c[255,238,153,26]70 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_30">
+		<text>Ировень облучения: ~%c[255,238,153,26]72 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_31">
+		<text>Ировень облучения: ~%c[255,238,153,26]75 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_32">
+		<text>Ировень облучения: ~%c[255,238,153,26]78 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_33">
+		<text>Ировень облучения: ~%c[255,238,153,26]80 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_34">
+		<text>Ировень облучения: ~%c[255,238,153,26]83 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_35">
+		<text>Ировень облучения: ~%c[255,238,153,26]85 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_36">
+		<text>Ировень облучения: ~%c[255,238,153,26]87 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_37">
+		<text>Ировень облучения: ~%c[255,238,153,26]90 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_38">
+		<text>Ировень облучения: ~%c[255,238,153,26]92 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_39">
+		<text>Ировень облучения: ~%c[255,238,153,26]96 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_40">
+		<text>Ировень облучения: ~%c[0,204,0,51]100 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_41">
+		<text>Ировень облучения: ~%c[0,204,0,51]115 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_42">
+		<text>Ировень облучения: ~%c[0,204,0,51]130 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_43">
+		<text>Ировень облучения: ~%c[0,204,0,51]145 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_44">
+		<text>Ировень облучения: ~%c[0,204,0,51]160 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_45">
+		<text>Ировень облучения: ~%c[0,204,0,51]175 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_46">
+		<text>Ировень облучения: ~%c[0,204,0,51]180 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_47">
+		<text>Ировень облучения: ~%c[0,204,0,51]190 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_48">
+		<text>Ировень облучения: ~%c[0,204,0,51]200 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_49">
+		<text>Ировень облучения: ~%c[0,204,0,51]210 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_50">
+		<text>Ировень облучения: ~%c[0,204,0,51]250 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_51">
+		<text>Ировень облучения: ~%c[0,204,0,51]270 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_52">
+		<text>Ировень облучения: ~%c[0,204,0,51]295 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_53">
+		<text>Ировень облучения: ~%c[0,204,0,51]305 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_54">
+		<text>Ировень облучения: ~%c[0,204,0,51]327 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_55">
+		<text>Ировень облучения: ~%c[0,204,0,51]350 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_56">
+		<text>Ировень облучения: ~%c[0,204,0,51]380 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_57">
+		<text>Ировень облучения: ~%c[0,204,0,51]400 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_58">
+		<text>Ировень облучения: ~%c[0,204,0,51]412 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_59">
+		<text>Ировень облучения: ~%c[0,204,0,51]431 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_60">
+		<text>Ировень облучения: ~%c[0,204,0,51]450 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_61">
+		<text>Ировень облучения: ~%c[0,204,0,51]460 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_62">
+		<text>Ировень облучения: ~%c[0,204,0,51]469 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_63">
+		<text>Ировень облучения: ~%c[0,204,0,51]474 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_64">
+		<text>Ировень облучения: ~%c[0,204,0,51]490 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_65">
+		<text>Ировень облучения: ~%c[0,204,0,51]500 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_66">
+		<text>Ировень облучения: ~%c[0,204,0,51]515 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_67">
+		<text>Ировень облучения: ~%c[0,204,0,51]523 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_68">
+		<text>Ировень облучения: ~%c[0,204,0,51]538 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_69">
+		<text>Ировень облучения: ~%c[0,204,0,51]540 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_70">
+		<text>Ировень облучения: ~%c[0,204,0,51]550 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_71">
+		<text>Ировень облучения: ~%c[0,204,0,51]570 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_72">
+		<text>Ировень облучения: ~%c[0,204,0,51]605 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_73">
+		<text>Ировень облучения: ~%c[0,204,0,51]620 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_74">
+		<text>Ировень облучения: ~%c[0,204,0,51]638 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_75">
+		<text>Ировень облучения: ~%c[0,204,0,51]650 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_76">
+		<text>Ировень облучения: ~%c[0,204,0,51]679 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_77">
+		<text>Ировень облучения: ~%c[0,204,0,51]702 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_78">
+		<text>Ировень облучения: ~%c[0,204,0,51]715 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_79">
+		<text>Ировень облучения: ~%c[0,204,0,51]729 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_80">
+		<text>Ировень облучения: ~%c[0,204,0,51]750 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_81">
+		<text>Ировень облучения: ~%c[0,204,0,51]765 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_82">
+		<text>Ировень облучения: ~%c[0,204,0,51]780 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_83">
+		<text>Ировень облучения: ~%c[0,204,0,51]800 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_84">
+		<text>Ировень облучения: ~%c[0,204,0,51]812 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_85">
+		<text>Ировень облучения: ~%c[0,204,0,51]825 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_86">
+		<text>Ировень облучения: ~%c[0,204,0,51]845 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_87">
+		<text>Ировень облучения: ~%c[0,204,0,51]860 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_88">
+		<text>Ировень облучения: ~%c[0,204,0,51]874 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_89">
+		<text>Ировень облучения: ~%c[0,204,0,51]888 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_90">
+		<text>Ировень облучения: ~%c[0,204,0,51]900 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_91">
+		<text>Ировень облучения: ~%c[0,204,0,51]920 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_92">
+		<text>Ировень облучения: ~%c[0,204,0,51]935 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_93">
+		<text>Ировень облучения: ~%c[0,204,0,51]950 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_94">
+		<text>Ировень облучения: ~%c[0,204,0,51]975 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_95">
+		<text>Ировень облучения: ~%c[0,204,0,51]1000 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_96">
+		<text>Ировень облучения: ~%c[0,204,0,51]1050 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_97">
+		<text>Ировень облучения: ~%c[0,204,0,51]1100 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_98">
+		<text>Ировень облучения: ~%c[0,204,0,51]1150 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_99">
+		<text>Ировень облучения: ~%c[0,204,0,51]1200 мЗв/час</text>
+	</string>
+	<string id="st_radiacion_100">
+		<text>Ировень облучения: ~%c[0,204,0,51]1250 мЗв/час</text>
+	</string>
+</string_table>

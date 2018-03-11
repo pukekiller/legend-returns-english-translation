@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="ui_st_abandoned_sawmill">
+		<text>Лесопилка [Затон]</text>
+	</string>
+
+	<string id="ui_st_abandoned_school">
+		<text>Заброшенная школа</text>
+	</string>
+
+	<string id="ui_st_abandoned_village">
+		<text>Брошенный хутор</text>
+	</string>
+
+	<string id="ui_st_brain_scorcher">
+		<text>Радар - Установка «Дятел-1»</text>
+	</string>
+
+	<string id="ui_st_cultural_center">
+		<text>Припять - ДК «Энергетик» [База фракции]</text>
+	</string>
+
+	<string id="ui_st_construction_site">
+		<text>Дикая Территория - Стройка</text>
+	</string>
+
+	<string id="ui_st_container_warehouse">
+		<text>Склад контейнеров [Юпитер]</text>
+	</string>
+
+	<string id="ui_st_eastern_checkpoint">
+		<text>Блокпост [Кладбище Техники]</text>
+	</string>
+
+	<string id="ui_st_eastern_factory">
+		<text>Завод над Х-18</text>
+	</string>
+
+	<string id="ui_st_factory_complex">
+		<text>Медприбор - Фабрика [База фракции]</text>
+	</string>
+
+	<string id="ui_st_hermanns_bunker">
+		<text>Бункер учёных [Юпитер]</text>
+	</string>
+
+	<string id="ui_st_hidden_base">
+		<text>Скрытый лагерь [Болота]</text>
+	</string>
+
+	<string id="ui_st_kopachy_village">
+		<text>с.Копачи [Юпитер]</text>
+	</string>
+
+	<string id="ui_st_lodging_house">
+		<text>Бар</text>
+	</string>
+
+	<string id="ui_st_machine_yard">
+		<text>Болота - Механизаторский двор</text>
+	</string>
+
+	<string id="ui_st_makeshift_barracks">
+		<text>Бар - Бомбоубежище [База фракции]</text>
+	</string>
+
+	<string id="ui_st_military_base">
+		<text>Тихие Холмы - Воинская часть [База фракции]</text>
+	</string>
+
+	<string id="ui_st_northern_factory">
+		<text>Мёртвая Долина - Рембаза [База фракции]</text>
+	</string>
+
+	<string id="ui_st_hideout">
+		<text>Тайник в высотке [Припять]</text>
+	</string>
+
+	<string id="ui_st_power_station">
+		<text>Окрестности станции [Юг ЧАЭС]</text>
+	</string>
+
+	<string id="ui_st_processing_station">
+		<text>Станция переработки отходов [Затон]</text>
+	</string>
+
+	<string id="ui_st_pumping_station">
+		<text>Насосная станция [Болота]</text>
+	</string>
+	
+	<string id="ui_st_river_port">
+		<text>Речной порт [Припять]</text>
+	</string>
+
+	<string id="ui_st_rookie_village">
+		<text>Кордон - Деревня [База фракции]</text>
+	</string>
+
+	<string id="ui_st_research_institute">
+		<text>НИИ «МедПрибор» [База фракции]</text>
+	</string>
+
+	<string id="ui_st_sakharovs_bunker">
+		<text>Янтарь - Мобильный лагерь [База фракции]</text>
+	</string>
+
+	<string id="ui_st_skadovsk_shipwreck">
+		<text>Скадовск</text>
+	</string>
+
+	<string id="ui_st_southern_checkpoint">
+		<text>Кордон - Южный блокпост [База фракции]</text>
+	</string>
+
+	<string id="ui_st_sports_center">
+		<text>г.Светлый Путь - Гастроном [База фракции]</text>
+	</string>
+
+	<string id="ui_st_train_hangar">
+		<text>Свалка - Ангар</text>
+	</string>
+
+	<string id="ui_st_tunnel_entrance">
+		<text>Путепровод</text>
+	</string>
+
+	<string id="ui_st_tunnel_refuge">
+		<text>Подземелья «Медприбора»</text>
+	</string>
+
+	<string id="ui_st_tuzla_outpost">
+		<text>Болота - восточнее ст.Тузла</text>
+	</string>
+
+	<string id="ui_st_village_ruins">
+		<text>Болота - Брошенная деревня</text>
+	</string>
+
+	<string id="ui_st_yanov_station">
+		<text>Станция «Янов»</text>
+	</string>
+
+	<string id="ui_st_darkscape_depot">
+		<text>Кишка Зоны - Лесосклад [База фракции]</text>
+	</string>
+
+	<string id="ui_st_generator_lab">
+		<text>Генераторы - Контрольный центр</text>
+	</string>
+	
+	<string id="ui_st_marsh_camp">
+		<text>Болота - Механизаторский двор</text>
+	</string>
+	
+	<string id="ui_st_valley_camp">
+		<text>Мёртвая Долина - Ферма</text>
+	</string>
+	
+	<string id="ui_st_minecraft">
+		<text>Рыжий Лес - Шахта [База фракции]</text>
+	</string>
+	
+</string_table>

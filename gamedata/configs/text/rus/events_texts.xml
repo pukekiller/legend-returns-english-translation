@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="esc_event_case_1">
+		<text>Случайное поручение: найти кейс на Кордоне</text>
+	</string>
+	<string id="esc_event_case_1_descr">
+		<text>По перехваченному сообщению понял, что кто-то оставил для Сидоровича кейс возле блокпоста в кучке мусора. Найду первый, авось и награду получу.</text>
+	</string>
+	<string id="esc_event_case_2">
+		<text>Случайное поручение: отнести кейс Сидоровичу</text>
+	</string>
+	<string id="esc_event_case_2_descr">
+		<text>Кейс найден, осталось только отнести это торговцу.</text>
+	</string>	
+	
+	<string id="esc_event_case">
+		<text>Кейс, который необходимо доставить Сидоровичу.</text>
+	</string>		
+</string_table>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="fac_labrador_name">
+		<text>Егор Лабрадор</text>
+	</string>
+	<string id="rad_aid">
+		<text>Аид</text>
+	</string>
+	<string id="rad_kronos">
+		<text>Кронос</text>
+	</string>
+	<string id="ros_orehus">
+		<text>Орех</text>
+	</string>
+	<string id="jup_guide">
+		<text>Проводник</text>
+	</string>
+	<string id="prapor_name">
+		<text>Прапор</text>
+	</string>
+	<string id="dead_recon_name">
+		<text>Лейтенант Ветровенко</text>
+	</string>
+	<string id="agr_stalker_leader_name">
+		<text>Ведров</text>
+	</string>
+	<string id="vovan_name">
+		<text>Вован</text>
+	</string>
+	<string id="agr_stalker_trader_name">
+		<text>Спора</text>
+	</string>
+	<string id="agr_stalker_tech_name">
+		<text>Новиков</text>
+	</string>
+	<string id="agr_stalker_medic_name">
+		<text>Травник</text>
+	</string>
+	<string id="zat_csky_trader_name">
+		<text>Сова</text>
+	</string>
+	<string id="zat_csky_tech_name">
+		<text>Крон</text>
+	</string>
+	<string id="yan_zob_name">
+		<text>Зоб</text>
+	</string>
+	<string id="yan_real_ghost_name">
+		<text>Призрак</text>
+	</string>
+	<string id="ros_volkodav_name">
+		<text>Волкодав</text>
+	</string>
+	<string id="val_borov_name">
+		<text>Боров</text>
+	</string>
+	<string id="pri_haron_name">
+		<text>Харон</text>
+	</string>
+	<string id="mil_toad_name">
+		<text>Жаба</text>
+	</string>
+	<string id="yan_american_name">
+		<text>Алан</text>
+	</string>
+	<string id="cit_lukash">
+		<text>Лукаш</text>
+	</string>
+	<string id="sim_stalker_master_diador_name">
+        <text>Отец Диодор</text>
+    </string>
+    <string id="sim_stalker_veteran_gusarov_name">
+        <text>Олег «Демон» Гусаров</text>
+    </string>
+	
+	<!--- NEW --->
+	
+	<string id="zat_strelok_name">
+	    <text>Стрелок</text>
+	</string>
+	<string id="mar_kill_stalker_name">
+	    <text>Миха Вор</text>
+	</string>
+    <string id="mar_csky_razvedka_name">
+	    <text>Семён Простой</text>
+	</string>
+	<string id="jup_stepan_name">
+	    <text>Степан Бесстрашный</text>
+	</string>
+	<string id="mar_shram_name">
+	    <text>Шрам</text>
+	</string>
+	<string id="mar_freedom_name">
+	    <text>Витька Курильщик</text>
+	</string>
+	<string id="stalker_unknown_name">
+	    <text>Неизвестный</text>
+	</string>
+	<string id="bar_sema_name">
+		<text>Сёма Толстой</text>
+	</string>
+	<string id="pro_sergey_name">
+		<text>Душман</text>
+	</string>
+</string_table>

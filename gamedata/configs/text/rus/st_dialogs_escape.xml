@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+    <string id="actor_with_faggot_0">
+        <text>Ты знаешь Голоса?</text>
+    </string>
+    <string id="actor_with_faggot_1">
+        <text>Г-голоса? Сталкер, ты ошибся.. Я не знаю никого голоса, проваливай отсюда!</text>
+    </string>
+    <string id="actor_with_faggot_2">
+        <text>А ты знаешь, кто ходил с ним в ходку несколько дней назад?</text>
+    </string>
+    <string id="actor_with_faggot_3">
+        <text>Повторяю для особо одарённых! Я. Не знаю. Никакого. Голоса. И про ходку к "Костянке" я ничего не знаю!</text>
+    </string>
+    <string id="actor_with_faggot_4">
+        <text>Подожди... Так я не говорил, как называется та аномалия.</text>
+    </string>
+    <string id="actor_with_faggot_5">
+        <text>Чёрт... Голос! Прости меня! Прости! Я случайно! Я не хотел! У меня больная сестра! Я не могу иначе!</text>
+    </string>
+    <string id="actor_with_faggot_6">
+        <text>Ты хоть запомнил его лицо перед смертью?</text>
+    </string>
     <string id="Koleso_about_avgust_0">
         <text>default text</text>
     </string>
@@ -128,6 +149,44 @@
     </string>
     <string id="barmen_monster_part_1_descr">
         <text>Достать глаз «плоти»</text>
+    </string>    <string id="ghost_final_0">
+        <text>Твоя душа отомщена.</text>
+    </string>
+    <string id="doctor_ghost_1_0">
+        <text>Болотный доктор?! Пожалуйста, помогите мне!</text>
+    </string>
+    <string id="doctor_ghost_1_1">
+        <text>Выглядишь измученным, сынок... Что с тобой сталось-то?</text>
+    </string>
+    <string id="doctor_ghost_1_2">
+        <text>Я... Я поступил очень плохо кое с кем из "того" света. Он пророчил мне кошмары во все, но я его не послушал... С тех пор меня постоянно мучают ужасные навязчивые мысли и кошмары. Кажется, я медленно слетаю с катушек...</text>
+    </string>
+    <string id="doctor_ghost_1_3">
+        <text>Не мудрено. Поразительно... Ты смог выжить после этой встречи и даже сохранить рассудок... Впрочем, не обольщайся — ты сейчас немногим лучше них выглядишь.</text>
+    </string>
+    <string id="doctor_ghost_1_4">
+        <text>И ч-что мне делать, доктор? Вы сможете меня спасти, или мне уже ничем не помочь?</text>
+    </string>
+    <string id="doctor_ghost_1_5">
+        <text>Да, я знаю, что нужно делать! Здесь, на болотах, неподалеку от старой церкви возле кладбища, растёт один очень занятный цветок... Возможно, нам получится спасти твою нервную систему, если изготовлю из него одну ядрёную настойку. Я ей даже живого зомби поил, да на ноги поставил! Тебе это тоже может помочь. Ну что, достанешь?</text>
+    </string>
+    <string id="doctor_ghost_1_6">
+        <text>Да, конечно! Тем более, что выхода у меня действительно нет... Жди меня, Доктор.</text>
+    </string>
+    <string id="doctor_ghost_2_0">
+        <text>Вот, вроде что-то подобное... Это ведь ТОТ цветок?</text>
+    </string>
+    <string id="doctor_ghost_2_1">
+        <text>Именно! Давай его скорее сюда, всё остальное у меня уже готово, осталось лишь выжать из него все соки. Пей!</text>
+    </string>
+    <string id="doctor_ghost_2_2">
+        <text>Ну и смрад! Хуже точно не будет? Ладно, сейчас...</text>
+    </string>
+    <string id="doctor_ghost_3_0">
+        <text>Док... Меня, кажется, отпустило. Даже не знаю, как благодарить тебя после этого!</text>
+    </string>
+    <string id="doctor_ghost_3_1">
+        <text>Да брось, парень... Иди с Богом... Прямой дороги тебе.</text>
     </string>
     <string id="esc_2_12_stalker_fanat_about_esc_m_trader_task_2_0">
         <text>На АТП засели бандиты. Сидорович сказал, что ты можешь помочь разобраться с ними.</text>
@@ -507,6 +566,63 @@
     <string id="est_work">
         <text>Мне нужна работа. Есть что на примете?</text>
     </string>
+    <string id="ghost_dialog_0">
+        <text>Темно... Очень темно...</text>
+    </string>
+    <string id="ghost_dialog_1">
+        <text>Ты посылал сигнал SOS?</text>
+    </string>
+    <string id="ghost_dialog_2">
+        <text>Плохо видно... Кто там стоит... Плохо видно... Не вижу... Очень темно...</text>
+    </string>
+    <string id="ghost_dialog_3">
+        <text>Что ты такое!?</text>
+    </string>
+    <string id="ghost_dialog_4">
+        <text>Не понимаю... Ничего не понимаю...</text>
+    </string>
+    <string id="ghost_dialog_5">
+        <text>Кто тебя убил? Или ты сам... того?</text>
+    </string>
+    <string id="ghost_dialog_6">
+        <text>УБИЛ! Он меня убил... Артефакт. Он оценил его дороже моей жизни...</text>
+    </string>
+    <string id="ghost_dialog_7">
+        <text>...</text>
+    </string>
+    <string id="ghost_dialog_8">
+        <text>Новичок... Я взял его с собой... Он толкнул меня в воронку... ОНИ мне сказали, что я не смогу уйти... Пока не отомщу...</text>
+    </string>
+    <string id="ghost_dialog_9">
+        <text>Ладно, я пойду отсюда, не буду тебя тревожить.</text>
+    </string>
+    <string id="ghost_dialog_10">
+        <text>Не... уходи... Ты... не сможешь уйти... Ты слишком долго пробыл со мной... Теперь, пока я есть, я не отстану от тебя... Ты больше не уснешь, если откажешся.</text>
+    </string>
+    <string id="ghost_dialog_11">
+        <text>Похоже, что у меня нет выбора.</text>
+    </string>
+    <string id="ghost_dialog_12">
+        <text>Прочь, нечисть!</text>
+    </string>
+    <string id="ghost_dialog_13">
+        <text>Верно... Я могу... указать тебе на этого человека.... отомсти за меня.</text>
+    </string>
+    <string id="ghost_final_0">
+        <text>Твоя душа отомщена.</text>
+    </string>
+    <string id="ghost_final_1">
+        <text>Я знаю, сталкер! ОНИ мне сообщили об этом. Можешь не волноваться за свою жизнь... И ещё, если ты будешь действительно нуждаться в помощи, то можешь на меня рассчитывать. У "нас" долги держать не принято. Береги себя.</text>
+    </string>
+    <string id="ghost_final_2">
+        <text>И что с тобой будет теперь?</text>
+    </string>
+    <string id="ghost_final_3">
+        <text>Я... Я слишком долго был в "вашем" мире... Теперь мне нельзя назад...  Теперь мне только одна дорога - в город призраков... Если будешь там, то я тебя отблагодарю... У "нас" долги держать не принято...</text>
+    </string>
+    <string id="ghost_final_4">
+        <text>А что за город...</text>
+    </string>
     <string id="kill_stalker">
         <text>Убить цель.</text>
     </string>
@@ -702,7 +818,7 @@
     <string id="vozm">
         <text>Берусь.</text>
     </string>
-	
+
 	<string id="prinesi_military_docs_start_0">
 		<text>Здорова Сидорович! Есть для меня какая-нибудь работа?</text>
 	</string>

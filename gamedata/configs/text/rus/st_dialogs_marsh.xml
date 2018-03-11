@@ -36,6 +36,120 @@
     <string id="cit_doctor_main_dialog_5">
         <text>Благодарю тебя. Безопасной тебе дороги, сталкер...</text>
     </string>
+    <string id="greh_barter_1_0">
+        <text>Мне нужно некоторое снаряжение.</text>
+    </string>
+    <string id="greh_barter_1_1">
+        <text>Обменяю на сердца сталкеров, что тебе нужно?</text>
+    </string>
+    <string id="greh_barter_1_9">
+        <text>Мне ничего не нужно.</text>
+    </string>
+    <string id="greh_barter_1_8">
+        <text>Мне нужен Призывной Череп(7 сердец).</text>
+    </string>
+    <string id="greh_barter_1_7">
+        <text>Мне нужна ритуальная маска(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_6">
+        <text>Мне нужны патроны.</text>
+    </string>
+    <string id="greh_barter_1_555">
+        <text>Давай посмотрим.</text>
+    </string>
+    <string id="greh_barter_1_5551">
+        <text>Мне нужны патроны для дробовика(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5552">
+        <text>Мне нужны патроны 5.45х39(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5553">
+        <text>Мне нужны патроны 9х18(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5554">
+        <text>Мне нужны патроны 9х19(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5555">
+        <text>Мне нужны патроны для аномального калаша(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5556">
+        <text>Мне нужны патроны для аномального дробовика(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5557">
+        <text>Мне нужны патроны для аномального кольта(3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_5558">
+        <text>Мне нужны гранаты(5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_5559">
+        <text>Мне нужны патроны для "Цербера"(5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_5560">
+        <text>Мне ничего не нужно.</text>  
+    </string>
+    <string id="greh_barter_1_4">
+        <text>Мне нужна броня.</text>
+    </string>
+    <string id="greh_barter_1_333">
+        <text>Давай поглядим.</text>
+    </string>
+    <string id="greh_barter_1_3331">
+        <text>Возьму плащ (5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_3332">
+        <text>Возьму укрепленный плащ(15 сердец).</text>
+    </string>
+    <string id="greh_barter_1_3333">
+        <text>Возьму аномальный плащ(30 сердец).</text>
+    </string>
+    <string id="greh_barter_1_3334">
+        <text>Мне ничего не нужно.</text>
+    </string>
+    <string id="greh_barter_1_2">
+        <text>Мне нужны стволы.</text>
+    </string>
+    <string id="greh_barter_1_222">
+        <text>Мне нужен "Ритуальный" нож(5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_222">
+        <text>Давай посмотрим.</text>
+    </string>
+    <string id="greh_barter_1_21">
+        <text>Возьму ПМ (2 сердца).</text>
+    </string>
+    <string id="greh_barter_1_22">
+        <text>Возьму двухстволку (3 сердца).</text>
+    </string>
+    <string id="greh_barter_1_23">
+        <text>Возьму аксу (5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_24">
+        <text>Возьму МП-5 (5 сердец).</text>
+    </string>
+    <string id="greh_barter_1_25">
+        <text>Возьму АКС-74 (7 сердец).</text>
+    </string>
+    <string id="greh_barter_1_26">
+        <text>Возьму чейзер (7 сердец).</text>
+    </string>
+    <string id="greh_barter_1_27">
+        <text>Возьму аномальный кольт (7 сердец).</text>
+    </string>
+    <string id="greh_barter_1_28">
+        <text>Возьму аномальный АК (15 сердец).</text>
+    </string>
+    <string id="greh_barter_1_29">
+        <text>Возьму аномальную помповуху (15 сердец).</text>
+    </string>
+    <string id="greh_barter_1_30">
+        <text>Возьму обгорелое ружье (7 сердец).</text>
+    </string>
+    <string id="greh_barter_1_299">
+        <text>Мне ничего не нужно.</text>
+    </string>
+    <string id="greh_barter_3_0">
+        <text>Мне нужна «скорость» (3 сердца).</text>
+    </string>
     <string id="mar_base_owl_stalker_trader_start_dialog_1">
         <text>Нужна снаряга? Информация?.. Или, может быть, ты хочешь продать информацию?</text>
     </string>

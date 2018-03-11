@@ -1,57 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <game_dialogs>
-<!------------- kill_fanatic_quest ----------->
-<dialog id="kill_fanatic_quest_dialog">
-<dont_has_info>quest_kill_fanatic_done</dont_has_info>
-<dont_has_info>quest_kill_fanatic_give</dont_has_info>
-<dont_has_info>kill_fanatic_cancel</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>kill_fanatic_quest_dialog_0</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>kill_fanatic_quest_dialog_1</text>
-<next>2</next>
-<next>22</next>
-</phrase>
-<phrase id="2">
-<text>kill_fanatic_quest_dialog_2</text>
-<next>3</next>
-</phrase>
-<phrase id="22">
-<text>kill_fanatic_quest_dialog_22</text>
-<next>33</next>
-</phrase>
-<phrase id="3">
-<text>kill_fanatic_quest_dialog_3</text>
-<give_info>quest_kill_fanatic_give</give_info>
-<action>dialogs_darkvalley.quest_kill_nps_start</action>
-</phrase>
-<phrase id="33">
-<text>kill_fanatic_quest_dialog_33</text>
-<give_info>kill_fanatic_cancel</give_info>
-</phrase>
-
-</phrase_list>
-</dialog>
-
-<dialog id="kill_fanatic_quest_prines">
-<has_info>quest_kill_fanatic_give</has_info>
-<dont_has_info>quest_kill_fanatic_done</dont_has_info>
-<dont_has_info>kill_fanatic_cancel</dont_has_info>
-<has_info>fanatic_death</has_info>
-<phrase_list>
-<phrase id="1">
-<text>Убил? Фига себе, нет слов. Держи, как и договаривались.</text>
-<give_info>quest_kill_fanatic_done</give_info>
-</phrase>
-<phrase id="0">
-<text>Всё, теперь он фанат смерти. Давай мне мои бабки.</text>
-<next>1</next>
-</phrase>
-</phrase_list>
-</dialog> 
 <!------------- bandit_companion_task_1 ----------->
 	<dialog id="bandit_companion_task_1_dialog">
         <phrase_list>
@@ -125,70 +73,111 @@
             </phrase>
         </phrase_list>
     </dialog>
-	
+	<!-- kill_fanatic_quest -->
+	<dialog id="kill_fanatic_quest_dialog">
+		<dont_has_info>quest_kill_fanatic_done</dont_has_info>
+		<dont_has_info>quest_kill_fanatic_give</dont_has_info>
+		<dont_has_info>kill_fanatic_cancel</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>kill_fanatic_quest_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>kill_fanatic_quest_dialog_1</text>
+				<next>2</next>
+				<next>22</next>
+			</phrase>
+			<phrase id="2">
+				<text>kill_fanatic_quest_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="22">
+				<text>kill_fanatic_quest_dialog_22</text>
+				<next>33</next>
+			</phrase>
+			<phrase id="3">
+				<text>kill_fanatic_quest_dialog_3</text>
+				<give_info>quest_kill_fanatic_give</give_info>
+				<action>dialogs_darkvalley.quest_kill_nps_start</action>
+			</phrase>
+			<phrase id="33">
+				<text>kill_fanatic_quest_dialog_33</text>
+				<give_info>kill_fanatic_cancel</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="kill_fanatic_quest_prines">
+		<has_info>quest_kill_fanatic_give</has_info>
+		<dont_has_info>quest_kill_fanatic_done</dont_has_info>
+		<dont_has_info>kill_fanatic_cancel</dont_has_info>
+		<has_info>fanatic_death</has_info>
+		<phrase_list>
+			<phrase id="1">
+				<text>Убил? Фига себе, нет слов. Держи, как и договаривались.</text>
+				<give_info>quest_kill_fanatic_done</give_info>
+			</phrase>
+			<phrase id="0">
+				<text>Всё, теперь он фанат смерти. Давай мне мои бабки.</text>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
 	<!-- задание султана1 -->
-<dialog id="sultan_task1_begin"> 
-<dont_has_info>sultan_task1_init</dont_has_info> 
-             <dont_has_info>sultan_task1_notask</dont_has_info> 
-			  
-             <phrase_list> 
-			 <phrase id="0"> 
-                        <text>Могу чем я помочь?</text> 
-                        <next>1</next> 
-                     </phrase>        
-        <phrase id="1"> 
-                        <text>Да можешь. Тут на кордоне завелся один щегол, Волком кличут. Он организовывает нападения на наши лагеря, и серьезно мешает моему бизнесу. Нужно убрать его.</text> 
-                        <next>2</next> 
-           <next>3</next> 
-                     </phrase> 
-        <phrase id="2"> 
-                        <text>Нет уж. Это слишком сложно.</text> 
-                        <give_info>sultan_task1_notask</give_info> 
-                     </phrase> 
-                     <phrase id="3"> 
-                        <text>Все, считай его песенка спета.</text> 
-           <action>dialogs_darkvalley.sultan_task1_givetask</action>                     
-           <next>4</next> 
-		                         </phrase> 
-                      <phrase id="4"> 
-                         <text>Хорошо. Если ты его шлепнешь, я тебя награжу.</text> 
-                         <give_info>sultan_task1_init</give_info>                     
-                      </phrase>                 
-             </phrase_list> 
-</dialog> 
-<dialog id="sultan_task1_end"> 
-             <has_info>sultan_task1_init</has_info> 
-			 <dont_has_info>sultan_task1_end</dont_has_info>
-			 <has_info>wolf_death</has_info> 
-			 <phrase_list> 
-        <phrase id="0"> 
-                        <text>Готов волчара.</text> 
-                   
-                        <next>1</next> 
-                     </phrase> 
-                     <phrase id="1"> 
-                        <text>Неплохо, избавил меня от занозы в заднице.</text>         
-                        <next>2</next> 
-                     </phrase>      
-                     <phrase id="2"> 
-                        <text>Шо там с наградой?</text>         
-           
-                        <next>3</next> 
-                     </phrase>        
-        <phrase id="3"> 
-                        <text>Держи.</text> 
-						<give_info>sultan_task1_end</give_info> 
-                        
-           <next>4</next>                         
-                     </phrase> 
-        <phrase id="4"> 
-                        <text>Спасибо.</text> 
-						
-                        <action>dialogs.break_dialog</action> 
-                     </phrase>                            
-             </phrase_list> 
-</dialog> 
-
-<!------------- COLLECTOR DIALOGS ---------->
-
+	<dialog id="sultan_task1_begin">
+		<dont_has_info>sultan_task1_init</dont_has_info>
+		<dont_has_info>sultan_task1_notask</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Могу чем я помочь?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Да можешь. Тут на кордоне завелся один щегол, Волком кличут. Он организовывает нападения на наши лагеря, и серьезно мешает моему бизнесу. Нужно убрать его.</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>Нет уж. Это слишком сложно.</text>
+				<give_info>sultan_task1_notask</give_info>
+			</phrase>
+			<phrase id="3">
+				<text>Все, считай его песенка спета.</text>
+				<action>dialogs_darkvalley.sultan_task1_givetask</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Если ты его шлепнешь, я тебя награжу.</text>
+				<give_info>sultan_task1_init</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="sultan_task1_end">
+		<has_info>sultan_task1_init</has_info>
+		<dont_has_info>sultan_task1_end</dont_has_info>
+		<has_info>wolf_death</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Готов волчара.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Неплохо, избавил меня от занозы в заднице.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Шо там с наградой?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Держи.</text>
+				<give_info>sultan_task1_end</give_info>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Спасибо.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
 </game_dialogs>

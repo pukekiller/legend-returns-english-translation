@@ -1691,7 +1691,7 @@
         </phrase_list>
     </dialog>
 	<!---- NEW ---->
-	
+
 	<dialog id="talk_to_sidor_done">
 	<has_info>zapisky_strelku_prines</has_info>
 	<dont_has_info>talk_to_sidor_done</dont_has_info>
@@ -1740,7 +1740,7 @@
 			</phrase>
 		</phrase_list>
 	</dialog>
-	
+
 	<dialog id="prinesi_military_docs_start">
 	<dont_has_info>esc_military_docs_task_started</dont_has_info>
 	    <phrase_list>
@@ -1783,212 +1783,202 @@
 			</phrase>
 		</phrase_list>
 	</dialog>
-	
-<dialog id="ghost_dialog">
-<dont_has_info>ghost_dialog_1</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Темно... Очень темно...</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Ты посылал сигнал SOS?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Плохо видно... Кто там стоит... Плохо видно... Не вижу... Очень темно...</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Что ты такое!?</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Не понимаю... Ничего не понимаю...</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Кто тебя убил? Или ты сам... того?</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>УБИЛ! Он меня убил... Артефакт. Он оценил его дороже моей жизни...</text>
-<next>7</next>
-</phrase>
-<phrase id="7">
-<text>...</text>
-<next>8</next>
-</phrase>
-<phrase id="8">
-<text>Новичок... Я взял его с собой... Он толкнул меня в воронку... ОНИ мне сказали, что я не смогу уйти... Пока не отомщу...</text>
-<next>9</next>
-</phrase>
-<phrase id="9">
-<text>Ладно, я пойду отсюда, не буду тебя тревожить.</text>
-<next>10</next>
-</phrase>
-<phrase id="9">
-<text>Ладно, я пойду отсюда, не буду тебя тревожить.</text>
-<next>10</next>
-</phrase>
-<phrase id="10">
-<text>Не... уходи... Ты... не сможешь уйти... Ты слишком долго пробыл со мной... Теперь, пока я есть, я не отстану от тебя... Ты больше не уснешь, если откажешся.</text>
-<next>11</next>
-<next>12</next>
-</phrase>
-<phrase id="11">
-<text>Похоже, что у меня нет выбора</text>
-<next>13</next>
-</phrase>
-<phrase id="12">
-<text>Прочь, нечисть!</text>
-<give_info>prizrak_revange</give_info>
-<give_info>ghost_dialog_1</give_info>
-<give_info>ghost_curse</give_info>
-<action>dialogs_escape.actor_ghost_cancel</action>
-<action>dialogs_escape.ghost_bye_angry</action>
-</phrase>
-<phrase id="13">
-<text>Верно... Я могу... указать тебе на этого человека.... отомсти за меня.</text>
-<action>dialogs_escape.actor_about_ghost_killer</action>
-<give_info>ghost_dialog_1</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-<dialog id="actor_with_faggot">
-<dont_has_info>ghost_dialog_4</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Ты знаешь Голоса?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Г-голоса? Сталкер, ты ошибся.. Я не знаю никого голоса, проваливай отсюда!</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>А ты знаешь, кто ходил с ним в ходку несколько дней назад?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Повторяю для особо одарённых! Я. Не знаю. Никакого. Голоса. И про ходку к "Костянке" я ничего не знаю!</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Подожди... Так я не говорил, как называется та аномалия.</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Чёрт... Голос! Прости меня! Прости! Я случайно! Я не хотел! У меня больная сестра! Я не могу иначе!</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>Ты хоть запомнил его лицо перед смертью?</text>
-<action>dialogs_escape.ghost_cutscene</action>
-<give_info>ghost_dialog_4</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="ghost_final">
-<has_info>ghost_dialog_4</has_info>
-<dont_has_info>ghost_dialog_5</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Твоя душа отомщена.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Я знаю, сталкер! ОНИ мне сообщили об этом. Можешь не волноваться за свою жизнь... И ещё, если ты будешь действительно нуждаться в помощи, то можешь на меня рассчитывать. У "нас" долги держать не принято. Береги себя.</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>И что с тобой будет теперь?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Я... Я слишком долго был в "вашем" мире... Теперь мне нельзя назад...  Теперь мне только одна дорога - в город призраков... Если будешь там, то я тебя отблагодарю... У "нас" долги держать не принято...</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>А что за город... </text>
-<give_info>ghost_dialog_5</give_info>
-<action>dialogs_escape.ghost_bye</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="doctor_ghost_1">
-<has_info>ghost_curse</has_info>
-<dont_has_info>doctor_ghost_1</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Болотный доктор?! Пожалуйста, помогите мне!</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Выглядишь измученным, сынок... Что с тобой сталось-то?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Я... Я поступил очень плохо кое с кем из "того" света. Он пророчил мне кошмары во все, но я его не послушал... С тех пор меня постоянно мучают ужасные навязчивые мысли и кошмары. Кажется, я медленно слетаю с катушек...</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Не мудрено. Поразительно... Ты смог выжить после этой встречи и даже сохранить рассудок... Впрочем, не обольщайся — ты сейчас немногим лучше них выглядишь.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>И ч-что мне делать, доктор? Вы сможете меня спасти, или мне уже ничем не помочь?</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Да, я знаю, что нужно делать! Здесь, на болотах, неподалеку от старой церкви возле кладбища, растёт один очень занятный цветок... Возможно, нам получится спасти твою нервную систему, если изготовлю из него одну ядрёную настойку. Я ей даже живого зомби поил, да на ноги поставил! Тебе это тоже может помочь. Ну что, достанешь?</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>Да, конечно! Тем более, что выхода у меня действительно нет... Жди меня, Доктор.</text>
-<give_info>doctor_ghost_1</give_info>
-<give_info>doctor_saved_you</give_info>
-<action>dialogs_escape.find_spider_task</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="doctor_ghost_2">
-<has_info>spider_plant_info</has_info>
-<dont_has_info>doctor_ghost_2</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Вот, вроде что-то подобное... Это ведь ТОТ цветок?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Именно! Давай его скорее сюда, всё остальное у меня уже готово, осталось лишь выжать из него все соки. Пей!</text>
-<action>dialogs_escape.spider_from</action>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Ну и смрад! Хуже точно не будет? Ладно, сейчас...</text>
-<action>dialogs_escape.boyar_to</action>
-<give_info>doctor_ghost_2</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="doctor_ghost_3">
-<has_info>boyar_done</has_info>
-<dont_has_info>doctor_ghost_3</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Док... Меня, кажется, отпустило. Даже не знаю, как благодарить тебя после этого! </text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Да брось, парень... Иди с Богом... Прямой дороги тебе.</text>
-<give_info>doctor_ghost_3</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-	
+	<dialog id="ghost_dialog">
+		<dont_has_info>ghost_dialog_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ghost_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ghost_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>ghost_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>ghost_dialog_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>ghost_dialog_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>ghost_dialog_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>ghost_dialog_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>ghost_dialog_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>ghost_dialog_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>ghost_dialog_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>ghost_dialog_10</text>
+				<next>11</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="11">
+				<text>ghost_dialog_11</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="12">
+				<text>ghost_dialog_12</text>
+				<give_info>prizrak_revange</give_info>
+				<give_info>ghost_dialog_1</give_info>
+				<give_info>ghost_curse</give_info>
+				<action>dialogs_escape.actor_ghost_cancel</action>
+				<action>dialogs_escape.ghost_bye_angry</action>
+			</phrase>
+			<phrase id="13">
+				<text>ghost_dialog_13</text>
+				<action>dialogs_escape.actor_about_ghost_killer</action>
+				<give_info>ghost_dialog_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="actor_with_faggot">
+		<dont_has_info>ghost_dialog_4</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>actor_with_faggot_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>actor_with_faggot_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>actor_with_faggot_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>actor_with_faggot_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>actor_with_faggot_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>actor_with_faggot_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>actor_with_faggot_6</text>
+				<action>dialogs_escape.ghost_cutscene</action>
+				<give_info>ghost_dialog_4</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="ghost_final">
+		<has_info>ghost_dialog_4</has_info>
+		<dont_has_info>ghost_dialog_5</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ghost_final_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ghost_final_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>ghost_final_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>ghost_final_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>ghost_final_4</text>
+				<give_info>ghost_dialog_5</give_info>
+				<action>dialogs_escape.ghost_bye</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="doctor_ghost_1">
+		<has_info>ghost_curse</has_info>
+		<dont_has_info>doctor_ghost_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>doctor_ghost_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>doctor_ghost_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>doctor_ghost_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>doctor_ghost_1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>doctor_ghost_1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>doctor_ghost_1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>doctor_ghost_1_6</text>
+				<give_info>doctor_ghost_1</give_info>
+				<give_info>doctor_saved_you</give_info>
+				<action>dialogs_escape.find_spider_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="doctor_ghost_2">
+		<has_info>spider_plant_info</has_info>
+		<dont_has_info>doctor_ghost_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>doctor_ghost_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>doctor_ghost_2_1</text>
+				<action>dialogs_escape.spider_from</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>doctor_ghost_2_2</text>
+				<action>dialogs_escape.boyar_to</action>
+				<give_info>doctor_ghost_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="doctor_ghost_3">
+		<has_info>boyar_done</has_info>
+		<dont_has_info>doctor_ghost_3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>doctor_ghost_3_3</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>doctor_ghost_3_1</text>
+				<give_info>doctor_ghost_3</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
 </game_dialogs>

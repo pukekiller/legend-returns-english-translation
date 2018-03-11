@@ -61,658 +61,632 @@
             </phrase>
         </phrase_list>
     </dialog>
-	
 	<dialog id="gutorenko_hello_dialog">
-        <phrase_list>
-            <phrase id="0">
-                <text>Не стреляйте!</text>
-            </phrase>
-        </phrase_list>
-    </dialog>
-
-        Key For Voron
-
-<dialog id="key_quest_dialog">
-<precondition>dialogs_red_forest.mojno</precondition>
-<dont_has_info>quest_key_give</dont_has_info>
-<phrase_list>
-    <phrase id="1">
-        <text>key_2</text>
-        <give_info>quest_key_give</give_info>
-        <action>dialogs_voron.give_key_quest</action>
-    </phrase>
-    <phrase id="0">
-        <text>key_1</text>
-        <next>1</next>
-    </phrase>
-</phrase_list>
-</dialog>
- 
-<dialog id="key_quest_prines">
-<precondition>dialogs_voron.is_has_key</precondition>
-<has_info>quest_key_give</has_info>
-<dont_has_info>quest_key_done</dont_has_info>
-<phrase_list>
-    <phrase id="1">
-        <text>key_4</text>
-        <give_info>quest_key_done</give_info>
-		<action>dialogs_red.transfer_skull_to_actor</action>
-    </phrase>
-    <phrase id="0">
-        <text>key_3</text>
+		<phrase_list>
+			<phrase id="0">
+				<text>gutorenko_hello_dialog_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- Key for Voron -->
+	<dialog id="key_quest_dialog">
+		<precondition>dialogs_red_forest.mojno</precondition>
+		<dont_has_info>quest_key_give</dont_has_info>
+		<phrase_list>
+			<phrase id="1">
+				<text>key_2</text>
+				<give_info>quest_key_give</give_info>
+				<action>dialogs_voron.give_key_quest</action>
+			</phrase>
+			<phrase id="0">
+				<text>key_1</text>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="key_quest_prines">
 		<precondition>dialogs_voron.is_has_key</precondition>
-        <action>dialogs_voron.transfer_key_to_voron</action>
-        <next>1</next>
-    </phrase>
-</phrase_list>
-</dialog>
-
-     Docks For Voron
-
-<dialog id="docks_quest_dialog">
-<has_info>quest_key_done</has_info>
-<dont_has_info>quest_docks_give</dont_has_info>
-<precondition>dialogs_red.is_has_skull</precondition>
-<phrase_list>
-    <phrase id="1">
-        <text>key_6</text>
-        <give_info>quest_docks_give</give_info>
-        <action>dialogs_voron.give_key</action>
-		<action>dialogs_voron.give_psy</action>
-		<action>dialogs_voron.spawn_greh_gauss</action>
-		<action>dialogs_red.give_docks_quest</action>
-    </phrase>
-    <phrase id="0">
-        <text>key_5</text>
-        <next>1</next>
-    </phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="docks_quest_prines">
-<has_info>quest_docks_give</has_info>
-<dont_has_info>quest_docks_done</dont_has_info>
-<precondition>dialogs_red.is_has_docks</precondition>
-<phrase_list>
-    <phrase id="1">
-        <text>key_8</text>
-        <give_info>quest_docks_done</give_info>
-		<next>2</next>
-    </phrase>
-    <phrase id="0">
-        <text>key_7</text>
-        <action>dialogs_red.transfer_docks_to_voron</action>
-		<action>dialogs_red.transfer_gauss_to_voron</action>
-        <next>1</next>
-    </phrase>
-	<phrase id="2">
-        <text>key_9</text>
-		<next>3</next>
-</phrase>
-<phrase id="3">
-        <text>key_10</text>
-		<action>dialogs_red.transfer_gauss_to_actor</action>
-		<next>4</next>
-</phrase>
-<phrase id="4">
-        <text>key_11</text>
-</phrase>
-</phrase_list>
-</dialog>
-
-             Kill Them All
-
-<dialog id="kill_them_all">
-<dont_has_info>quest_kill_first_done</dont_has_info>
-<dont_has_info>quest_kill_first_give</dont_has_info>
-<dont_has_info>quest_kill_second_done</dont_has_info>
-<dont_has_info>quest_kill_second_give</dont_has_info>
-<dont_has_info>quest_kill_third_done</dont_has_info>
-<dont_has_info>quest_kill_third_give</dont_has_info>
-<phrase_list>
-<phrase id="1">
-<text>kill_themall_1</text>
-<give_info>quest_kill_first_give</give_info>
-<give_info>quest_kill_second_give</give_info>
-<give_info>quest_kill_third_give</give_info>
-<action>dialogs_red_forest.quest_kill_nps_start</action>
-</phrase>
-<phrase id="0">
-<text>kill_themall_0</text>
-<precondition>dialogs_red_forest.mojno_vipolnit</precondition>
-<next>1</next>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="kill_them_all_done">
-<has_info>quest_kill_first_give</has_info>
-<dont_has_info>kill_first_completed</dont_has_info>
-<has_info>borov_death</has_info>
-<has_info>quest_kill_second_give</has_info>
-<dont_has_info>kill_second_completed</dont_has_info>
-<has_info>smert_death</has_info>
-<has_info>quest_kill_third_give</has_info>
-<dont_has_info>kill_third_completed</dont_has_info>
-<has_info>csky_dead</has_info>
-<phrase_list>
-<phrase id="1">
-<text>kill_themall_3</text>
-<give_info>kill_first_completed</give_info>
-<give_info>kill_second_completed</give_info>
-<give_info>kill_third_completed</give_info>
-</phrase>
-<phrase id="0">
-<text>kill_themall_2</text>
-<next>1</next>
-</phrase>
-</phrase_list>
-</dialog> 
-
-      "Саботаж"
-
-<dialog id="old_sinner">
-<precondition>dialogs_red_forest.mojno</precondition>
-<dont_has_info>quest_spy_give</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Чем я могу помочь братству?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Судя по информации из надёжного источника, «Долг» планирует в скором времени взять под свой колпак территорию Леса. Уже даже начал собирать добровольцев среди сталкеров. Генерал - наивный идиот! Думал, что мы не узнаем об этом...</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>В чем моя задача?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Тебе нужно записаться в добровольцы под видом обычного сталкера и сливать мне информацию, которой будешь владеть по ходу задания. Твою маскировку обеспечит вот эта вещь. Держи.</text>
-<action>dialogs_voron.transfer_items_voron_mask</action>
-<action>dialogs_red_forest.quest_spy</action>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Понял. Выдвигаюсь.</text>
-<give_info>quest_spy_give</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="old_sinner_done">
-<has_info>time_to_death_completed</has_info>
-<dont_has_info>quest_spy_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Операция прошла успешно, отряд штурмовиков ликвидирован. Но уйти без шума и пыли мне не удалось, и в ходе операции были убиты лидер «Долг» и другие обитатели бара. Спастись мне помогли Морфиус и другие наши братья, которые были уведомлены о моих неприятностях от Шамана.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Я уже в курсе, Морфиус мне доложил ситуацию. Ты проявил истинную преданность, храбрость и хладнокровие, за это я даю тебе один из двух существующих моделей экзоскелета "Минотавр".</text>
-<action>dialogs_voron.transfer_items_voron_exo</action>
-<give_info>voron_talked</give_info>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Благадарю. Все во благо "Греха".</text>
-<give_info>quest_spy_done</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="old_sinner1">
-<dont_has_info>combat</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Вовремя мы подоспели, не так ли?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Не то слово! Откуда вы узнали, что я здесь, и как вы сюда пробрались?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Это все Шаман, он сказал, что нашего брата ждут неприятности и показал нам подземный путь прямиком сюда, в бар.</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Кто это?</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Он глаза и уши "Греха", он тот - благодаря кому мы все еще дышим.</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Спасибо, братья! Где я могу найти Шамана, чтобы отблагодарить его лично?</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>По словам нашего медика Анубиса, Шаману недолго осталось...Навести их, может сможешь чем-то помочь.</text>
-<next>7</next>
-</phrase>
-<phrase id="7">
-<text>Так где он?</text>
-<next>8</next>
-</phrase>
-<phrase id="8">
-<text>Сейчас поставлю метку...Вот, держи.</text>
-<next>9</next>
-</phrase>
-<phrase id="9">
-<text>Благодарю, буду выдвигаться.</text>
-<action>dialogs_red_forest.quest_voron_talk</action>
-<action>dialogs_red_forest.quest_talk_1</action>
-<give_info>morfius_talked</give_info>
-<give_info>combat</give_info>
-</phrase>
-</phrase_list>
-</dialog> 
-
-<dialog id="dolg_otryad">
-<phrase_list>
-<phrase id="0">
-<text>Здравствуй, сталкер. Ты от Воронина, я так понимаю?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Именно. Каковы дальнейшие действия?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Тянуть не будем, даю пять минут на подготовку и будем выдвигаться в сторону леса. Приказы выполнять безприкословно, держаться кучно!</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Так точно![громкий смех]</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Что? Что с тобой? Какого хрена тут происходит?!</text>
-<action>dialogs_red.give_info_otryad_dead</action>
-<action>dialogs_red.back_sin</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="voronin_next">
-<has_info>voronin_next</has_info>
-<phrase_list>
-<phrase id="0">
-<text>С докладом прибыл, товарищ генерал!</text>
-<give_info>otryad_dead</give_info>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Докладывай немедленно! Что произошло с отрядом?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Они все мертвы...кроме мертвых солдат также были обнаружены следы "Греха". Судя по всему, это их рук дело.</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Ах ты, гнида! Ты думал, я не узнаю, что это все по твоей вине?</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Товарищ Генерал, вы о чем? Я к этому никак не причастен!</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Покажи свое истинное лицо, тварь! И умри!</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>...</text>
-<action>timers.start_timer_sin_1</action>
-<action>timers.start_timer_sin_2</action>
-<action>timers.start_timer_sin_3</action>
-<action>dialogs_red.back_sin</action>
-<give_info>time_to_death_completed</give_info>
-<give_info>greh_voronin_task</give_info>
-<action>dialogs_red_forest.quest_talk</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="greh_voronin">
-<precondition>dialogs_escape.check_neutral_true</precondition>
-<dont_has_info>greh_voronin_task</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Здравия желаю, генерал!</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Здравствуй, сталкер! С чем пришел?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Слышал, что вы ищете опытных бойцов для штурмовой операции в Рыжем лесу?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Да, ты подоспел как раз вовремя. Отряд, который заниматься этим заданием, сейчас разбил лагерь в окрестностях старых армейских складов и ждет дальнейших указаний.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>В чем моя задача?</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Отправляйся к отряду и жди указаний от командира отряда. Если что-то изменится, я сообщу.</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>Так точно! Выдвигаюсь.</text>
-<action>dialogs_red_forest.quest_otryad</action>
-<action>tz_scripts.quest_infa</action>
-<give_info>greh_voronin_task</give_info>
-<action>dialogs_red.give_info_otryad</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="about_shaman">
-<has_info>morfius_talked</has_info>
-<dont_has_info>medic_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Анубис, верно?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Да, это я. С чем пожаловал?</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Я пришел отблагодарить Шамана за мое спасение. Он как вообще, держиться?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Пока что да, но моих усилий уже едва хватает на поддержание его здоровья, так что... Счёт идёт не на дни, а на часы, скорее всего.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Могу я чем-то помочь?</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Знаешь...пожалуй, да. Есть у меня предположение, что ему может помочь.</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>Я готов это сделать. Что нужно?</text>
-<next>7</next>
-</phrase>
-<phrase id="7">
-<text>Необходимо достать одно редкое растение под названием "Мышецвет". Все остальное, что нужно, у меня уже есть.</text>
-<next>8</next>
-</phrase>
-<phrase id="8">
-<text>Где можно найти этот "Мышецвет"?</text>
-<next>9</next>
-</phrase>
-<phrase id="9">
-<text>Последний раз, где я его встречал, это в окресностях "Юпитера", на задней части завода. Там есть химическая аномалия, в которой я его и видел, но не взял с собой, ибо не знал о его свойствах...</text>
-<next>10</next>
-</phrase>
-<phrase id="10">
-<text>Хорошо, я найду его.</text>
-<give_info>poisk_travy</give_info>
-<next>11</next>
-</phrase>
-<phrase id="11">
-<text>Буду ждать, это должно помочь.</text>
-<give_info>anubis_talked</give_info>
-<give_info>anubis_talk</give_info>
-<action>dialogs_red_forest.quest_travy</action>
-<give_info>medic_done</give_info>
-</phrase>
-</phrase_list>
-</dialog> 
-
-<dialog id="anubis_bring">
-<precondition>dialogs_red.is_has_travy</precondition>
-<dont_has_info>kvity</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Я вернулся, и не с пустыми руками.</text>
-<give_info>anubis_bring</give_info>
-<give_info>kvity</give_info>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Нашел все-таки? Давай его скорее сюда!</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Вот, держи. Надеюсь, ты поставишь его на ноги.</text>
-<action>dialogs_voron.transfer_items_anubis</action>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Обещать не могу, но теперь шансы заметно подростут.</text>
-<action>dialogs_red_forest.quest_talk_2</action>
-<give_info>shaman_thanks</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="shaman_thanks">
-<dont_has_info>shaman_mass</dont_has_info>
-<has_info>shaman_thanks</has_info>
-<phrase_list>
-<phrase id="0">
-<text>Спасибо тебе, брат. Теперь мы квиты.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Лечись! "Грех" без твоих знаний и навыков не будет прежним!</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Знаешь...я не могу тебя с пустыми руками отсюда отпустить. Возьми, пожалуй, вот этот Дар Зоны, он сделает тебя сильнее.</text>
-<action>dialogs_voron.transfer_items_shaman</action>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Благодарю.</text>
-<give_info>shaman_mass</give_info>
-<give_info>shaman_talked</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-------------Сюжет Монолита---------------
-
-<dialog id="cresh_intro">
-<dont_has_info>cresh_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Чем могу служить Монолиту, Брат?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>У нас возникли некоторые проблемы с Выжигателем: он слишком часто перегревается, что создает необходимость охлаждать его, а значит, отключать установку. Но мы не можем себе позволить отключать установку на длительное время, дабы неверные не смогли прорваться к Великому Монолиту!</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>И что мне нужно сделать?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>В лаборатории Х-8 располагается прототип нашей установки под названием "Радуга", и сейчас там наш отряд собирает данные об этом прототипе... в надежде понять, почему, собственно, Выжигатель так сильно греется. Наведайся в лабораторию, забери у отряда накопившуюся информацию и принеси ее мне.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Немедленно выдвигаюсь. Слава Монолиту!</text>
-<give_info>cresh_talked</give_info>
-<give_info>cresh_done</give_info>
-<action>monolith_event.lab_x8_task</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="neyron_intro">
-<dont_has_info>neyron_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>...</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Брат! Как ты? Что здесь произошло?!</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Наш отряд изучал излучатель "Радуга", мы собирали информацию для модернизации "Дятла-1", но греховцы, будь они прокляты...взялись, не пойми откуда, перебили весь наш отряд и... ух-х-х, мать... забрали прибор со всей информацией, которая скопилась за последнее время...</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Вставай, брат. Нам нужно уходить, я выведу тебя отсюда.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Бесполезно, я потерял слишком много крови...мне уже не помочь. Твоя цель - как можно быстрее сообщить Харону и предпринять меры. Пообещай, что отомстишь за наших братьев... Монолит, я вижу твоё сияние...</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Я отомщу за вас. Они будут гореть в Аду.</text>
-<give_info>neyron_talked</give_info>
-<give_info>neyron_done</give_info>
-<action>monolith_event.neyron_x8_task</action>
-<give_info>kill_neyron</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="haron_intro">
-<has_info>kill_neyron</has_info>
-<dont_has_info>haron_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>У нас проблемы, Наставник. Наш отряд, занимающийся исследованием "Радуги" был убит греховодниками, вся собранная информация для модернизации установки также была похищена.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Черт бы побрал эту падаль из "Греха"! Столько братьев потеряли из-за них... И мне кажется, что подтверждаются некоторые слухи...</text>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Вы о чем?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Пока не важно, этим займутся другие наши Братья. Твоя задача на данный момент - это штурм основной базы греховцев в Рыжем лесу, а также поиск любой информации на месте. Я вышлю отряд бойцов, они будут ждать тебя у северного блокпоста. И да прольется кровь неверных!</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Выдвигаюсь. Слава монолиту!</text>
-<give_info>haron_talked</give_info>
-<give_info>haron_done</give_info>
-<action>monolith_event.haron_x8_task</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="haron_next">
-<precondition>monolith_event.has_things</precondition>
-<dont_has_info>haron_next_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Операция увенчалась успехом. Неверные были убиты, так же как и лидер "Греха" - Ворон. Кроме того, был найден КПК Нейрона, который греховодники украли прежде. Также я нашел документы Ворона и неизвестный образец оружия, а также чертежи к нему.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>[..пересматривает документы]</text>
-<action>monolith_event.relocate_gauss</action>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Что там?</text>
-<next>3</next>
-</phrase>
-<phrase id="3">
-<text>Доказательства слухов, о которых я уже вскользь упоминал... У "Греха" действительно есть сталкер, который видит и слышит всё живое в зоне, и кличут его Шаманом. Также, в документах есть переписка, в которой указано актуальное местоположение Шамана вместе с его напарником Анубисом.</text>
-<next>4</next>
-</phrase>
-<phrase id="4">
-<text>Где их искать?</text>
-<next>5</next>
-</phrase>
-<phrase id="5">
-<text>Точное место в переписке не указано, но есть наводка, что они засели на территории городка Светлый Путь. Я думаю, объяснять, что ты должен сделать, не придется?</text>
-<next>6</next>
-</phrase>
-<phrase id="6">
-<text>Я предам их тела земле, во Славу Монолита! Но что насчёт неизвестного образца оружия?</text>
-<action>monolith_event.shaman_kill_task</action>
-<next>7</next>
-</phrase>
-<phrase id="7">
-<text>Судя по документам, это та же Гаусс-пушка, что и у нас, но с несколько другой системой питания. Очень хорошо, что чертежи к ней ты тоже захватил, потому как без них у греховцев вряд ли появиться возможность производить это оружие дальше. Вот, кстати, твоя награда за преданность Великому Монолиту!</text>
-<give_info>haron_has_items</give_info>
-<give_info>haron_next_done</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="haron_complete">
-<precondition>monolith_event.has_pda</precondition>
-<dont_has_info>haron_complete</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Шаман мертв, вот его ПДА.</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Отлично. Без этого уродца "Грех" перестанет быть угрозой для нас. За свою преданность тебе полагаться лучшее снаряжение и амуниция! Да прибудет с тобой сила!</text>
-<give_info>shaman_talk_death</give_info>
-<action>monolith_event.relocate_pda_shamana</action>
-<next>2</next>
-</phrase>
-<phrase id="2">
-<text>Служу Монолиту!</text>
-<give_info>haron_complete</give_info>
-<action>monolith_event.cresh_after_kill_task</action>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="cresh_pda">
-<has_info>haron_complete</has_info>
-<dont_has_info>cresh_complete</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Я принес ПДА ныне покойного Нейрона, Брат.</text>
-<action>monolith_event.relocate_pda_neyrona</action>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Я слышал какой ценой тебе это досталось, да благословит тебя Великий Монолит! С этой информацией выжигатель заработает с новой силой!</text>
-<give_info>cresh_has_pda</give_info>
-<give_info>cresh_complete</give_info>
-</phrase>
-</phrase_list>
-</dialog>
-
-<dialog id="avanger_intro">
-<has_info>haron_done</has_info>
-<dont_has_info>avanger_done</dont_has_info>
-<phrase_list>
-<phrase id="0">
-<text>Братья, вы готовы отомстить неверным за братьев наших падших?</text>
-<next>1</next>
-</phrase>
-<phrase id="1">
-<text>Да! Монолит с нами, Братья! Выдвигаемся!</text>
-<action>dialogs_axr_companion.become_actor_companion</action>
-<give_info>avanger_done</give_info>
-<give_info>avangers_talked</give_info>
-<action>monolith_event.haron_find_x8_task</action>
-</phrase>
-</phrase_list>
-</dialog>
+		<has_info>quest_key_give</has_info>
+		<dont_has_info>quest_key_done</dont_has_info>
+		<phrase_list>
+			<phrase id="1">
+				<text>key_4</text>
+				<give_info>quest_key_done</give_info>
+				<action>dialogs_red.transfer_skull_to_actor</action>
+			</phrase>
+			<phrase id="0">
+				<text>key_3</text>
+				<precondition>dialogs_voron.is_has_key</precondition>
+				<action>dialogs_voron.transfer_key_to_voron</action>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	Docks For Voron
+	<dialog id="docks_quest_dialog">
+		<has_info>quest_key_done</has_info>
+		<dont_has_info>quest_docks_give</dont_has_info>
+		<precondition>dialogs_red.is_has_skull</precondition>
+		<phrase_list>
+			<phrase id="1">
+				<text>key_6</text>
+				<give_info>quest_docks_give</give_info>
+				<action>dialogs_voron.give_key</action>
+				<action>dialogs_voron.give_psy</action>
+				<action>dialogs_voron.spawn_greh_gauss</action>
+				<action>dialogs_red.give_docks_quest</action>
+			</phrase>
+			<phrase id="0">
+				<text>key_5</text>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="docks_quest_prines">
+		<has_info>quest_docks_give</has_info>
+		<dont_has_info>quest_docks_done</dont_has_info>
+		<precondition>dialogs_red.is_has_docks</precondition>
+		<phrase_list>
+			<phrase id="1">
+				<text>key_8</text>
+				<give_info>quest_docks_done</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="0">
+				<text>key_7</text>
+				<action>dialogs_red.transfer_docks_to_voron</action>
+				<action>dialogs_red.transfer_gauss_to_voron</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="2">
+				<text>key_9</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>key_10</text>
+				<action>dialogs_red.transfer_gauss_to_actor</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>key_11</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- Kill Them All -->
+	<dialog id="kill_them_all">
+		<dont_has_info>quest_kill_first_done</dont_has_info>
+		<dont_has_info>quest_kill_first_give</dont_has_info>
+		<dont_has_info>quest_kill_second_done</dont_has_info>
+		<dont_has_info>quest_kill_second_give</dont_has_info>
+		<dont_has_info>quest_kill_third_done</dont_has_info>
+		<dont_has_info>quest_kill_third_give</dont_has_info>
+		<phrase_list>
+			<phrase id="1">
+				<text>kill_themall_1</text>
+				<give_info>quest_kill_first_give</give_info>
+				<give_info>quest_kill_second_give</give_info>
+				<give_info>quest_kill_third_give</give_info>
+				<action>dialogs_red_forest.quest_kill_nps_start</action>
+			</phrase>
+			<phrase id="0">
+				<text>kill_themall_0</text>
+				<precondition>dialogs_red_forest.mojno_vipolnit</precondition>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="kill_them_all_done">
+		<has_info>quest_kill_first_give</has_info>
+		<dont_has_info>kill_first_completed</dont_has_info>
+		<has_info>borov_death</has_info>
+		<has_info>quest_kill_second_give</has_info>
+		<dont_has_info>kill_second_completed</dont_has_info>
+		<has_info>smert_death</has_info>
+		<has_info>quest_kill_third_give</has_info>
+		<dont_has_info>kill_third_completed</dont_has_info>
+		<has_info>csky_dead</has_info>
+		<phrase_list>
+			<phrase id="1">
+				<text>kill_themall_3</text>
+				<give_info>kill_first_completed</give_info>
+				<give_info>kill_second_completed</give_info>
+				<give_info>kill_third_completed</give_info>
+			</phrase>
+			<phrase id="0">
+				<text>kill_themall_2</text>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- «Саботаж» -->
+	<dialog id="old_sinner">
+		<precondition>dialogs_red_forest.mojno</precondition>
+		<dont_has_info>quest_spy_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>old_sinner_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>old_sinner_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>old_sinner_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>old_sinner_3</text>
+				<action>dialogs_voron.transfer_items_voron_mask</action>
+				<action>dialogs_red_forest.quest_spy</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>old_sinner_4</text>
+				<give_info>quest_spy_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="old_sinner_done">
+		<has_info>time_to_death_completed</has_info>
+		<dont_has_info>quest_spy_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>old_sinner_done_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>old_sinner_done_1</text>
+				<action>dialogs_voron.transfer_items_voron_exo</action>
+				<give_info>voron_talked</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>old_sinner_done_2</text>
+				<give_info>quest_spy_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="old_sinner1">
+		<dont_has_info>combat</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>old_sinner1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>old_sinner1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>old_sinner1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>old_sinner1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>old_sinner1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>old_sinner1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>old_sinner1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>old_sinner1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>old_sinner1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>old_sinner1_9</text>
+				<action>dialogs_red_forest.quest_voron_talk</action>
+				<action>dialogs_red_forest.quest_talk_1</action>
+				<give_info>morfius_talked</give_info>
+				<give_info>combat</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="dolg_otryad">
+		<phrase_list>
+			<phrase id="0">
+				<text>dolg_otryad_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dolg_otryad_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dolg_otryad_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dolg_otryad_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>dolg_otryad_4</text>
+				<action>dialogs_red.give_info_otryad_dead</action>
+				<action>dialogs_red.back_sin</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="voronin_next">
+		<has_info>voronin_next</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>voronin_next_0</text>
+				<give_info>otryad_dead</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>voronin_next_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_next_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>voronin_next_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>voronin_next_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>voronin_next_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>voronin_next_6</text>
+				<action>timers.start_timer_sin_1</action>
+				<action>timers.start_timer_sin_2</action>
+				<action>timers.start_timer_sin_3</action>
+				<action>dialogs_red.back_sin</action>
+				<give_info>time_to_death_completed</give_info>
+				<give_info>greh_voronin_task</give_info>
+				<action>dialogs_red_forest.quest_talk</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="greh_voronin">
+		<precondition>dialogs_escape.check_neutral_true</precondition>
+		<dont_has_info>greh_voronin_task</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>greh_voronin_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>greh_voronin_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>greh_voronin_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>greh_voronin_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>greh_voronin_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>greh_voronin_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>greh_voronin_6</text>
+				<action>dialogs_red_forest.quest_otryad</action>
+				<action>tz_scripts.quest_infa</action>
+				<give_info>greh_voronin_task</give_info>
+				<action>dialogs_red.give_info_otryad</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="about_shaman">
+		<has_info>morfius_talked</has_info>
+		<dont_has_info>medic_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>about_shaman_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>about_shaman_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>about_shaman_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>about_shaman_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>about_shaman_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>about_shaman_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>about_shaman_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>about_shaman_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>about_shaman_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>about_shaman_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>about_shaman_10</text>
+				<give_info>poisk_travy</give_info>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>about_shaman_11</text>
+				<give_info>anubis_talked</give_info>
+				<give_info>anubis_talk</give_info>
+				<action>dialogs_red_forest.quest_travy</action>
+				<give_info>medic_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="anubis_bring">
+		<precondition>dialogs_red.is_has_travy</precondition>
+		<dont_has_info>kvity</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>anubis_bring_0</text>
+				<give_info>anubis_bring</give_info>
+				<give_info>kvity</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>anubis_bring_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>anubis_bring_2</text>
+				<action>dialogs_voron.transfer_items_anubis</action>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>anubis_bring_3</text>
+				<action>dialogs_red_forest.quest_talk_2</action>
+				<give_info>shaman_thanks</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="shaman_thanks">
+		<dont_has_info>shaman_mass</dont_has_info>
+		<has_info>shaman_thanks</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>shaman_thanks_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>shaman_thanks_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>shaman_thanks_2</text>
+				<action>dialogs_voron.transfer_items_shaman</action>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>shaman_thanks_3</text>
+				<give_info>shaman_mass</give_info>
+				<give_info>shaman_talked</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- Сюжет «Монолита» -->
+	<!-- Monolith questline -->
+	<dialog id="cresh_intro">
+		<dont_has_info>cresh_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>cresh_intro_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>cresh_intro_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>cresh_intro_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>cresh_intro_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>cresh_intro_4</text>
+				<give_info>cresh_talked</give_info>
+				<give_info>cresh_done</give_info>
+				<action>monolith_event.lab_x8_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="neyron_intro">
+		<dont_has_info>neyron_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>neyron_intro_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>neyron_intro_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>neyron_intro_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>neyron_intro_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>neyron_intro_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>neyron_intro_5</text>
+				<give_info>neyron_talked</give_info>
+				<give_info>neyron_done</give_info>
+				<action>monolith_event.neyron_x8_task</action>
+				<give_info>kill_neyron</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="haron_intro">
+		<has_info>kill_neyron</has_info>
+		<dont_has_info>haron_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>haron_intro_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>haron_intro_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>haron_intro_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>haron_intro_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>haron_intro_4</text>
+				<give_info>haron_talked</give_info>
+				<give_info>haron_done</give_info>
+				<action>monolith_event.haron_x8_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="haron_next">
+		<precondition>monolith_event.has_things</precondition>
+		<dont_has_info>haron_next_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>haron_next_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>haron_next_1</text>
+				<action>monolith_event.relocate_gauss</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>haron_next_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>haron_next_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>haron_next_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>haron_next_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>haron_next_6</text>
+				<action>monolith_event.shaman_kill_task</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>haron_next_7</text>
+				<give_info>haron_has_items</give_info>
+				<give_info>haron_next_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="haron_complete">
+		<precondition>monolith_event.has_pda</precondition>
+		<dont_has_info>haron_complete</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>haron_complete_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>haron_complete_1</text>
+				<give_info>shaman_talk_death</give_info>
+				<action>monolith_event.relocate_pda_shamana</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>haron_complete_2</text>
+				<give_info>haron_complete</give_info>
+				<action>monolith_event.cresh_after_kill_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="cresh_pda">
+		<has_info>haron_complete</has_info>
+		<dont_has_info>cresh_complete</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>cresh_pda_0</text>
+				<action>monolith_event.relocate_pda_neyrona</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>cresh_pda_1</text>
+				<give_info>cresh_has_pda</give_info>
+				<give_info>cresh_complete</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="avanger_intro">
+		<has_info>haron_done</has_info>
+		<dont_has_info>avanger_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>avanger_intro_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>avanger_intro_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<give_info>avanger_done</give_info>
+				<give_info>avangers_talked</give_info>
+				<action>monolith_event.haron_find_x8_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
 </game_dialogs>

@@ -4841,12 +4841,12 @@
                 <next>111</next>
             </phrase>
             <phrase id="31">
-                <text>Гори в аду, нечисть!</text>
+                <text>jup_b15_zulus_about_dialog_31</text>
 				<action>timers.start_timer_3</action>
 				<next>32</next>
             </phrase>
 			<phrase id="32">
-                <text>...</text>
+                <text>jup_b15_zulus_about_dialog_32</text>
 				<is_final>32</is_final>
             </phrase>
             <phrase id="3">

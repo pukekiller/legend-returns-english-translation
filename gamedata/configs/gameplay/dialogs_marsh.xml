@@ -291,158 +291,158 @@
 	<!----------------------------- greh --------->
 	<!----------------------------- greh --------->
 	<!----------------------------- greh --------->
-<dialog id="greh_barter_1">
-<precondition>dialogs_escape.check_greh_true</precondition>
-        <phrase_list>
-            <phrase id="0">
-                <text>Мне нужно некоторое снаряжение.</text>
-                <next>1</next>
-            </phrase>
-            <phrase id="1">
-                <text>Обменяю на сердца сталкеров, что тебе нужно?</text>
-                <next>2</next>
-                <next>3</next>
-                <next>4</next>
-                <next>6</next>
+	<dialog id="greh_barter_1">
+		<precondition>dialogs_escape.check_greh_true</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>greh_barter_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>greh_barter_1_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>6</next>
 				<next>7</next>
 				<next>8</next>
 				<next>9</next>
-            </phrase>
-            <phrase id="9">
-                <text>Мне ничего не нужно.</text>
-            </phrase>
+			</phrase>
+			<phrase id="9">
+				<text>greh_barter_1_9</text>
+			</phrase>
 			<phrase id="8">
-                <text>Мне нужен Призывной Череп(7 сердец).</text>
+				<text>greh_barter_1_8</text>
 				<precondition>dialogs_red_forest.mojno</precondition>
 				<precondition>dialogs_escape.obmeb_heart_7</precondition>
 				<action>dialogs_escape.obmen_7heart</action>
 				<action>dialogs_escape.obmen_sinner_spawner</action>
-			</phrase>	
+			</phrase>
 			<phrase id="7">
-                <text>Мне нужна ритуальная маска(3 сердца).</text>
+				<text>greh_barter_1_7</text>
 				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_helm_greh</action>
-            </phrase>
-            <phrase id="6">
-                <text>Мне нужны патроны.</text>
-				<next>555</next>                
-            </phrase>
+			</phrase>
+			<phrase id="6">
+				<text>greh_barter_1_6</text>
+				<next>555</next>
+			</phrase>
 			<phrase id="555">
-                <text>Давай посмотрим.</text>
+				<text>greh_barter_1_555</text>
 				<next>5551</next>
-				<next>5552</next> 
-				<next>5553</next> 
-				<next>5554</next> 
+				<next>5552</next>
+				<next>5553</next>
+				<next>5554</next>
 				<next>5555</next>
 				<next>5556</next>
 				<next>5557</next>
 				<next>5558</next>
-				<next>5559</next>				
-				<next>5560</next>	
-            </phrase>
+				<next>5559</next>
+				<next>5560</next>
+			</phrase>
 			<phrase id="5551">
-                <text>Мне нужны патроны для дробовика(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5551</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_drob</action>
-            </phrase>
+			</phrase>
 			<phrase id="5552">
-                <text>Мне нужны патроны 5.45х39(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5552</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_5_45</action>
-            </phrase>
+			</phrase>
 			<phrase id="5553">
-                <text>Мне нужны патроны 9х18(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5553</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_9x18</action>
-            </phrase>
+			</phrase>
 			<phrase id="5554">
-                <text>Мне нужны патроны 9х19(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5554</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_9x19</action>
-            </phrase>			
+			</phrase>
 			<phrase id="5555">
-                <text>Мне нужны патроны для аномального калаша(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5555</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_ammoanom1</action>
-            </phrase>
+			</phrase>
 			<phrase id="5556">
-                <text>Мне нужны патроны для аномального дробовика(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5556</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_ammoanom2</action>
-            </phrase>
+			</phrase>
 			<phrase id="5557">
-                <text>Мне нужны патроны для аномального кольта(3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<text>greh_barter_1_5557</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_ammoanom3</action>
-            </phrase>
+			</phrase>
 			<phrase id="5558">
-                <text>Мне нужны гранаты(5 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<text>greh_barter_1_5558</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
 				<action>dialogs_escape.obmen_5heart</action>
 				<action>dialogs_escape.obmen_granati</action>
-            </phrase>
+			</phrase>
 			<phrase id="5559">
-                <text>Мне нужны патроны для "Цербера"(5 сердец).</text>
+				<text>greh_barter_1_5559</text>
 				<precondition>dialogs_red_forest.mojno</precondition>
 				<precondition>dialogs_escape.obmeb_heart_5</precondition>
 				<action>dialogs_escape.obmen_5heart</action>
 				<action>dialogs_escape.obmen_ammo_gauss_greh</action>
-            </phrase>
+			</phrase>
 			<phrase id="5560">
-                <text>Мне ничего не нужно.</text>                
-            </phrase>
-            <phrase id="4">
-                <text>Мне нужна броня.</text>                
-				<next>333</next>				
-            </phrase>
+				<text>greh_barter_1_5560</text>
+			</phrase>
+			<phrase id="4">
+				<text>greh_barter_1_4</text>
+				<next>333</next>
+			</phrase>
 			<phrase id="333">
-                <text>Давай поглядим.</text>                
+				<text>greh_barter_1_333</text>
 				<next>3331</next>
 				<next>3332</next>
 				<next>3333</next>
-				<next>3334</next>				
-            </phrase>
+				<next>3334</next>
+			</phrase>
 			<phrase id="3331">
-                <text>Возьму плащ (5 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
-                <action>dialogs_escape.obmen_5heart</action>
-                <action>dialogs_escape.obmen_plash</action>
+				<text>greh_barter_1_3331</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_plash</action>
 			</phrase>
 			<phrase id="3332">
-                <text>Возьму укрепленный плащ(15 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_15</precondition>
-                <action>dialogs_escape.obmen_15heart</action>
-                <action>dialogs_escape.obmen_plash1</action>
+				<text>greh_barter_1_3332</text>
+				<precondition>dialogs_escape.obmeb_heart_15</precondition>
+				<action>dialogs_escape.obmen_15heart</action>
+				<action>dialogs_escape.obmen_plash1</action>
 			</phrase>
 			<phrase id="3333">
-                <text>Возьму аномальный плащ(30 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_30</precondition>
-                <action>dialogs_escape.obmen_30heart</action>
-                <action>dialogs_escape.obmen_plash2</action>
+				<text>greh_barter_1_3333</text>
+				<precondition>dialogs_escape.obmeb_heart_30</precondition>
+				<action>dialogs_escape.obmen_30heart</action>
+				<action>dialogs_escape.obmen_plash2</action>
 			</phrase>
 			<phrase id="3334">
-                <text>Мне ничего не нужно.</text>                
+				<text>greh_barter_1_3334</text>
 			</phrase>
-            <phrase id="2">
-                <text>Мне нужны стволы.</text>
-				<next>222</next>				
-            </phrase>
+			<phrase id="2">
+				<text>greh_barter_1_2</text>
+				<next>222</next>
+			</phrase>
 			<phrase id="3">
-                <text>Мне нужен "Ритуальный" нож(5 сердец).</text>
+				<text>greh_barter_1_3</text>
 				<precondition>dialogs_escape.obmeb_heart_5</precondition>
 				<action>dialogs_escape.obmen_5heart</action>
 				<action>dialogs_escape.obmen_greh_knife</action>
 			</phrase>
 			<phrase id="222">
-                <text>Давай посмотрим.</text>
+				<text>greh_barter_1_222</text>
 				<next>21</next>
 				<next>22</next>
 				<next>23</next>
@@ -451,122 +451,117 @@
 				<next>26</next>
 				<next>27</next>
 				<next>28</next>
-				<next>29</next>  
+				<next>29</next>
 				<next>30</next>
-				<next>299</next> 
-            </phrase>
+				<next>299</next>
+			</phrase>
 			<phrase id="21">
-                <text>Возьму ПМ (2 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_2</precondition>
-                <action>dialogs_escape.obmen_2heart</action>
-                <action>dialogs_escape.obmen_pmm</action>
-            </phrase>
+				<text>greh_barter_1_21</text>
+				<precondition>dialogs_escape.obmeb_heart_2</precondition>
+				<action>dialogs_escape.obmen_2heart</action>
+				<action>dialogs_escape.obmen_pmm</action>
+			</phrase>
 			<phrase id="22">
-                <text>Возьму двухстволку (3 сердца).</text>
-                <precondition>dialogs_escape.obmeb_heart_3</precondition>
-                <action>dialogs_escape.obmen_3heart</action>
-                <action>dialogs_escape.obmen_toz</action>
-            </phrase>
+				<text>greh_barter_1_22</text>
+				<precondition>dialogs_escape.obmeb_heart_3</precondition>
+				<action>dialogs_escape.obmen_3heart</action>
+				<action>dialogs_escape.obmen_toz</action>
+			</phrase>
 			<phrase id="23">
-                <text>Возьму аксу (5 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
-                <action>dialogs_escape.obmen_5heart</action>
-                <action>dialogs_escape.obmen_aksu</action>
-            </phrase>
+				<text>greh_barter_1_23</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_aksu</action>
+			</phrase>
 			<phrase id="24">
-                <text>Возьму МП-5 (5 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
-                <action>dialogs_escape.obmen_5heart</action>
-                <action>dialogs_escape.obmen_mp5</action>
-            </phrase>
+				<text>greh_barter_1_24</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_mp5</action>
+			</phrase>
 			<phrase id="25">
-                <text>Возьму АКС-74 (7 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_7</precondition>
-                <action>dialogs_escape.obmen_7heart</action>
-                <action>dialogs_escape.obmen_ak74</action>
-            </phrase>
+				<text>greh_barter_1_25</text>
+				<precondition>dialogs_escape.obmeb_heart_7</precondition>
+				<action>dialogs_escape.obmen_7heart</action>
+				<action>dialogs_escape.obmen_ak74</action>
+			</phrase>
 			<phrase id="26">
-                <text>Возьму чейзер (7 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_7</precondition>
-                <action>dialogs_escape.obmen_7heart</action>
-                <action>dialogs_escape.obmen_wincheaster</action>
-            </phrase>
+				<text>greh_barter_1_26</text>
+				<precondition>dialogs_escape.obmeb_heart_7</precondition>
+				<action>dialogs_escape.obmen_7heart</action>
+				<action>dialogs_escape.obmen_wincheaster</action>
+			</phrase>
 			<phrase id="27">
-                <text>Возьму аномальный кольт (7 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_7</precondition>
-                <action>dialogs_escape.obmen_7heart</action>
-                <action>dialogs_escape.obmen_coltsinr</action>
-            </phrase>
+				<text>greh_barter_1_27</text>
+				<precondition>dialogs_escape.obmeb_heart_7</precondition>
+				<action>dialogs_escape.obmen_7heart</action>
+				<action>dialogs_escape.obmen_coltsinr</action>
+			</phrase>
 			<phrase id="28">
-                <text>Возьму аномальный АК (15 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_15</precondition>
-                <action>dialogs_escape.obmen_15heart</action>
-                <action>dialogs_escape.obmen_aksinr</action>
-            </phrase>
+				<text>greh_barter_1_28</text>
+				<precondition>dialogs_escape.obmeb_heart_15</precondition>
+				<action>dialogs_escape.obmen_15heart</action>
+				<action>dialogs_escape.obmen_aksinr</action>
+			</phrase>
 			<phrase id="29">
-                <text>Возьму аномальную помповуху (15 сердец).</text>
-                <precondition>dialogs_escape.obmeb_heart_15</precondition>
-                <action>dialogs_escape.obmen_15heart</action>
-                <action>dialogs_escape.obmen_wincheastersinr</action>
-            </phrase>
+				<text>greh_barter_1_29</text>
+				<precondition>dialogs_escape.obmeb_heart_15</precondition>
+				<action>dialogs_escape.obmen_15heart</action>
+				<action>dialogs_escape.obmen_wincheastersinr</action>
+			</phrase>
 			<phrase id="30">
-                <text>Возьму обгорелое ружье (7 сердец).</text>
+				<text>greh_barter_1_30</text>
 				<precondition>dialogs_escape.obmeb_heart_7</precondition>
 				<action>dialogs_escape.obmen_7heart</action>
 				<action>dialogs_escape.obmen_wpn_greh_toz</action>
-            </phrase>
+			</phrase>
 			<phrase id="299">
-                <text>Мне ничего не нужно.</text>                
-            </phrase>
-			
-        </phrase_list>
-    </dialog>
-    <dialog id="greh_barter_2">
-	<precondition>dialogs_escape.check_greh_true</precondition>
-        <phrase_list>
-            <phrase id="4">
-                <text>army_barter_2_4</text>
-            </phrase>
-            <phrase id="3">
-                <text>army_barter_2_3</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
-                <action>dialogs_escape.obmen_5heart</action>
-                <action>dialogs_escape.obmen_rem_br</action>
-            </phrase>
-            <phrase id="2">
-                <text>army_barter_2_2</text>
-                <precondition>dialogs_escape.obmeb_heart_5</precondition>
-                <action>dialogs_escape.obmen_5heart</action>
-                <action>dialogs_escape.obmen_rem_or</action>
-            </phrase>
-            <phrase id="1">
-                <text>army_barter_2_1</text>
-                <next>2</next>
-                <next>3</next>
-                <next>4</next>
-            </phrase>
-            <phrase id="0">
-                <text>army_barter_2_0</text>
-                <next>1</next>
-            </phrase>
-        </phrase_list>
-    </dialog>
-<dialog id="greh_barter_3">
-	<precondition>dialogs_escape.check_greh_true</precondition>
-	<precondition>dialogs_escape.obmeb_heart_3</precondition>
-        <phrase_list>            
+				<text>greh_barter_1_299</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="greh_barter_2">
+		<precondition>dialogs_escape.check_greh_true</precondition>
+		<phrase_list>
+			<phrase id="4">
+				<text>army_barter_2_4</text>
+			</phrase>
+			<phrase id="3">
+				<text>army_barter_2_3</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_rem_br</action>
+			</phrase>
+			<phrase id="2">
+				<text>army_barter_2_2</text>
+				<precondition>dialogs_escape.obmeb_heart_5</precondition>
+				<action>dialogs_escape.obmen_5heart</action>
+				<action>dialogs_escape.obmen_rem_or</action>
+			</phrase>
+			<phrase id="1">
+				<text>army_barter_2_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
 			<phrase id="0">
-                <text>Мне нужна "скорость" (3 сердца).</text>
+				<text>army_barter_2_0</text>
+				<next>1</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="greh_barter_3">
+		<precondition>dialogs_escape.check_greh_true</precondition>
+		<precondition>dialogs_escape.obmeb_heart_3</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>greh_barter_3_0</text>
 				<precondition>dialogs_escape.obmeb_heart_3</precondition>
 				<action>dialogs_escape.obmen_3heart</action>
 				<action>dialogs_escape.obmen_speed</action>
-								 
-						   
-																						 
-							  
-            </phrase>
-        </phrase_list>
-    </dialog>
+			</phrase>
+		</phrase_list>
+	</dialog>
 	<dialog id="csky_start_new_story">
 	<precondition>dialogs_new.check_csky_true</precondition>
 	<dont_has_info>start_quest_start</dont_has_info>

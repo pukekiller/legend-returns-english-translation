@@ -8,21 +8,21 @@ A list of all files with their detailed progress can be found below.
 
 - **configs/gameplay:**
 	- [character_desc_bar.xml](gamedata/configs/gameplay/character_desc_bar.xml)
-		- not started
+		- done
 	- [dialogs_bar.xml](gamedata/configs/gameplay/dialogs_bar.xml)
-		- not started
+		- done
 	- [dialogs_darkvalley.xml](gamedata/configs/gameplay/dialogs_darkvalley.xml)
-		- not started
+		- done
 	- [dialogs_escape.xml](gamedata/configs/gameplay/dialogs_escape.xml)
-		- not started
+		- done
 	- [dialogs_habarwik.xml](gamedata/configs/gameplay/dialogs_habarwik.xml)
 		- not started
 	- [dialogs_jupiter.xml](gamedata/configs/gameplay/dialogs_jupiter.xml)
-		- not started
+		- done
 	- [dialogs_marsh.xml](gamedata/configs/gameplay/dialogs_marsh.xml)
-		- not started
+		- done
 	- [dialogs_redforest.xml](gamedata/configs/gameplay/dialogs_redforest.xml)
-		- not started
+		- done
 
 - **configs/text/eng:**
 	- [events_texts.xml](gamedata/configs/text/eng/events_texts.xml)
@@ -58,7 +58,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_marsh.xml](gamedata/configs/text/rus/st_dialogs_marsh.xml)
 		- not started
 	- [st_dialogs_redforest.xml](gamedata/configs/text/rus/st_dialogs_redforest.xml)
-		- not started
+		- unrevised
 	- [st_dialogs_yantar.xml](gamedata/configs/text/rus/st_dialogs_yantar.xml)
 		- not started
 	- [st_dialogs_zaton.xml](gamedata/configs/text/rus/st_dialogs_zaton.xml)
@@ -132,11 +132,11 @@ A list of all files with their detailed progress can be found below.
 	- [ui_st_encyclopedia_features.xml](gamedata/configs/text/rus/ui_st_encyclopedia_features.xml)
 		- not started
 	- [ui_st_faction_starts.xml](gamedata/configs/text/rus/ui_st_faction_starts.xml)
-		- not started
+		- unrevised
 	- [ui_st_inventory.xml](gamedata/configs/text/rus/ui_st_inventory.xml)
 		- not started
 	- [ui_st_loadscreen.xml](gamedata/configs/text/rus/ui_st_loadscreen.xml)
-		- not started
+		- in progress, unrevised
 	- [ui_st_mm.xml](gamedata/configs/text/rus/ui_st_mm.xml)
 		- not started
 	- [ui_st_screen.xml](gamedata/configs/text/rus/ui_st_screen.xml)

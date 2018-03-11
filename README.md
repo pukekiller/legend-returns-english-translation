@@ -8,7 +8,7 @@ A list of all files with their detailed progress can be found below.
 - [events_texts.xml](gamedata/configs/text/eng/events_texts.xml)
 	- done
 - [izmer_mod_string.xml](gamedata/configs/text/rus/izmer_mod_string.xml)
-	- not started
+	- unrevised
 - [izmer_mpd_config.xml](gamedata/configs/text/rus/izmer_mpd_config.xml)
 	- not started
 - [soc_quests.xml](gamedata/configs/text/rus/soc_quests.xml)

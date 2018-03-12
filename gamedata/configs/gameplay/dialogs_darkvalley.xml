@@ -113,13 +113,13 @@
 		<dont_has_info>kill_fanatic_cancel</dont_has_info>
 		<has_info>fanatic_death</has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>kill_fanatic_quest_prines_0</text>
+				<next>1</next>
 			<phrase id="1">
-				<text>Убил? Фига себе, нет слов. Держи, как и договаривались.</text>
+				<text>kill_fanatic_quest_prines_1</text>
 				<give_info>quest_kill_fanatic_done</give_info>
 			</phrase>
-			<phrase id="0">
-				<text>Всё, теперь он фанат смерти. Давай мне мои бабки.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -129,25 +129,25 @@
 		<dont_has_info>sultan_task1_notask</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Могу чем я помочь?</text>
+				<text>sultan_task1_begin_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Да можешь. Тут на кордоне завелся один щегол, Волком кличут. Он организовывает нападения на наши лагеря, и серьезно мешает моему бизнесу. Нужно убрать его.</text>
+				<text>sultan_task1_begin_1</text>
 				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
-				<text>Нет уж. Это слишком сложно.</text>
+				<text>sultan_task1_begin_2</text>
 				<give_info>sultan_task1_notask</give_info>
 			</phrase>
 			<phrase id="3">
-				<text>Все, считай его песенка спета.</text>
+				<text>sultan_task1_begin_3</text>
 				<action>dialogs_darkvalley.sultan_task1_givetask</action>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Хорошо. Если ты его шлепнешь, я тебя награжу.</text>
+				<text>sultan_task1_begin_4</text>
 				<give_info>sultan_task1_init</give_info>
 			</phrase>
 		</phrase_list>
@@ -158,24 +158,24 @@
 		<has_info>wolf_death</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Готов волчара.</text>
+				<text>sultan_task1_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Неплохо, избавил меня от занозы в заднице.</text>
+				<text>sultan_task1_end_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Шо там с наградой?</text>
+				<text>sultan_task1_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Держи.</text>
+				<text>sultan_task1_end_3</text>
 				<give_info>sultan_task1_end</give_info>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Спасибо.</text>
+				<text>sultan_task1_end_4</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 		</phrase_list>

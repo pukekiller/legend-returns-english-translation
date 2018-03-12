@@ -110,7 +110,7 @@
 		<text>What is my task?</text>
 	</string>
 	<string id="old_sinner_3">
-		<text>You must enroll in their ranks under the guise of an ordinary stalker and report back any information that you gather to me. This will provide your disguise. Here you go.</text>
+		<text>You must enrol in their ranks under the guise of an ordinary stalker and report back any information that you gather to me. This will provide your disguise. Here you go.</text>
 	</string>
 	<string id="old_sinner_4">
 		<text>Understood. I'm on the move.</text>
@@ -196,7 +196,7 @@
 	</string>
 
 	<string id="greh_voronin_0">
-		<text>Greetings, general!</text>
+		<text>Greetings, General!</text>
 	</string>
 	<string id="greh_voronin_1">
 		<text>Hello, stalker! What is the matter?</text>
@@ -335,13 +335,13 @@
 		<text>The operation was a success. The infidels have been killed, just like their leader: the Crow. In addition, I found the PDA of Neuron, which was previously stolen by the Sinners. I also found Crow's documents and an unknown weapon sample, as well as blueprints for it.</text>
 	</string>
 	<string id="haron_next_1">
-		<text>...[examines documents]</text>
+		<text>... [examines documents]</text>
 	</string>
 	<string id="haron_next_2">
 		<text>What does it say?</text>
 	</string>
 	<string id="haron_next_3">
-		<text>Evidence of rumours, which I have already mentioned... Sin does, in fact, haves a stalker who sees and hears all living things in the Zone... and they call him Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman, along with his partner, Anubis.</text>
+		<text>Evidence of rumours, which I have already mentioned... Sin does, in fact, haves a stalker who sees and hears all living things in the Zone... and he is known as Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman, along with his partner, Anubis.</text>
 	</string>
 	<string id="haron_next_4">
 		<text>Where can I find them?</text>
@@ -360,10 +360,10 @@
 		<text>Shaman is dead. Here is his PDA.</text>
 	</string>
 	<string id="haron_complete_1">
-		<text>Excellent. Without that freak, Sin will cease to be a threat to us. For your loyalty, you will rely on the very best equipment and ammunition we have! May the Force be with you!</text>
+		<text>Excellent. Without that freak in command, Sin will cease to be a threat to us. For your loyalty, you will rely on the very best equipment and ammunition we have! May the Force be with you!</text>
 	</string>
 	<string id="haron_complete_2">
-		<text>For the Monolith!!</text>
+		<text>For the Monolith!</text>
 	</string>
 
 	<string id="cresh_pda_0">

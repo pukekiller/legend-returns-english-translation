@@ -39,8 +39,8 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_characters.xml](gamedata/configs/text/rus/st_characters.xml)
 		- not started
-	- [st_characters_new.xml](gamedata/configs/text/rus/st_characters_new.xml)
-		- not started
+	- [st_characters_new.xml](gamedata/configs/text/eng/st_characters_new.xml)
+		- done
 	- [st_dialogs.xml](gamedata/configs/text/rus/st_dialogs.xml)
 		- not started
 	- [st_dialogs_bar.xml](gamedata/configs/text/rus/st_dialogs_bar.xml)
@@ -75,8 +75,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [st_habarwik.xml](gamedata/configs/text/rus/st_habarwik.xml)
 		- not started
-	- [st_habarwik_outfit.xml](gamedata/configs/text/rus/st_habarwik_outfit.xml)
-		- not started
+	- [st_habarwik_outfit.xml](gamedata/configs/text/eng/st_habarwik_outfit.xml)
+		- done
 	- [st_items_artefacts.xml](gamedata/configs/text/rus/st_items_artefacts.xml)
 		- not started
 	- [st_items_equipment.xml](gamedata/configs/text/rus/st_items_equipment.xml)
@@ -131,11 +131,11 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [ui_st_encyclopedia_features.xml](gamedata/configs/text/rus/ui_st_encyclopedia_features.xml)
 		- not started
-	- [ui_st_faction_starts.xml](gamedata/configs/text/rus/ui_st_faction_starts.xml)
+	- [ui_st_faction_starts.xml](gamedata/configs/text/eng/ui_st_faction_starts.xml)
 		- unrevised
 	- [ui_st_inventory.xml](gamedata/configs/text/rus/ui_st_inventory.xml)
 		- not started
-	- [ui_st_loadscreen.xml](gamedata/configs/text/rus/ui_st_loadscreen.xml)
+	- [ui_st_loadscreen.xml](gamedata/configs/text/eng/ui_st_loadscreen.xml)
 		- in progress, unrevised
 	- [ui_st_mm.xml](gamedata/configs/text/rus/ui_st_mm.xml)
 		- not started

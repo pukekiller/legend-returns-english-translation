@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="agr_stalker_leader_name">
+        <text>Vyodrov</text>
+    </string>
+    <string id="agr_stalker_medic_name">
+        <text>Herbalist</text>
+    </string>
+    <string id="agr_stalker_tech_name">
+        <text>Novikov</text>
+    </string>
+    <string id="agr_stalker_trader_name">
+        <text>Spore</text>
+    </string>
+    <string id="cit_lukash">
+        <text>Lukash</text>
+    </string>
+    <string id="dead_recon_name">
+        <text>Lieutenant Vetrovenko</text>
+    </string>
+    <string id="fac_labrador_name">
+        <text>Egor Labrador</text>
+    </string>
+    <string id="jup_guide">
+        <text>Guide</text>
+    </string>
+    <string id="mil_toad_name">
+        <text>Toad</text>
+    </string>
+    <string id="prapor_name">
+        <text>Praporshchik</text>
+    </string>
+    <string id="pri_haron_name">
+        <text>Charon</text>
+    </string>
+    <string id="rad_aid">
+        <text>Aid</text>
+    </string>
+    <string id="rad_kronos">
+        <text>Cronos</text>
+    </string>
+    <string id="ros_orehus">
+        <text>Nut</text>
+    </string>
+    <string id="ros_volkodav_name">
+        <text>Wolfhound</text>
+    </string>
+    <string id="sim_stalker_master_diador_name">
+        <text>Father Diodor</text>
+    </string>
+    <string id="sim_stalker_veteran_gusarov_name">
+        <text>Oleg ‘Demon’ Gusarov</text>
+    </string>
+    <string id="val_borov_name">
+        <text>Borov</text>
+    </string>
+    <string id="vovan_name">
+        <text>Vovan</text>
+    </string>
+    <string id="yan_american_name">
+        <text>Alan</text>
+    </string>
+    <string id="yan_real_ghost_name">
+        <text>Ghost</text>
+    </string>
+    <string id="yan_zob_name">
+        <text>Craw</text>
+    </string>
+    <string id="zat_csky_tech_name">
+        <text>Kron</text>
+    </string>
+    <string id="zat_csky_trader_name">
+        <text>Nightowl</text>
+    </string>
+
+    <!-- New -->
+    <string id="bar_sema_name">
+        <text>Syoma Tolstoy</text>
+    </string>
+    <string id="jup_stepan_name">
+        <text>Stepan Fearless</text>
+    </string>
+    <string id="mar_csky_razvedka_name">
+        <text>Semyon Simple</text>
+    </string>
+    <string id="mar_freedom_name">
+        <text>Vitka Smoker</text>
+    </string>
+    <string id="mar_kill_stalker_name">
+        <text>Mikha Thief</text>
+    </string>
+    <string id="mar_shram_name">
+        <text>Scar</text>
+    </string>
+    <string id="pro_sergey_name">
+        <text>Dushman</text>
+    </string>
+    <string id="stalker_unknown_name">
+        <text>Unknown</text>
+    </string>
+    <string id="zat_strelok_name">
+        <text>Strelok</text>
+    </string>
+</string_table>

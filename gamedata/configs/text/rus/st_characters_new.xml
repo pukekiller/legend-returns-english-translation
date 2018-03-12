@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="agr_stalker_leader_name">
-		<text>Ведров</text>
+		<text>Вёдров</text>
 	</string>
 	<string id="agr_stalker_medic_name">
 		<text>Травник</text>
@@ -46,11 +46,11 @@
 		<text>Волкодав</text>
 	</string>
 	<string id="sim_stalker_master_diador_name">
-        <text>Отец Диодор</text>
-    </string>
-    <string id="sim_stalker_veteran_gusarov_name">
-        <text>Олег «Демон» Гусаров</text>
-    </string>
+		<text>Отец Диодор</text>
+	</string>
+	<string id="sim_stalker_veteran_gusarov_name">
+		<text>Олег «Демон» Гусаров</text>
+	</string>
 	<string id="val_borov_name">
 		<text>Боров</text>
 	</string>
@@ -73,33 +73,32 @@
 		<text>Сова</text>
 	</string>
 
-	<!-- NEW -->
-
+	<!-- New -->
 	<string id="bar_sema_name">
 		<text>Сёма Толстой</text>
 	</string>
 	<string id="jup_stepan_name">
-	    <text>Степан Бесстрашный</text>
+		<text>Степан Бесстрашный</text>
 	</string>
-    <string id="mar_csky_razvedka_name">
-	    <text>Семён Простой</text>
+	<string id="mar_csky_razvedka_name">
+		<text>Семён Простой</text>
 	</string>
 	<string id="mar_freedom_name">
-	    <text>Витька Курильщик</text>
+		<text>Витька Курильщик</text>
 	</string>
 	<string id="mar_kill_stalker_name">
-	    <text>Миха Вор</text>
+		<text>Миха Вор</text>
 	</string>
 	<string id="mar_shram_name">
-	    <text>Шрам</text>
+		<text>Шрам</text>
 	</string>
 	<string id="pro_sergey_name">
 		<text>Душман</text>
 	</string>
 	<string id="stalker_unknown_name">
-	    <text>Неизвестный</text>
+		<text>Неизвестный</text>
 	</string>
 	<string id="zat_strelok_name">
-	    <text>Стрелок</text>
+		<text>Стрелок</text>
 	</string>
 </string_table>

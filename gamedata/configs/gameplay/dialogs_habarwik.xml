@@ -2981,7 +2981,7 @@
 		<dont_has_info>krot_vstrechen</dont_has_info>
 		<phrase_list>
 			<phrase id="1">
-				<text>Здаров, Кротом меня кличут. Я тут диггерством промышляю.</text>
+				<text>Здоров, Кротом меня кличут. Я тут диггерством промышляю.</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
@@ -4133,7 +4133,7 @@
 		<dont_has_info>csky_info_dolg</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здарова, я тут мимо проходил, решил заскочить на огонек.</text>
+				<text>Здорово, я тут мимо проходил, решил заскочить на огонек.</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
@@ -4159,7 +4159,7 @@
 		<dont_has_info>csky_info_dolg_2</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здарова, как товар идёт? А то покупателей, я гляжу, немного.</text>
+				<text>Здорово, как товар идёт? А то покупателей, я гляжу, немного.</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
@@ -4181,7 +4181,7 @@
 		<dont_has_info>csky_info_dolg_3</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здарова, это ты, значит, местный медик?</text>
+				<text>Здорово, это ты, значит, местный медик?</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
@@ -4203,7 +4203,7 @@
 		<dont_has_info>csky_info_dolg_4</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здарова, командир, как жизнь нелегкая?</text>
+				<text>Здорово, командир, как жизнь нелегкая?</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="slime_novice_outfit_name">
+		<text>Simplified stalker outfit</text>
+	</string>
+	<string id="slime_novice_outfit_description">
+		<text>A stalker outfit, modified by craftsmen of the Black Slugs faction. Almost all protective elements have been extracted from it, granting maximum possible mobility. Additionally, the suit boasts two integrated cells for auxiliary modules.</text>
+	</string>
+	<string id="slime_outfit_name">
+		<text>Black Slugs trench coat</text>
+	</string>
+	<string id="slime_outfit_description">
+		<text>A uniform with armour plates extracted from the Wind of Freedom overalls and supplemented with a traditional green cloak: the symbol of the Black Slugs. It has a high potential for improvements, as well as two slots for auxiliary modules.</text>
+	</string>
+	<string id="slime_exo_outfit_name">
+		<text>Black Slugs exoskeleton</text>
+	</string>
+	<string id="slime_exo_outfit_description">
+		<text>A rough modification of the military exoskeleton, which has been permanently joined with part of a Black Slugs trench coat uniform. Due to the lack of any protective properties, local craftsmen have successfully attempted to improve the comfort of the suit, without sacrificing any functionality. In addition, two slots for artefacts are attached.</text>
+	</string>
+</string_table>

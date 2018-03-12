@@ -102,7 +102,7 @@
 			</phrase>
 		</phrase_list>
 	</dialog>
-	Docks For Voron
+	<!-- Docks For Voron -->
 	<dialog id="docks_quest_dialog">
 		<has_info>quest_key_done</has_info>
 		<dont_has_info>quest_docks_give</dont_has_info>

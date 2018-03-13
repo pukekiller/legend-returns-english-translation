@@ -3,147 +3,147 @@
 	<dialog id="jupiter_provodnik">
 		<phrase_list>
 			<phrase id="0">
-				<text>Куда ты можешь меня провести?</text>
+				<text>jupiter_provodnik_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="6">
-				<text>Выбирай:</text>
+				<text>jupiter_provodnik_6</text>
 				<next>2</next>
 				<next>3</next>
 				<next>4</next>
 				<next>5</next>
 			</phrase>
 			<phrase id="2">
-				<text>В Бар %c[255,238,153,26][3000]</text>
+				<text>jupiter_provodnik_2</text>
 				<precondition>provodniki.have_money_jupiter_guid_bar</precondition>
 				<action>provodniki.sell_money_jupier_to_bar</action>
 				<action>provodniki.l05_bar_guid</action>
 			</phrase>
 			<phrase id="3">
-				<text>На Лиманск %c[255,238,153,26][2250]</text>
+				<text>jupiter_provodnik_3</text>
 				<precondition>provodniki.have_money_jupiter_guid_limansk</precondition>
 				<action>provodniki.sell_money_jupier_to_lim</action>
 				<action>provodniki.lim_smart_terrain_1</action>
 			</phrase>
 			<phrase id="4">
-				<text>На Генераторы %c[255,238,153,26][6000]</text>
+				<text>jupiter_provodnik_4</text>
 				<precondition>provodniki.have_money_jupiter_guid_gen</precondition>
 				<action>provodniki.sell_money_jupier_to_gen</action>
 				<action>provodniki.gen_smart_terrain_urod</action>
 			</phrase>
 			<phrase id="5">
-				<text>Я передумал.</text>
+				<text>jupiter_provodnik_5</text>
 			</phrase>
 			<phrase id="1">
-				<text>А деньги то у тебя есть?</text>
+				<text>jupiter_provodnik_1</text>
 				<next>7</next>
 				<next>8</next>
 			</phrase>
 			<phrase id="7">
-				<text>Конечно!</text>
+				<text>jupiter_provodnik_7</text>
 				<precondition>provodniki.have_money_jupiter_guid_limansk</precondition>
 				<next>6</next>
 			</phrase>
 			<phrase id="8">
-				<text>Пока нет.</text>
+				<text>jupiter_provodnik_8</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="oreh_provodnik">
 		<phrase_list>
 			<phrase id="0">
-				<text>Куда ты можешь меня провести?</text>
+				<text>oreh_provodnik_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="6">
-				<text>Выбирай:</text>
+				<text>oreh_provodnik_6</text>
 				<next>2</next>
 				<next>3</next>
 				<next>4</next>
 				<next>5</next>
 			</phrase>
 			<phrase id="2">
-				<text>На Кладбище Техники %c[255,238,153,26][2000]</text>
+				<text>oreh_provodnik_2</text>
 				<precondition>provodniki.have_money_dt_guid_klad</precondition>
 				<action>provodniki.sell_money_dt_to_klad</action>
 				<action>provodniki.trc_sim_1</action>
 			</phrase>
 			<phrase id="3">
-				<text>В г.Светлый Путь %c[255,238,153,26][3000]</text>
+				<text>oreh_provodnik_3</text>
 				<precondition>provodniki.have_money_jupiter_guid_bar</precondition>
 				<action>provodniki.sell_money_jupier_to_bar</action>
 				<action>provodniki.cit_killers_vs_bandits</action>
 			</phrase>
 			<phrase id="4">
-				<text>В Рыжый Лес %c[255,238,153,26][3000]</text>
+				<text>oreh_provodnik_4</text>
 				<precondition>provodniki.have_money_jupiter_guid_bar</precondition>
 				<action>provodniki.sell_money_jupier_to_bar</action>
 				<action>provodniki.red_forest_guid</action>
 			</phrase>
 			<phrase id="5">
-				<text>Я передумал.</text>
+				<text>oreh_provodnik_5</text>
 			</phrase>
 			<phrase id="1">
-				<text>А деньги то у тебя есть?</text>
+				<text>oreh_provodnik_1</text>
 				<next>7</next>
 				<next>8</next>
 			</phrase>
 			<phrase id="7">
-				<text>Конечно!</text>
+				<text>oreh_provodnik_7</text>
 				<precondition>provodniki.have_money_dt_guid_klad</precondition>
 				<next>6</next>
 			</phrase>
 			<phrase id="8">
-				<text>Пока нет.</text>
+				<text>oreh_provodnik_8</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="marsh_provodnik">
 		<phrase_list>
 			<phrase id="0">
-				<text>Куда ты можешь меня провести?</text>
+				<text>marsh_provodnik_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="6">
-				<text>Выбирай:</text>
+				<text>marsh_provodnik_6</text>
 				<next>2</next>
 				<next>3</next>
 				<next>4</next>
 				<next>5</next>
 			</phrase>
 			<phrase id="2">
-				<text>На Медприбор %c[255,238,153,26][1000]</text>
+				<text>marsh_provodnik_2</text>
 				<precondition>provodniki.have_money_marsh_guid_med</precondition>
 				<action>provodniki.sell_money_marsh_to_med</action>
 				<action>provodniki.agr_smart_terrain_4_4_near_1</action>
 			</phrase>
 			<phrase id="3">
-				<text>В Темную Лощину %c[255,238,153,26][2000]</text>
+				<text>marsh_provodnik_3</text>
 				<precondition>provodniki.have_money_dt_guid_klad</precondition>
 				<action>provodniki.sell_money_dt_to_klad</action>
 				<action>provodniki.ds_boars_nest</action>
 			</phrase>
 			<phrase id="4">
-				<text>На свалку %c[255,238,153,26][2000]</text>
+				<text>marsh_provodnik_4</text>
 				<precondition>provodniki.have_money_dt_guid_klad</precondition>
 				<action>provodniki.sell_money_dt_to_klad</action>
 				<action>provodniki.gar_smart_terrain_2_4</action>
 			</phrase>
 			<phrase id="5">
-				<text>Я передумал.</text>
+				<text>marsh_provodnik_5</text>
 			</phrase>
 			<phrase id="1">
-				<text>А деньги то у тебя есть?</text>
+				<text>marsh_provodnik_1</text>
 				<next>7</next>
 				<next>8</next>
 			</phrase>
 			<phrase id="7">
-				<text>Конечно!</text>
+				<text>marsh_provodnik_7</text>
 				<precondition>provodniki.have_money_marsh_guid_med</precondition>
 				<next>6</next>
 			</phrase>
 			<phrase id="8">
-				<text>Пока нет.</text>
+				<text>marsh_provodnik_8</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -1746,44 +1746,44 @@
 		<precondition>dialogs_escape.mojno_vstupit</precondition>
 		<dont_has_info>uje_vstupal_v_lolg</dont_has_info>
 		<phrase_list>
-			<phrase id="1">
-				<text>Молодец! Тогда повторяй за мной: Клянусь защищать цели и идеалы Долга.</text>
-				<next>2</next>
-			</phrase>
 			<phrase id="0">
-				<text>Я бы хотел вступить в «Долг» и принять присягу.</text>
+				<text>new_group_dolg_0</text>
 				<next>1</next>
 			</phrase>
+			<phrase id="1">
+				<text>new_group_dolg_1</text>
+				<next>2</next>
+			</phrase>
 			<phrase id="2">
-				<text>Клянусь защищать цели и идеалы Долга.</text>
+				<text>new_group_dolg_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Беречь Землю от опасностей Зоны. Преследовать и уничтожать любые проявления Зоны как внутри ее, так и за ее границами.</text>
+				<text>new_group_dolg_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Беречь Землю от опасностей Зоны. Преследовать и уничтожать любые проявления Зоны как внутри ее, так и за ее границами.</text>
+				<text>new_group_dolg_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Бороться с любым инакомыслием в лице как отдельных сталкеров, так и группировок.</text>
+				<text>new_group_dolg_5</text>
 				<next>6</next>
 			</phrase>
 			<phrase id="6">
-				<text>Бороться с любым инакомыслием в лице как отдельных сталкеров, так и группировок.</text>
+				<text>new_group_dolg_6</text>
 				<next>7</next>
 			</phrase>
 			<phrase id="7">
-				<text>И отдать жизнь, во имя справедливости и порядка на Земле!</text>
+				<text>new_group_dolg_7</text>
 				<next>8</next>
 			</phrase>
 			<phrase id="8">
-				<text>И отдать жизнь, во имя справедливости и порядка на Земле!</text>
+				<text>new_group_dolg_8</text>
 				<next>9</next>
 			</phrase>
 			<phrase id="9">
-				<text>Поздравляю! Отныне ты являешься полноправным членом группировки Долг.</text>
+				<text>new_group_dolg_9</text>
 				<action>dialogs_escape.v_dolg</action>
 				<action>dialogs_escape.if_friend_army_to_actor</action>
 				<action>dialogs_escape.if_enemy_freedom_to_actor</action>
@@ -1796,27 +1796,27 @@
 		<precondition>dialogs_escape.nelza_vstupit</precondition>
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
 			<phrase id="0">
-				<text>Я бы хотел вступить в «Долг» и принять присягу.</text>
+				<text>vdolg_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>vdolg_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_dolg">
 		<precondition>dialogs_escape.check_dolg_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_dolg_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Жаль. У нас каждый человек на счету, но я тебя держать не буду.</text>
+				<text>new_group_loner_from_dolg_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor</action>
 				<action>dialogs_escape.if_friend_slime_to_actor</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти в отставку.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -1824,34 +1824,34 @@
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<dont_has_info>uje_vstupal_v_merc</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_merc_0</text>
+				<give_info>uje_vstupal_v_merc</give_info>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо, я все устрою. Можешь считать, что ты стал наёмником.</text>
+				<text>new_group_merc_1</text>
 				<action>dialogs_escape.v_merc</action>
 				<action>dialogs_escape.if_friend_bandit_to_actor</action>
 				<action>dialogs_escape.if_friend_killer_to_actor</action>
-			</phrase>
-			<phrase id="0">
-				<text>Слыхал, у тебя связи в Синдикате. Устроишь меня туда?</text>
-				<give_info>uje_vstupal_v_merc</give_info>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_merc">
 		<precondition>dialogs_escape.check_merc_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_merc_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Понятно. Дело твоё, но теперь на тебя наверняка объявят охоту.</text>
+				<text>new_group_loner_from_merc_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor_2</action>
 				<action>dialogs_escape.if_friend_slime_to_actor</action>
 				<action>dialogs_escape.if_friend_dolg_to_actor2</action>
 				<action>dialogs_escape.if_friend_stalker_to_actor2</action>
 				<action>dialogs_escape.if_friend_ecolog_to_actor_3</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти в отставку.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -1862,14 +1862,18 @@
 		<dont_has_info>hero_zombied</dont_has_info>
 		<dont_has_info>uje_vstupal_v_monolith</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_monolith_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Серьезное решение. Надеюсь, ты подумал. Помогу тебе, но не за бесплатно. Скажем, 10000 рубликов хватит.</text>
+				<text>new_group_monolith_1</text>
 				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
+				<text>new_group_monolith_2</text>
 				<precondition>dialogs_escape.osvedomitel10000u</precondition>
-				<text>Держи.</text>
 				<give_info>uje_vstupal_v_monolith</give_info>
 				<action>dialogs_escape.v_monolith</action>
 				<action>dialogs_escape.if_friend_zombied_to_actor</action>
@@ -1884,11 +1888,7 @@
 				<give_info>hero_zombied</give_info>
 			</phrase>
 			<phrase id="3">
-				<text>Я передумал.</text>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел присоединиться к «Монолиту». Не поможешь?</text>
-				<next>1</next>
+				<text>new_group_monolith_3</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -1898,14 +1898,18 @@
 		<has_info>bar_deactivate_radar_done</has_info>
 		<dont_has_info>hero_zombied</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_monolith_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Порвать со своим прошлым не так-то просто. За 10000 я организую тебе жизнь с чистого листа.</text>
+				<text>new_group_loner_from_monolith_1</text>
 				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
+				<text>new_group_loner_from_monolith_2</text>
 				<precondition>dialogs_escape.osvedomitel10000u</precondition>
-				<text>Держи.</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_ecolog_to_actor_2</action>
 				<action>dialogs_escape.if_friend_dolg_to_actor</action>
@@ -1918,25 +1922,25 @@
 				<action>dialogs_escape.osvedomitel10000</action>
 			</phrase>
 			<phrase id="3">
-				<text>Я передумал.</text>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти из «Монолита». Не поможешь?</text>
-				<next>1</next>
+				<text>new_group_loner_from_monolith_3</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_army">
 		<precondition>dialogs_escape.check_cs_army_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_army_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Помогу, но не за бесплатно. Скажем, 10000 денег хватит.</text>
+				<text>new_group_loner_from_army_1</text>
 				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
+				<text>new_group_loner_from_army_2</text>
 				<precondition>dialogs_escape.osvedomitel10000u</precondition>
-				<text>Держи.</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_stalker_to_actor2</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor_2</action>
@@ -1945,101 +1949,97 @@
 				<action>dialogs_escape.osvedomitel10000</action>
 			</phrase>
 			<phrase id="3">
-				<text>Я передумал.</text>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти из армии. Не поможешь?</text>
-				<next>1</next>
+				<text>new_group_loner_from_army_3</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_freedom">
 		<precondition>dialogs_escape.check_freedom_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_freedom_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Жаль. У нас каждый человек на счету, но я тебя держать не буду.</text>
+				<text>new_group_loner_from_freedom_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_dolg_to_actor</action>
 				<action>dialogs_escape.if_friend_csky_to_actor</action>
 				<action>dialogs_escape.if_friend_slime_to_actor</action>
 				<action>dialogs_escape.if_friend_ecolog_to_actor</action>
 			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти в отставку.</text>
-				<next>1</next>
-			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_cs">
 		<precondition>dialogs_escape.check_cs_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_freedom_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Жаль. У нас каждый человек на счету, но я тебя держать не буду.</text>
+				<text>new_group_loner_from_freedom_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor_2</action>
 				<action>dialogs_escape.if_friend_slime_to_actor</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел уйти в отставку.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="freedom_barter">
 		<precondition>dialogs_escape.check_freedom_true</precondition>
 		<phrase_list>
-			<phrase id="8">
-				<text>Мне нужен шлем "Заслон"(15).</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
-				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_zaslon</action>
-			</phrase>
-			<phrase id="7">
-				<text>Мне нужен экзоскелет(50).</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
-				<action>dialogs_escape.obmen_50pda</action>
-				<action>dialogs_escape.obmen_frex</action>
-			</phrase>
-			<phrase id="6">
-				<text>Мне нужен комбез с замкнутой системой дыхания(30).</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
-				<action>dialogs_escape.obmen_30pda</action>
-				<action>dialogs_escape.obmen_frseva</action>
-			</phrase>
-			<phrase id="5">
-				<text>Мне нужна СВУ(30).</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
-				<action>dialogs_escape.obmen_30pda</action>
-				<action>dialogs_escape.obmen_svu</action>
-			</phrase>
-			<phrase id="4">
-				<text>Мне нужна G36(15).</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
-				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_g36</action>
-			</phrase>
-			<phrase id="9">
-				<text>Мне ничего не нужно.</text>
-			</phrase>
 			<phrase id="0">
 				<text>freedom_barter_0</text>
-				<next>2</next>
+				<next>1</next>
 			</phrase>
-			<phrase id="2">
-				<text>freedom_barter_2</text>
+			<phrase id="1">
+				<text>freedom_barter_1</text>
+				<next>2</next>
 				<next>3</next>
 				<next>4</next>
 				<next>5</next>
 				<next>6</next>
 				<next>7</next>
 				<next>8</next>
-				<next>9</next>
 			</phrase>
-			<phrase id="3">
-				<text>Мне нужен F2000(30).</text>
+			<phrase id="2">
+				<text>freedom_barter_2</text>
 				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
 				<action>dialogs_escape.obmen_30pda</action>
 				<action>dialogs_escape.obmen_fn2000</action>
+			</phrase>
+			<phrase id="3">
+				<text>freedom_barter_3</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
+				<action>dialogs_escape.obmen_15pda</action>
+				<action>dialogs_escape.obmen_g36</action>
+			</phrase>
+			<phrase id="4">
+				<text>freedom_barter_4</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
+				<action>dialogs_escape.obmen_30pda</action>
+				<action>dialogs_escape.obmen_svu</action>
+			</phrase>
+			<phrase id="5">
+				<text>freedom_barter_5</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
+				<action>dialogs_escape.obmen_30pda</action>
+				<action>dialogs_escape.obmen_frseva</action>
+			</phrase>
+			<phrase id="6">
+				<text>freedom_barter_6</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
+				<action>dialogs_escape.obmen_50pda</action>
+				<action>dialogs_escape.obmen_frex</action>
+			</phrase>
+			<phrase id="7">
+				<text>freedom_barter_7</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
+				<action>dialogs_escape.obmen_15pda</action>
+				<action>dialogs_escape.obmen_zaslon</action>
+			</phrase>
+			<phrase id="8">
+				<text>freedom_barter_8</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2048,32 +2048,32 @@
 		<precondition>dialogs_escape.mojno_vstupit</precondition>
 		<dont_has_info>uje_vstupal_v_freedom</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_freedom_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Отлично, хорошие бойцы нам всегда нужны! Ты знаешь чем занимается наш клан?</text>
+				<text>new_group_freedom_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Догадываюсь. Вы стремитесь освободить зону.</text>
+				<text>new_group_freedom_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Не просто освободить Зону, а защитить человечество от тех, кто желает продолжить проводить эти адские эксперименты и создать новое оружие. Наша задача - не дать возможности попасть в плохие руки знания, упрятанные в зоне. Военные и «Долг» стремятся захватить зону и получить контроль над утраченным оружием. Я тебя спрошу, ты точно хочешь к нам присоединится, чтобы спасти этот мир от недальновидных людей?</text>
+				<text>new_group_freedom_3</text>
 				<next>4</next>
 				<next>5</next>
 			</phrase>
 			<phrase id="4">
-				<text>Да, я готов стать членом группировки «Свобода».</text>
+				<text>new_group_freedom_4</text>
 				<give_info>uje_vstupal_v_freedom</give_info>
 				<action>dialogs_escape.v_freedom</action>
 				<action>dialogs_escape.if_friend_bandit_to_actor</action>
 				<action>dialogs_escape.if_enemy_dolg_to_actor</action>
 			</phrase>
 			<phrase id="5">
-				<text>Нет, я передумал.</text>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел вступить в «Свободу».</text>
-				<next>1</next>
+				<text>new_group_freedom_5</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2081,12 +2081,12 @@
 		<precondition>dialogs_escape.nelza_vstupit</precondition>
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
 			<phrase id="0">
-				<text>Я бы хотел вступить в «Свободу».</text>
+				<text>vsvoboda_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>vsvoboda_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2094,15 +2094,15 @@
 		<precondition>dialogs_escape.check_cs</precondition>
 		<dont_has_info>uje_vstupal_v_cs</dont_has_info>
 		<phrase_list>
-			<phrase id="1">
-				<text>Отлично, хорошие бойцы нам всегда нужны!</text>
-				<action>dialogs_escape.v_cs</action>
-				<action>dialogs_escape.if_friend_killer_to_actor</action>
-			</phrase>
 			<phrase id="0">
-				<text>Я бы хотел вступить в Чистое Небо.</text>
+				<text>new_group_cs_0</text>
 				<give_info>uje_vstupal_v_cs</give_info>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>new_group_cs_1</text>
+				<action>dialogs_escape.v_cs</action>
+				<action>dialogs_escape.if_friend_killer_to_actor</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2121,20 +2121,11 @@
 				<next>5</next>
 				<next>6</next>
 			</phrase>
-			<phrase id="6">
-				<text>cs_barter_6</text>
-			</phrase>
-			<phrase id="5">
-				<text>cs_barter_5</text>
+			<phrase id="2">
+				<text>cs_barter_2</text>
 				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
 				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_zaslon</action>
-			</phrase>
-			<phrase id="4">
-				<text>cs_barter_4</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
-				<action>dialogs_escape.obmen_50pda</action>
-				<action>dialogs_escape.obmen_csecz</action>
+				<action>dialogs_escape.obmen_vss</action>
 			</phrase>
 			<phrase id="3">
 				<text>cs_barter_3</text>
@@ -2142,29 +2133,57 @@
 				<action>dialogs_escape.obmen_30pda</action>
 				<action>dialogs_escape.obmen_csseva</action>
 			</phrase>
-			<phrase id="2">
-				<text>cs_barter_2</text>
+			<phrase id="4">
+				<text>cs_barter_4</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
+				<action>dialogs_escape.obmen_50pda</action>
+				<action>dialogs_escape.obmen_csecz</action>
+			</phrase>
+			<phrase id="5">
+				<text>cs_barter_5</text>
 				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
 				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_vss</action>
+				<action>dialogs_escape.obmen_zaslon</action>
+			</phrase>
+			<phrase id="6">
+				<text>cs_barter_6</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="change_factions_rep_test">
 		<phrase_list>
-			<phrase id="1">
-				<text>сделано</text>
-				<action>dialogs_escape.change_factions_rep_test</action>
-			</phrase>
 			<phrase id="0">
-				<text>поправить репу.</text>
+				<text>change_factions_rep_test_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>change_factions_rep_test_1</text>
+				<action>dialogs_escape.change_factions_rep_test</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="sidor_about_groups">
 		<precondition>dialogs_escape.check_zombi</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>sidor_about_groups_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sidor_about_groups_1</text>
+				<next>2</next>
+				<next>4</next>
+				<next>6</next>
+				<next>8</next>
+				<next>10</next>
+				<next>12</next>
+				<next>14</next>
+				<next>16</next>
+				<next>18</next>
+				<next>20</next>
+				<next>23</next>
+				<next>22</next>
+			</phrase>
 			<phrase id="3">
 				<text>sidor_about_groups_3</text>
 			</phrase>
@@ -2242,25 +2261,6 @@
 				<text>sidor_about_groups_23</text>
 				<next>24</next>
 			</phrase>
-			<phrase id="0">
-				<text>sidor_about_groups_0</text>
-				<next>1</next>
-			</phrase>
-			<phrase id="1">
-				<text>sidor_about_groups_1</text>
-				<next>2</next>
-				<next>4</next>
-				<next>6</next>
-				<next>8</next>
-				<next>10</next>
-				<next>12</next>
-				<next>14</next>
-				<next>16</next>
-				<next>18</next>
-				<next>20</next>
-				<next>23</next>
-				<next>22</next>
-			</phrase>
 			<phrase id="22">
 				<text>sidor_about_groups_22</text>
 			</phrase>
@@ -2270,13 +2270,13 @@
 		<precondition>dialogs_escape.money_bitch</precondition>
 		<phrase_list>
 			<phrase id="0">
-				<text>Хочу купить жетоны за деньги (3 к 10000).</text>
+				<text>docks_for money_0</text>
 				<action>dialogs_escape.money_for_docks</action>
 				<action>dialogs_escape.easy_docks</action>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Держи.</text>
+				<text>docks_for money_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2284,13 +2284,13 @@
 		<precondition>dialogs_escape.obmeb_vozmojen_5</precondition>
 		<phrase_list>
 			<phrase id="0">
-				<text>Хочу продать жетоны (5 шт. - 10000).</text>
+				<text>money_for_docks_0</text>
 				<action>dialogs_escape.easy_money</action>
 				<action>dialogs_escape.money_for_docks_1</action>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Держи.</text>
+				<text>money_for_docks_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2541,34 +2541,34 @@
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<dont_has_info>uje_vstupal_v_bandit</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_bandit_0</text>
+				<give_info>uje_vstupal_v_bandit</give_info>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо, я замолвлю словечко Борову.</text>
+				<text>new_group_bandit_1</text>
 				<action>dialogs_escape.v_bandit</action>
 				<action>dialogs_escape.if_friend_killer_to_actor</action>
 				<action>dialogs_escape.if_enemy_stalker_to_actor1</action>
 				<action>dialogs_escape.if_enemy_dolg_to_actor1</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел стать бандитом.</text>
-				<give_info>uje_vstupal_v_bandit</give_info>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_bandit">
 		<precondition>dialogs_escape.check_bandit_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_bandit_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо. Я все устрою.</text>
+				<text>new_group_loner_from_bandit_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_dolg_to_actor2</action>
 				<action>dialogs_escape.if_friend_stalker_to_actor2</action>
 				<action>dialogs_escape.if_friend_ecolog_to_actor_3</action>
 				<action>dialogs_escape.if_friend_csky_to_actor</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел вновь стать одиночкой.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2576,8 +2576,13 @@
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<dont_has_info>uje_vstupal_v_slime</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_slime_0</text>
+				<give_info>uje_vstupal_v_slime</give_info>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо, я все устрою.</text>
+				<text>new_group_slime_1</text>
 				<action>dialogs_escape.v_slime</action>
 				<action>dialogs_escape.if_friend_bandit_to_actor</action>
 				<action>dialogs_escape.if_enemy_csky_to_actor</action>
@@ -2585,63 +2590,28 @@
 				<action>dialogs_escape.if_enemy_dolg_to_actor</action>
 				<action>dialogs_escape.if_enemy_ecolog_to_actor</action>
 			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел стать слизнем.</text>
-				<give_info>uje_vstupal_v_slime</give_info>
-				<next>1</next>
-			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="new_group_loner_from_slime">
 		<precondition>dialogs_escape.check_slime_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>new_group_loner_from_slime_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо. Я все устрою.</text>
+				<text>new_group_loner_from_slime_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_ecolog_to_actor_2</action>
 				<action>dialogs_escape.if_friend_dolg_to_actor</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor</action>
 				<action>dialogs_escape.if_friend_csky_to_actor_2</action>
 			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел вновь стать одиночкой.</text>
-				<next>1</next>
-			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="merc_barter">
 		<precondition>dialogs_escape.check_merc_true</precondition>
 		<phrase_list>
-			<phrase id="2">
-				<text>merc_barter_2</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
-				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_g36</action>
-			</phrase>
-			<phrase id="3">
-				<text>merc_barter_3</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
-				<action>dialogs_escape.obmen_30pda</action>
-				<action>dialogs_escape.obmen_fn2000</action>
-			</phrase>
-			<phrase id="6">
-				<text>merc_barter_6</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
-				<action>dialogs_escape.obmen_30pda</action>
-				<action>dialogs_escape.obmen_meseva</action>
-			</phrase>
-			<phrase id="5">
-				<text>merc_barter_5</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
-				<action>dialogs_escape.obmen_50pda</action>
-				<action>dialogs_escape.obmen_mercex</action>
-			</phrase>
-			<phrase id="4">
-				<text>merc_barter_4</text>
-				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
-				<action>dialogs_escape.obmen_15pda</action>
-				<action>dialogs_escape.obmen_vss</action>
-			</phrase>
 			<phrase id="0">
 				<text>merc_barter_0</text>
 				<next>1</next>
@@ -2655,6 +2625,36 @@
 				<next>6</next>
 				<next>7</next>
 			</phrase>
+			<phrase id="2">
+				<text>merc_barter_2</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
+				<action>dialogs_escape.obmen_15pda</action>
+				<action>dialogs_escape.obmen_g36</action>
+			</phrase>
+			<phrase id="3">
+				<text>merc_barter_3</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
+				<action>dialogs_escape.obmen_30pda</action>
+				<action>dialogs_escape.obmen_fn2000</action>
+			</phrase>
+			<phrase id="4">
+				<text>merc_barter_4</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_15</precondition>
+				<action>dialogs_escape.obmen_15pda</action>
+				<action>dialogs_escape.obmen_vss</action>
+			</phrase>
+			<phrase id="5">
+				<text>merc_barter_5</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_50</precondition>
+				<action>dialogs_escape.obmen_50pda</action>
+				<action>dialogs_escape.obmen_mercex</action>
+			</phrase>
+			<phrase id="6">
+				<text>merc_barter_6</text>
+				<precondition>dialogs_escape.obmeb_vozmojen_30</precondition>
+				<action>dialogs_escape.obmen_30pda</action>
+				<action>dialogs_escape.obmen_meseva</action>
+			</phrase>
 			<phrase id="7">
 				<text>merc_barter_7</text>
 			</phrase>
@@ -2667,31 +2667,31 @@
 		<dont_has_info>bil_razgovor_s_skeljey</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я тут надумал стать военным сталкером, не поможешь?</text>
+				<text>avgust_v_army_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Ты уверен, что этого хочешь, братишка?</text>
+				<text>avgust_v_army_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Да, я абсолютно уверен в своем выборе.</text>
+				<text>avgust_v_army_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Ладно... Бери мое удостоверение, мне оно больше не нужно. Отдам даром. Хотяя... нет, гони 1000 денег. Я жрать хочу. Потом отнесешь эту бумажку Вовану. Он все устроит.</text>
+				<text>avgust_v_army_3</text>
 				<next>4</next>
 				<next>5</next>
 			</phrase>
 			<phrase id="4">
+				<text>avgust_v_army_4</text>
 				<precondition>dialogs_escape.osvedomitel1000u</precondition>
-				<text>Держи.</text>
 				<action>dialogs_escape.osvedomitel1000</action>
 				<action>dialogs_escape.give_docs</action>
 				<give_info>bil_razgovor_s_skeljey</give_info>
 			</phrase>
 			<phrase id="5">
-				<text>Нет. Я передумал.</text>
+				<text>avgust_v_army_5</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2699,12 +2699,12 @@
 		<precondition>dialogs_escape.nelza_vstupit1</precondition>
 		<precondition>dialogs_escape.check_loner_true</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
 			<phrase id="0">
-				<text>Я тут надумал стать военным сталкером, не поможешь?</text>
+				<text>varmy_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>varmy_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2714,24 +2714,24 @@
 		<has_info>bil_razgovor_s_skeljey</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я хочу стать военсталом. У меня есть удостоверение, но на чужое имя. Можешь подделать документ и взломать базу данных ВСУ?</text>
+				<text>vovan_v_army_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Могу, но за бесплатно ничего не будет. Скажем, 10000 денег мне хватит.</text>
+				<text>vovan_v_army_1</text>
+				<next>2</next>
 				<next>3</next>
-				<next>4</next>
 			</phrase>
-			<phrase id="3">
+			<phrase id="2">
+				<text>vovan_v_army_2</text>
 				<precondition>dialogs_escape.osvedomitel10000u</precondition>
-				<text>Держи.</text>
 				<action>dialogs_escape.osvedomitel10000</action>
 				<action>dialogs_escape.v_army</action>
 				<action>dialogs_escape.if_friend_army_to_actor2</action>
 				<give_info>uje_vstupal_v_army</give_info>
 			</phrase>
-			<phrase id="4">
-				<text>Нет. Я передумал.</text>
+			<phrase id="3">
+				<text>vovan_v_army_3</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2740,40 +2740,40 @@
 		<dont_has_info>uje_vstupal_v_ecolog</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я хочу стать вашим сотрудником и заключить контракт с вами.</text>
+				<text>sahar_v_ecolog_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Хорошо. Мы всегда рады пополнению в нашем научном коллективе, однако, мы переживаем не лучшие времена, поэтому делаем взносы на развитие со своего кармана. С Вас нужен взнос в размере 10000 рублей.</text>
+				<text>sahar_v_ecolog_1</text>
+				<next>2</next>
 				<next>3</next>
-				<next>4</next>
 			</phrase>
-			<phrase id="3">
+			<phrase id="2">
+				<text>sahar_v_ecolog_2</text>
 				<precondition>dialogs_escape.osvedomitel10000u</precondition>
-				<text>Держите.</text>
 				<action>dialogs_escape.osvedomitel10000</action>
 				<action>dialogs_escape.v_ecolog</action>
 				<action>dialogs_escape.if_friend_army_to_actor</action>
 				<action>dialogs_escape.if_enemy_freedom_to_actor2</action>
 				<give_info>uje_vstupal_v_ecolog</give_info>
 			</phrase>
-			<phrase id="4">
-				<text>Нет. Я передумал.</text>
+			<phrase id="3">
+				<text>sahar_v_ecolog_3</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="sahar_from_ecolog">
 		<precondition>dialogs_escape.check_ecolog_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>sahar_from_ecolog_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Хорошо. Я все устрою.</text>
+				<text>sahar_from_ecolog_1</text>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_escape.if_friend_freedom_to_actor5</action>
 				<action>dialogs_escape.if_friend_slime_to_actor</action>
-			</phrase>
-			<phrase id="0">
-				<text>Я бы хотел покинуть вашу группу.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2784,18 +2784,23 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Ну, пошли.</text>
-				<action>dialogs_axr_companion.become_actor_companion</action>
-			</phrase>
 			<phrase id="0">
-				<text>Пойдём со мной в поход, боец!</text>
+				<text>vilka_companion_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>vilka_companion_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="vilka_start_no_dolg">
 		<phrase_list>
+			<phrase id="0">
+				<text />
+				<next>1</next>
+				<next>11</next>
+			</phrase>
 			<phrase id="1">
 				<precondition>dialogs_escape.check_dolg</precondition>
 				<text />
@@ -2805,16 +2810,16 @@
 				<next>5</next>
 			</phrase>
 			<phrase id="2">
-				<text>Вступи в «Долг». На нас лежит огромная ответственность - защитить мир от растущей зоны.</text>
+				<text>vilka_start_no_dolg_2</text>
 			</phrase>
 			<phrase id="3">
-				<text>Давай, вступи в «Долг». Вместе мы защитим мир от зоны.</text>
+				<text>vilka_start_no_dolg_3</text>
 			</phrase>
 			<phrase id="4">
-				<text>Если хочешь вступить в «Долг», подходи к полковнику Петренко.</text>
+				<text>vilka_start_no_dolg_4</text>
 			</phrase>
 			<phrase id="5">
-				<text>Отличное оружие и снаряжение. Только вступившим в «Долг».</text>
+				<text>vilka_start_no_dolg_5</text>
 			</phrase>
 			<phrase id="11">
 				<precondition>dialogs_escape.check_dolg_true</precondition>
@@ -2825,21 +2830,16 @@
 				<next>55</next>
 			</phrase>
 			<phrase id="22">
-				<text>Чёрт бы побрал эту треклятую «Свободу»...</text>
+				<text>vilka_start_no_dolg_22</text>
 			</phrase>
 			<phrase id="33">
-				<text>Пойдем постреляем свободовцев.</text>
+				<text>vilka_start_no_dolg_33</text>
 			</phrase>
 			<phrase id="44">
-				<text>Если тебе нужен хороший ствол, подходи к полковнику Петренко.</text>
+				<text>vilka_start_no_dolg_44</text>
 			</phrase>
 			<phrase id="55">
-				<text>Вчера я завалил свободовца, а ты?</text>
-			</phrase>
-			<phrase id="0">
-				<text />
-				<next>1</next>
-				<next>11</next>
+				<text>vilka_start_no_dolg_55</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -2850,60 +2850,60 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Давай. Вместе веселее.</text>
-				<action>dialogs_axr_companion.become_actor_companion</action>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>petruha_companion_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>petruha_companion_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="petruha_start">
 		<dont_has_info>petruha_vstrechen</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text />
+				<next>1</next>
+				<next>11</next>
+			</phrase>
 			<phrase id="1">
 				<precondition>dialogs_escape.mojno_vstupit</precondition>
 				<text />
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Привет, я вижу, ты тёртый сталкер. Не поможешь мне тут основаться и набраться опыта?</text>
+				<text>petruha_start_2</text>
 				<next>21</next>
 			</phrase>
 			<phrase id="21">
-				<text>Вижу, ты совсем зелен. Какими судьбами в зоне? Расскажи свою историю.</text>
+				<text>petruha_start_21</text>
 				<next>22</next>
 			</phrase>
 			<phrase id="22">
-				<text>Пришел в Зону я неделю назад. Прошел нелегально, как и остальные. Первым делом попытался обзавестись связями в деревне. Пытался сдружиться с Волком, но тот не очень любезный. Говорит, что проявить я себя должен. Как-то раз с бандитами встретился. Получил огнестрельное ранение. Пуля прошла на вылет, да и рана не серьезная. Теперь хочу расквитаться с этими ублюдками.</text>
+				<text>petruha_start_22</text>
 				<next>23</next>
 			</phrase>
 			<phrase id="23">
-				<text>Если хочешь, может быть вместе сходим в рейд. Гляжишь, и твоего бандита найдем.</text>
+				<text>petruha_start_23</text>
 				<give_info>petruha_vstrechen</give_info>
 			</phrase>
 			<phrase id="3">
-				<text>Привет, я вижу, ты тоже новенький. Давай поможем друг другу тут основаться.</text>
+				<text>petruha_start_3</text>
 				<next>31</next>
 			</phrase>
 			<phrase id="31">
-				<text>Ну давай. Расскажи мне о себе.</text>
+				<text>petruha_start_31</text>
 				<next>32</next>
 			</phrase>
 			<phrase id="32">
-				<text>Пришел в Зону я неделю назад. Прошел нелегально, как и остальные. Первым делом попытался обзавестись связями в деревне. Пытался сдружиться с Волком, но тот не очень любезный. Говорит, что проявить я себя должен. Как-то раз с бандитами встретился. Получил огнестрельное ранение. Пуля прошла на вылет, да и рана не серьезная. Теперь хочу расквитаться с этими ублюдками.</text>
+				<text>petruha_start_32</text>
 				<next>33</next>
 			</phrase>
 			<phrase id="33">
-				<text>Если хочешь, может быть, вместе сходим в рейд. Гляжишь, и твоего бандита найдем.</text>
+				<text>petruha_start_33</text>
 				<give_info>petruha_vstrechen</give_info>
-			</phrase>
-			<phrase id="0">
-				<text />
-				<next>1</next>
-				<next>11</next>
 			</phrase>
 			<phrase id="11">
 				<precondition>dialogs_escape.nelza_vstupit</precondition>
@@ -2919,86 +2919,86 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Давай. Вместе веселее.</text>
-				<action>dialogs_axr_companion.become_actor_companion</action>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>buryat_companion_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>buryat_companion_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="buryat_start">
 		<phrase_list>
-			<phrase id="1">
-				<text />
-				<next>4</next>
-				<next>2</next>
-				<next>3</next>
-			</phrase>
-			<phrase id="4">
-				<text>Охайо.</text>
-			</phrase>
-			<phrase id="2">
-				<text>Хай.</text>
-			</phrase>
-			<phrase id="3">
-				<text>Дарова, чел.</text>
-			</phrase>
 			<phrase id="0">
 				<text />
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text />
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>buryat_start_2</text>
+			</phrase>
+			<phrase id="3">
+				<text>buryat_start_3</text>
+			</phrase>
+			<phrase id="4">
+				<text>buryat_start_4</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="buryat_dialog">
 		<dont_has_info>buryat_vstrechen</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>buryat_dialog_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Охайо.</text>
+				<text>buryat_dialog_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Чего?</text>
+				<text>buryat_dialog_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Привет, говорю. А, ты не шаришь? Ну тут мало кто шарит. Японский это. К слову, я тут вроде местного телохранителя, так что если собираешься на какую вылазку - можем пойти вместе. Задолбался я тут сидеть.</text>
+				<text>buryat_dialog_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Замётано. Еще встретимся.</text>
+				<text>buryat_dialog_4</text>
 				<give_info>buryat_vstrechen</give_info>
-			</phrase>
-			<phrase id="0">
-				<text>Здравствуй, сталкер.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="krot_dialog">
 		<dont_has_info>krot_vstrechen</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>krot_dialog_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Здоров, Кротом меня кличут. Я тут диггерством промышляю.</text>
+				<text>krot_dialog_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Интересно. Расскажи о себе.</text>
+				<text>krot_dialog_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>В Зоне я уже около года. Поначалу промышлял поиском артефактов, но затем быстро понял, что гораздо прибыльнее и интереснее раскапывать старые лаборатории и схроны. По слухам, там, в лабах, можно разузнать, откуда взялась Зона и какие безумные эксперименты тут проводились. Недавно стало известно, что под НИИ "МедПрибором" есть какие-то катакомбы. Может есть смысл там стоит покопаться.</text>
+				<text>krot_dialog_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Возможно, когда-нибудь я смогу тебе помочь в этом деле.</text>
+				<text>krot_dialog_4</text>
 				<give_info>krot_vstrechen</give_info>
-			</phrase>
-			<phrase id="0">
-				<text>Привет, какими судьбами в зоне?</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3010,13 +3010,13 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Давай. Вместе веселее.</text>
-				<action>dialogs_axr_companion.become_actor_companion</action>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>krot_companion_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>krot_companion_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3028,37 +3028,37 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>krot_companion1_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>krot_companion1_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="levsha_dialog">
 		<dont_has_info>levsha_vstrechen</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>levsha_dialog_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Привет. Меня зовут Левшой, и ты так можешь звать.</text>
+				<text>levsha_dialog_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>С виду ты матерый сталкер. Расскажи о себе.</text>
+				<text>levsha_dialog_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Зону топчу хрен знает сколько лет. Повидал я много всего, но самое запомнившееся событие - рейд на завод у озера Янтарь. Тогда я работал на яйцеголовых. В тот день, мне поставили задачу - охладить пси-установку. В общем, мы проникли во внутренний двор и держали оборону около часа, может и больше. А зомби всё пёрли и пёрли. Много моих товарищей тогда полегло... Своей жизнью я обязан одному наемнику. Звали его Шрамом. Скольких зомбированных он тогда перестрелял, уму не постижимо. Жаль его, сгинул он где-то на севере, поговаривают. А я сам после того рейда ушел от ученых и стал зарабатывать себе на жизнь сбором артефактов. Недавно пришел заказ на один редкий артефакт. Вот готовлюсь к новому рейду.</text>
+				<text>levsha_dialog_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Занятно. Возможно, я когда-нибудь смогу помочь тебе.</text>
+				<text>levsha_dialog_4</text>
 				<give_info>levsha_vstrechen</give_info>
-			</phrase>
-			<phrase id="0">
-				<text>Привет, какими судьбами в зоне?</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3070,13 +3070,13 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Давай. Вместе веселее.</text>
-				<action>dialogs_axr_companion.become_actor_companion</action>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>levsha_companion_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>levsha_companion_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3088,29 +3088,12 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
-			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>levsha_companion1_0</text>
 				<next>1</next>
 			</phrase>
-		</phrase_list>
-	</dialog>
-	<dialog id="polkan_companion1">
-		<has_info>polkan_vstrechen</has_info>
-		<precondition>dialogs_escape.check_army_true</precondition>
-		<precondition>dialogs_escape.nelza_vstupit1</precondition>
-		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
-		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
-		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
-		<phrase_list>
 			<phrase id="1">
-				<text>Нет, ты слишком зелен.</text>
-			</phrase>
-			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
-				<next>1</next>
+				<text>levsha_companion1_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3122,38 +3105,55 @@
 		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
 		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>polkan_companion_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Давай. Вместе веселее.</text>
+				<text>polkan_companion_1</text>
 				<action>dialogs_axr_companion.become_actor_companion</action>
 			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="polkan_companion1">
+		<has_info>polkan_vstrechen</has_info>
+		<precondition>dialogs_escape.check_army_true</precondition>
+		<precondition>dialogs_escape.nelza_vstupit1</precondition>
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<phrase_list>
 			<phrase id="0">
-				<text>Слушай, давай вместе зону исследовать.</text>
+				<text>polkan_companion1_0</text>
 				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>polkan_companion1_1</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
 	<dialog id="polkan_dialog">
 		<dont_has_info>polkan_vstrechen</dont_has_info>
 		<phrase_list>
+			<phrase id="0">
+				<text>polkan_dialog_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>Здоров. Хреново тут, в Зоне. Начальство каждый день посылает на убой своих людей. Ты хоть знаешь сколько людей погибло, пытаясь захватить очередную лабораторию? Сколько людей пропало, пытаясь прорваться за Выжигатель? Я тут в Зоне видел такие вещи, которые тебе и не снились. Видел когда-нибудь химеру? Одна такая тварь положила целую группу проверенных в боях военсталов. Мой тебе совет, никогда не раслабляйся в Зоне, даже в лагере. Много моих товарищей полегло в этой богом забытой дыре.</text>
+				<text>polkan_dialog_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Неужели все так плохо в Зоне?</text>
+				<text>polkan_dialog_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>В основном да. Но бывают и светлые моменты. Как-то раз я вел группу в глубь Зоны, и мы нарвались на засаду анархистов. К счастью, прогремел выброс и мы успели занять укрытие быстрее свободовцев. Когда мы вышли наружу, не осталось ни следа анархистов. Тогда я понял, возможо зона разумна и выбирает кому жить, а кому умереть.</text>
+				<text>polkan_dialog_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Занятно. Хотелось бы мне быть в отряде вместе с вами.</text>
+				<text>polkan_dialog_4</text>
 				<give_info>polkan_vstrechen</give_info>
-			</phrase>
-			<phrase id="0">
-				<text>Здравия желаю! Вижу, Вы военстал. Расскажите, что вы видели в Зоне.</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3164,38 +3164,38 @@
 		<dont_has_info>dolg_task_quest_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю, товарищ генерал. Разрешите задать вопрос?</text>
+				<text>voronin_job_0</text>
 				<next>10</next>
 			</phrase>
 			<phrase id="10">
-				<text>Разрешаю.</text>
+				<text>voronin_job_10</text>
 				<next>33</next>
 			</phrase>
 			<phrase id="33">
-				<text>Дело в том, что несмотря на всё то время, что я служу делу Долга, я не чувствую себя... полезным. Я скорее чувствую себя марионеткой в руках СБУ. Я хочу действовать.</text>
+				<text>voronin_job_33</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Действовать? Думаешь, ты готов к большему, боец? Я наслышан о твоем деле с лидером Чистого неба, так что думаю твоё умение нам еще пригодится. \n У меня есть одно довольно серьезное дело для хорошего стрелка. Начну с того, что сейчас лидером Свободы является Миклуха, приемник Чехова и его идеалов. Мне бы хотелось видеть лидером Свободы другого человека... Его позывного я тебе не назову. Но пока лидер Миклуха, о его становлении речи быть не может. Нужно устранить Миклуху, но посылать большой отряд я не могу - его попросту заметят и цель скроется. Один человек вряд ли его спугнет. Но это самоубийственное задание, мало кто решиться в одиночку нападать на такой лагерь.</text>
+				<text>voronin_job_1</text>
 				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
-				<text>Я готов к этому. Считайте, что он мертв, генерал.</text>
+				<text>voronin_job_2</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="3">
-				<text>Мне кажется, я не готов. Мне нужно время, чтобы подумать.</text>
+				<text>voronin_job_3</text>
 				<give_info>actor_first_ask</give_info>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 			<phrase id="4">
-				<text>Хм. Как пожелаешь. Уверяю, в случае успеха, награда будет достойная. За более подробной информацией обратись к майору Литвинову, он же Аспирин. Возможно он тебе кое-чем поможет.</text>
+				<text>voronin_job_4</text>
 				<give_info>ask_for_aspirin</give_info>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Служу «Долгу»!</text>
+				<text>voronin_job_5</text>
 				<give_info>dolg_task_quest_init</give_info>
 				<action>dialogs_bar.tm_kill_micluha</action>
 			</phrase>
@@ -3207,24 +3207,24 @@
 		<dont_has_info>dolg_task_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю, товарищ генерал.</text>
+				<text>voronin_job_2_0</text>
 				<next>10</next>
 			</phrase>
 			<phrase id="10">
-				<text>Всё таки принял решение, боец?</text>
+				<text>voronin_job_2_1</text>
 				<next>33</next>
 			</phrase>
 			<phrase id="33">
-				<text>Так точно. Я готов послужить целям группировки «Долг».</text>
+				<text>voronin_job_2_33</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Хм. Как пожелаешь. Уверяю, в случае успеха, награда будет достойная. За более подробной информацией обратись к Майору Литвинову, ты его знаешь как Аспирина. Скорее всего он тебе кое-чем поможет.</text>
+				<text>voronin_job_2_1</text>
 				<give_info>ask_for_aspirin</give_info>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Служу «Долгу»!</text>
+				<text>voronin_job_2_5</text>
 				<give_info>dolg_task_quest_init</give_info>
 				<action>dialogs_bar.tm_kill_micluha</action>
 			</phrase>
@@ -3238,27 +3238,27 @@
 		<dont_has_info>dolg_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Товарищ майор? Меня направил к тебе генерал, сказал, что ты можешь помочь мне в моем нелегком задании.</text>
+				<text>actor_ask_aspirin_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Неужели еще один решился покуситься на Миклуху? Ну что ж, раз генерал доверил тебе это задание, стало быть ты достаточно опытен для этого. Как думаешь, сколькие пытались до тебя?</text>
+				<text>actor_ask_aspirin_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Не знаю, наверное, многие.</text>
+				<text>actor_ask_aspirin_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Не так уж и много. Дело в том, что кого попало на такое задание не отправишь. Да и после смерти Чехова анархисты стали более скрытные, что ли, нет постоянной базы, а если и есть, то хорошо скрытая от посетителей. Партизаны, чтоб их. К тому же их снайперы, скольких разведчиков моих загубили, добить бы их... Да только нам самим бы удержаться, не до масштабной войны. \n \n Но всё же, нам удалось обнаружить местоположение их лидера. Судя по разведданым, он сейчас в месте под названием г. Светолый путь, в их крупном лагере. Скорее всего, он хорошо охраняется.</text>
+				<text>actor_ask_aspirin_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>У тебя есть план?</text>
+				<text>actor_ask_aspirin_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Да. Если всё сделаешь правильно и тебе повезет - всё пройдет гладко. Если же нет, скорее всего он опять ускользнет. Тайже крайне важно не пролить лишней крови, ведь наши люди также есть в Свободе под прикрытием. Слушай сюда: \n \n Ближайший вход в г. Светлый путь через блокпост на Тихих холмах. Дальше выйдешь из трубы на окраине города, пойдешь по краю на юг. Напротив их лагеря есть здание, с его крыши удобная позиция. Я дам тебе винтовку, вернешь её мне обязательно. К зданию безопаснее всего попасть через канализацию, зайти с черного входа. Удачи тебе, боец, и острегайся снайперов Свободы.</text>
+				<text>actor_ask_aspirin_5</text>
 				<give_info>actor_give_svd</give_info>
 				<action>dialogs_bar.give_svd</action>
 			</phrase>
@@ -3271,17 +3271,17 @@
 		<dont_has_info>dolg_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Вот, товарищ майор, возвращаю винтовку.</text>
+				<text>actor_ask_aspirin_2_0</text>
 				<action>dialogs_bar.retutn_svd</action>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Отлично, теперь можешь докладывать генералу о выполнении задания.</text>
+				<text>actor_ask_aspirin_2_1</text>
 				<give_info>actor_return_svd</give_info>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Так точно.</text>
+				<text>actor_ask_aspirin_2_2</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 		</phrase_list>
@@ -3292,23 +3292,23 @@
 		<dont_has_info>dolg_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Миклуха мёртв. Задание выполнено, товарищ генерал!</text>
+				<text>voronin_job_done_0</text>
 				<dont_has_info>dolg_task_quest</dont_has_info>
 				<next>1</next>
 				<next>2</next>
 			</phrase>
 			<phrase id="1">
+				<text>voronin_job_done_1</text>
 				<dont_has_info>actor_return_svd</dont_has_info>
-				<text>Молодец! Только вот "«Долг» долги всегда возращает", а винтовку майору ты не вернул. Нехорошо.</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Хорошо, сейчас верну.</text>
+				<text>voronin_job_done_3</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 			<phrase id="2">
+				<text>voronin_job_done_2</text>
 				<has_info>actor_return_svd</has_info>
-				<text>Молодец! Такие бойцы нам всегда нужны. Вот твоя награда - такую винтовку делали лишь по заказу группе военных. Помни - «Долг» долги всегда возращает. Так же, отныне я повышаю тебя в звании до «капитана».</text>
 				<give_info>dolg_task_quest_end</give_info>
 			</phrase>
 		</phrase_list>
@@ -3317,29 +3317,29 @@
 		<dont_has_info>actor_first_dialog</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия. Мы не знакомы? Смотрю, у тебя костюм какой-то странный, откуда?</text>
+				<text>actor_first_dialog_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Нет, не знакомы. Ты можешь звать меня "Аспирин", костюм получил за службу. Я утолил твое любопытство?</text>
+				<text>actor_first_dialog_1</text>
 				<next>3</next>
 				<next>33</next>
 			</phrase>
 			<phrase id="3">
-				<text>Да. Поговорим позже.</text>
+				<text>actor_first_dialog_3</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 			<phrase id="33">
-				<text>Нет, расскажи как попал в Зону. Ну и как в Долг.</text>
+				<text>actor_first_dialog_33</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>В 2010 году попал в Зону по контракту, не по своей воле. В армию ушел, думал уйти от моральных проблем на гражданке, мол честь, доблесть, солдатская дружба. Ага, как же, что тут, что там грязь. Дерзанул как-то одному типу, началась драка, потом оказалось он племянник какого-то полковника. Свидетели были на моей стороне, поэтому они не придумали ничего лучше, чем отправить меня охранят Зону, "авось сгинет". Тогда самое страшное было - пойти за водкой для командира к Сидоровичу ночью. Немногие возвращались. И я ходил. И увидел тогда я такое явление как "сталкерская дружба". Нам то втирали, что сталкеры преступники, особо опасны и вообще хуже людей нет. В общем,понял где место мне. Потом нас патрулем отправили, там бандиты напали, мы держали оборону как могли. Потом сталкеры спасли конечно. Они подсказали дорогу до МедПрибора, рассказали про Долг, что там военным всегда рады. Ну я и товарищ мой, Костян Подорожный, (земля ему пухом) отправились. Там и война группировок в самом разгаре, потом отличился во время одной операции, вывел отряд из окружения Монолита, Росток от тварей чистили... Жаль Сверхвыброс много ребят наших погубил. В общем ничуть не жалею что вступил в Долг, это армия моей мечты и цели у неё правильные.</text>
+				<text>actor_first_dialog_2</text>
 				<give_info>actor_first_dialog</give_info>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Вот оно как. Ну ладно, не буду тратить твое время.</text>
+				<text>actor_first_dialog_4</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 		</phrase_list>
@@ -3448,19 +3448,19 @@
 		<dont_has_info>maddog_second_quest_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я вернулся и готов к контракту.</text>
+				<text>maddog_second_quests_begin_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Что же, ты доказал, что не загнёшься за первым же поворотом. А еще доказал, что верен Синдикату - это главное. Не променял группировку на Жабу, даже если он предлагал больше. Наёмник выполняет любые заказы, кроме заказов на других наемников Синдиката. В таком случае мы ликвидируем заказчика. \n \n Твоя первая цель - Сержант Долга. Раньше он состоял в Синдикате, но предал нас и сбежал в Долг, как последний шакал. Теперь он торчит круглосуточно на базе, бухает и уходить не намерен. Думает, он там в безопасности, ха-ха-ха! В общем - убей его без шуму и пыли, пусть все знают, что бывает с теми, кто перешел нам дорогу. Собаке - собачья смерть.</text>
+				<text>maddog_second_quests_begin_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_second_quests_begin_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Принял. Только как я его посреди базы убью, да еще и на базу долгашей попаду?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Техник пошаманил с тем костюмом, что ты принес. Теперь долгари тебя от очередного рядового мяса не отличат. И вот еще ствол с глушителем и бронебойные, чтоб наверняка. Если сработаешь чисто и быстро, то для тебя всё пройдет как по маслу.</text>
+				<text>maddog_second_quests_begin_3</text>
 				<action>dialogs_military.give_outfit</action>
 				<action>dialogs_military.maddog_second_quest</action>
 				<give_info>maddog_second_quest_init</give_info>
@@ -3473,19 +3473,19 @@
 		<dont_has_info>maddog_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Долговец приказал долго жить.</text>
+				<text>maddog_second_quests_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Я рад, что этот предатель кормит червей. А ты не так уж безнадежен, как я думал в начале. Продолжай в том же духе и тебя ждут большие бабки, хорошая снаряга и уважение Синдиката.</text>
+				<text>maddog_second_quests_end_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_second_quests_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>К слову о деньгах - я жду награды. Убить кого-то посреди базы - дело непростое.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Вот твоя награда. Ствол оставь себе, заслужил. А вот костюм я изымаю. Пока что свободен, наемник.</text>
+				<text>maddog_second_quests_end_3</text>
 				<action>dialogs_military.retutn_outfit</action>
 				<give_info>maddog_task_quest_end</give_info>
 			</phrase>
@@ -3496,27 +3496,27 @@
 		<dont_has_info>maddog_3_quest_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Что дальше по расписанию?</text>
+				<text>maddog_3_quests_begin_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Свои "расписания" можешь сунуть псевдоплоти в псевдоочко, а у меня контракты. Ты их либо берешь и выполняешь, а после получаешь деньги, либо идешь нахрен. Бездельников не держим.</text>
+				<text>maddog_3_quests_begin_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_3_quests_begin_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Принял-понял, командир, не кипи. Какой есть заказ сейчас?</text>
+				<text>maddog_3_quests_begin_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Не выводи меня. Иначе узнаешь, почему меня называют Бешеный Пёс! \n \n Кхм. Будет тебе известно, что в Зоне есть заброшенные лаборатории и военные объекты, за такими охотяться как сталкеры, так и военные. И не только этого государтсва.</text>
+				<text>maddog_3_quests_begin_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Что же там такого ценного может остаться? Да и осталось ли вообще.</text>
-				<next>6</next>
-			</phrase>
-			<phrase id="6">
-				<text>Бумаги. Секретные разработки, компромат на властей, информация о том, что же делали в этой проклятой богом Зоне. Пошел слух, что один сталкерок, диггер с МедПрибора, нашел или знает о том, что нужно нам. Твоя задача - найти его и вытащить информацию, любым способом. Начать поиски стоит с самого крупного скопления сталкеров - Бара "100 Рентген".</text>
+				<text>maddog_3_quests_begin_5</text>
 				<action>dialogs_military.give_only_outfit</action>
 				<action>dialogs_military.maddog_3_quest</action>
 				<give_info>maddog_3_quest_init</give_info>
@@ -3529,11 +3529,11 @@
 		<dont_has_info>krot_ask_vodka</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Продолжим наш разговор? Интересна твоя история.</text>
+				<text>krot_quest_1_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>С радостью. Думаю, три "пузыря" на двоих, чтобы смочить горло, хватит.</text>
+				<text>krot_quest_1_1</text>
 				<give_info>krot_ask_vodka</give_info>
 			</phrase>
 		</phrase_list>
@@ -3544,35 +3544,35 @@
 		<has_info>krot_ask_vodka</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Бухнем? Я угощаю.</text>
+				<text>krot_quests_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Ну раз угощаешь, почему бы и нет. После тех катакомб я еще долго буду нервы "прозрачной" лечить.</text>
-				<next>3</next>
+				<text>krot_quests_1</text>
+				<next>2</next>
 				<action>dialogs_bar.drink_vodka</action>
+			</phrase>
+			<phrase id="2">
+				<text>krot_quests_2</text>
+				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Да ну, неужто и правда стремное место? Я думал катакомбы как катакомбы, ну с крысами разве что и "киселями".</text>
+				<text>krot_quests_3</text>
 				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Хорошо пошла... \n \n Эх вы, долговцы, дальше своего носа не видите. Да я там еле ласты унес от э [ик!] этих тварей сосущих... Кровососы, чтоб они в аду горели! А я ведь почти нашел тайник...</text>
-				<next>5</next>
 				<action>dialogs_bar.drink_vodka</action>
 			</phrase>
-			<phrase id="5">
-				<text>Какой дурак в таком месте тайник делать будет? Что-то мне подсказывает, что ты белочку поймал, а не тайник нашел. Не верю я тебе, врешь всё.</text>
-				<next>6</next>
+			<phrase id="4">
+				<text>krot_quests_4</text>
+				<next>5</next>
 			</phrase>
-			<phrase id="6">
-				<text>Да ты чо!? Я вот даже карту нарисовал, вот тут лаз этот, а тут я крофс... клосо... упырей этих клятых нашел, ик! На посмотри, если не веришь. Ох хреново что-то...</text>
-				<next>7</next>
+			<phrase id="5">
+				<text>krot_quests_5</text>
+				<next>6</next>
 				<action>dialogs_bar.give_map</action>
 				<action>dialogs_bar.drink_vodka</action>
 			</phrase>
-			<phrase id="7">
-				<text>[Взять карту] Хм, давай, посмотрю. Внимательно посмотрю, хе-хе...</text>
+			<phrase id="6">
+				<text>krot_quests_6</text>
 				<give_info>maddog_35_task_done</give_info>
 				<action>dialogs.break_dialog</action>
 			</phrase>
@@ -3584,19 +3584,19 @@
 		<dont_has_info>maddog_35_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я смог разузнать кое-что. Я нашел сталкера Крота, он и правда бывал в катакомбах МедПрибора.</text>
+				<text>maddog_3_quests_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>То что он там бывал, это конечно "очень" интересно. Но нет ли информации серьезней?!</text>
+				<text>maddog_3_quests_end_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_3_quests_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Тише, тише. Я не договорил. В общем, я его споил, тот проболтался про какой-то лаз, тайник, но сам там не бывал. Этот алкаш даже не заметил, как сам отдал мне карту.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Вот, это другое дело. Негусто, но уже зацепка. Если я правильно думаю, это тайник одной группы. Волкодав как-то прикончил одного из их группы. Но второй ускользнул. А главный, говорят, сгинул на севере.</text>
+				<text>maddog_3_quests_end_3</text>
 				<action>dialogs_military.retutn_outfit</action>
 				<action>dialogs_military.retutn_map</action>
 				<action>tz_scripts.set_hero_true_merc</action>
@@ -3609,35 +3609,35 @@
 		<has_info>maddog_35_task_quest_end</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Каковы дальнейшие действия?</text>
+				<text>maddog_4_quest_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Мы приблизились к цели ближе, чем ты думаешь. Благодаря добытой тобою карте и некоторым сведеньям, я могу с уверенностью сказать, что это тайник группы Стрелка.</text>
+				<text>maddog_4_quest_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_4_quest_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Группа Стрелка? Кто это?</text>
+				<text>maddog_4_quest_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Какие-то легендарные сталкеры, поехавшие по центру Зоны и её загадкам. Говорят были за "дятлом", но я в такое не верю. Тем более, нас они не интересуют.</text>
+				<text>maddog_4_quest_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Даже если это их тайник, каков шанс, что они оттуда давно уже всё не вынесли?</text>
+				<text>maddog_4_quest_5</text>
 				<next>6</next>
 			</phrase>
 			<phrase id="6">
-				<text>Маловероятно. Стрелок сам, говорят, сгинул, одного мы убили по заказу, то ли Хлыст, то ли Клык... Третий в бегах, да и срать на него. Если кто еще и не кормит червей, то им свои шкуры дороже, чем бумажки.</text>
+				<text>maddog_4_quest_6</text>
 				<next>7</next>
 			</phrase>
 			<phrase id="7">
-				<text>Ладно. Так в чем моя задача?</text>
-				<next>8</next>
-			</phrase>
-			<phrase id="8">
-				<text>Слушай сюда: находишь эти документы на МедПриборе, с тобою пойдут еще ребята для уверенности. Мне не неси - неси клиенту. Найдешь позже его на Янтаре. Пароль - "dwarf swims, but he says Hello". Всё, бегом выполнять задание!</text>
+				<text>maddog_4_quest_7</text>
 				<give_info>maddog_4_task_init</give_info>
 				<action>dialogs_bar.maddog_4_quest</action>
 			</phrase>
@@ -3649,36 +3649,36 @@
 		<precondition>dialogs_bar.is_has_docs</precondition>
 		<phrase_list>
 			<phrase id="0">
+				<text>maddog_4_quest_end_0</text>
 				<dont_has_info>maddog_4_task_end</dont_has_info>
 				<have_info>maddog_4_task_init</have_info>
 				<precondition>dialogs_bar.is_has_docs</precondition>
-				<text>Здраствуйте. Тьфу, hello.</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Do you know where my dear dwarf? I can't find him, he seems to be gone somewhere.</text>
+				<text>maddog_4_quest_end_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>maddog_4_quest_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Dwarf swims, but he says Hello.</text>
+				<text>maddog_4_quest_end_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>My god! You brought his 'Hello'?</text>
+				<text>maddog_4_quest_end_4</text>
+				<action>dialogs_bar.return_docs</action>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Here it is. In the integrity and security...</text>
-				<action>dialogs_bar.return_docs</action>
+				<text>maddog_4_quest_end_5</text>
+				<give_info>maddog_4_task_end</give_info>
 				<next>6</next>
 			</phrase>
 			<phrase id="6">
-				<text>My dear dwarf, he still was able to learn to swim as a dragon. Thank you, now the hamster will be pleased.</text>
-				<give_info>maddog_4_task_end</give_info>
-				<next>7</next>
-			</phrase>
-			<phrase id="7">
-				<text>Эм... Рад был помочь. Goodbye.</text>
+				<text>maddog_4_quest_end_6</text>
 				<action>dialogs.break_dialog</action>
 			</phrase>
 		</phrase_list>
@@ -3688,19 +3688,19 @@
 		<dont_has_info>voronin_prefirst_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю, товарищ генерал! Прибыл для выполнения своего долга перед группировкой.</text>
+				<text>voronin_prefirst_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Недавно в группировке? Увы, пока что у меня нет работы для новобранцев.</text>
+				<text>voronin_prefirst_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_prefirst_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Простите, но как же мне быть? Мне нужны и снаряжение, и деньги хотя бы на пропитание и патроны.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Снаряжение и деньги? Эх, мало нынче среди новобранцев людей, идущих за идеей. Значит так: на Кладбище Техники возле оврага с аномалиями стоит КамАЗ с красной кабиной. Их там таких, стало быть, всего пара - не запутаешься. На его крыше лежит снаряжение, нужное тебе. Найдешь - приходи, поговорим о твоей службе.</text>
+				<text>voronin_prefirst_task_3</text>
 				<action>dialogs_bar.voronin_prefirst_task</action>
 				<give_info>voronin_prefirst_task_init</give_info>
 			</phrase>
@@ -3712,11 +3712,11 @@
 		<dont_has_info>voronin_prefirst_task_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Я вернулся, товарищ командир. Новый костюм как нельзя кстати, большое спасибо! Теперь я готов покорять любые вершины, которые вы прикажите.</text>
+				<text>voronin_prefirst_task_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Рад слышать. Этот тайник был предназначен для наших разведчиков, которые бы, возвращаясь, переодевались обратно в форму. Но они им не пользуются, а тебе пригодится для будущего дела, что я тебе приготовил. А пока что свободен, боец..</text>
+				<text>voronin_prefirst_task_end_1</text>
 				<give_info>voronin_prefirst_task_end</give_info>
 			</phrase>
 		</phrase_list>
@@ -3726,19 +3726,19 @@
 		<dont_has_info>voronin_first_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Каков дальнейший приказ, товарищ генерал?</text>
+				<text>voronin_first_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Есть одно дело, на которое я не могу найти человека. Слушай сюда, боец: из Тёмной Лощины должен был вернуться наш разведчик, он там должен был узнать количество, вооружение, расположение местного отребья под названием "Слизни". Ну и по возможности устроить диверсию.</text>
+				<text>voronin_first_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_first_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>В чем же проблема, товарищ генерал? Его поймали?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Не перебивай! Он должен был вернуться с докладом ещё вчера. Он отправлял в общую сеть зашифрованное сообщение, которое означало, что задание выполнено. Но в целях секретности,- хоть и сомневаюсь что у слизней мозгов хватит нас прослушать,- было решено сохранять радиомолчание с ним. Сигнал его КПК идёт на подходах, на Свалке, в районе леса на юге, но на связь он не выходит. Забухал он, устроил долгий привал или, не дай Господи, умер - это тебе и нужно узнать. Он должен быть одет в сталкерскую Зарю. Задачу принял? Выполнять.</text>
+				<text>voronin_first_task_3</text>
 				<action>dialogs_bar.voronin_first_task</action>
 				<action>dialogs_bar.gar_dead_recon_spawn</action>
 				<give_info>voronin_first_task_init</give_info>
@@ -3751,11 +3751,11 @@
 		<dont_has_info>voronin_first_task_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Разведчик мёртв, товарищ генерал! Похоже, нарвался на необычного мутанта или новую аномалию. При нем был этот КПК.</text>
+				<text>voronin_first_task_done_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Чёрт! Зона словно пытается вечно вставить нам палки в колеса. Ничего, когда нибудь мы эту заразу... Не об этом. Передай КПК Майору Литвинову, позывной "Аспирин", от него же и получишь награду. Свободен, боец..</text>
+				<text>voronin_first_task_done_1</text>
 				<give_info>voronin_first_task_done</give_info>
 			</phrase>
 		</phrase_list>
@@ -3766,19 +3766,19 @@
 		<dont_has_info>voronin_first_task_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Воронин сказал отдать этот КПК тебе. Простите, времени оттереть его от крови не было. Надеюсь, смерть разведчика стоила тех сведений, что он добыл. Из странного - костюм его был цел, а с костей словно сняли всё мясо. Или аномалия, или мутанты... крысы, например. Хотя, крысы бы точно порвали и костюм в клочья.</text>
+				<text>voronin_first_task_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Печальное известие. А ведь в ГРУ служил, как же он мог так... Все больше понимаю, что военные навыки бесполезны против мутантов и аномалий. Черт бы побрал эту Зону.</text>
+				<text>voronin_first_task_end_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_first_task_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>А кто эти такие, Слизи, что к ним такой интерес?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Слизни, а не Слизи. Хотя я бы называл их "Уроды", это ещё мягко сказано. Предатели, беспредельщики, крысы и просто грязь, которая скапливается под ногтем. Отбросы, которые сбились в кучу. По сравнению с ними бандиты - доблестные рыцари Круглого Стола. Они могут убить безоружного новичка ради шутки, при чем таких и выбирают, на кого-то крупнее нападать кишка тонка. Будь у нас больше сил, вычистили бы их. Вот, кстати, твоя награда:</text>
+				<text>voronin_first_task_end_3</text>
 				<action>dialogs_bar.retutn_pda_recon</action>
 				<give_info>voronin_first_task_end</give_info>
 			</phrase>
@@ -3789,19 +3789,19 @@
 		<dont_has_info>voronin_2_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Что дальше, товарищ генерал?</text>
+				<text>voronin_2_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Есть одно дело. Сталкеры с МедПрибора посылают нам просьбу о помощи. Говорят, рядом с их лагерем завелись "призрачные кровососы". Как по мне - им пить меньше надо. Но ты всё таки сходи, проверь.</text>
+				<text>voronin_2_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_2_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Извините, товарищ генерал, но если там и правда кровососы? Одному идти - самоубийство.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Отставить панику! Пойми, время нынче тяжкое, людей мало, некого выделить, нам пришлось даже уменьшить количество патрулей по периметру Бара. Да и ты далеко не высок в звании, чтобы командовать людьми. Хотя можешь попросить Сержанта Вилкмана, чтобы он тебе помог.</text>
+				<text>voronin_2_task_3</text>
 				<give_info>voronin_2_task_init</give_info>
 				<action>dialogs_bar.voronin_2_task</action>
 			</phrase>
@@ -3812,19 +3812,19 @@
 		<dont_has_info>voronin_2_task_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Задача выполнена, товарищ генерал. Мутант уничтожен.</text>
+				<text>voronin_2_task_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Мутант? Он там был один?</text>
+				<text>voronin_2_task_end_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_2_task_end_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Да. Но кровосос был не простой, он создавал кого-то вроде фантомов, которые похоже били по мозгам, кроме того, что сильно отвлекали.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Молодец, боец. Надеемся, он был единственный. Не хватало нам помимо обычных кровососов, еще и таких. За мужество и отвагу, а так же избавление Зоны от нового вида мутантов, награждаю тебя автоматом и патронами к нему и присваиваю тебе внеочередное звание "Сержант". Молодец. Но сталкерам лучше не знать, что кровосос был всего один. Пусть для них их было много, дабы они были лучшего мнения о тебе и Долге. \n \n Кстати, тебя хотел бы видеть Прапор. Он - наша связь с СБУ. Теперь ты работаешь на него, не подведи.</text>
+				<text>voronin_2_task_end_3</text>
 				<give_info>voronin_2_task_end</give_info>
 			</phrase>
 		</phrase_list>
@@ -3834,19 +3834,19 @@
 		<dont_has_info>prapor_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Итак, проверку я прошел, что дальше?</text>
+				<text>prapor_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Да, насчет этого. Неужели это ты, тот, кто избавил сталкеров на заводе от страшной твари? Мне казалось, что ты будешь куда опытнее. Но нам это даже на руку.</text>
+				<text>prapor_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Пусть вас не смущает то, что я недавно в группировке. В Зоне я куда дольше.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Хорошо. Как ты знаешь, на заводе обосновалась группа необычных сталкеров. Предположительно - пришли с Болот. "Нам" пока что они не мешают, но их цели мне не совсем ясны. Так как ты им помог, то доверия к тебе больше, разузнай, кто они такие, для начала, а потом глянем, что с ними делать. Задачу понял? Вперед, выполнять.</text>
+				<text>prapor_task_3</text>
 				<action>dialogs_bar.tm_kill_vedro</action>
 				<give_info>prapor_task_init</give_info>
 			</phrase>
@@ -3858,29 +3858,29 @@
 		<dont_has_info>lie_prapor</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю! Для отчета по заданию прибыл.</text>
+				<text>prapor_task_done_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Вольно, боец, что там у тебя? Кто они и что им нужно на МедПриборе?</text>
+				<text>prapor_task_done_1</text>
 				<next>3</next>
+				<next>25</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_task_done_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="25">
+				<text>prapor_task_done_25</text>
 				<next>35</next>
 			</phrase>
 			<phrase id="3">
-				<text>[Сообщить о планах Чистого Неба]</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="35">
-				<text>[Солгать] Да обычные сталкеры, ищут артефакты, как и все.</text>
-				<next>45</next>
-			</phrase>
-			<phrase id="4">
-				<text>Вот как оно обстоит. Интересно, что на это скажет штаб. Подходи ко мне позже, а пока держи свою награду.</text>
+				<text>prapor_task_done_3</text>
 				<give_info>prapor_task_quest_end</give_info>
 				<action>dialogs_bar.give_money</action>
 			</phrase>
-			<phrase id="45">
-				<text>Хм. Ясно. Много пользы от тебя не было, как я и ожидал.</text>
+			<phrase id="35">
+				<text>prapor_task_done_35</text>
 				<give_info>lie_prapor</give_info>
 				<action>dialogs_bar.join_to_cs</action>
 			</phrase>
@@ -3892,19 +3892,19 @@
 		<dont_has_info>prapor_2_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю. Так понимаю, у вас есть еще одно задание для меня?</text>
+				<text>prapor_2_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Так точно. Я передал Штабу твою информацию, и приказ они дали неутешительный. Нужно ликвидировать группировку Чистое небо.</text>
+				<text>prapor_2_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_2_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Но... Ведь в одиночку я не справлюсь.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Я понимаю. Поэтому кое-что узнал и придумал. Группировка уже была на грани уничтожения, когда лишилась своего лидерского состава, некого Лебедева. Устрани нового лидера - и высока вероятность того, что группировка не переживет еще одну потерю. Проще всего будет снять его метким выстрелом, так как их лидер постоянно стоит у окна. Всё, свободен.</text>
+				<text>prapor_2_task_3</text>
 				<action>dialogs_bar.tm_2_kill_vedro</action>
 				<give_info>prapor_2_task_init</give_info>
 			</phrase>
@@ -3916,19 +3916,19 @@
 		<dont_has_info>life_vedro_saved</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю!</text>
+				<text>prapor_2_task_done_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Вольно боец. Что там с лидером Чистого Неба?</text>
+				<text>prapor_2_task_done_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_2_task_done_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Товарищ Ведров передавал вам привет с того света.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Отлично. Это явно их деморализует достаточно, чтобы началось дезертирство. Хотя, может быть, недостаточно, нужно будет как следует запугать. Но об этом позже, пока что вот твоя заслуженная награда.</text>
+				<text>prapor_2_task_done_3</text>
 				<give_info>prapor_2_task_quest_end</give_info>
 				<action>dialogs_bar.give_money</action>
 			</phrase>
@@ -3939,19 +3939,19 @@
 		<dont_has_info>life_vedro_saved</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю.</text>
+				<text>life_vedro_saved_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>В чем дело, должник? Взгляд у тебя как-то невесел.</text>
+				<text>life_vedro_saved_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>life_vedro_saved_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Мне приказано тебя убить. Это СБУ. Но я не хочу этого делать. Я пришёл в «Долг», чтобы бороться с Зоной, а не с людьми.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Долговец не хочет быть марионеткой в руках военных? Это на моей памяти впервые. Спасибо, конечно, но увы - мой клан не уйдет отсюда. Нам некуда идти. А я не брошу его. Вот немного денег за информацию, я не забуду твою доброту. Теперь ступай, тебя, наверное, ждут заказчики.</text>
+				<text>life_vedro_saved_3</text>
 				<give_info>life_vedro_saved</give_info>
 				<action>dialogs_bar.give_money</action>
 			</phrase>
@@ -3962,19 +3962,19 @@
 		<dont_has_info>lie_2_prapor</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю.</text>
+				<text>prapor_2_task_fail_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Вольно, боец. Что там с лидером той ничтожной группировки?</text>
+				<text>prapor_2_task_fail_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_2_task_fail_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>[Солгать]Конечно же он мёртв.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>А разведка докладывала, что вы пожали друг другу руки и ты ушел, а он остался цел. Думал меня кинуть, гадёныш? А под трибунал не хочешь? Посмотрим, что скажет на твое предательство твой генерал. Считай, тебя в Долге больше нет.</text>
+				<text>prapor_2_task_fail_3</text>
 				<give_info>lie_2_prapor</give_info>
 				<action>dialogs_escape.v_loner</action>
 				<action>dialogs_bar.join_to_cs</action>
@@ -3985,26 +3985,26 @@
 		<dont_has_info>army_story_started</dont_has_info>
 		<precondition>dialogs_escape.check_army_true</precondition>
 		<phrase_list>
+			<phrase id="0">
+				<text>army_story_0</text>
+				<next>1</next>
+			</phrase>
 			<phrase id="1">
-				<text>И тебе не хворать. Есть одно дело... После провального прорыва в 2011, нам больше не выделят ни техники, ни людей, ни нормального обмундирования. Однако, Штаб разработал для нас новый план. Стоит идти не в лоб, а уничтожить Зону изнутри: проникнуть во все подземелья и заброшенные лаборатории. Потом следует отключить Выжигатель и потом узнать, что находится за ним.</text>
+				<text>army_story_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>Будет ли какая-нибудь поддержка?</text>
+				<text>army_story_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Ты можешь собрать отряд из военсталов, один из них - Полкан. Как только путь к центру Зоны будет открыт, наши части выдвинутся туда, так что в Центре будешь не один. Ещё раз. Шаг первый: найти документы. Шаг второй: отключить Радар. Шаг третий: провести разведку территорий за Выжигателем.</text>
+				<text>army_story_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Вопросов больше нет. Задача ясна и понятна. Приступаю к выполнению.</text>
+				<text>army_story_4</text>
 				<give_info>army_story_started</give_info>
 				<action>dialogs_escape.army_story_give</action>
-			</phrase>
-			<phrase id="0">
-				<text>Здравия желаю! Есть ли какие-нибудь спецзадания для меня?</text>
-				<next>1</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -4014,11 +4014,11 @@
 		<precondition>dialogs_escape.army_have_docs</precondition>
 		<phrase_list>
 			<phrase id="0">
-				<text>Задача выполнена! Вот документы.</text>
+				<text>army_story_end_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Молодчина! Страна будет гордится вами. Вот ваша награда.</text>
+				<text>army_story_end_1</text>
 				<give_info>army_story_finished</give_info>
 				<action>dialogs_escape.army_story_end</action>
 			</phrase>
@@ -4029,27 +4029,27 @@
 		<dont_has_info>prapor_3_task_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здравия желаю. Я от Прапора, мне приказано передать этот кейс вам.</text>
+				<text>prapor_task_1_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Молодец, "защитничек мира от Зоны", хах. Быть может и правда есть толк от вашей группировки.</text>
+				<text>prapor_task_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_task_1_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Что вы имеете ввиду?</text>
+				<text>prapor_task_1_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>Да то, что ты должен мне ботинки лизать только за то, что мои ребята не застрелили тебя еще на подходах к базе. Вы такие же сталкеры как и все. Все вы одинаковые...</text>
+				<text>prapor_task_1_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>Кхм... Я могу идти?</text>
-				<next>6</next>
-			</phrase>
-			<phrase id="6">
-				<text>Да, конечно, можешь валить, сталкер. Передавай от меня привет Прапору.</text>
+				<text>prapor_task_1_5</text>
 				<action>dialogs_bar.return_docs_2</action>
 				<give_info>prapor_3_task_done</give_info>
 			</phrase>
@@ -4060,19 +4060,19 @@
 		<dont_has_info>prapor_3_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Вам привет от Капитана Максименко. Кейс доставлен в целости и сохранности.</text>
+				<text>prapor_task_1_done_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Отлично. Считай, что проверку ты прошёл. Были какие-то проблемы?</text>
+				<text>prapor_task_1_done_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_task_1_done_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>"Козлиное" поведение капитана в счёт?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Поаккуратнее со словами, должник. Капитан, может, и не лучший характер имеет, но в Зоне полно ублюдков похлеще него. Кстати, вот твоя награда.</text>
+				<text>prapor_task_1_done_3</text>
 				<give_info>prapor_3_task_quest_end</give_info>
 				<action>dialogs_bar.give_money</action>
 			</phrase>
@@ -4083,19 +4083,19 @@
 		<dont_has_info>prapor_3_task_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Это Вы тот самый Прапор? Генерал сообщил, что я перехожу под Ваше руководство.</text>
+				<text>prapor_task_0_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Да, меня предупредили. Но прежде чем я смогу тебе доверить спецзадание, я должен быть уверен, что ты не решишь кинуть меня за ближайшим углом.</text>
+				<text>prapor_task_0_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>prapor_task_0_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Генерал доверяет мне - разве этого мало?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Либо ты делаешь то, что я говорю, либо мы прощаемся, а я потом обсужу с твоим генералом то, как он "хорошего" мне человека послал. Унял? А теперь слушай: здесь важные документы, их нужно доставить командиру военных на МедПриборе. Ничего сложного, правда? Смотри, если документы попадут в левые руки... Ну ты понял.</text>
+				<text>prapor_task_0_3</text>
 				<give_info>prapor_3_task_init</give_info>
 				<action>dialogs_bar.give_docs</action>
 				<action>dialogs_bar.prapor_1_quest</action>
@@ -4108,19 +4108,19 @@
 		<dont_has_info>lie_3_prapor</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>[Шёпот] Кх-кхм... У меня тут есть ценные военные документы, интересует?</text>
+				<text>dolg_case_trade_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Вы вот это здесь рассказываете на полном серьезе? Ничем не рискуя? Нет, Вы мне просто начинаете нравиться! Я готов послушать за вашу просьбу.</text>
+				<text>dolg_case_trade_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dolg_case_trade_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Тс-с, не хочу чтобы наш разговор услышали. Так что, во сколько вы это всё оцените?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Вы шо, спешите скорее, чем я?! Сеня, не бойтесь, наш разговор полностью конфиденциален. Хотя народец заметит, что "долго Сеня что-то не несёте бабушке пирожки, а может он-таки их съел или угостил кого за бесценок?" Но мне-таки не стыдно ходить с вами по одной Одессе... хотя мы и в Зоне. Знаете, у меня есть заморские люди, которые-таки заинтересованы в этих ваших документах. Я даже заплачу за них щедрее, чем обычно!</text>
+				<text>dolg_case_trade_3</text>
 				<give_info>lie_3_prapor</give_info>
 				<action>dialogs_bar.return_docs_2</action>
 				<action>dialogs_bar.join_to_cs</action>
@@ -4133,24 +4133,24 @@
 		<dont_has_info>csky_info_dolg</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здорово, я тут мимо проходил, решил заскочить на огонек.</text>
+				<text>csky_info_dolg_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>О, это же наш спаситель от той стаи кровососов? Спасибо, что избавил нас от них.</text>
+				<text>csky_info_dolg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>csky_info_dolg_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Да-да, кровососы, ох и много их было... Слушай, а не расскажешь о вашей группировке? Любопытно просто.</text>
+				<text>csky_info_dolg_3</text>
 				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Хех… Говорят о нас и хорошее и плохое, только мало кто правду знает. А правда-то в том, что с Зоной мы справиться хотим, раскапываем причины её появления. За что и охотятся на нас военные сталкеры, только не знают, где искать. Правительственные организации что-то знают, чего обычным сталкерам знать не следует… так-то. В один прекрасный момент наши нашли какую-то очень важную информацию и часть группировки рванула к центру Зоны. Половина группы полегла при подходах, но они-таки добрались. Что с ними произошло потом, никто не знает. А мы тем временем перебрались сюда. Вот такая вот история.</text>
-				<next>5</next>
 				<give_info>csky_info_dolg</give_info>
 			</phrase>
-			<phrase id="5">
-				<text>О как, а вы не так уж просты, как мне казалось. Было приятно повидатся, но Долг зовёт.</text>
+			<phrase id="4">
+				<text>csky_info_dolg_4</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -4159,19 +4159,19 @@
 		<dont_has_info>csky_info_dolg_2</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здорово, как товар идёт? А то покупателей, я гляжу, немного.</text>
+				<text>csky_info_dolg_2_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Ты сюда пришёл что-то купить или болтовню разводить?</text>
+				<text>csky_info_dolg_2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>csky_info_dolg_2_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Ого, а ты знаешь, кому ты грубишь? Я, если что, помог вам избавиться от кровососов, которые вам тут досаждали. Хотел вот с вами поближе познакомиться, вроде нормальными ребятами мне показались.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Слушай сюда, я тут занят делами и болтать со всякими чужаками не намерен. Если хочешь языком потрепать, то сходи к нашему технику, он у нас любитель таких дел.</text>
+				<text>csky_info_dolg_2_3</text>
 				<give_info>csky_info_dolg_2</give_info>
 			</phrase>
 		</phrase_list>
@@ -4181,19 +4181,19 @@
 		<dont_has_info>csky_info_dolg_3</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здорово, это ты, значит, местный медик?</text>
+				<text>csky_info_dolg_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Да, Травником меня кличут. А это ты тот герой, который избавил нас от призрачных кровососов? Много их там было?</text>
+				<text>csky_info_dolg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>csky_info_dolg_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Я не считал, но не меньше пяти точно. Ох и заставили они меня попотеть! Кстати, что у вас за группировка такая? Не слышал никогда про вас.</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Да группировка разве это? Так, ребята вместе собрались, выжить пытаются. Я сам еще толком не знаю, моё дело маленькое - поддерживать ребят в живом состоянии. Так что извини, нечего мне тебе рассказать.</text>
+				<text>csky_info_dolg_3</text>
 				<give_info>csky_info_dolg_3</give_info>
 			</phrase>
 		</phrase_list>
@@ -4203,19 +4203,19 @@
 		<dont_has_info>csky_info_dolg_4</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Здорово, командир, как жизнь нелегкая?</text>
+				<text>csky_info_dolg_4_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>И тебе не хворать, должник. С тех пор, как ты избавил нас о тех тварей, новых не появилось. Хотя тварей в округе еще полным полно, не то что наше болото.</text>
+				<text>csky_info_dolg_4_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>csky_info_dolg_4_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Болото? Кстати, откуда вы такие нарядные появились? Просто любопытно. Может вам еще какая помощь нужна?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Ну с тушканами да кадаврами мы и сами справимся, спасибо. То, что мы с Болот пришли, так понимаю, для тебя уже не секрет. Рассказывать мне тебе нечего, разве что то, что мы переживаем не лучшие времена и с трудом держимся на плаву. С твоей помощью, конечно, мы теперь продержимся дольше.</text>
+				<text>csky_info_dolg_4_3</text>
 				<give_info>csky_info_dolg_4</give_info>
 			</phrase>
 		</phrase_list>
@@ -4225,19 +4225,19 @@
 		<dont_has_info>sergant_lost</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Товарищ генерал, а разрешите спросить? Наша группировка пыталась уже пробиться через Радар?</text>
+				<text>sergant_lost_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Странные ты вопросы задаешь, боец. Пробиться к Центру пытаются все, кому не лень. До сих помню операцию «Приход», около 1000 солдат, сталкеров и техников, практически полностью погибли, немногие выжили... Кстати, ты кое-что напомнил мне, боец.</text>
+				<text>sergant_lost_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sergant_lost_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Что же?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Один сержантов с группой как раз должен был вернуться с Радара, но его всё нет. Сигнал его КПК исходит из деревни на Тихих Холмах, он тебе и расскажет, откуда дятлы в мёртвом лесу Радара. Выполнять.</text>
+				<text>sergant_lost_task_3</text>
 				<give_info>sergant_lost</give_info>
 				<action>dialogs_bar.tm_sergant</action>
 			</phrase>
@@ -4248,20 +4248,20 @@
 		<dont_has_info>sergant_task_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Нашёл я сержанта. Или то, что когда-то им было.</text>
+				<text>sergant_lost_done_0</text>
 				<action>dialogs_bar.retutn_pda_recon_2</action>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Неужели он тоже? Чёрт, а ведь нам сказали, что время спада излучение точное и никаких помех быть не должно! Эх, жалко, что знания Последнего Дня сгнинули вместе с их кланом...</text>
+				<text>sergant_lost_done_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sergant_lost_done_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Что за Последний День?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Не бери в голову, солдат. Так или иначе, теперь ты понимаешь, что рассказы про вернувшихся с Радара - не вымысел? Говорят, конечно, что есть путь через Городок-32, но мы уже потеряли там много людей. Помянем же их.</text>
+				<text>sergant_lost_done_3</text>
 				<give_info>sergant_task_quest_end</give_info>
 			</phrase>
 		</phrase_list>
@@ -4269,7 +4269,7 @@
 	<dialog id="sergant_hello">
 		<phrase_list>
 			<phrase id="0">
-				<text>Ыыыыаааэа.</text>
+				<text>sergant_hello_0</text>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -4278,28 +4278,28 @@
 		<dont_has_info>sergant_task_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Товарищ сержант?! Что с вами, почему вы не выходите на связь?</text>
+				<text>actor_sergant_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Ты из Долга, да?! Конечно, конечно из Долга! Я нет, я был, но я есть, но нет... Вали отсюда, пока цел!</text>
+				<text>actor_sergant_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>actor_sergant_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>...</text>
+				<text>actor_sergant_3</text>
 				<next>4</next>
+				<next>5</next>
 			</phrase>
 			<phrase id="4">
-				<text>Я делал ВСЁ, что они хотели для себя. Чёртов Долг! Мне не интересен взгляд твой и твои слова! Ты не интересен мне. Верни покой! Пусть их идеи обретут покой. В ГОЛОВЕ МОЕЙ! Возьми же КПК мой и отдай его им. И жетон. Вали скорей! Твой командир уже заждался там тебя.</text>
-				<next>5</next>
-				<next>6</next>
-			</phrase>
-			<phrase id="5">
-				<text>Ты спятил, мужик! Давай свой КПК, надеюсь, ты "обретёшь покой". В первой же аномалии.</text>
+				<text>actor_sergant_4</text>
 				<give_info>sergant_task_done</give_info>
 			</phrase>
-			<phrase id="6">
-				<text>Покой? Предатель заслуживает только пулю. По закону Долга, ты приговариваешься к казни через расстрел!</text>
+			<phrase id="5">
+				<text>actor_sergant_5</text>
 				<give_info>sergant_task_done</give_info>
 				<action>tz_scripts.set_kockdakov_enemy</action>
 			</phrase>
@@ -4310,19 +4310,19 @@
 		<dont_has_info>lukash_vstrecha_init</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>И так, лидер анархистов устранён, что дальше?</text>
+				<text>voronin_3_task_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Этого определённо мало. На смену ему придёт новый, мы лишь на время дестабилизировали их.</text>
+				<text>voronin_3_task_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_3_task_2</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>Так может собрать хороший отряд и вырезать всю их базу к хвостам псевдособачьим?</text>
-				<next>4</next>
-			</phrase>
-			<phrase id="4">
-				<text>Нет, капитан, нужно действовать с умом. Слушай мой план - я говорил тебе ранее о нашем человеке в Свободе. Так вот, твоя задача сейчас - сделать его новым лидером Свободы. Позывной - Лукаш. Он будет ждать тебя на окраине города. Пароль - «гнездо ястреба». Удачи тебе, капитан.</text>
+				<text>voronin_3_task_3</text>
 				<give_info>lukash_vstrecha_init</give_info>
 				<action>dialogs_bar.tm_lukash_vstrecha</action>
 			</phrase>
@@ -4333,45 +4333,45 @@
 		<dont_has_info>lukash_vstrecha_quest_end</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>Не страшно в одиночку находиться так далеко от лагеря, свободовец?</text>
+				<text>actor_find_lukash_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>Знаешь, где самое безопасное место?</text>
-				<next>3</next>
-				<next>33</next>
-				<next>333</next>
-				<next>3333</next>
+				<text>actor_find_lukash_1</text>
+				<next>2</next>
+				<next>22</next>
+				<next>222</next>
+				<next>2222</next>
 			</phrase>
-			<phrase id="3">
-				<text>«100 Рентген»</text>
-				<next>5</next>
-			</phrase>
-			<phrase id="33">
-				<text>«Кольцо соловья»</text>
-				<next>5</next>
-			</phrase>
-			<phrase id="3333">
-				<text>«Логово химеры»</text>
-				<next>5</next>
-			</phrase>
-			<phrase id="333">
-				<text>«Гнездо ястреба»</text>
+			<phrase id="2">
+				<text>actor_find_lukash_2</text>
 				<next>4</next>
 			</phrase>
-			<phrase id="4">
-				<text>Правильно. Приветствую вас, капитан. Выпьем же за знакомство.</text>
+			<phrase id="22">
+				<text>actor_find_lukash_22</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="2222">
+				<text>actor_find_lukash_2222</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="222">
+				<text>actor_find_lukash_222</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>actor_find_lukash_3</text>
 				<give_info>lukash_vstrecha_quest_end</give_info>
 			</phrase>
-			<phrase id="5">
-				<text>Ответ неправильный.</text>
+			<phrase id="4">
+				<text>actor_find_lukash_4</text>
 				<give_info>fail_lukash</give_info>
-				<next>6</next>
+				<next>5</next>
 			</phrase>
-			<phrase id="6">
-				<text>Чёрт!</text>
+			<phrase id="5">
+				<text>actor_find_lukash_5</text>
 				<action>tz_scripts.set_kockdakov_enemy</action>
-				<next>6</next>
+				<next>5</next>
 			</phrase>
 		</phrase_list>
 	</dialog>

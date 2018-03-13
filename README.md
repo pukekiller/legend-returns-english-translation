@@ -16,7 +16,7 @@ A list of all files with their detailed progress can be found below.
 	- [dialogs_escape.xml](gamedata/configs/gameplay/dialogs_escape.xml)
 		- done
 	- [dialogs_habarwik.xml](gamedata/configs/gameplay/dialogs_habarwik.xml)
-		- not started
+		- done
 	- [dialogs_jupiter.xml](gamedata/configs/gameplay/dialogs_jupiter.xml)
 		- done
 	- [dialogs_marsh.xml](gamedata/configs/gameplay/dialogs_marsh.xml)

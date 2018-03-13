@@ -529,23 +529,17 @@
 	<string id="ui_r__dtex_range">
 		<text>Дальность детальных текстур</text>
 	</string>
-	<string id="ui_mm_ai_die_in_anomaly">
-		<text>НПС гибнут в аномалиях</text>
-	</string>
-	
-
-
 
 	<string id="lr_skills_no_streight">
 		<text>Вы не настолько сильны и ловки, чтобы таскать на себе такую тяжесть</text>
-	</string>	
+	</string>
 	<string id="lr_skills_no_streight_2">
-		<text>И как пользоватся этим? Оно еще и тяжелое, зараза.</text>
-	</string>	
+		<text>И как пользоватся этим? Оно ещё и тяжёлое, зараза.</text>
+	</string>
 	<string id="lr_skills_no_streight_3">
 		<text>Слишком тяжело, чтобы носить это на себе.</text>
-	</string>		
+	</string>
 	<string id="ui_mm_sim_on_all_levels">
 		<text>Жизнь по всей Зоне</text>
-	</string>	
+	</string>
 </string_table>

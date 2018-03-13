@@ -88,7 +88,7 @@
 		<text>Alternative</text>
 	</string>
 	<string id="ui_mm_anisotropic">
-		<text>Anisotropic filtering</text>
+		<text>Anisotropic</text>
 	</string>
 	<string id="ui_mm_apply">
 		<text>Apply</text>
@@ -190,13 +190,13 @@
 		<text>Load game</text>
 	</string>
 	<string id="ui_mm_logout">
-		<text>Exit profile</text>
+		<text>Quit profile</text>
 	</string>
 	<string id="ui_mm_master">
 		<text>Master</text>
 	</string>
 	<string id="ui_mm_master_volume">
-		<text>SFX Volume</text>
+		<text>SFX volume</text>
 	</string>
 	<string id="ui_mm_mouse_sense">
 		<text>Mouse sensitivity</text>
@@ -217,7 +217,7 @@
 		<text>Music volume</text>
 	</string>
 	<string id="ui_mm_need_restart">
-		<text>Changes will only take effect after the game has been restarted</text>
+		<text>Changes will only take effect after the game is restarted</text>
 	</string>
 	<string id="ui_mm_network_game">
 		<text>Multiplayer</text>
@@ -264,7 +264,7 @@
 	<string id="ui_mm_r2_steep_parallax">
 		<text>Steep parallax</text>
 	</string>
-		<string id="ui_mm_r2_tonemap">
+	<string id="ui_mm_r2_tonemap">
 		<text>Tonemapping</text>
 	</string>	
 	<string id="ui_mm_r2_sun">
@@ -280,7 +280,7 @@
 		<text>Sun quality</text>
 	</string>
 	<string id="ui_mm_r3_DX10_1">
-		<text>Use DX10.1</text>
+		<text>Use DirectX 10.1</text>
 	</string>
 	<string id="ui_mm_r3_MSAA">
 		<text>Full screen smoothing</text>
@@ -428,7 +428,7 @@
 		<text>Apply changes? All changes will be reverted in</text>
 	</string>
 	<string id="st_cap_check_story">
-		<text>Zone's secret</text>
+		<text>Story mode</text>
 	</string>
 	<string id="st_cap_check_survival">
 		<text>Survival mode</text>
@@ -443,7 +443,7 @@
 		<text>Hardcore AI aim</text>
 	</string>
 	<string id="ui_mm_debug_hud">
-		<text>Debug hud</text>
+		<text>Debug HUD</text>
 	</string>
 	<string id="ui_mm_radio_mod">
 		<text>Radio music</text>
@@ -461,7 +461,7 @@
 		<text>Helicopter patrols</text>
 	</string>
 	<string id="ui_mm_ai_die_in_anomaly">
-		<text>AI die in anomalies</text>
+		<text>AI die to anomalies</text>
 	</string>
 	<string id="ui_mm_dynamic_news">
 		<text>Dynamic news</text>
@@ -488,7 +488,7 @@
 		<text>Quicksave count</text>
 	</string>
 	<string id="ui_mm_actor_hud">
-		<text>Dynamic HUD</text>
+		<text>Mask overlay</text>
 	</string>
 	<string id="ui_mm_alife_mutant_pop">
 		<text>Population factor (mutants)</text>
@@ -497,25 +497,25 @@
 		<text>Population factor (stalkers)</text>
 	</string>
 	<string id="ui_mm_hud_fov">
-		<text>HUD FOV</text>
+		<text>Hud FOV</text>
 	</string>
 	<string id="ui_mm_fov">
 		<text>FOV</text>
 	</string>
 	<string id="ui_mm_slot_hud">
-		<text>Belt Artifact HUD</text>
+		<text>Extended HUD</text>
 	</string>
 	<string id="ui_mm_show_tracers">
 		<text>Show tracers</text>
 	</string>
 	<string id="ui_mm_release_dropped_items">
-		<text>Remove dropped items</text>
+		<text>Despawn dropped items</text>
 	</string>
 	<string id="ui_mm_hardcore_ai_aim">
 		<text>Hardcore AI aim</text>
 	</string>
 	<string id="ui_mm_localization">
-		<text>Localization</text>
+		<text>Localisation</text>
 	</string>
 	<string id="ui_mm_r1_fog_luminance">
 		<text>Fog darkness</text>
@@ -528,20 +528,18 @@
 	</string>
 	<string id="ui_r__dtex_range">
 		<text>Texture detail range</text>
-	</string>	
-
-
+	</string>
 
 	<string id="lr_skills_no_streight">
 		<text>You're not strong and agile enough to carry such a load.</text>
-	</string>	
+	</string>
 	<string id="lr_skills_no_streight_2">
 		<text>And how will you use this? The damn thing's heavy too.</text>
-	</string>	
+	</string>
 	<string id="lr_skills_no_streight_3">
 		<text>It's too heavy to carry by yourself.</text>
-	</string>		
+	</string>
 	<string id="ui_mm_sim_on_all_levels">
 		<text>Life in the entire Zone</text>
-	</string>	
+	</string>
 </string_table>

@@ -38,13 +38,13 @@ A list of all files with their detailed progress can be found below.
 	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/rus/st_addon_companion_quick_menu.xml)
 		- not started
 	- [st_characters.xml](gamedata/configs/text/rus/st_characters.xml)
-		- not started
+		- done
 	- [st_characters_new.xml](gamedata/configs/text/eng/st_characters_new.xml)
 		- done
 	- [st_dialogs.xml](gamedata/configs/text/rus/st_dialogs.xml)
 		- not started
 	- [st_dialogs_bar.xml](gamedata/configs/text/rus/st_dialogs_bar.xml)
-		- not started
+		- in progress
 	- [st_dialogs_darkscape.xml](gamedata/configs/text/rus/st_dialogs_darkscape.xml)
 		- not started
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/rus/st_dialogs_darkvalley.xml)
@@ -100,7 +100,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_mm_atmosfear_texts.xml](gamedata/configs/text/rus/st_mm_atmosfear_texts.xml)
 		- not started
 	- [st_mm_faction_select.xml](gamedata/configs/text/rus/st_mm_faction_select.xml)
-		- not started
+		- in progress (new faction descriptions need translating)
 	- [st_quests_agroprom.xml](gamedata/configs/text/rus/st_quests_agroprom.xml)
 		- not started
 	- [st_quests_bar.xml](gamedata/configs/text/rus/st_quests_bar.xml)
@@ -134,13 +134,13 @@ A list of all files with their detailed progress can be found below.
 	- [ui_st_faction_starts.xml](gamedata/configs/text/eng/ui_st_faction_starts.xml)
 		- unrevised
 	- [ui_st_inventory.xml](gamedata/configs/text/rus/ui_st_inventory.xml)
-		- not started
+		- done
 	- [ui_st_loadscreen.xml](gamedata/configs/text/eng/ui_st_loadscreen.xml)
 		- in progress, unrevised
 	- [ui_st_mm.xml](gamedata/configs/text/rus/ui_st_mm.xml)
-		- not started
+		- done, unrevised
 	- [ui_st_screen.xml](gamedata/configs/text/rus/ui_st_screen.xml)
-		- not started
+		- done
 
 - **scripts:**
 	- [dialogs_bar.script](gamedata/scripts/dialogs_bar.script)
@@ -154,7 +154,7 @@ A list of all files with their detailed progress can be found below.
 	- [dynamic_news_helper.script](gamedata/scripts/dynamic_news_helper.script)
 		- not started
 	- [itms_manager.script](gamedata/scripts/itms_manager.script)
-		- not started
+		- done
 	- [lootmoney.script](gamedata/scripts/lootmoney.script)
 		- not started
 	- [LR_photomode.script](gamedata/scripts/LR_photomode.script)
@@ -172,4 +172,6 @@ A list of all files with their detailed progress can be found below.
 	- [tz_scripts.script](gamedata/scripts/tz_scripts.script)
 		- not started
 	- [ui_main_menu.script](gamedata/scripts/ui_main_menu.script)
+		- not started
+	- [zone_news_dead.script](gamedata/scripts/zone_news_dead.script)
 		- not started

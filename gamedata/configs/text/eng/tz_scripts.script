@@ -1,0 +1,521 @@
+-- transfer key from doctor
+function test_2(first_speaker, second_speaker)
+    dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "cit_doctors_key")
+	task_manager.get_task_manager():give_task("cit_doctor_task")
+	task_manager.get_task_manager():give_task("main_1_search_agr_ug")
+	task_manager.get_task_manager():give_task("main_2_search_labx18")
+	task_manager.get_task_manager():give_task("main_3_search_labx16")
+	task_manager.get_task_manager():give_task("main_4_search_labx10")
+	task_manager.get_task_manager():give_task("main_5_search_labx8")
+	task_manager.get_task_manager():give_task("main_6_search_jup_ug")
+	task_manager.get_task_manager():give_task("main_7_search_mon_con")
+end
+
+function set_hero_true_merc(actor, npc)
+xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -5000})
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", -4000})
+   xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", -4000})
+end
+
+function create_random_stash(first_speaker, second_speaker)
+	coc_treasure_manager.create_random_stash(nil,first_speaker:character_name()..". получены координаты тайника.")
+end
+
+function spawn_outfit1(first_speaker, second_speaker)
+	alife(l01_escape):create("novup_outfit",vector():set(-205.27777099609,-34.865306854248,-322.35458374023),47447,576)
+end
+
+function spawn_outfit2(first_speaker, second_speaker)
+	alife(k00_marsh):create("noval_outfit",vector():set(-189.73136901855,0.73468518257141,243.9730074707),46635,305)
+end
+
+function spawn_outfit3(first_speaker, second_speaker)
+	alife(l03u_agr_underground):create("basta_outfit",vector():set(75.155548095703,-16.118556976318,103.82881164551),5790,3647)
+end
+
+function spawn_outfit4(first_speaker, second_speaker)
+	alife(l02_garbage):create("tourist_outfit",vector():set(54.375015258789,17.060041427612,25.476402282715),201551,739)
+end
+
+function spawn_outfit5(first_speaker, second_speaker)
+	alife(l04_darkvalley):create("magic_outfit",vector():set(-3.8533420562744,-3.0489583015442,-34.975872039795),164413,1463)
+end
+
+function spawn_outfit6(first_speaker, second_speaker)
+	alife(l10_limansk):create("mercup_outfit",vector():set(37.465843200684,6.1834182739258,311.79611206055),46731,2462)
+end
+
+function spawn_outfit7(first_speaker, second_speaker)
+	alife(k01_darkscape):create("hunter_outfit",vector():set(471.49340820313,19.36244392395,292.45922851563),976886,1399)
+end
+
+function spawn_outfit8(first_speaker, second_speaker)
+	alife():create("svobodam1_light_outfit",vector():set(-91.126754760742,15.621254920959,-94.43236541748),78306,2349)
+end
+
+function spawn_outfit9(first_speaker, second_speaker)
+	alife():create("military_exo_outfit",vector():set(-235.30335998535,10.89984703064,178.05326843262),16238,1845)
+end
+
+function spawn_darklab(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("find_darklab_docs_task")
+	alife(l04u_labx18):create("darklab_docs_1",vector():set(133.95953369141,-20.029697418213,54.958087921143),6617,3783)
+	alife(l04u_labx18):create("darklab_docs_2",vector():set(117.83320617676,-30.659440994263,90.204956054688),6622,3783)
+end
+
+function give_fucked_pm(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "pm_fucked")
+end
+ 
+function check_250_ru(first_speaker, second_speaker)   
+		 dialogs.relocate_money_from_actor(first_speaker, second_speaker, 250)  
+         return db.actor:money() >= 250 
+end  
+
+function death_quest_give_1(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("death_task1")
+	alife(k00_marsh):create("death_zapiska",vector():set(-280.32864379883,15.806301116943,21.856889724731),7136,152)
+	alife(k00_marsh):create("detector_advanced",vector():set(-279.14312744141,15.571559906006,21.559953689575),7136,152)
+	alife(k00_marsh):create("stalker_outfit_barge",vector():set(-279.25088500977,15.253493309021,22.359523773193),7136,152)
+end
+
+function proverka_zapiski_death()
+    if db.actor:object("death_zapiska") then
+        return true
+    end
+    return false
+end
+
+function proverka_locked_pda()
+    if db.actor:object("unknown_pda_locked") then
+        return true
+    end
+    return false
+end
+
+function death_quest_rewards_1(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "death_zapiska",1)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1500)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", 50})
+end
+
+function give_unlocked_pda(first_speaker, second_speaker)
+	dialogs.relocate_item_section(npc, "unknown_pda_locked", "out", 1)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "unknown_pda_unlocked")
+	task_manager.get_task_manager():give_task("unknown_task2")
+	alife(labx8):create("docs_x8",vector():set(-43.387531280518,-19.529632568359,67.455230712891),6770,5094)
+	alife(labx8):create("af_compass",vector():set(-51.534381866455,-20.167694091797,65.024795532227),6515,5094)
+	alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+	alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+	alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+end
+
+function give_freedom_spy_task(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("freedom_spy_task")
+end
+
+function give_spy_kombez(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "loner_spy_chevron")
+end
+
+function duty_case_spawn(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("freedom_case_task")
+	alife(l05_bar):create("freedom_duty_case",vector():set(190.11573791504,0.09570986032486,98.474914550781),46828,1692)
+end
+
+function find_nimble_start(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("finding_nimble_task")
+	local vedro_docs_start = "Это Ведров. Сталкер, ты чего тут техника от работы отвлекаешь? Зайди ко мне, если работа нужна."
+	news_manager.send_tip(db.actor, vedro_docs_start, 4, nil, 30000)
+	db.actor:give_info_portion("give_vedrov_doc_dialog")
+end
+
+function quest_infa(first_speaker, second_speaker)
+local info_to_voron = "Вы: Отряд штурмовиков будет ждать меня на холмах. Скидываю координаты."
+local info_to_voron_1 = "Ворон: Принял. Я вышлю бойцов."
+news_manager.send_tip(db.actor, info_to_voron, 4, nil, 30000)
+news_manager.send_tip(db.actor, info_to_voron_1, 9, nil, 30000)
+end
+
+function x16_secrets_start(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("vedrov_x16_docs_task")
+	alife():create("x16docs_1",vector():set(-100.22803497314,22.513341903687,-26.482496261597),501,3813)
+	alife():create("x16docs_2",vector():set(-42.933631896973,19.178316116333,2.2211463451385),2557,3814)
+	alife():create("x16docs_3",vector():set(-24.479738235474,4.8478226661682,-14.278725624084),3667,3820)
+	alife():create("x16docs_4",vector():set(52.390949249268,5.5845427513123,17.335544586182),5577,3829)	alife():create("x16docs_5",vector():set(127.69054412842,30.718505859375,-12.085636138916),7253,3813)
+end
+
+
+function freedom_spy_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "freedom_case_task",1)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_orbita")
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2500)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 50})
+end
+
+function proverka_duty_case()
+    if db.actor:object("freedom_case_task") then
+        return true
+    end
+    return false
+end
+
+function proverka_x16_docs()
+    if (db.actor:object("x16docs_1") and db.actor:object("x16docs_2") and db.actor:object("x16docs_3") and db.actor:object("x16docs_4") and db.actor:object("x16docs_5")) then
+        return true
+    end
+    return false
+end
+
+function proverka_darklab_docs()
+    if (db.actor:object("darklab_docs_1") and db.actor:object("darklab_docs_2")) then
+        return true
+    end
+    return false
+end
+
+function barman_tz_reward(first_speaker, second_speaker)
+		if has_alife_info("duplet_dead") and not has_alife_info("duplet_povtor") then 
+		dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_fireball")
+		dialogs.relocate_money_to_actor(first_speaker, second_speaker, 4000)
+		db.actor:give_info_portion("duplet_povtor")
+		end
+			if has_alife_info("duplet_zasada") and not has_alife_info("duplet_povtor") then 
+			dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_cristall")
+			dialogs.relocate_money_to_actor(first_speaker, second_speaker, 4000)
+			db.actor:give_info_portion("duplet_povtor")
+			end
+	if has_alife_info("duplet_naparnik") and not has_alife_info("duplet_povtor") then 
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_fireball")
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2250)
+	db.actor:give_info_portion("duplet_povtor")
+	end
+	
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "darklab_docs_1",1)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "darklab_docs_2",1)
+				
+end
+
+function remove_first_reg(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "saharok_registrator_1",1)
+end
+
+function remove_second_reg(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "saharok_registrator_2",1)
+end
+
+function remove_third_reg(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "saharok_registrator_3",1)
+end
+
+function freedom_case_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "helm_battle")
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1500)
+end
+
+function saharok_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "x16docs_1",1)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "x16docs_2",1)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "x16docs_3",1)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "x16docs_4",1)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "x16docs_5",1)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2000)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkomplekt")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "drug_anabiotic")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "razgruzka2")
+end
+
+function novikov_reward(first_speaker, second_speaker)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 4800)
+end
+
+function spawn_nimble(first_speaker, second_speaker)
+	alife(l01_escape):create("esc_nimble",vector():set(-212.78637695313,-23.194370269775,-123.3889465332),40972,453)
+end
+
+function nimble_helmet_spawm(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("outfit_for_nimble_task")
+	alife(l01_escape):create("helm_hardhat_snag",vector():set(-13.078892707825,5.6398191452026,72.09464263916),285898,474)
+end
+
+function proverka_nimble_helmet()
+    if db.actor:object("helm_hardhat_snag") then
+        return true
+    end
+    return false
+end
+
+function spawn_registrators(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("first_registrator_task")
+	task_manager.get_task_manager():give_task("second_registrator_task")
+	task_manager.get_task_manager():give_task("third_registrator_task")
+	alife(l08_yantar):create("saharok_registrator_3",vector():set(-54.894004821777,-12.019617080688,-256.15640258789),43207,2196)
+	alife(l08_yantar):create("saharok_registrator_1",vector():set(-148.77752685547,2.5161647796631,-138.63845825195),13291,2224)
+	alife(l08_yantar):create("saharok_registrator_2",vector():set(140.56532287598,-1.3206794261932,50.556255340576),13277,2212)
+end
+
+function proverka_registrator_1()
+    if db.actor:object("saharok_registrator_1") then
+        return true
+    end
+    return false
+end
+
+function proverka_registrator_2()
+    if db.actor:object("saharok_registrator_2") then
+        return true
+    end
+    return false
+end
+
+function proverka_registrator_3()
+    if db.actor:object("saharok_registrator_3") then
+        return true
+    end
+    return false
+end
+
+function registrators_reward(first_speaker, second_speaker)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1984)
+end
+
+function brain_sahar_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ecolog_guard_outfit")
+end
+
+function cockdakov_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkomplekt")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "pills")
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "pills")
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 800)
+end
+
+function nimble_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "helm_hardhat_snag",1)
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 905)
+end
+
+function spawn_cockdakov(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("cockdakov_task")
+	alife():create("cockdakov",vector():set(106.9408493042,5.5688524246216,-8.8413715362549),6942,3828)
+end
+
+function set_kockdakov_enemy(actor, npc)                                            
+    npc:force_set_goodwill(-5000, actor)
+end
+	
+function actor_on_update()
+local vedro_docs = "Ведров на связи. Молодец, что справился. Документы сразу относи Сахарову, мне они не нужны."
+local mikluha_message2 = "Кажется, тебя заметили. Уходи оттуда!"
+local text_toad = "Я нашел труп свободовца и у него записку. Там сказано, что артефакт забрал некий Бешеный Пёс."
+local text_toad_2 = "Что? Артефакт у Пса? Сделай, что угодно, но забери его! Отними его силой. Насчёт награды не переживай - я заплачу в 3 раза больше. Бешеный Пёс это главарь банды наёмников. Удачи, что уж."
+if (db.actor:object("gar_military_docs") and not has_alife_info("dead_army_info")) then 
+alife(alife_l02_garbage):create("bloodsucker_normal",vector():set(-69.924247741699,10.287419319153,1.6702555418015),117677,725) 
+db.actor:give_info_portion("dead_army_info")
+end
+if (db.actor:object("af_spiralka") and not has_alife_info("hero_has_spiral")) then 
+db.actor:give_info_portion("hero_has_spiral")
+end
+if (db.actor:object("spider_plant") and not has_alife_info("spider_plant_info")) then 
+db.actor:give_info_portion("spider_plant_info")
+end
+if (db.actor:object("darklab_docs_2") and not has_alife_info("darklab_docs_2_got")) then 
+alife(alife_l02_garbage):create("m_controller_e",vector():set(120.93338775635,-27.768442153931,87.238708496094),16421,3807) 
+db.actor:give_info_portion("darklab_docs_2_got")
+end
+if not has_alife_info("time_to_death_done")  and has_alife_info("voronin_death")then
+db.actor:give_info_portion("time_to_death_failed")
+end
+if has_alife_info("poisk_travy") then
+alife(alife_jupiter):create("jup_b206_plant",vector():set(476.14562988281,24.497018814087,-406.22058105469),1464477,4775)
+disable_info("poisk_travy")
+end
+if has_alife_info("bandit_1_add")  and not has_alife_info("greh_massage_10") and character_community(db.actor) == 'actor_sin'  or has_alife_info("bandit_1_add")  and not has_alife_info("greh_massage_10") and character_community(db.actor) == 'neutral' then
+db.actor:give_game_news("Подсказка:", "%c[255,255,160,0]" .. "%c[255,255,160,0]При наличии Ритуального ножа у вас появилась возможность разрезать тела сталкеров, а также получить Сердце, которое можно обменять на снаряжения у Куркуля", "ui_inGame2_PD_Avtoritet", 10, 20000)
+db.actor:give_info_portion("greh_massage_10")
+end
+if has_alife_info("actor_is_sleeping") and has_alife_info("prizrak_revange") then
+get_console():execute("snd_volume_music "..tostring(_G.mus_vol))
+get_console():execute("snd_volume_eff "..tostring(_G.amb_vol))
+local snd1 = sound_object("x18_laugh")
+snd1:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+local iTimer = time_global() + 4*1000 
+ 
+
+      local function check_timer_ghost()
+         return time_global() > iTimer
+      end
+ 
+
+      level.add_call(check_timer_ghost, action_timer_ghost)
+   end
+if has_alife_info("suicide_done") then
+local iTimer = time_global() + 5*1000 
+ 
+
+      local function check_timer_suicide()
+         return time_global() > iTimer
+      end
+ 
+
+      level.add_call(check_timer_suicide, action_timer_suicide)
+   end
+if has_alife_info("backer_sin") then
+db.actor:set_character_community("actor_sin",0,0)
+disable_info("backer_sin")
+end
+if has_alife_info("lsd") then
+local iTimer = time_global() + 20*1000 
+ 
+
+      local function check_timer_lsd()
+         return time_global() > iTimer
+      end
+ 
+
+      level.add_call(check_timer_lsd, action_timer_lsd)
+   end
+  
+if has_alife_info("lsd_done") then
+local iTimer = time_global() + 30*1000 
+ 
+
+      local function check_timer_lsd_done()
+         return time_global() > iTimer
+      end
+ 
+
+      level.add_call(check_timer_lsd_done, action_timer_lsd_done)
+   end  
+if (db.actor:object("helm_hardhat_snag") and not has_alife_info("hero_has_helm_hardhat_snag")) then 
+db.actor:give_info_portion("hero_has_helm_hardhat_snag")
+end
+if (db.actor:object("zapiska_spiral") and not has_alife_info("hero_has_zapiska_spiral")) then 
+news_manager.send_tip(db.actor, text_toad, 4, nil, 30000)
+news_manager.send_tip(db.actor, text_toad_2, 9, nil, 30000)
+db.actor:give_info_portion("hero_has_zapiska_spiral")
+end
+if (db.actor:object("death_zapiska") and not has_alife_info("hero_has_death_zapiska")) then 
+db.actor:give_info_portion("hero_has_death_zapiska")
+task_manager.get_task_manager():give_task("unknown_task1")
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-278.54541015625,1.0271565914154,28.53701210022),7359,152) 
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-278.54541015625,1.0271565914154,28.53701210022),7359,152) 
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-299.63998413086,0.73179459571838,13.761891365051),1805,154) 
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-299.63998413086,0.73179459571838,13.761891365051),1805,154) 
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-276.36755371094,0.23561933636665,-3.6090703010559),8003,157) 
+alife(alife_k00_marsh):create("unknown_enemy",vector():set(-276.36755371094,0.23561933636665,-3.6090703010559),8003,157) 
+alife(alife_k00_marsh):create("lr_unknown_commander",vector():set(-292.06945800781,0.73353779315948,24.984390258789),3987,153) 
+end
+if (db.actor:object("rostok_docks") and not has_alife_info("hero_has_rostok_docks")) then 
+db.actor:give_info_portion("hero_has_rostok_docks")
+local snd1 = sound_object("characters_voice\\scenario\\lr\\jup_b47_merc_leader_regret_pda")
+snd1:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-24.046699523926,-29.538152694702,-92.525909423828),292831,5371) 
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-24.046699523926,-29.538152694702,-92.525909423828),292831,5371) 
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-20.500741958618,-35.201622009277,-99.369979858398),296984,5371) 
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-20.500741958618,-35.201622009277,-99.369979858398),296984,5373)
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-20.209041595459,-35.280033111572,-87.177070617676),296999,5373) 
+alife(alife_k00_marsh):create("unknown_killers",vector():set(-20.209041595459,-35.280033111572,-87.177070617676),296999,5373)  
+end
+if (db.actor:object("unknown_pda_locked") and not has_alife_info("hero_has_locked_pda")) then 
+db.actor:give_info_portion("hero_has_locked_pda")
+end
+if (db.actor:object("unknown_pda_unlocked") and not has_alife_info("hero_has_unlocked_pda")) then 
+db.actor:give_info_portion("hero_has_unlocked_pda")
+end
+if (db.actor:object("docs_x8") and not has_alife_info("hero_had_docs_x8")) then 
+db.actor:give_info_portion("hero_had_docs_x8")
+alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+alife(labx8):create("unknown_enemy",vector():set(-75.819458007813,-16.004652023315,71.977272033691),4116,5094)
+alife(labx8):create("unknown_enemy",vector():set(-72.233177185059,-20.164575576782,64.40535736084),4830,5085)
+alife(labx8):create("unknown_enemy",vector():set(-72.233177185059,-20.164575576782,64.40535736084),4830,5085)
+alife(labx8):create("unknown_enemy",vector():set(-72.233177185059,-20.164575576782,64.40535736084),4830,5085)
+alife(labx8):create("unknown_enemy",vector():set(-72.233177185059,-20.164575576782,64.40535736084),4830,5085)
+end
+		if (db.actor:object("unknown_pda_unlocked") and not has_alife_info("hero_has_unlocked_pda")) then 
+		db.actor:give_info_portion("hero_has_unlocked_pda")
+		end
+	if (db.actor:object("freedom_duty_case") and not has_alife_info("have_freedom_duty_case")) then 
+	news_manager.send_tip(db.actor, mikluha_message2, 4, nil, 30000)
+	db.actor:set_character_community("actor_freedom",0,0)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -5500})
+	db.actor:give_info_portion("have_freedom_duty_case")
+	end
+	if has_alife_info("vedrov_completed") and not has_alife_info("vedrov_completed_povtor") then 
+	news_manager.send_tip(db.actor, vedro_docs, 4, nil, 30000)
+	task_manager.get_task_manager():give_task("saharok_give_x16_docs_task")
+	db.actor:give_info_portion("vedrov_completed_povtor")
+	end
+	if (db.actor:object("darklab_docs_1") and db.actor:object("darklab_docs_2")) then
+	db.actor:give_info_portion("has_darklab_docs")
+    end
+	
+			if has_alife_info("domino_task_bandit_completed") then 
+			disable_info("domino_task_bandit_completed")
+			task_manager.get_task_manager():give_task("domino_task_bandit")
+			end
+			if has_alife_info("domino_task_army_completed") then 
+			disable_info("domino_task_army_completed")
+			task_manager.get_task_manager():give_task("domino_task_army")
+			end
+			if has_alife_info("domino_task_monolith_completed") then 
+			disable_info("domino_task_monolith_completed")
+			task_manager.get_task_manager():give_task("domino_task_monolith")
+			end
+			if has_alife_info("domino_task_killer_completed") then 
+			disable_info("domino_task_killer_completed")
+			task_manager.get_task_manager():give_task("domino_task_killer")
+			end
+			if has_alife_info("domino_task_sin_completed") then 
+			disable_info("domino_task_sin_completed")
+			task_manager.get_task_manager():give_task("domino_task_sin")
+			end
+end
+
+	function give_domino_task_bandit(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("domino_task_bandit")
+	end
+	
+	function give_domino_task_army(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("domino_task_army")
+	end
+	
+	function give_domino_task_monolith(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("domino_task_monolith")
+	end
+	
+	function give_domino_task_killer(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("domino_task_killer")
+	end
+	
+	function give_domino_task_sin(first_speaker, second_speaker)
+	task_manager.get_task_manager():give_task("domino_task_sin")
+	end
+	
+	function action_timer_lsd()
+	  dialogs_red.lsd()
+   end
+   
+	function action_timer_suicide()
+	  xr_effects.enable_ui()
+   end
+   function action_timer_lsd_done()
+	  dialogs_red.lsd_done()
+   end
+   function action_timer_ghost()
+	  xr_effects.kill_actor()
+   end
+	
+function check_sin_true()
+  if character_community(db.actor) == 'actor_sin' then
+     return true
+   else
+     return false
+   end
+end
+
+function on_game_start() 
+RegisterScriptCallback("actor_on_update",actor_on_update) 
+end

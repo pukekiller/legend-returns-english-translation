@@ -211,7 +211,7 @@ get_console():execute("r2_dof_near -0.4")
 get_console():execute("r2_dof_focus 1.4")
 get_console():execute("r2_dof_kernel 2")
 hud:AddCustomStatic("main_task", true)
-hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Standart/Off")
+hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST("Depth of Field - Standard/Off")
 hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
 dof_mode_plus = 0
 end

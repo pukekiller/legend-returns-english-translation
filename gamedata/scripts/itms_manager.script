@@ -136,17 +136,17 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 	if (repair_type == "weapon") then 
 	-- LR REPAIR START
 	if not has_alife_info ("repair_1_add") then
-	ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Вы не умеете пользоватся этим ремкомплектом"))
+	ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("st_repair_fail"))
 	return
 	end
-	-- LR REPAIR END	
+	-- LR REPAIR END
 		if not (IsWeapon(itm2)) then 
 			return 
 		end
 	elseif (repair_type == "outfit") then 
 	-- LR REPAIR START
 	if not has_alife_info ("repair_2_add") then
-	ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Вы не умеете пользоватся этим ремкомплектом"))
+	ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("st_repair_fail"))
 	return
 	end
 	-- LR REPAIR END	
@@ -159,11 +159,11 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 		end
 	end
 	
-	-- LR REPAIR START	
+	-- LR REPAIR START
 	local cur_condition = itm2:condition()
 	local c_min = 0
 	local c_max = 0.85
-
+	
 	if (cur_condition < c_min) then 
 		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("st_repair_mod_message_box_condition_to_low"))
 		return
@@ -173,18 +173,18 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 	end
 	
 	local c_add = 0.15
-	if not (has_alife_info("repair_3_add")) then 
+	if not (has_alife_info("repair_3_add")) then
 		c_add = c_add + 0.05
-	end	
-	if (has_alife_info("repair_3_add")) then 
+	end
+	if (has_alife_info("repair_3_add")) then
 		c_add = c_add + 0.15
 	end
-	if (has_alife_info("repair_4_add")) then 
+	if (has_alife_info("repair_4_add")) then
 		c_add = c_add + 0.10
-	end	
-	if (has_alife_info("repair_5_add")) then 
+	end
+	if (has_alife_info("repair_5_add")) then
 		c_add = c_add + 0.10
-	end			
+	end
 	-- LR REPAIR END
 	
 	local function on_yes(owner,p)
@@ -270,7 +270,7 @@ end
 
 -- bind_stalker on_item_take
 function actor_item_take(obj)
-if not (obj) then
+	if not (obj) then
 		return
 	end
 
@@ -338,7 +338,7 @@ function actor_on_item_use(obj)
 	if (db.actor:has_info("actor_made_wish_for_riches")) then
 		return 
 	end
-	
+
 	dfz_hide_wpn.object_eat(obj)
 
 	-- Backpack
@@ -462,85 +462,83 @@ function actor_on_item_use(obj)
 		pos:add(device().cam_dir:mul(3))
 		alife():create("deployable_mgun",pos,level.vertex_id(pos),db.actor:game_vertex_id())
 	end
-	
+
 	-- Position Informer
 	if (obj:section() == "position_informer") then
-		local text 
-		local vid 
-		local gvid 
-		local a = vector() 
-		local text 
-		a = db.actor:position() 
-		vid = db.actor:level_vertex_id() 
-		gvid = db.actor:game_vertex_id() 
-		text = "position:\\nX= "..a.x.."\\nY= "..a.y.."\\nZ= "..a.z.."\\nlevel_vertex= "..vid.."\\ngame_vertex_id= "..gvid 
+		local text
+		local vid
+		local gvid
+		local a = vector()
+		local text
+		a = db.actor:position()
+		vid = db.actor:level_vertex_id()
+		gvid = db.actor:game_vertex_id()
+		text = "position:\\nX= "..a.x.."\\nY= "..a.y.."\\nZ= "..a.z.."\\nlevel_vertex= "..vid.."\\ngame_vertex_id= "..gvid
 		news_manager.send_tip(db.actor, text, nil, nil, 30000)
 		alife():create("position_informer",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-	end 
-	
-	
+	end
+
+
 	-- Rad Izmer 1
 	if (obj:section() == "radiacion_izmer_1") then
 		alife():create("radiacion_izmer_1",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-        local hud = get_hud()
-	    if db.actor.radiation == 0 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Облучение отсутствует")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5		
-	    end
-	    if db.actor.radiation ~= 0 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Облучение присутствует")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5	
-	    end
+		local hud = get_hud()
+		if db.actor.radiation == 0 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
+		if db.actor.radiation ~= 0 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_1")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
 	end
-	
+
 	-- Rad Izmer 2
 	if (obj:section() == "radiacion_izmer_2") then
 		alife():create("radiacion_izmer_2",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-        local hud = get_hud()		
-	    if db.actor.radiation == 0 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Облучение отсутствует")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5		
-	    end
-	    if db.actor.radiation < 0.24 and db.actor.radiation > 0 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Облучение незначительное")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5				
-	    end
-		if db.actor.radiation < 0.49 and db.actor.radiation > 0.25 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Облучение значительное")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5				
-	    end
-		if db.actor.radiation > 0.5 then 
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("КРИТИЧЕСКОЕ ОБЛУЧЕНИЕ")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5				
-	    end
+		local hud = get_hud()
+		if db.actor.radiation == 0 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
+		if db.actor.radiation < 0.24 and db.actor.radiation > 0 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_2")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
+		if db.actor.radiation < 0.49 and db.actor.radiation > 0.25 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_3")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
+		if db.actor.radiation > 0.5 then
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_4")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+		end
 	end
-	
+
 	-- Rad Izmer 3
 	if (obj:section() == "radiacion_izmer_3") then
-	    alife():create("radiacion_izmer_3",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-        local hud = get_hud()	
-	    local rad_info = db.actor.radiation
-        hud:AddCustomStatic("dozimetr_texture", true)
-        hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("Уровень облучения - "..rad_info.."")
-        hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5			
+		alife():create("radiacion_izmer_3",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+		local hud = get_hud()
+		local rad_info = db.actor.radiation
+		hud:AddCustomStatic("dozimetr_texture", true)
+		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_level"..rad_info.."")
+		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 	end
-	
-	local unable_med = "Я не умею разбирать медкомплект!"
-	
+
 	-- Medkomplekt
 	if (obj:section() == "medkomplekt" and not has_alife_info("medic_2_add")) then
 	alife():create("medkomplekt",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-	db.actor:give_game_news("Навык отсутствует:", "%c[255,100,100,0]" .. unable_med, "ui_inGame2_Medkomplekt", 1, 1000)
+	db.actor:give_game_news(game.translate_string("st_missing_skill") .. "%c[255,100,100,0]" .. game.translate_string("st_unable_med"), "ui_inGame2_Medkomplekt", 1, 1000)
 	end
-	
+
 	if (obj:section() == "medkomplekt" and has_alife_info("medic_2_add")) then
-		
+
 		alife():create("pills",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		alife():create("bandage",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		alife():create("medkit",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -560,29 +558,23 @@ function actor_on_item_use(obj)
 			alife():create("pills",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			end
 	end
-	
-	local change_clan_to_loner = "Теперь долговцы вряд ли меня заподозрят. Среди одиночек я почти свой."
-	local change_clan_to_freedom = "Надо быть осторожным и не попасться с этой нашивкой долгарям на глаза."
-	
+
 	-- Loner spy chevron
 	if (obj:section() == "loner_spy_chevron" and not has_alife_info("have_freedom_duty_case")) then
 		alife():create("freedom_spy_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		db.actor:set_character_community("stalker",0,0)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 5000})
-		news_manager.send_tip(db.actor, change_clan_to_loner, 4, nil, 12000)
+		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_loner"), 4, nil, 12000)
 	end
-	
+
 	-- Freedom spy chevron
 	if (obj:section() == "freedom_spy_chevron" and not has_alife_info("have_freedom_duty_case")) then
 		alife():create("loner_spy_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		db.actor:set_character_community("actor_freedom",0,0)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -5500})
-		news_manager.send_tip(db.actor, change_clan_to_freedom, 4, nil, 12000)
+		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_freedom"), 4, nil, 12000)
 	end
-	
-	local change_clan_to_trader = "Готов к внедрению."
-	local change_clan_to_sin = "Снова свой."
-	
+
 	-- Sin to loner chevron
 	if (obj:section() == "sin_spy_chevron") then
 		alife():create("loner_to_sin_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -592,9 +584,9 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 5000})
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", 5000})
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", 5000})
-		news_manager.send_tip(db.actor, change_clan_to_trader, 4, nil, 12000)
+		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_trader"), 4, nil, 12000)
 	end
-	
+
 	-- Loner to Sin chevron
 	if (obj:section() == "loner_to_sin_chevron") then
 		db.actor:set_character_community("actor_sin",0,0)
@@ -603,9 +595,9 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", -5500})
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"csky", -5500})
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", -5500})
-		news_manager.send_tip(db.actor, change_clan_to_sin, 4, nil, 12000)
+		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_sin"), 4, nil, 12000)
 	end
-	
+
 	-- Spawn Mutants for Sin
 	if (obj:section() == "sinner_spawner") then
 	alife():create("psy_dog", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
@@ -614,8 +606,8 @@ function actor_on_item_use(obj)
 -- LSD
 	if (obj:section() == "lsd") then
 	db.actor:give_info_portion("lsd")
-	end	
-	
+	end
+
 	if (obj:section() == "container_gauss") then
 	alife():create("wpn_gauss_greh",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 	end
@@ -763,7 +755,7 @@ function loot_mutant(obj,cls,t,npc)
 	if not (cls) then
 		return
 	end
-	
+
 	local clsid_to_section = {
 		[clsid.bloodsucker_s] 	= "bloodsucker",
 		[clsid.boar_s] 			= "boar",

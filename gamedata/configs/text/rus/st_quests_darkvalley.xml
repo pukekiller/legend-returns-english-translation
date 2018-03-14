@@ -26,37 +26,7 @@
 	<string id="bandit_companion_task_1_actor_reply">
 		<text>Ага, бывай.</text>
 	</string>
-	
-	<!--      убить волка -->
-	<string id="sultan_quest1_title_0"> 
-       <text>Поручение Йоги: Убить Волка</text> 
-</string> 
-<string id="sultan_quest1_text_0"> 
-       <text>Йога попросил убить сталкера, вокруг которого объединяются новички. Убив его, будет проще собирать со сталкеров дань.</text> 
-</string> 
-<string id="sultan_quest1_title_1"> 
-       <text>Поручение Йоги: Убить Волка</text> 
-</string> 
-<string id="sultan_quest1_text_1"> 
-       <text>Волк отправился к праотцам. Можно идти за наградой</text> 
-</string> 
-
-<!--      убить фаната -->
-	<string id="kill_fanatic_naiti_name"> 
-       <text>Убить Фаната</text> 
-</string> 
-<string id="kill_fanatic_prinesti_name"> 
-       <text>Вернуться за наградой</text> 
-</string> 
-<string id="kill_fanatic_descr"> 
-       <text>Зуб сказал, что отсыпет лавеху, если я убью одного из сталкеров - Фанатом кличут.</text> 
-</string> 
-
-
-
-	<!-- val_smart_terrain_7_4_bandit_trader_stalker -->
-
-
+	<!-- ELIMINATE MUTANTS FOR BANDITS TASK -->
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_1_name">
 		<text>Уничтожить мутантов</text>
 	</string>
@@ -155,5 +125,30 @@
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_fetch_finish">
 		<text>Ёпта! Да ты в натуре реальный пацан! Ну, с меня простава!</text>
+	</string>
+
+	<!-- Убить Волка -->
+	<string id="sultan_quest1_title_0">
+		<text>Поручение Йоги: Убить Волка</text>
+	</string>
+	<string id="sultan_quest1_text_0">
+		<text>Йога попросил убить сталкера, вокруг которого объединяются новички. Убив его, будет проще собирать со сталкеров дань.</text>
+	</string>
+	<string id="sultan_quest1_title_1">
+		<text>Поручение Йоги: Убить Волка</text>
+	</string>
+	<string id="sultan_quest1_text_1">
+		<text>Волк отправился к праотцам. Можно идти за наградой</text>
+	</string>
+
+	<!-- Убить Фаната -->
+	<string id="kill_fanatic_naiti_name">
+		<text>Убить Фаната</text>
+	</string>
+	<string id="kill_fanatic_prinesti_name">
+	<text>Вернуться за наградой</text>
+	</string>
+	<string id="kill_fanatic_descr">
+		<text>Зуб сказал, что отсыпет лавеху, если я убью одного из сталкеров - Фанатом кличут.</text>
 	</string>
 </string_table>

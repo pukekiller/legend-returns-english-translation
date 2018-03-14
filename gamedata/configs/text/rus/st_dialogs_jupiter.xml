@@ -5,7 +5,7 @@
 	</string>
 	<string id="jup_b19_freedom_yar_start_dialog_0">
 		<text>Привет, сталкер! Чего тебе?</text>
-	</string>
+	</string>	
 	<string id="jup_b220_trapper_start_11">
 		<text>Я - Зверобой. Не представляйся, не надо.</text>
 	</string>
@@ -30,7 +30,7 @@
 	<string id="jup_a6_stalker_medik_need_health_care_111">
 		<text>Вот, теперь всё хорошо.</text>
 	</string>
-
+	
 	<string id="jup_a6_freedom_leader_start_dialog_11">
 		<text>Что расскажешь?</text>
 	</string>
@@ -71,7 +71,7 @@
 		<text>Что думаешь о «Долге»?</text>
 	</string>
 	<string id="jup_a6_freedom_leader_about_you_11141">
-		<text>Дураки они, вот что думаю. Ну, спрашивается, на кой чёрт им уничтожать Зону? Есть не просит, за установленные границы не лезет. Сиди себе да изучай её на здоровье. Это же сколько научных открытий можно сделать! Вот человечество сколько существует, а антигравитацию так и не смогло создать. А тут, в Зоне, на каждому углу готовый антигравитационных прибор. Вообще, прогнать бы их отсюда, чтобы не мешали, да лень связываться... Кстати, пусть тебя наше соседство на «Янове» не вводит в заблуждение. На самом деле мы воюем. Просто «Янов», как бы это сказать... нейтральная территория.</text>
+		<text>Дураки они, вот что думаю. Ну, спрашивается, на кой чёрт им уничтожать Зону? Есть не просит, за установленные границы не лезет. Сиди себе да изучай её на здоровье. Это же сколько научных открытий можно сделать! Вот человечество сколько существует, а антигравитацию так и не смогло создать. А тут, в Зоне, на каждому углу готовый антигравитационных прибор. Вообще, прогнать бы их отсюда, чтобы не мешали, да лень связываться.</text>
 	</string>
 	<string id="jup_a6_freedom_leader_about_you_1115">
 		<text>А, ладно. Забудь.</text>
@@ -79,17 +79,17 @@
 	<string id="jup_a6_freedom_leader_about_you_11151">
 		<text>Без проблем.</text>
 	</string>
-
+	
 	<string id="jup_a6_stalker_barmen_start_dialog_11">
 		<text>Приветствую тебя в моём индивидуальном райском уголке. Что, желаешь приобщиться к изобилию?</text>
 	</string>
 	<string id="jup_a6_stalker_barmen_start_dialog_12">
-		<text>Что, зашел освежиться? Выпивка у меня обычная, зато гостеприимство и радушие - высший класс!</text>
+		<text>Что, зашёл освежиться? Выпивка у меня обычная, зато гостеприимство и радушие - высший класс!</text>
 	</string>
 	<string id="jup_a6_stalker_barmen_start_dialog_13">
 		<text>У меня как в Греции - всё есть. Тебе чего? Поесть, выпить, пострелять?</text>
 	</string>
-
+	
 	<string id="jup_b6_scientist_nuclear_physicist_start_11">
 		<text>Что Вы мне скажете?</text>
 	</string>
@@ -101,19 +101,12 @@
 		<text>С чем пришёл?</text>
 	</string>
 
-	<string id="jup_b15_zulus_about_dialog_31">
-		<text>Гори в аду, нечисть!</text>
-	</string>
-	<string id="jup_b15_zulus_about_dialog_32">
-		<text>...</text>
-	</string>
-
 	<!-- Ashot and Yar -->
 	<string id="st_jup_yar_reply_1">
 		<text>Пусть %s оторвёт зад от стула, так ему и скажи.</text>
 	</string>
 	<string id="st_jup_yar_reply_2">
-		<text>Он,что, не знает,что я занят? Пусть идёт сюда.</text>
+		<text>Он, что, не знает, что я занят? Пусть идёт сюда.</text>
 	</string>
 	<string id="st_jup_yar_reply_3">
 		<text>Мне за ходьбу не платят. Пусть идёт ко мне.</text>
@@ -124,7 +117,7 @@
 	<string id="st_jup_yar_reply_5">
 		<text>Где %s? Скажи ему: пусть идёт сюда, да поскорее.</text>
 	</string>
-
+	
 	<string id="st_jup_ashot_reply_1">
 		<text>Если %s захочет, то придёт сам, так и передай.</text>
 	</string>
@@ -141,4 +134,10 @@
 		<text>Я не мальчик на побегушках. Пусть %s приходит сам.</text>
 	</string>
 
+	<string id="jup_b15_zulus_about_dialog_31">
+		<text>Гори в аду, нечисть!</text>
+	</string>
+	<string id="jup_b15_zulus_about_dialog_32">
+		<text>...</text>
+	</string>
 </string_table>

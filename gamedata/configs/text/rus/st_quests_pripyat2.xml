@@ -61,6 +61,7 @@
 		<text>Это хорошо. Братья гордятся тобой.</text>
 	</string>
 
+
 	<!-- FIND PATCHES FOR PROP GOVNO TASK -->
 	<string id="pri_monolith_monolith_trader_stalker_task_4_name">
 		<text>Мародёрство</text>
@@ -78,6 +79,7 @@
 		<text>Ты хорошо постарался, Монолит доволен тобой.</text>
 	</string>
 
+
 	<!-- FIND MEDKOMPLEKT FOR PROPGOVNO -->
 	<string id="pri_monolith_monolith_trader_stalker_task_5_name">
 		<text>Принести медкомплект Проповеднику</text>
@@ -89,11 +91,12 @@
 		<text>Наш поставщик медикаментов задерживается, а нападения неверных на наши блокпосты лишь усиливаются. Найди и принеси медкомплект, чтобы мы могли направить его страждущим братьям во благо.</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_about">
-		<text>Превосходно. Приноси, как найдешь.</text>
+		<text>Превосходно. Приноси, как найдёшь.</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_finish">
 		<text>Спасибо, брат, Великий Монолит не забудет твой вклад.</text>
 	</string>
+
 
 	<!-- FIND ARTEFACT FOR MONOLITH TASK -->
 	<string id="pri_monolith_monolith_trader_stalker_task_6_name">

@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+
 	<!-- Communities -->
 	<string id="ui_st_community">
 		<text>Группа</text>
 	</string>
+
 	<!-- Actor Factions -->
 	<string id="actor">
-    <text>Сталкер</text>
-  </string>
-  <string id="actor_bandit">
-    <text>Бандит</text>
-  </string>
-  <string id="actor_csky">
-    <text>Чистое небо</text>
-  </string>
-  <string id="actor_dolg">
-    <text>Долг</text>
-  </string>
-  <string id="actor_ecolog">
-    <text>Учёный</text>
+		<text>Cталкер</text>
 	</string>
-  <string id="actor_freedom">
-    <text>Свобода</text>
-  </string>
-  <string id="actor_killer">
-    <text>Наёмник</text>
-  </string>
-   <string id="actor_stalker">
-    <text>Сталкер</text>
-  </string>
-  <string id="actor_army">
-    <text>Военный</text>
-  </string>
-  <string id="actor_monolith">
-    <text>Монолит</text>
+	<string id="actor_army">
+		<text>Военный</text>
 	</string>
-	<string id="actor_monster">
-		<text>Мутант</text>
-  </string>
-  <string id="actor_zombied">
-    <text>Зомбированный</text>
-  </string>
+	<string id="actor_bandit">
+		<text>Бандит</text>
+	</string>
+	<string id="actor_csky">
+		<text>«Чистое небо»</text>
+	</string>
+	<string id="actor_dolg">
+		<text>«Долг»</text>
+	</string>
+	<string id="actor_ecolog">
+		<text>Учёный</text>
+	</string>
+	<string id="actor_freedom">
+		<text>«Свобода»</text>
+	</string>
+	<string id="actor_killer">
+		<text>Наёмник</text>
+	</string>
+	<string id="actor_monolith">
+		<text>«Монолит»</text>
+	</string>
+	<string id="actor_stalker">
+		<text>Сталкер</text>
+	</string>
+	<string id="actor_zombied">
+		<text>Зомбированный</text>
+	</string>
+	
+	<!-- NPC Factions -->
 	<string id="army">
 		<text>Военный</text>
 	</string>
@@ -48,22 +49,25 @@
 		<text>Бандит</text>
 	</string>
 	<string id="csky">
-    		<text>Чистое небо</text>
+    		<text>«Чистое Небо»</text>
   	</string>
 	<string id="dolg">
-		<text>Долг</text>
+		<text>«Долг»</text>
 	</string>
 	<string id="ecolog">
 		<text>Учёный</text>
 	</string>
 	<string id="freedom">
-		<text>Свобода</text>
+		<text>«Свобода»</text>
 	</string>
 	<string id="killer">
 		<text>Наёмник</text>
 	</string>
 	<string id="monolith">
-		<text>Монолит</text>
+		<text>«Монолит»</text>
+	</string>
+	<string id="stalker">
+		<text>«Одиночки»</text>
 	</string>
 	<string id="monster">
 		<text>Мутант</text>

@@ -477,50 +477,50 @@ function actor_on_item_use(obj)
 		news_manager.send_tip(db.actor, text, nil, nil, 30000)
 		alife():create("position_informer",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 	end
-
-
+  
+  
 	-- Rad Izmer 1
 	if (obj:section() == "radiacion_izmer_1") then
 		alife():create("radiacion_izmer_1",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		local hud = get_hud()
 		if db.actor.radiation == 0 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 		if db.actor.radiation ~= 0 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_1")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_1")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 	end
-
+  
 	-- Rad Izmer 2
 	if (obj:section() == "radiacion_izmer_2") then
 		alife():create("radiacion_izmer_2",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		local hud = get_hud()
 		if db.actor.radiation == 0 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_0")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 		if db.actor.radiation < 0.24 and db.actor.radiation > 0 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_2")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_2")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 		if db.actor.radiation < 0.49 and db.actor.radiation > 0.25 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_3")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_3")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 		if db.actor.radiation > 0.5 then
-		hud:AddCustomStatic("dozimetr_texture", true)
-		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_4")
-		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
+			hud:AddCustomStatic("dozimetr_texture", true)
+			hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_4")
+			hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 		end
 	end
-
+  
 	-- Rad Izmer 3
 	if (obj:section() == "radiacion_izmer_3") then
 		alife():create("radiacion_izmer_3",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -530,35 +530,35 @@ function actor_on_item_use(obj)
 		hud:GetCustomStatic("dozimetr_texture"):wnd():TextControl():SetTextST("st_radiation_level"..rad_info.."")
 		hud:GetCustomStatic("dozimetr_texture").m_endTime = time_global()/1000 + 5
 	end
-
+  
 	-- Medkomplekt
 	if (obj:section() == "medkomplekt" and not has_alife_info("medic_2_add")) then
-	alife():create("medkomplekt",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-	db.actor:give_game_news(game.translate_string("st_missing_skill") .. "%c[255,100,100,0]" .. game.translate_string("st_unable_med"), "ui_inGame2_Medkomplekt", 1, 1000)
+		alife():create("medkomplekt",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+		db.actor:give_game_news(game.translate_string("st_missing_skill") .. "%c[255,100,100,0]" .. game.translate_string("st_unable_med"), "ui_inGame2_Medkomplekt", 1, 1000)
 	end
-
+  
 	if (obj:section() == "medkomplekt" and has_alife_info("medic_2_add")) then
-
+  
 		alife():create("pills",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		alife():create("bandage",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 		alife():create("medkit",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-			if (has_alife_info("medic_3_add")) then
+		if (has_alife_info("medic_3_add")) then
 			alife():create("medkit_army",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("pills",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-			end
-			if (has_alife_info("medic_4_add")) then
+		end
+		if (has_alife_info("medic_4_add")) then
 			alife():create("medkit_army",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("drug_radioprotector",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("drug_coagulant",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-			end
-			if (has_alife_info("medic_5_add")) then
+		end
+		if (has_alife_info("medic_5_add")) then
 			alife():create("medkit_scientic",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("drug_psy_blockade",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("drug_antidot",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 			alife():create("pills",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
-			end
+		end
 	end
-
+  
 	-- Loner spy chevron
 	if (obj:section() == "loner_spy_chevron" and not has_alife_info("have_freedom_duty_case")) then
 		alife():create("freedom_spy_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -566,7 +566,7 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 5000})
 		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_loner"), 4, nil, 12000)
 	end
-
+  
 	-- Freedom spy chevron
 	if (obj:section() == "freedom_spy_chevron" and not has_alife_info("have_freedom_duty_case")) then
 		alife():create("loner_spy_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -574,7 +574,7 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -5500})
 		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_freedom"), 4, nil, 12000)
 	end
-
+  
 	-- Sin to loner chevron
 	if (obj:section() == "sin_spy_chevron") then
 		alife():create("loner_to_sin_chevron",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
@@ -586,7 +586,7 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", 5000})
 		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_trader"), 4, nil, 12000)
 	end
-
+  
 	-- Loner to Sin chevron
 	if (obj:section() == "loner_to_sin_chevron") then
 		db.actor:set_character_community("actor_sin",0,0)
@@ -597,23 +597,23 @@ function actor_on_item_use(obj)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"slime", -5500})
 		news_manager.send_tip(db.actor, game.translate_string("st_change_faction_to_sin"), 4, nil, 12000)
 	end
-
+  
 	-- Spawn Mutants for Sin
 	if (obj:section() == "sinner_spawner") then
-	alife():create("psy_dog", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
-	alife():create("psy_dog", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
+		alife():create("psy_dog", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
+		alife():create("psy_dog", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
 	end
--- LSD
+	-- LSD
 	if (obj:section() == "lsd") then
-	db.actor:give_info_portion("lsd")
+		db.actor:give_info_portion("lsd")
 	end
-
+  
 	if (obj:section() == "container_gauss") then
-	alife():create("wpn_gauss_greh",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+		alife():create("wpn_gauss_greh",db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
 	end
 	if (obj:section() == "boyarushnik") then
-	db.actor:give_info_portion("boyar_done")
-	db.actor:disable_info_portion("prizrak_revange")
+		db.actor:give_info_portion("boyar_done")
+		db.actor:disable_info_portion("prizrak_revange")
 	end
 end
 

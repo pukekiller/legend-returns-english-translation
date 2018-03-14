@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_addon_companion_quick_menu_tooFar">
+		<text>My squad won't hear me. I need to get closer or contact them via PDA.</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_followMe">
+		<text>FOLLOW ME</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_waitHere">
+		<text>WAIT HERE</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_stopStealth">
+		<text>STOP STEALTH</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_stealth">
+		<text>STEALTH TIME</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_stayClose">
+		<text>STAY CLOSE</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_stayFar">
+		<text>KEEP YOUR DISTANCE</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_fireAtWill">
+		<text>FIRE AT WILL</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_ignoreCombatButHelpMe">
+		<text>IGNORE COMBAT, HELP ME INSTEAD</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_ignoreCombat">
+		<text>DON'T OPEN FIRE</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_doNotLootCorpses">
+		<text>DON'T LOOT CORPSES</text>
+	</string>
+
+	<string id="st_addon_companion_quick_menu_lootCorpses">
+		<text>LOOT CORPSES</text>
+	</string>
+
+</string_table>

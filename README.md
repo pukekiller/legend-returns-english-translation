@@ -35,8 +35,8 @@ A list of all files with their detailed progress can be found below.
 		- done (Most of the texts taken from SoC dialogues)
 	- [st_achievement.xml](gamedata/configs/text/rus/st_achievement.xml)
 		- not started
-	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/rus/st_addon_companion_quick_menu.xml)
-		- not started
+	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/eng/st_addon_companion_quick_menu.xml)
+		- done
 	- [st_characters.xml](gamedata/configs/text/rus/st_characters.xml)
 		- done
 	- [st_characters_new.xml](gamedata/configs/text/eng/st_characters_new.xml)

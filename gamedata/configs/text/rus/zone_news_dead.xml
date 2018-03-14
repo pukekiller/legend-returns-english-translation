@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="zone_news_dead_dead_stalker">
+		<text>Погиб сталкер:</text>
+	</string>
+	<string id="zone_news_dead_dead_name">
+		<text>\n%c[255,255,128,128]Имя:%c[255,255,128,128] </text>
+	</string>
+	<string id="zone_news_dead_dead_faction">
+		<text>\n%c[255,255,128,128]Группировка:%c[255,255,128,128] </text>
+	</string>
+
+	<string id="zone_news_dead_messages_none_1">
+		<text>[Вырезано цензурой]</text>
+	</string>
+	<string id="zone_news_dead_messages_none_2">
+		<text>Все там будем</text>
+	</string>
+	<string id="zone_news_dead_messages_none_3">
+		<text>Давно такой хрени не видел.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_4">
+		<text>Ещё один...</text>
+	</string>
+	<string id="zone_news_dead_messages_none_5">
+		<text>Жопа кароче.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_6">
+		<text>Замочить бы всех...</text>
+	</string>
+	<string id="zone_news_dead_messages_none_7">
+		<text>Звиздец да и только.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_8">
+		<text>Звиздец.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_9">
+		<text>Знаком с ним был, жалко парня.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_10">
+		<text>Зона тебе пухом.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_11">
+		<text>Как в воду глядел - скопытился!</text>
+	</string>
+	<string id="zone_news_dead_messages_none_12">
+		<text>Кароче, хрень полная.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_13">
+		<text>Мдя, ни дня без этого.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_14">
+		<text>Мля.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_15">
+		<text>Может, это был суицид.</text>
+	</string>
+	<string id="zone_news_dead_messages_none_16">
+		<text>Одним больше, одним меньше...</text>
+	</string>
+	<string id="zone_news_dead_messages_none_17">
+		<text>Помянуть надо бы...</text>
+	</string>
+	<string id="zone_news_dead_messages_none_18">
+		<text>Таак...</text>
+	</string>
+	<string id="zone_news_dead_messages_none_19">
+		<text>Что за похерень?</text>
+	</string>
+	<string id="zone_news_dead_messages_none_20">
+		<text>Я знал, что он допрыгается...</text>
+	</string>
+
+	<string id="zone_news_dead_messages_kill_1">
+		<text>А говорил - заговорённый!... хех!...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_2">
+		<text>А жмур он добрый, жмур ведь со мной поделится, ага?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_3">
+		<text>А неверных становится все меньше и меньше...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_4">
+		<text>А ну-ка, ну-ка...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_5">
+		<text>Ампец вам, падлы!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_6">
+		<text>Бармен, чё делать-то теперь? Ладно, пойду посмотрю на труп, вдруг на флешке инфа эта есть... Если чё, пиши в личку.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_7">
+		<text>Блин, ну жалко поцыка, чё ещё сказать...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_8">
+		<text>Был мужик - и нету мужика.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_9">
+		<text>Был фраер и нету фраера...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_10">
+		<text>Видал я этого. Давно надо было порешить.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_11">
+		<text>Во, не повезло мэну...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_12">
+		<text>Вот гниды, найду и урою нахрен того, кто это сделал!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_13">
+		<text>Вот и правильно, нехрен было выёживаться.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_14">
+		<text>Вот мля, а он мне денег должен!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_15">
+		<text>Вот сучары, друга моего убили, размолочу нахер этого убийцу!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_16">
+		<text>Вот факушки! Походу перестрелка рядом!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_17">
+		<text>Вояки новое оружие в Зону закинули. Вот бы достать...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_18">
+		<text>Вчера только ещё у костра сидели и анекдоты рассказывали, а тут вот...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_19">
+		<text>Грустно видеть такое...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_20">
+		<text>Да когда ж это кончится?!...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_21">
+		<text>Да я щас этого убийцу в бушлат деревянный одену, сука!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_22">
+		<text>Друга моего сволочи убили! Парни, вы не видели кто это сделал? Если видели, стукните в личку</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_23">
+		<text>Ещё один, пропавший в Зоне...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_24">
+		<text>Жалко парня...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_25">
+		<text>Жалость-то какая...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_26">
+		<text>Жил без страха и умер без страха!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_27">
+		<text>Жопой чую, не к добру это...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_28">
+		<text>Завалили такого человека!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_29">
+		<text>Зажмурился сталкер.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_30">
+		<text>Здоровый, сильный был пацан, пока маслин он не поймал...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_31">
+		<text>Земля пухом! Хороший сталкер был... Пойду КПК подберу, мож хабар остался...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_32">
+		<text>Знатно парня порешали, однако.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_33">
+		<text>Зона тебе пухом, чувак.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_34">
+		<text>И так каждый день...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_35">
+		<text>Меньше народа - больше кислорода.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_36">
+		<text>Минус один.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_37">
+		<text>Мля, только вчера с ним виделись... Жаль пацана...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_38">
+		<text>Надо бы его хабарок подобрать, пока рядом никого...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_39">
+		<text>Народ! Я тут недалеко, могу помочь!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_40">
+		<text>Не засоряем канал! Ну помер мужик... не первый и не последний.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_41">
+		<text>Не, ну ваще...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_42">
+		<text>Не, ну я ваще не понял...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_43">
+		<text>Ну вот и ещё один конкурент в мир иной отошёл... Аминь!...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_44">
+		<text>Ну да, ну да, не повезло пацану.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_45">
+		<text>Ну и поделом ему!!!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_46">
+		<text>Ну помер да помер мужик, тут кстати если работа нужна - идите к Сахарову, за части монстров отличные деньги даёт! Ну и ассистент его, Семёнов вроде, всё время ему нужна помощь с изучением монстров.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_47">
+		<text>Ну почему тут люди стреляют в людей? Тут и так выжить трудно!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_48">
+		<text>Ну сдох мужик, с кем не бывает?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_49">
+		<text>Ну чё мужики, выпьем за упокой души погибшего!?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_50">
+		<text>Ну чё там у жмура по хабару?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_51">
+		<text>Ну шо сказать... лох это судьба!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_52">
+		<text>Ну, бывает</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_53">
+		<text>Ну, достанем водяру, помянем покойничка!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_54">
+		<text>Ну-ка мэн, полежи-ка еще пять сек и я заберу твое добро, на том свете тебе точно не понадобится твоя снаряга.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_55">
+		<text>О! Сидрыч, хоть и не я убил его, но с тебя всё-равно причитается!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_56">
+		<text>Оба-на, ходил-то с такой-то пушкой, а отбиться не смог... Пойду прогуляюсь за его стволом... Если чё, то я ёе первый забил!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_57">
+		<text>Одним "стариком" меньше.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_58">
+		<text>Ооо, ништяк! Как раз был заказ на этого упыря, а его хоба уже и кокнули! Меньше мороки!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_59">
+		<text>Опа! Чур снаряга этого лошары моя!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_60">
+		<text>Опа-опа! И чё у нас тут?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_61">
+		<text>Отмучился пацан...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_62">
+		<text>Поглядим, чем ты богатый был...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_63">
+		<text>Положили его в гроб... хуй уперся в потолок... так, просто к случаю, песню вспомнил про деда Максима, хех.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_64">
+		<text>Помним, скорбим...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_65">
+		<text>Приплыл мэн...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_66">
+		<text>Самая приятная смерть в Зоне - от пули, это всё лучше чем в когтях мутантов, поверьте...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_67">
+		<text>Самое время собирать трофеи!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_68">
+		<text>Суки! Такого человека погубили! Найду - жопу на британский флаг порву!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_69">
+		<text>Так уважаемый покойничек, чем мы там, интересно, богатые?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_70">
+		<text>Так, жмуров к осмотру!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_71">
+		<text>Такого человека погубили!!!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_72">
+		<text>Такс, ну чё там у этого дяди интерсного в карманах было?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_73">
+		<text>Твою мать! А я-то думал, что всех порешил...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_74">
+		<text>То монстры, то бандиты,то зомби, то фанатики, то военные, достали блин, и те и те поиметь тебя пытаются.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_75">
+		<text>Трупом больше - трупом меньше, хех!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_76">
+		<text>Убило мужика!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_77">
+		<text>Уроды! Мать их! Совсем страх потеряли!...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_78">
+		<text>Фу-х! Слава Богу, что я с ним не пошёл сегодня на ходку. Вот чуяло моё сердце!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_79">
+		<text>Хе-хе, поглядим, чем богат усопший был!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_80">
+		<text>Хм, тело еще свежее, похоже убийца где-то тут рядом!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_81">
+		<text>Хороший был мужик...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_82">
+		<text>Хорошо, что меня рядом с ним не было, вот прям очком чувствовал!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_83">
+		<text>Хоть не монстр сожрал, и то хорошо!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_84">
+		<text>Че там, успели жмурика то обчистить или нет?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_85">
+		<text>Чики-брики и в жмурики!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_86">
+		<text>Что с зоной происходит?...	Раньше вот за хабаром ходили, боялись монстров и аномалий, а сейчас и брата сталкера опасаться приходится...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_87">
+		<text>Что у него было при себе? Иль всё убийца выгреб?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_88">
+		<text>Чувака скопытило!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_89">
+		<text>Шакальё совсем озверело, давно пора этих уродов в расход...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_90">
+		<text>Щас глянем насчет трофеев.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_91">
+		<text>Эмм, что тут произошло?</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_92">
+		<text>Эти идиоты и впрямь перестрелку устроили!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_93">
+		<text>Эх, собаке - собачья смерть.</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_94">
+		<text>Ээээээ... Ну чё, братцы?! Кто со мной, крыс этих мочить?!...</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_95">
+		<text>Я найду того, кто это сделал!</text>
+	</string>
+	<string id="zone_news_dead_messages_kill_96">
+		<text>Я недалеко! Могу помочь!</text>
+	</string>
+
+	<string id="zone_news_dead_messages_monster_1">
+		<text>Бля мужики, дык я ж его знаю, ещё вчера в Баре бухали, а тут на те...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_2">
+		<text>Бьют тварей, бьют, а их всё больше становится...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_3">
+		<text>Во живность плодится - сталкеру шагнуть негде!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_4">
+		<text>Во молодёжи понаехало, уже монстра убить не могут...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_5">
+		<text>Во мутантов расплодилось, ни пройти, ни проехать!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_6">
+		<text>Во, млин, мэну не повезло!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_7">
+		<text>Вот лошара, от такого хрюнделя да и не отбился!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_8">
+		<text>Вот мля, ещё одного фраера скушали.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_9">
+		<text>Всегда жалко, когда сталкера чудище съедает... пусть даже если враг.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_10">
+		<text>Вчера только там зачистку делали, тропку сделать надо было...	Мля...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_11">
+		<text>Грустно-то как...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_12">
+		<text>Да говорил я всем уже - не ходить в то место, тварей не мерено!... Почему никто в сеть не скинул?</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_13">
+		<text>Еще один на корм пошёл...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_14">
+		<text>Ещё один в зону попёрся, когда уже разуму наберутся? Все же знают - не меньше чем по по двое ходить надо!...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_15">
+		<text>Животное, говорите, убило?</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_16">
+		<text>Как говна этих зверушек развелось!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_17">
+		<text>Кстати, интересно, чё это за тварь была?</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_18">
+		<text>Мда уж, ещё одного сожрали, свистните нашим, что в этом месте мутанты бушуют.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_19">
+		<text>Мля, даже костей не осталось!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_20">
+		<text>Монстр его на куски разорвал.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_21">
+		<text>Мужики, я в ахуе от этих монстров...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_22">
+		<text>Нда... Прогулялся за хабаром... Судьба...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_23">
+		<text>Не, ну это, ваще пацаны, надеюсь, бедолага долго не мучился...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_24">
+		<text>Неудачник...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_25">
+		<text>Ну и дела...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_26">
+		<text>Ну и хер с ним!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_27">
+		<text>Ну сдох мужик, бывает, чё. Все мы рано или поздно на корм мутантам пойдём...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_28">
+		<text>Ну что сказать... лох и все.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_29">
+		<text>Ну чудища совсем охренели, я пойду долгарям свистну, что тут монстрики бесчинствуют.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_30">
+		<text>Ну, говорил же я ему, что там твари эти шляются! Не послушал, и вот результат...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_31">
+		<text>Ну, так сказать, выпьем за упокой души жмура!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_32">
+		<text>Пошёл-ка я отсюда.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_33">
+		<text>Разорвали бродягу!... Ну уж нет, я раньше пулю в голову себе пущу!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_34">
+		<text>Сталкеры! Будьте осторожны, походу монстры новое логово себе сделали, поэтому и ведут себя агрессивно, лучше пройти мимо, а не бежать на логово как супермэн хренов!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_35">
+		<text>Страшная смерть! Надеюсь, не мучился бродяга...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_36">
+		<text>Стучите в личку! Пойдём на монстра.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_37">
+		<text>Таак... Где это он напоролся?...	Надо срисовать координаты...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_38">
+		<text>Так ему и надо!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_39">
+		<text>Ужас просто...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_40">
+		<text>Хороший был мужик...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_41">
+		<text>Хороший мужик был, рисковый, хабаром делился когда туго было, земля пухом, брат сталкер!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_42">
+		<text>Хорошо, что меня рядом не было!</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_43">
+		<text>Что сказать?... Зона - не место для прогулки.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_44">
+		<text>Чуваки! Тут народ пачками погибает, а Долг все звиздит, что, мол, территорию от монстров обезопасили! Ну не суки?</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_45">
+		<text>Эх, Зона, сколько жизней загубила...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_46">
+		<text>Я нашёл труп! Никому бы не пожелал такой смерти.</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_47">
+		<text>Я пупею... Говорил, что безопасно там, безопасно... Хорошо, что я отказался в последний момент с ним идти, а то бы, глядишь, рядом с ним полёг...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_48">
+		<text>Я тут по этому поводу анекдот вспомнил...</text>
+	</string>
+	<string id="zone_news_dead_messages_monster_49">
+		<text>Яйца бы оторвал этим монстрам, чтобы не плодились больше!</text>
+	</string>
+
+	<string id="zone_news_dead_fnames_1">
+		<text>Андрюха Сельский</text>
+	</string>
+	<string id="zone_news_dead_fnames_2">
+		<text>Анонимно</text>
+	</string>
+	<string id="zone_news_dead_fnames_3">
+		<text>Архон</text>
+	</string>
+	<string id="zone_news_dead_fnames_4">
+		<text>Аспирин</text>
+	</string>
+	<string id="zone_news_dead_fnames_5">
+		<text>Басс</text>
+	</string>
+	<string id="zone_news_dead_fnames_6">
+		<text>Бурят</text>
+	</string>
+	<string id="zone_news_dead_fnames_7">
+		<text>Ванька Сталин</text>
+	</string>
+	<string id="zone_news_dead_fnames_8">
+		<text>Варяг</text>
+	</string>
+	<string id="zone_news_dead_fnames_9">
+		<text>Веталя</text>
+	</string>
+	<string id="zone_news_dead_fnames_10">
+		<text>Волчара</text>
+	</string>
+	<string id="zone_news_dead_fnames_11">
+		<text>Геодезист</text>
+	</string>
+	<string id="zone_news_dead_fnames_12">
+		<text>Гидра</text>
+	</string>
+	<string id="zone_news_dead_fnames_13">
+		<text>Гриб</text>
+	</string>
+	<string id="zone_news_dead_fnames_14">
+		<text>Гринч</text>
+	</string>
+	<string id="zone_news_dead_fnames_15">
+		<text>Даня Вакуум</text>
+	</string>
+	<string id="zone_news_dead_fnames_16">
+		<text>Жмых</text>
+	</string>
+	<string id="zone_news_dead_fnames_17">
+		<text>Иван Гоблин</text>
+	</string>
+	<string id="zone_news_dead_fnames_18">
+		<text>Изяслав</text>
+	</string>
+	<string id="zone_news_dead_fnames_19">
+		<text>Илюха Шершень</text>
+	</string>
+	<string id="zone_news_dead_fnames_20">
+		<text>Колесо</text>
+	</string>
+	<string id="zone_news_dead_fnames_21">
+		<text>Колян Нос</text>
+	</string>
+	<string id="zone_news_dead_fnames_22">
+		<text>Кремень</text>
+	</string>
+	<string id="zone_news_dead_fnames_23">
+		<text>Летов</text>
+	</string>
+	<string id="zone_news_dead_fnames_24">
+		<text>Лишай</text>
+	</string>
+	<string id="zone_news_dead_fnames_25">
+		<text>Махно</text>
+	</string>
+	<string id="zone_news_dead_fnames_26">
+		<text>Мишаня</text>
+	</string>
+	<string id="zone_news_dead_fnames_27">
+		<text>Мох</text>
+	</string>
+	<string id="zone_news_dead_fnames_28">
+		<text>Ник Зубр</text>
+	</string>
+	<string id="zone_news_dead_fnames_29">
+		<text>Никита Мизантроп</text>
+	</string>
+	<string id="zone_news_dead_fnames_30">
+		<text>Никола Постебайло</text>
+	</string>
+	<string id="zone_news_dead_fnames_31">
+		<text>Олег Дудка</text>
+	</string>
+	<string id="zone_news_dead_fnames_32">
+		<text>Ресторатор</text>
+	</string>
+	<string id="zone_news_dead_fnames_33">
+		<text>Рядовой Бикинеев</text>
+	</string>
+	<string id="zone_news_dead_fnames_34">
+		<text>Сазон</text>
+	</string>
+	<string id="zone_news_dead_fnames_35">
+		<text>Саня Вертуха</text>
+	</string>
+	<string id="zone_news_dead_fnames_36">
+		<text>Севка</text>
+	</string>
+	<string id="zone_news_dead_fnames_37">
+		<text>Скрыто</text>
+	</string>
+	<string id="zone_news_dead_fnames_38">
+		<text>Слава Мокрый</text>
+	</string>
+	<string id="zone_news_dead_fnames_39">
+		<text>Снейк</text>
+	</string>
+	<string id="zone_news_dead_fnames_40">
+		<text>Трубник</text>
+	</string>
+	<string id="zone_news_dead_fnames_41">
+		<text>Федька Чубайс</text>
+	</string>
+	<string id="zone_news_dead_fnames_42">
+		<text>Чак-чак</text>
+	</string>
+	<string id="zone_news_dead_fnames_43">
+		<text>Шакал</text>
+	</string>
+	<string id="zone_news_dead_fnames_44">
+		<text>Шева</text>
+	</string>
+	<string id="zone_news_dead_fnames_45">
+		<text>Шухер</text>
+	</string>
+</string_table>

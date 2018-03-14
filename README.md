@@ -32,7 +32,7 @@ A list of all files with their detailed progress can be found below.
 	- [izmer_mpd_config.xml](gamedata/configs/text/eng/izmer_mpd_config.xml)
 		- done
 	- [soc_quests.xml](gamedata/configs/text/eng/soc_quests.xml)
-		- done (Most of the texts taken from SoC dialogues)
+		- done (most texts taken from SoC dialogues)
 	- [st_achievement.xml](gamedata/configs/text/rus/st_achievement.xml)
 		- unrevised
 	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/eng/st_addon_companion_quick_menu.xml)
@@ -68,7 +68,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_dynamic_news.xml](gamedata/configs/text/rus/st_dynamic_news.xml)
 		- not started
 	- [st_game_relations.xml](gamedata/configs/text/rus/st_game_relations.xml)
-		- not started
+		- done
 	- [st_generate_fnames.xml](gamedata/configs/text/eng/st_generate_fnames.xml)
 		- done
 	- [st_generate_snames.xml](gamedata/configs/text/eng/st_generate_snames.xml)
@@ -84,19 +84,19 @@ A list of all files with their detailed progress can be found below.
 	- [st_items_habarwik.xml](gamedata/configs/text/rus/st_items_habarwik.xml)
 		- not started
 	- [st_items_mutant_parts.xml](gamedata/configs/text/rus/st_items_mutant_parts.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_outfit.xml](gamedata/configs/text/rus/st_items_outfit.xml)
 		- not started
 	- [st_items_patches.xml](gamedata/configs/text/rus/st_items_patches.xml)
 		- not started
 	- [st_items_quest.xml](gamedata/configs/text/rus/st_items_quest.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_weapons.xml](gamedata/configs/text/rus/st_items_weapons.xml)
 		- not started
 	- [st_items_weapons_upgrades.xml](gamedata/configs/text/rus/st_items_weapons_upgrades.xml)
-		- not started
+		- done
 	- [st_levels.xml](gamedata/configs/text/rus/st_levels.xml)
-		- not started
+		- done
 	- [st_mm_atmosfear_texts.xml](gamedata/configs/text/rus/st_mm_atmosfear_texts.xml)
 		- done
 	- [st_mm_faction_select.xml](gamedata/configs/text/rus/st_mm_faction_select.xml)
@@ -141,6 +141,8 @@ A list of all files with their detailed progress can be found below.
 		- done, unrevised
 	- [ui_st_screen.xml](gamedata/configs/text/rus/ui_st_screen.xml)
 		- done
+	- [zone_news_dead.xml](gamedata/configs/text/rus/zone_news_dead.xml)
+		- not started (there are translated strings in Last Day)
 
 - **scripts:**
 	- [dialogs_bar.script](gamedata/scripts/dialogs_bar.script)
@@ -174,4 +176,4 @@ A list of all files with their detailed progress can be found below.
 	- [ui_main_menu.script](gamedata/scripts/ui_main_menu.script)
 		- not started
 	- [zone_news_dead.script](gamedata/scripts/zone_news_dead.script)
-		- not started
+		- in progress

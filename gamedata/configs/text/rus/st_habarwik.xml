@@ -7,13 +7,6 @@
 	<string id="trader_locked_door">
 		<text>Бункер временно закрыт</text>
 	</string>
-
-	<string id="space_restrictor_to_factory_desc">
-		<text>На завод</text>
-	</string>
-	<string id="space_restrictor_to_promzona_desc">
-		<text>В Промзону</text>
-	</string>
 	
 	<string id="fac_anomaly_1_name">
 		<text>Аномалия «Изолятор»</text>

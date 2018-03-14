@@ -201,6 +201,12 @@
 		<text>Rostok</text>
 	</string>
 	<string id="promzona">
-		<text>Industrial area</text>
+		<text>Industrial Area</text>
+	</string>
+	<string id="space_restrictor_to_factory_desc">
+		<text>To Rostok</text>
+	</string>
+	<string id="space_restrictor_to_promzona_desc">
+		<text>To Industrial Area</text>
 	</string>
 </string_table>

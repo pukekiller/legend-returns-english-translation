@@ -1,122 +1,121 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<!-- Убить лидеров -->
+	<string id="first_kill_task">
+		<text>Убить лидера Бандитов</text>
+	</string>
+	<string id="second_kill_task">
+		<text>Убить лидера «Слизней»</text>
+	</string>
+	<string id="third_kill_task">
+		<text>Убить лидера «Чистого неба»</text>
+	</string>
+	<string id="kill_voronin_descr">
+		<text>Нужно уничтожить особо опасных представителей сталкерских кланов, которые представляют угрозу Зоне.</text>
+	</string>
+	<string id="quest_key_give">
+		<text>Убить Болотного Доктора и отобрать ключ</text>
+	</string>
+	<string id="quest_key_give_descr">
+		<text>Ворон поручил отобрать у Доктора ключ. Цель задания не ясна, но он обещал объясниться.</text>
+	</string>
+	<string id="quest_docks_give_descr">
+		<text>Необходимо проникнуть в 26 номер гостиницы «Полесье» и забрать то, что принадлежит «Греху».</text>
+	</string>
+	<string id="quest_docks_give">
+		<text>Достать и принести чертежи эксперементального оружия</text>
+	</string>
+	<string id="spy_sin_task">
+		<text>Саботаж : Влиться в ряды противника</text>
+	</string>
+	<string id="spy_sin_task_descr">
+		<text>Необходимо проникнуть на базу «Долга» под видом одиночки и предложить Воронину свою «помощь».</text>
+	</string>
+	<string id="spy_sin_task_1">
+		<text>Блицкриг : Поговорить с Морфиусом</text>
+	</string>
+	<string id="spy_sin_task_descr_1">
+		<text>Братья пришли мне на помощь. Нужно поговорить с командиром - Морфиусом.</text>
+	</string>
+	<string id="spy_sin_task_2">
+		<text>Должник : Встретиться с Анубисом</text>
+	</string>
+	<string id="spy_sin_task_descr_2">
+		<text>Нужно встретиться с Анубисом и предложить помощь</text>
+	</string>
+	<string id="spy_sin_task_3">
+		<text>Должник : Найти и принести редкое растение</text>
+	</string>
+	<string id="spy_sin_task_descr_3">
+		<text>Анубис поручил найти «Мышецвет» для лечебного снадобья. По его сведениям, его можно найти где-то у кислотной аномалии неподалеку от радиозавода «Юпитер».</text>
+	</string>
+	<string id="spy_sin_task_4">
+		<text>Должник : Поговорить с Шаманом</text>
+	</string>
+	<string id="spy_sin_task_descr_4">
+		<text>Шаману больше ничего не угрожает. Надо поговорить с ним.</text>
+	</string>
+	<string id="spy_sin_task_5">
+		<text>Контр-Штурм : Направиться к отряду</text>
+	</string>
+	<string id="spy_sin_task_descr_5">
+		<text>О местоположении отряда я сообщил. Теперь осталось отправиться туда с весточкой</text>
+	</string>
+	<string id="spy_sin_task_5_1">
+		<text>Отрицание : Оправдаться перед генералом</text>
+	</string>
+	<string id="spy_sin_task_descr_5_1">
+		<text>Вернуться в бар и доложить Воронину свою версию того что случилось.</text>
+	</string>
+	<string id="spy_sin_task_6">
+		<text>Отчет : Поговорить с Вороном</text>
+	</string>
+	<string id="spy_sin_task_descr_6">
+		<text>Отчитаться перед Вороном за выполненное задание</text>
+	</string>
 
-<!--      убить лидеров -->
-	<string id="first_kill_task"> 
-       <text>Убить лидера Бандитов</text> 
-</string> 
-<string id="second_kill_task"> 
-       <text>Убить лидера «Слизней»</text> 
-</string> 
-<string id="third_kill_task"> 
-       <text>Убить лидера «Чистого неба»</text> 
-</string> 
-<string id="kill_voronin_descr"> 
-       <text>Нужно уничтожить особо опасных представителей сталкерских кланов, которые представляют угрозу Зоне.</text> 
-</string> 
-<string id="quest_key_give"> 
-       <text>Убить Болотного Доктора и отобрать ключ</text> 
-</string> 
-<string id="quest_key_give_descr"> 
-       <text>Ворон поручил отобрать у Доктора ключ. Цель задания не ясна, но он обещал объясниться.</text> 
-</string>
-<string id="quest_docks_give_descr"> 
-       <text>Необходимо проникнуть в 26 номер гостиницы «Полесье» и забрать то, что принадлежит «Греху».</text> 
-</string> 
-<string id="quest_docks_give"> 
-       <text>Достать и принести чертежи эксперементального оружия</text> 
-</string> 
-<string id="spy_sin_task"> 
-       <text>Саботаж : Влиться в ряды противника</text> 
-</string> 
-<string id="spy_sin_task_descr"> 
-       <text>Необходимо проникнуть на базу «Долга» под видом одиночки и предложить Воронину свою «помощь».</text> 
-</string> 
-<string id="spy_sin_task_1"> 
-       <text>Блицкриг : Поговорить с Морфиусом</text> 
-</string> 
-<string id="spy_sin_task_descr_1"> 
-       <text>Братья пришли мне на помощь. Нужно поговорить с командиром - Морфиусом.</text> 
-</string> 
-<string id="spy_sin_task_2"> 
-       <text>Должник : Встретиться с Анубисом</text> 
-</string> 
-<string id="spy_sin_task_descr_2"> 
-       <text>Нужно встретиться с Анубисом и предложить помощь</text> 
-</string> 
-<string id="spy_sin_task_3"> 
-       <text>Должник : Найти и принести редкое растение</text> 
-</string>
-<string id="spy_sin_task_descr_3"> 
-       <text>Анубис поручил найти «Мышецвет» для лечебного снадобья. По его сведениям, его можно найти где-то у кислотной аномалии неподалеку от радиозавода «Юпитер».</text> 
-</string> 
-<string id="spy_sin_task_4"> 
-       <text>Должник : Поговорить с Шаманом</text> 
-</string> 
-<string id="spy_sin_task_descr_4"> 
-       <text>Шаману больше ничего не угрожает. Надо поговорить с ним.</text> 
-</string>
-<string id="spy_sin_task_5"> 
-       <text>Контр-Штурм : Направиться к отряду</text> 
-</string> 
-<string id="spy_sin_task_descr_5"> 
-       <text>О местоположении отряда я сообщил. Теперь осталось отправиться туда с весточкой</text> 
-</string> 
-<string id="spy_sin_task_5_1"> 
-       <text>Отрицание : Оправдаться перед генералом</text> 
-</string> 
-<string id="spy_sin_task_descr_5_1"> 
-       <text>Вернуться в бар и доложить Воронину свою версию того что случилось.</text> 
-</string> 
-<string id="spy_sin_task_6"> 
-       <text>Отчет : Поговорить с Вороном</text> 
-</string> 
-<string id="spy_sin_task_descr_6"> 
-       <text>Отчитаться перед Вороном за выполненное задание</text> 
-</string>
+	-------Сюжет Монолита------
 
--------Сюжет Монолита------
-
-<string id="cresh_task_1"> 
-       <text>Откликнуться на помощь Братьям</text> 
-</string> 
-<string id="cresh_task_1_descr"> 
-       <text>На КПК пришло сообщение с просьбой о помощи. Нужно поспешить, Братья ждут.</text> 
-</string> 
-<string id="neyron_task_1"> 
-       <text>«Курьер»</text> 
-</string> 
-<string id="neyron_task_1_descr"> 
-       <text>Крэш попросил сходить к исследовательскому отряду «Монолита» в лаборатории Х-8 и забрать результаты исследований.</text> 
-</string> 
-<string id="haron_task_1"> 
-       <text>«Совпадения?»</text> 
-</string> 
-<string id="haron_task_1_descr"> 
-       <text>Нужно доложить Харону о том, что случилось в лаборатории. И откуда только эти твари узнали?</text> 
-</string>
-<string id="avangers_task_1"> 
-       <text>Встретить отряд Братьев</text> 
-</string> 
-<string id="avangers_task_1_descr"> 
-       <text>Необходимо встретить отряд братьев в Рыжем лесу.</text> 
-</string> 
-<string id="docks_monolith_task_1"> 
-       <text>«Инквизиция»</text> 
-</string> 
-<string id="docks_monolith_descr"> 
-       <text>Нужно отомстить «Греху» за смерть Братьев и найти на их базе необходимую информацию.</text> 
-</string> 
-<string id="kill_shaman_task_1"> 
-       <text>«ОКО Зоны»</text> 
-</string> 
-<string id="kill_shaman_descr"> 
-       <text>Харон поручил уничтожить необычного греховца в городе Светлый Путь и забрать информацию.</text> 
-</string> 
-<string id="cresh_task_2"> 
-       <text>«Лучше поздно, чем никогда»</text> 
-</string> 
-<string id="cresh_task_2_descr"> 
-       <text>Принести Крэшу устройство с информацией о прототипе излучателя «Радуга».</text> 
-</string> 
+	<string id="cresh_task_1">
+		<text>Откликнуться на помощь Братьям</text>
+	</string>
+	<string id="cresh_task_1_descr">
+		<text>На КПК пришло сообщение с просьбой о помощи. Нужно поспешить, Братья ждут.</text>
+	</string>
+	<string id="neyron_task_1">
+		<text>«Курьер»</text>
+	</string>
+	<string id="neyron_task_1_descr">
+		<text>Крэш попросил сходить к исследовательскому отряду «Монолита» в лаборатории Х-8 и забрать результаты исследований.</text>
+	</string>
+	<string id="haron_task_1">
+		<text>«Совпадения?»</text>
+	</string>
+	<string id="haron_task_1_descr">
+		<text>Нужно доложить Харону о том, что случилось в лаборатории. И откуда только эти твари узнали?</text>
+	</string>
+	<string id="avangers_task_1">
+		<text>Встретить отряд Братьев</text>
+	</string>
+	<string id="avangers_task_1_descr">
+		<text>Необходимо встретить отряд братьев в Рыжем лесу.</text>
+	</string>
+	<string id="docks_monolith_task_1">
+		<text>«Инквизиция»</text>
+	</string>
+	<string id="docks_monolith_descr">
+		<text>Нужно отомстить «Греху» за смерть Братьев и найти на их базе необходимую информацию.</text>
+	</string>
+	<string id="kill_shaman_task_1">
+		<text>«ОКО Зоны»</text>
+	</string>
+	<string id="kill_shaman_descr">
+		<text>Харон поручил уничтожить необычного греховца в городе Светлый Путь и забрать информацию.</text>
+	</string>
+	<string id="cresh_task_2">
+		<text>«Лучше поздно, чем никогда»</text>
+	</string>
+	<string id="cresh_task_2_descr">
+		<text>Принести Крэшу устройство с информацией о прототипе излучателя «Радуга».</text>
+	</string>
 </string_table>

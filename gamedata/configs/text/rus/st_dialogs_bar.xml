@@ -305,7 +305,8 @@
 	<string id="bar_visitors_stalker_mechanic_start_dialog_1">
 		<text>Здорово, мужик, как Зона? Эмм... Я надеюсь, тебе нужно что-нибудь починить? А то я сейчас совсем на мели...</text>
 	</string>
-<!------------------------ Legend Returns ------------------------>
+
+	<!-- Legend Returns -->
     <string id="bar_visitors_veteran_to_novice_1_0">
         <text>Можешь рассказать что-нибудь полезное для новичка?</text>
     </string>

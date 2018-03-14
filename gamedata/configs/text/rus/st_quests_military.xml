@@ -132,6 +132,7 @@
 		<text>Спасибо. Ты реально свой мэн!</text>
 	</string>
 
+	<!-- Legend Returns -->
 	<!-- FIND WEAPON FOR ARA TASK -->
 	<string id="mil_merc_trader_task_1_name">
 		<text>Найти: %s</text>

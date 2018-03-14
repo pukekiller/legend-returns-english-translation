@@ -44,25 +44,25 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs.xml](gamedata/configs/text/rus/st_dialogs.xml)
 		- not started
 	- [st_dialogs_bar.xml](gamedata/configs/text/rus/st_dialogs_bar.xml)
-		- in progress
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_darkscape.xml](gamedata/configs/text/rus/st_dialogs_darkscape.xml)
 		- not started
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/rus/st_dialogs_darkvalley.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_deadcity.xml](gamedata/configs/text/rus/st_dialogs_deadcity.xml)
 		- not started
 	- [st_dialogs_escape.xml](gamedata/configs/text/rus/st_dialogs_escape.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_habarwik.xml](gamedata/configs/text/rus/st_dialogs_habarwik.xml)
 		- not started
 	- [st_dialogs_marsh.xml](gamedata/configs/text/rus/st_dialogs_marsh.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_redforest.xml](gamedata/configs/text/rus/st_dialogs_redforest.xml)
 		- unrevised
 	- [st_dialogs_yantar.xml](gamedata/configs/text/rus/st_dialogs_yantar.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_zaton.xml](gamedata/configs/text/rus/st_dialogs_zaton.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialog_manager.xml](gamedata/configs/text/rus/st_dialog_manager.xml)
 		- not started
 	- [st_dynamic_news.xml](gamedata/configs/text/rus/st_dynamic_news.xml)
@@ -102,31 +102,31 @@ A list of all files with their detailed progress can be found below.
 	- [st_mm_faction_select.xml](gamedata/configs/text/rus/st_mm_faction_select.xml)
 		- in progress (new faction descriptions need translating)
 	- [st_quests_agroprom.xml](gamedata/configs/text/rus/st_quests_agroprom.xml)
-		- not started
+		- done
 	- [st_quests_bar.xml](gamedata/configs/text/rus/st_quests_bar.xml)
-		- not started
+		- done
 	- [st_quests_darkvalley.xml](gamedata/configs/text/rus/st_quests_darkvalley.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_deadcity.xml](gamedata/configs/text/rus/st_quests_deadcity.xml)
 		- not started
 	- [st_quests_escape.xml](gamedata/configs/text/rus/st_quests_escape.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_habarwik.xml](gamedata/configs/text/rus/st_quests_habarwik.xml)
 		- not started
 	- [st_quests_legendreturns.xml](gamedata/configs/text/rus/st_quests_legendreturns.xml)
 		- not started
 	- [st_quests_marsh.xml](gamedata/configs/text/rus/st_quests_marsh.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_military.xml](gamedata/configs/text/rus/st_quests_military.xml)
-		- not started
+		- done
 	- [st_quests_new.xml](gamedata/configs/text/rus/st_quests_new.xml)
 		- not started
 	- [st_quests_pripyat2.xml](gamedata/configs/text/rus/st_quests_pripyat2.xml)
-		- not started
+		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_redforest.xml](gamedata/configs/text/rus/st_quests_redforest.xml)
 		- not started
 	- [st_quests_zaton.xml](gamedata/configs/text/rus/st_quests_zaton.xml)
-		- not started
+		- done
 	- [ui_st_encyclopedia.xml](gamedata/configs/text/rus/ui_st_encyclopedia.xml)
 		- not started
 	- [ui_st_encyclopedia_features.xml](gamedata/configs/text/rus/ui_st_encyclopedia_features.xml)

@@ -39,7 +39,7 @@
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_3_finish">
 		<text>Выдающаяся работа! Командир будет доволен.</text>
 	</string>
-	<!-- FIND LEVEL 1 TOOLKIT FOR KIRILOV TASK -->
+	<!-- FIND LEVEL 1 TOOLKIT FOR DUBROVSKY TASK -->
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_name">
 		<text>Найти для Дубровского %s</text>
 	</string>
@@ -55,7 +55,7 @@
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_fetch_finish">
 		<text>Спасибо, солдат! Вот, держи, как обещал:</text>
 	</string>
-	<!-- FIND LEVEL 2 TOOLKIT FOR KIRILOV TASK -->
+	<!-- FIND LEVEL 2 TOOLKIT FOR DUBROVSKY TASK -->
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_name">
 		<text>Найти для Дубровского %s</text>
 	</string>
@@ -71,7 +71,7 @@
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_fetch_finish">
 		<text>Отлично! Если тебе нужно что будет - обращайся, помогу чем смогу.</text>
 	</string>
-	<!-- FIND LEVEL 3 TOOLKIT FOR KIRILOV TASK -->
+	<!-- FIND LEVEL 3 TOOLKIT FOR DUBROVSKY TASK -->
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_name">
 		<text>Найти для Дубровского %s</text>
 	</string>

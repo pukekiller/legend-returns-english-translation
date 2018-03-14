@@ -303,7 +303,8 @@
     <string id="bar_visitors_stalker_mechanic_start_dialog_1">
         <text>Hey guy, how goes the Zone? So...I hope you have repair work that needs done... Heh, I need some cash bad.</text>
     </string>
-<!------------------------ Legend Returns ------------------------>
+
+	<!-- Legend Returns -->
     <string id="bar_visitors_veteran_to_novice_1_0">
         <text>ћожешь рассказать что-нибудь полезное дл€ новичка?</text>
     </string>

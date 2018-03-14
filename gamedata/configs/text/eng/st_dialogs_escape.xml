@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--------------------------- esc_2_12_stalker_trader ----------->
+	<string id="esc_2_12_stalker_trader_start_dialog_1">
+		<text>A fresh face... Or have I seen you around before, stalker? I'm the guy around here to see if you need to buy or sell equipment. If you are seeking a source of income, I'm always in need of someone willing to do dirty work.\nI look over this camp; all stalkers are welcome here to rest as long as they stay out of trouble. I warn you, do not mess with the military, I pay good money to keep them away from this place. Stalkers should be relatively safe as long as they don't leave camp.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_start_dialog_2">
+		<text>Hey! How are you feeling? I hope you haven't gotten sick, because I have work for you on the weekends.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_start_dialog_esc_m_trader_task_1_complete">
+		<text>Business is taken care of? Good work, here is your payment.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_start_dialog_esc_m_trader_task_2_complete">
+		<text>You have a real talent, you know that? Here is your payment. This will be good for business.</text>
+	</string>
+<!--------------------------- esc_2_12_stalker_wolf_start ------>
+	<string id="esc_2_12_stalker_wolf_start_dialog_1">
+		<text>Hello, stalker. What brings you to the village, today?</text>
+	</string>
+<!--------------------------- esc_2_12_stalker_fanat ----------->
+	<string id="esc_2_12_stalker_fanat_start_dialog_1">
+		<text>Hello, stalker. How are you today?</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_start_dialog_esc_m_trader_task_2">
+		<text>Do you need something, stalker?</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_about_esc_m_trader_task_2_0">
+		<text>There are bandits that need taken care of at the car park. Sidorovich said you may want to assist me.</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_about_esc_m_trader_task_2_1">
+		<text>Yes, I'll help you. I don't want any more harm to come to any of the rookies.</text>
+	</string>
+<!--------------------------- esc_2_12_stalker_nimble ----------->
+	<!-- esc_2_12_stalker_trader_mar_base_owl_stalker_trader_task_1 -->
+	<string id="esc_2_12_stalker_nimble_mar_base_owl_stalker_trader_task_1">
+		<text>Something for me? I've been waiting for this. Spore helps me keep my contacts on the outside safe and anonymous through high-level encryption - heh, hacker shit. Believe it or not I used to be a Clear Sky member way back, a lot of bad shit happened but it seems that somehow they managed to pull together. Most either died or went their separate ways. I saw no point in sticking around but I still retain contact with Spore. Oh, sorry, I forgot. Here's your payment:</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_mar_base_owl_stalker_trader_task_1_about">
+		<text>I have something for you.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_no">
+		<text>I'm not sure you have the right person.</text>
+	</string>
+	
+	<string id="esc_2_12_stalker_nimble_about_0">
+		<text>Can you answer a couple of questions?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_1">
+		<text>Sure.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_1111">
+		<text>How long till my order's ready?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_11111">
+		<text>It depends on how complex it is. It usually takes me a day, sometimes less.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_1114">
+		<text>Tell me about yourself.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_11141">
+		<text>Nothing much to tell. I've had it good and I've had it bad, like most people. Stepped into a few anomalies, been a hostage to bandits... I came to the Zone a young lad, a long time ago. I was a gopher at first - anti-rads, armour-piercing ammo, that sort of thing. Then I worked for Sidorovich... Paying him back for saving my ass. As I pulled chestnuts out of the fire for him, I made some useful connections and branched out on my own as soon as I could to start delivering exclusive orders. So far I've been able to dodge everything life has thrown at me, but I've a feeling my luck is running out. At the same time, I've no desire to bust my ass for pennies any-more.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_1116">
+		<text>Thanks, I see.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_about_11161">
+		<text>Glad to help.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_0">
+		<text>I'm here to collect my order.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_111">
+		<text>Here's your Steppe Eagle. It turned out trickier than I thought. Some kind of pistol buff showed a lot of interest, but I barely snatched it in time. See for yourself - a hand-crafted gun, components are all adjusted with unmatched precision. Ever wonder what a perfect sniper pistol would look like? Well, this is it. You owe me 2,800 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_1111">
+		<text>Okay, here you go.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_11111">
+		<text>There you go. Nice doing business with you.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_1112">
+		<text>I don't have that much on me.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_11121">
+		<text>Okay, I'll hold the gun for you a while. I hope you find the money soon.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_1113">
+		<text>I don't want to buy this.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_11131">
+		<text>If you refuse to collect the order, I won't be able to rely on you next time around. I'll have to include the risk estimate in the price and ask for a larger advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_111311">
+		<text>Still, I will not be collecting this order.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_1113111">
+		<text>All right, suit yourself.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_1114">
+		<text>I'll think about it.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_11141">
+		<text>Sure, that's up to you. I'll hold the gun for you a while.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_112">
+		<text>Here's your ultra-high-accuracy Steppe Eagle. You owe me 2,800 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_121">
+		<text>Behold the Alpine - a real beauty. You can rest assured this pistol is one of a kind in the whole Zone. A unique model, very limited issue commissioned for a single special unit. It wasn't easy to obtain, I even had to involve one of my overseas associates. An expanded magazine, extra hard steel barrel, receiver made of extra strong polymers. Add the remaining 2,800 and this baby's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_122">
+		<text>Here's your Alpine pistol with an expanded magazine. Add the remaining 2,800 and this baby's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_131">
+		<text>Lookit, this is March. The pistol belonged to a mercenary called Wolfhound. A compact high-calibre shooter with short blowback and a lightened bolt. Wolfhound was one hundred percent scum, but he knew his weapons, gotta give him that. They say his favourite trick was to blow all four of his victims' limbs off and then his head - before it hit the ground. Anyway, that'll be 2,800.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_132">
+		<text>Here's your rapid-fire March pistol. You owe me 2,800 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_211">
+		<text>Here you go - Cutter, a submachine gun. Let me say it right off, don't you mind the appearance. It's a brand new model, not in serial production yet. It's a prototype, fresh from the armoury. The designers aimed to make a new-generation close-range weapon: a combination of high calibre, rapid fire and accuracy. So that'll be 8,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_212">
+		<text>Yes, here's Cutter, a rapid-fire submachine gun. That'll be 8,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_221">
+		<text>Here's a fine specimen - Carabineer. A true army shotgun. Capable of automatic fire while providing good anti-recoil thanks to a balanced, shock-free system. Add 8,000 and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_222">
+		<text>Here's Carabineer, an automatic shotgun. Add 8,000 and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_231">
+		<text>I reckon this is just what you need. Eliminator, a latest development. The whole batch was supposed to be shipped to Central Africa, but I got a 'sample' as a special favour from friends. An automatic shotgun with a large magazine and an excellent rate of fire. Yours for only 8,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_232">
+		<text>Sure. Automatic shotgun Eliminator, with an extended magazine. For 8,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_311">
+		<text>Sure. Behold Storm, a submachine and grenade launcher in one. This prototype is a modified version of a conventional weapon designed for special units operating in the Zone. Technical innovation at its best from our Slavic brothers... Add 16,000 and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_312">
+		<text>Sure. Here's Storm, a submachine and grenade launcher with an extended magazine, for an extra 16,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_321">
+		<text>Here it is - GP37, a new-generation assault rifle. Accurate, reliable, and convenient with a built-in optical scope. It was previously owned by a UN observer. Their group was sent to the Zone to investigate. However, the situation turned for the worse... 16,000 and the rifle is yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_322">
+		<text>Here it is - GP37, a new-generation assault rifle. The price is 16,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_331">
+		<text>Just a sec. Here's a modular FT-200M rifle, the brainchild of Belgian gunmakers. Accurate, all-purpose, handy for both righties and lefties, comes with an optical scope and a grenade launcher. I got it from some unlucky UN observers... That'll be 16,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_332">
+		<text>Here's a modular FT-200M rifle. That'll be 16,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_411">
+		<text>Here's Tide. Based on a silent sniper rifle, it was specifically designed for military units to fight zombies. Tide yields rate of fire in favour of stopping power, allowing the sniper to pick off zombies one by one without disclosing his location. However, it then became clear that stalkers alone will be enough to stop zombies at the Barrier, so the rifle never reached mass production. This baby's yours for an extra 16,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_412">
+		<text>Here's Tide, a silent sniper rifle with increased stopping power. Add an extra 16,000 and enjoy.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_421">
+		<text>Here. This is an SVU2-A, a short sniper rifle with an increased rate of fire. I bought it off Mac, the legendary Freedom guard. He swore there are no others like it in the whole Zone. It's an exclusive item, at least in these parts. It'll be 16,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_422">
+		<text>Yeah. SVU2-A, a short sniper rifle with an increased rate of fire. It'll be 16,000 extra.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_431">
+		<text>Sure, just look at Lynx here.  Hand-crafted by a local expert. He's deceased now, so there won't be any copies. It looks just like any other rifle, but take it out for some target practice and you'll feel all the difference. It's got a perfect combination of accuracy and stopping power. Add the remaining 16,000 and this baby's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_432">
+		<text>Yeah, Lynx - a sniper rifle with increased accuracy and power. Add 16,000 and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_511">
+		<text>Look here. I managed to get everything off my list - a CS-3a with a helmet. The helmet is nothing special on its own, but it allows for installing a mobile tactical complex, which includes a high-quality night vision system and an active infrared sensor. Now, the CS-3a armour is a real beauty. Excellent protection from bullets and anomalies is a rare feature indeed in a suit as light and mobile as this one. The whole thing will cost you 32,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_512">
+		<text>Yeah. A set of CS-3a armour with a tactical helmet. 32,000 in all.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_611">
+		<text>Specially for you, a SEVA suit. Everything just like you ordered - a closed-cycle respiratory module, thermal resistant, protective electrical circuit, and outer-surface anti corrosion materials. Plus several built-in artefact containers as a bonus. A must-have suit for any stalker. Toss in 24,000 like we agreed and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_612">
+		<text>Here. A SEVA suit. The price is 24,000, like we agreed.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_711">
+		<text>There it is, a combat exoskeleton as large as life. The best protection you can get in the Zone from bullets, claws or grenade fragments, with the exception of armoured vehicles. But it also takes after armoured vehicles in that it relieves your weight burden - within reason, of course. 48,000 and it's yours, warts and all... err... by that I mean batteries and servomotors.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_get_order_712">
+		<text>There it is, a combat exoskeleton as large as life. 48,000 and it's yours.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_0">
+		<text>I want to place an order.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_1">
+		<text>No problem. What do you need?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_11">
+		<text>A pistol.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_111">
+		<text>Of course. It'll be 3,500, of which I will require an advance payment of 700.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_1111">
+		<text>Okay, here you go.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_11111">
+		<text>I'll get in touch with you as soon as the order is ready.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_1112">
+		<text>I don't have the money on me.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_11121">
+		<text>Well, please come back when you've got the cash.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_1113">
+		<text>You know, I've changed my mind.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_11131">
+		<text>Fine. If you finally decide to make an order, I'm always here.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_112">
+		<text>You're not a very reliable customer, so the pistol will cost you 4,200. And I will require an advance payment of 1,400.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_113">
+		<text>I'm afraid the best pistols have already sold out. If you want the regular stuff, Owl's the man to see.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_12">
+		<text>A close-range weapon.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_121">
+		<text>Sure thing. The price is 10,000, and I'll need 2,000 of that in advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_122">
+		<text>You refused to pick up your last order... So this one will cost you 12,000, and I'll need 4,000 of that in advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_123">
+		<text>Hrm... You know, I probably can't help you there. The demand is too high.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_13">
+		<text>An assault weapon.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_131">
+		<text>Something high-calibre and with rapid fire capability, okay... The regular price is 20,000, with a 4,000 advance payment. What do you say?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_132">
+		<text>You're a tough customer. I'll have to charge you 24,000 and I need 8,000 paid in advance. Deal?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_133">
+		<text>Right now is a bad time... the military are making things hot at the Cordon. Someone attacked their outpost the other day, which made them even more difficult to deal with.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_14">
+		<text>A sniper weapon.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_141">
+		<text>For you I can get the best for only 20,000, but you'll have to pay me 4,000 in advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_142">
+		<text>Working with you entails a certain amount of risk... I can try to arrange your order for 24,000, but you'll need to make a 8,000 down payment.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_143">
+		<text>Sorry, this type of weapon is hard to come by right now. My contact for sniper stuff is... let's say he's indisposed.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_15">
+		<text>An armoured suit.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_151">
+		<text>Yeah, I can think of something... suitable. It'll cost you 40,000, but you'll have to pay me 8,000 in advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_152">
+		<text>Yeah, I can think of something... suitable. You refused to collect your last order, so the price will be 48,000 and you'll have to pay me 16,000 in advance.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_153">
+		<text>I won't be able to do any better than the last suit I got for you. That one was both unique and top of the line.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_16">
+		<text>A suit with a closed-cycle respiratory module.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_161">
+		<text>That's a tall order... Won't be easy to obtain, not by a long shot. I can try to get one of these babies for 30,000, but I have to ask for a down payment of 6,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_162">
+		<text>You let me down on the last order, so I have to think twice this time. I can try to get one of these babies for 36,000, but I have to ask for a down payment of 12,000.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_163">
+		<text>I bent over backwards to get the last one. Don't think I'll be able to repeat that.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_17">
+		<text>An exoskeleton.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_171">
+		<text>You must have given this choice a lot of thought. I can get my hands on a combat version, but it'll cost you 60,000. Expensive, I know, but well worth it. Keep in mind I'll need 12,000 of that paid right now.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_172">
+		<text>You didn't treat me very nicely on the last order, so this one'll set you back 72,000. Keep in mind I'll need 24,000 of that paid right now.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_173">
+		<text>No way. Since they closed the manufacturing plant, vacant exoskeletons are typically found only on corpses... That's just not my method.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_18">
+		<text>Nothing right now.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_place_order_2">
+		<text>Sorry, my shop is closed at the moment. Temporary difficulties with order shipments...</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_start_11">
+		<text>Hello. I'm Nimble. People come to me for unique weapons. Rare models, prototypes, unique shooters - stuff like that. Plus elite equipment, the latest modifications of protective and combat suits. I check every item personally, so quality is guaranteed.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_start_12">
+		<text>Hello. Would you like to place an order?</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_start_13">
+		<text>Hello.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_start_14">
+		<text>Your order will be delivered very soon.</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_start_15">
+		<text>The order is finished. Please come to collect it.</text>
+	</string>
+
+	<!-- Legend Returns -->
+	<string id="actor_with_faggot_0">
+		<text>Ты знаешь Голоса?</text>
+	</string>
+	<string id="actor_with_faggot_1">
+		<text>Г-голоса? Сталкер, ты ошибся.. Я не знаю никого голоса, проваливай отсюда!</text>
+	</string>
+	<string id="actor_with_faggot_2">
+		<text>А ты знаешь, кто ходил с ним в ходку несколько дней назад?</text>
+	</string>
+	<string id="actor_with_faggot_3">
+		<text>Повторяю для особо одарённых! Я. Не знаю. Никакого. Голоса. И про ходку к «Костянке» я ничего не знаю!</text>
+	</string>
+	<string id="actor_with_faggot_4">
+		<text>Подожди... Так я не говорил, как называется та аномалия.</text>
+	</string>
+	<string id="actor_with_faggot_5">
+		<text>Чёрт... Голос! Прости меня! Прости! Я случайно! Я не хотел! У меня больная сестра! Я не могу иначе!</text>
+	</string>
+	<string id="actor_with_faggot_6">
+		<text>Ты хоть запомнил его лицо перед смертью?</text>
+	</string>
+	<string id="Koleso_about_avgust_0">
+		<text>default text</text>
+	</string>
+	<string id="avgust_dialog_2">
+		<text>Ave.</text>
+	</string>
+	<string id="avgust_dialog_2_0">
+		<text>Привет, а ты кто? Вижу, на тебе форма военстала.</text>
+	</string>
+	<string id="avgust_dialog_2_1">
+		<text>Salve. Я Август, будем знакомы. До недавнего времени я был военным сталкером. Но теперь я ушел в отставку. Помогаю тут местным.</text>
+	</string>
+	<string id="avgust_dialog_2_3">
+		<text>Почему тебя кличут Августом?</text>
+	</string>
+	<string id="avgust_dialog_2_4">
+		<text>На большой земле я был историком, увлекался Древним Римом. Освоил латынь. За это меня и прозвали Августом.</text>
+	</string>
+	<string id="avgust_dialog_2_5">
+		<text>Что интересного можешь рассказать про военсталов?</text>
+	</string>
+	<string id="avgust_dialog_2_6">
+		<text>Это что-то вроде элиты. Специальные войска, подготовленные к операциям внутри периметра зоны. Занимаются в основном разведкой и картографированием. Заметишь военстала, лучше обойди его стороной. Они те еще ребята.</text>
+	</string>
+	<string id="avgust_dialog_2_7">
+		<text>Спасибо за рассказ.</text>
+	</string>
+	<string id="avgust_dialog_2_8">
+		<text>Vale.</text>
+	</string>
+	<string id="avgust_dialog_3">
+		<text>Привет.</text>
+	</string>
+	<string id="barmen_find_artefact_1">
+		<text>Найти артефакт «Ломоть мяса»</text>
+	</string>
+	<string id="barmen_find_artefact_1_descr">
+		<text>Достать «Ломоть мяса» - артефакт, помогающий исцелять телесные недуги.</text>
+	</string>
+	<string id="barmen_find_artefact_1_text">
+		<text>Тут недавно святоши какие-то заходили, заказ на «Ломоть мяса» оставили. Сам знаешь, есть у них интерес к этому артефакту целительному... чудотворцы гнилые, блин! Мда-а... Так ты берёшься? В принципе, не заставляю.</text>
+	</string>
+	<string id="barmen_find_artefact_2">
+		<text>Найти артефакт «Кристальная колючка»</text>
+	</string>
+	<string id="barmen_find_artefact_2_descr">
+		<text>Найти артефакт «Кристальная колючка», который помогает носителю обезопасить себя от атак на сознание.</text>
+	</string>
+	<string id="barmen_find_artefact_2_text">
+		<text>«Вонючка»?.. Нет, не то. «Кристальная водичка»?.. Не, обратно не то... Тьфу ты! «Кристальная колючка», о как! Значит, смотри: заказали мне артефакт «Кристальная колючка». Знаешь такой? Вроде как если она у тебя есть, так не даст никакой твари тебе мозги запутать. Ну, что скажешь?</text>
+	</string>
+	<string id="barmen_find_artefact_3">
+		<text>Найти артефакт «Ночная звезда»</text>
+	</string>
+	<string id="barmen_find_artefact_3_descr">
+		<text>Найти артефакт «Ночная звезда» - помочь отечественной военной науке.</text>
+	</string>
+	<string id="barmen_find_artefact_3_text">
+		<text>Нужен артефакт «Ночная звезда». Желания он, к сожалению, не исполняет - проверено, а вот обогатить вполне даже может. Учёные за него хорошие деньги дают. Что-то, говорят, мастерят на его основе военное... Ну так что?</text>
+	</string>
+	<string id="barmen_find_artefact_4">
+		<text>Найти артефакт «Вспышка»</text>
+	</string>
+	<string id="barmen_find_artefact_4_descr">
+		<text>Найти артефакт «Вспышка»</text>
+	</string>
+	<string id="barmen_find_artefact_4_text">
+		<text>Задание простое, а оплата хорошая. Нужно найти артефакт «Вспышка». Даже и не спрашивай - кто и зачем заказал. Берешься?</text>
+	</string>
+	<string id="barmen_find_artefact_5">
+		<text>Найти артефакт «Золотая рыбка»</text>
+	</string>
+	<string id="barmen_find_artefact_5_descr">
+		<text>Найти артефакт «Золотая рыбка»</text>
+	</string>
+	<string id="barmen_find_artefact_5_text">
+		<text>Меченый, знаешь сказку про Золотую рыбку? Во, во! Еще анекдотов много про нее. Так вот, есть один старик, который все хочет ее поймать. В общем, нужен уникальный артефакт «Золотая рыбка», заказчик внешний, солидный. Поможешь?</text>
+	</string>
+	<string id="barmen_kill_stalker_1">
+		<text>Убить военнослужащего</text>
+	</string>
+	<string id="barmen_kill_stalker_1_descr">
+		<text>Надо прикончить неизвестного военнослужащего. Работа, кажется, довольно простая... странно только, что это заказ на человека в форме, а заказчик явно очень разозлён.</text>
+	</string>
+	<string id="barmen_kill_stalker_1_text">
+		<text>Мне надо, чтобы ты разобрался с одним военным... и не спрашивай, кто он, и нафиг оно мне сдалось! Просто сделай дело. Ну? Можно на тебя положиться?</text>
+	</string>
+	<string id="barmen_kill_stalker_2">
+		<text>Убить сталкера</text>
+	</string>
+	<string id="barmen_kill_stalker_2_descr">
+		<text>Прикончить одного из сталкеров. Смерть обманувшему - такова месть торговца.</text>
+	</string>
+	<string id="barmen_kill_stalker_2_text">
+		<text>Знаешь, есть такие люди, о которых никогда ничего плохого не скажешь... веришь им, да? Полагаешься, как на самого себя... Только вдруг внезапно узнаёшь, что это какой-нибудь ну настолько хитрый и лживый сукин сын, что... В общем, есть серьёзное дело: надо за всё с одним типом поквитаться. Сделай, а остальное за мной.</text>
+	</string>
+	<string id="barmen_kill_stalker_3">
+		<text>Убить сталкера из группировки «Монолит»</text>
+	</string>
+	<string id="barmen_kill_stalker_3_descr">
+		<text>Найти бывшего друга торговца и помочь ему умереть.</text>
+	</string>
+	<string id="barmen_kill_stalker_3_text">
+		<text>Когда-то был у меня друг... не верится, да? Эх... а ведь мы с ним вместе в Зону пришли, когда вот этого всего ещё и в помине не было. И чего мы только ни творили, куда только ни лазили... да, молодые были, море по колено... Только ему всегда было мало. Он к центру Зоны уйти хотел, и меня тянул, а я отказался - и правильно, что отказался... Мы пособачились тогда здорово, и он сам ушёл... Только мне говорят, видели его там... он за «Монолит» сейчас стоит. Так ты вот что, Меченый... Как человека прошу - найди его, и... в общем, чтоб он не мучился, ведь и так, небось... Он мне как брат был, понимаешь?</text>
+	</string>
+	<string id="barmen_kill_stalker_4">
+		<text>Убить сталкера по прозвищу Упырь</text>
+	</string>
+	<string id="barmen_kill_stalker_4_descr">
+		<text>Найти и убить сталкера, известного под прозвищем Упырь.</text>
+	</string>
+	<string id="barmen_kill_stalker_4_text">
+		<text>Всё, этот тип меня достал!.. Это я про Упыря; ты его знаешь, нет? У-у, сволочь! Он из людей не кровь сосёт, а удачу. С кем ни пойдёт - все накроются один он живой-здоровый! Пятый раз уже! Короче, нечистое здесь что-то. Есть крупное желание положить цветочки на могилку этого Упыря... Ну ты как, согласен?</text>
+	</string>
+	<string id="barmen_kill_stalker_5">
+		<text>Убить сталкера по прозвищу Воробей</text>
+	</string>
+	<string id="barmen_kill_stalker_5_descr">
+		<text>Найти Воробья и отомстить за смерть другого сталкера.</text>
+	</string>
+	<string id="barmen_kill_stalker_5_text">
+		<text>Дворяне, блин!.. Пушкины с Лермонтовыми!.. И так, олухи, под аномалиями и пулями ходят каждый день, так ещё и дуэли в моду взяли! Нет, ну ты просто прикинь: случился у нас тут спор... никто и не помнит уже, по какому поводу. Только решили эти два придурка крови себе пустить. Ну и нате вам: один взял и помер... какой сталкер был! а второй - Воробей его зовут - быстро свалил, потому как я сам бы ему при первом же случае пулю в кишки засадил. Найди его. Уверен, из Зоны он ещё не успел выбраться. Делаешь?</text>
+	</string>
+	<string id="barmen_monster_part_1">
+		<text>Достать глаз «плоти»</text>
+	</string>
+	<string id="barmen_monster_part_1_descr">
+		<text>Достать глаз «плоти»</text>
+	</string>
+	<string id="ghost_final_0">
+		<text>Твоя душа отомщена.</text>
+	</string>
+	<string id="doctor_ghost_1_0">
+		<text>Болотный доктор?! Пожалуйста, помогите мне!</text>
+	</string>
+	<string id="doctor_ghost_1_1">
+		<text>Выглядишь измученным, сынок... Что с тобой сталось-то?</text>
+	</string>
+	<string id="doctor_ghost_1_2">
+		<text>Я... Я поступил очень плохо кое с кем из «того» света. Он пророчил мне кошмары во все, но я его не послушал... С тех пор меня постоянно мучают ужасные навязчивые мысли и кошмары. Кажется, я медленно слетаю с катушек...</text>
+	</string>
+	<string id="doctor_ghost_1_3">
+		<text>Не мудрено. Поразительно... Ты смог выжить после этой встречи и даже сохранить рассудок... Впрочем, не обольщайся — ты сейчас немногим лучше них выглядишь.</text>
+	</string>
+	<string id="doctor_ghost_1_4">
+		<text>И ч-что мне делать, доктор? Вы сможете меня спасти, или мне уже ничем не помочь?</text>
+	</string>
+	<string id="doctor_ghost_1_5">
+		<text>Да, я знаю, что нужно делать! Здесь, на болотах, неподалеку от старой церкви возле кладбища, растёт один очень занятный цветок... Возможно, нам получится спасти твою нервную систему, если изготовлю из него одну ядрёную настойку. Я ей даже живого зомби поил, да на ноги поставил! Тебе это тоже может помочь. Ну что, достанешь?</text>
+	</string>
+	<string id="doctor_ghost_1_6">
+		<text>Да, конечно! Тем более, что выхода у меня действительно нет... Жди меня, Доктор.</text>
+	</string>
+	<string id="doctor_ghost_2_0">
+		<text>Вот, вроде что-то подобное... Это ведь ТОТ цветок?</text>
+	</string>
+	<string id="doctor_ghost_2_1">
+		<text>Именно! Давай его скорее сюда, всё остальное у меня уже готово, осталось лишь выжать из него все соки. Пей!</text>
+	</string>
+	<string id="doctor_ghost_2_2">
+		<text>Ну и смрад! Хуже точно не будет? Ладно, сейчас...</text>
+	</string>
+	<string id="doctor_ghost_3_0">
+		<text>Док... Меня, кажется, отпустило. Даже не знаю, как благодарить тебя после этого!</text>
+	</string>
+	<string id="doctor_ghost_3_1">
+		<text>Да брось, парень... Иди с Богом... Прямой дороги тебе.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_0">
+		<text>А есть высокооплачиваемая работа?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_1">
+		<text>Всегда найдётся. На этот раз нужно, хех, нейтрализовать местного бандитского авторитета, Йогой его кличат.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_2">
+		<text>Нет уж, я не хочу проблем на свою задницу.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_3">
+		<text>Считай, что он уже покойник.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_4">
+		<text>Хорошо. Он обитает в Мёртвой долине. Как убьешь этого мерзавца, возвращайся за наградой.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_5">
+		<text>Готов местный бандитский авторитет. Да покоится он с миром.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_6">
+		<text>Отличная новость. Молодец, я доволен.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_7">
+		<text>Что с деньгами?.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_8">
+		<text>Получи и распишись.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_quest1_9">
+		<text>Спасибо.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_0">
+		<text>Есть заказы на артефакты?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_1">
+		<text>Ну... Есть у меня один заказик, уверен, что даже за сутки управишься. Нужен мне один довольно-таки распространенный артефакт, хех, Компас называется. Берешься?</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_2">
+		<text>Компас... Подозрительно звучит. Кажется мне, что обманываешь ты меня, Сидор.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_3">
+		<text>Распространенный? Тогда конечно беру, деньги мне сейчас нужны.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_4">
+		<text>Вот и отлично.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_5">
+		<text>Распространенный, говоришь? Ты хоть знаешь, где я был, и что видел, пока искал этот чертов артефакт?!</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_6">
+		<text>Ну-ну, не горячись. Кто ж знал, что ты в самый центр попрёшься? Я думал, ты начнешь спрашивать у всех про него, тебе и расскажут.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_7">
+		<text>Думал он, ага. Что там с моей наградой? Я думаю, она должна быть более, чем достойная.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_8">
+		<text>Есть у меня одна вещица... Берег её для важного случая... Ай ладно, забирай. Это гермокомбинезон, очень редкая и дорогая вещь в Зоне, когда-то принадлежала одному ветерану. По слухам, этот ветеран услышал во сне Зов Монолита, снял костюм, и ушел куда-то в Центр Зоны. Вот возьми, надеюсь тебе повезет больше, чем его предыдущему владельцу.</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_small_quests_9">
+		<text>Ты как всегда щедр, Сидорович. Я не суеверный, так что не боюсь твоих «страшных» историй.</text>
+	</string>
+	<string id="est">
+		<text>Вот что есть.</text>
+	</string>
+	<string id="est_work">
+		<text>Мне нужна работа. Есть что на примете?</text>
+	</string>
+	<string id="ghost_dialog_0">
+		<text>Темно... Очень темно...</text>
+	</string>
+	<string id="ghost_dialog_1">
+		<text>Ты посылал сигнал SOS?</text>
+	</string>
+	<string id="ghost_dialog_2">
+		<text>Плохо видно... Кто там стоит... Плохо видно... Не вижу... Очень темно...</text>
+	</string>
+	<string id="ghost_dialog_3">
+		<text>Что ты такое!?</text>
+	</string>
+	<string id="ghost_dialog_4">
+		<text>Не понимаю... Ничего не понимаю...</text>
+	</string>
+	<string id="ghost_dialog_5">
+		<text>Кто тебя убил? Или ты сам... того?</text>
+	</string>
+	<string id="ghost_dialog_6">
+		<text>УБИЛ! Он меня убил... Артефакт. Он оценил его дороже моей жизни...</text>
+	</string>
+	<string id="ghost_dialog_7">
+		<text>...</text>
+	</string>
+	<string id="ghost_dialog_8">
+		<text>Новичок... Я взял его с собой... Он толкнул меня в воронку... ОНИ мне сказали, что я не смогу уйти... Пока не отомщу...</text>
+	</string>
+	<string id="ghost_dialog_9">
+		<text>Ладно, я пойду отсюда, не буду тебя тревожить.</text>
+	</string>
+	<string id="ghost_dialog_10">
+		<text>Не... уходи... Ты... не сможешь уйти... Ты слишком долго пробыл со мной... Теперь, пока я есть, я не отстану от тебя... Ты больше не уснешь, если откажешся.</text>
+	</string>
+	<string id="ghost_dialog_11">
+		<text>Похоже, что у меня нет выбора.</text>
+	</string>
+	<string id="ghost_dialog_12">
+		<text>Прочь, нечисть!</text>
+	</string>
+	<string id="ghost_dialog_13">
+		<text>Верно... Я могу... указать тебе на этого человека.... отомсти за меня.</text>
+	</string>
+	<string id="ghost_final_0">
+		<text>Твоя душа отомщена.</text>
+	</string>
+	<string id="ghost_final_1">
+		<text>Я знаю, сталкер! ОНИ мне сообщили об этом. Можешь не волноваться за свою жизнь... И ещё, если ты будешь действительно нуждаться в помощи, то можешь на меня рассчитывать. У «нас» долги держать не принято. Береги себя.</text>
+	</string>
+	<string id="ghost_final_2">
+		<text>И что с тобой будет теперь?</text>
+	</string>
+	<string id="ghost_final_3">
+		<text>Я... Я слишком долго был в «вашем» мире... Теперь мне нельзя назад...  Теперь мне только одна дорога - в город призраков... Если будешь там, то я тебя отблагодарю... У «нас» долги держать не принято...</text>
+	</string>
+	<string id="ghost_final_4">
+		<text>А что за город...</text>
+	</string>
+	<string id="kill_stalker">
+		<text>Убить цель.</text>
+	</string>
+	<string id="nagrada">
+		<text>Задание выполнено... а вот и гонорар!</text>
+	</string>
+	<string id="otmena">
+		<text>Браться пожалуй не буду.</text>
+	</string>
+	<string id="otmena_1">
+		<text>Эти задания мне не интересны.</text>
+	</string>
+	<string id="prin_art">
+		<text>Принести заказчику обещанное.</text>
+	</string>
+	<string id="return_for_reward">
+		<text>Вернуться за наградой.</text>
+	</string>
+	<string id="return_for_reward_bring">
+		<text>Принести заказчику обещанное.</text>
+	</string>
+	<string id="sidorovich_info_0">
+		<text>Мне нужны ответы на кое-какие вопросы.</text>
+	</string>
+	<string id="sidorovich_info_1">
+		<text>Спрашивай, только я ведь всего не знаю. Сам понимаешь, сижу тут целыми днями, а жизнь - она вся там, снаружи, в Зоне. Могу рассказать о Зоне вообще, а немного могу о ближайших окрестностях, где сам ходил.</text>
+	</string>
+	<string id="sidorovich_info_2">
+		<text>Расскажи мне в общих чертах о Зоне.</text>
+	</string>
+	<string id="sidorovich_info_21">
+		<text>Зона... Это, понимаешь, не просто круг в сколько-то там километров диаметром с центром у атомной станции... Это что-то странное. Очень странное. Знаешь, вряд ли кто-нибудь в нашем мире ответит тебе на этот вопрос. Я думаю, Зона - вообще не часть его. Отдельный, сам по себе, мир - опасный, странный... и чертовски привлекательный. А знаешь, почему? Да потому, что здесь каждый, если повезёт, может быстро разбогатеть. Причём чем ближе к центру Зоны проберёшься, тем быстрее по деньгам поднимешься.</text>
+	</string>
+	<string id="sidorovich_info_22">
+		<text>Чем опасен этот «отдельный мир»?</text>
+	</string>
+	<string id="sidorovich_info_23">
+		<text>Кхм... Да, в общем, ничем - вот только подохнуть здесь можно на каждом шагу. И не только от пули тупого зольда, хотя военных сейчас много нагнали... Смерть от пули - это, считай, самая приятная смерть в Зоне. А вот аномалии - это, знаешь... Такая смерть - это да, это страшно. Их даже мутанты стороной обходят. Кстати, о мутантах: тоже дрянь редкостная, «дети» Зоны, так что без оружия тут лучше не ходить. А вообще по поводу всяких опасностей лучше других сталкеров тебе никто не расскажет.</text>
+	</string>
+	<string id="sidorovich_info_3">
+		<text>Как здесь можно разбогатеть?</text>
+	</string>
+	<string id="sidorovich_info_31">
+		<text>Артефакты - вот основа всего. За всякие непонятные игрушки из Зоны многие с Большой Земли готовы отвалить целое состояние. Артефакты ценнее золота, бриллиантов и чистого плутония. Почему? Да потому, что ни одна драгоценность в мире не обладает такими сверхъестественными возможностями и делится ими со своим хозяином. Только прикинь: вешаешь ты, скажем, себе на пояс некую хрень - и пули начинают обходить тебя стороной! Что ещё? Ну, всякую мелочь можно часто встретить даже здесь, под боком. А вот за ценными экземплярами ходят только ближе к центру.</text>
+	</string>
+	<string id="sidorovich_info_32">
+		<text>Кто-нибудь знает, что происходит в центре Зоны?</text>
+	</string>
+	<string id="sidorovich_info_33">
+		<text>Да разное болтают. Тебе потом столько всякой всячины расскажут... только я во всю эту потустороннюю чушь не верю. Вот во что я точно верю, так это в то, что в центре Зоны полно ценных артефактов. Только вот людей, которые смогли бы оттуда вернуться, пока не встречал.</text>
+	</string>
+	<string id="sidorovich_info_4">
+		<text>Что тут поблизости творится?</text>
+	</string>
+	<string id="sidorovich_info_41">
+		<text>А! Ну, это предбанник Зоны. Армейский кордон. Относительно спокойно, разве военные иногда развлекаются, шмон наводят. Опытные сталкеры тут в редкость, только новички засиживаются, а кто и навечно остаётся, мда... Вот рядом совсем, на хуторе, лагерь новичков приютился. Смотри, нажимать на курок они тоже умеют, так ты не задирайся попусту. Что ещё? Ну, хорошего хабара здесь не сыщешь. За дорогой - АТП. На севере, за железнодорожной насыпью - укрепленная ферма, а на юге - блокпост. Кстати, кое-где вояки мины расставили, так что поосторожнее. Ещё в центре мост был, да повалило его. Вот, вроде, и всё.</text>
+	</string>
+	<string id="sidorovich_info_42">
+		<text>Расскажи побольше о блокпосте.</text>
+	</string>
+	<string id="sidorovich_info_43">
+		<text>Несколько солдат с приказом стрелять без предупреждения, потому лучше обходи его стороной. Если их обидеть, то могут вызвать спецназовцев с дальнего кордона. Те наверху такой шмон наведут, что у меня потом месяц клиентов нет... Командира зольдов знаю немного: любит он за воротник заложить. Вот благодаря ему и держусь пока здесь.</text>
+	</string>
+	<string id="sidorovich_info_44">
+		<text>Расскажи побольше об упавшем мосте.</text>
+	</string>
+	<string id="sidorovich_info_45">
+		<text>Да тут два шага в северном направлении - сразу и увидишь. Раньше там мост над дорогой был, а потом взял да и упал во время одного из выбросов. Военные там пост сделали и вроде как никого не пускают... Однако, можно проскочить во время смены караула.</text>
+	</string>
+	<string id="sidorovich_info_46">
+		<text>Расскажи подробнее о ферме.</text>
+	</string>
+	<string id="sidorovich_info_47">
+		<text>Ох ты и нудный! Ну ферма себе как ферма. Свиньи там ещё до перестройки все передохли.</text>
+	</string>
+	<string id="sidorovich_info_5">
+		<text>Что в Зоне делают военные?</text>
+	</string>
+	<string id="sidorovich_info_51">
+		<text>Охраняют, что ж ещё! То ли саму Зону, то ли остальной мир от неё - непонятно. Иногда сюда целые экспедиции проходят, ищут что-то... \nНо я тебе вот что скажу. Военные Зону не уважают, так она их за это тоже не любит. То и дело цинковые гробы увозят. Ну, что ещё сказать... Смотрят на всех свысока, как будто богами тут заделались. Сталкеровские законы не чтут, на помощь никогда не придут, хоть на глазах у них погибать будешь. Пристрелить могут - это да, запросто, не наказывают их за это... Правда, кое с кем я нашёл общий язык. Нужно же людям водку, журнальчики там разные где-то доставать? Ну, ты понимаешь, о чём я. Но попусту их не зли - смахнут и не заметят.</text>
+	</string>
+	<string id="tm_find_artefact_1">
+		<text>Найти артефакт «Медуза»</text>
+	</string>
+	<string id="tm_find_artefact_1_descr">
+		<text>Найти артефакт «Медуза», образующийся в аномалии «Трамплин».</text>
+	</string>
+	<string id="tm_find_artefact_1_text">
+		<text>Мне тут один человек с Большой земли заказал «Медузу». Работа непыльная и деньги небольшие, зато обернешься быстро. Соглашайся!</text>
+	</string>
+	<string id="tm_find_artefact_2">
+		<text>Найти артефакт «Каменный цветок»</text>
+	</string>
+	<string id="tm_find_artefact_2_descr">
+		<text>Найти артефакт «Каменный цветок», образующийся в аномалии «Трамплин». Заплатить за него должны неплохо.</text>
+	</string>
+	<string id="tm_find_artefact_2_text">
+		<text>Есть задание на «Каменный цветок». От ювелиров, прочим между, так не будем расстраивать прекрасных дам, а? Достанешь - с меня гонорар и бутылка, за их здоровье выпить...</text>
+	</string>
+	<string id="tm_find_artefact_3">
+		<text>Найти артефакт «Ночная звезда»</text>
+	</string>
+	<string id="tm_find_artefact_3_descr">
+		<text>Найти «Ночную звезду» - редкий и дорогой артефакт.</text>
+	</string>
+	<string id="tm_find_artefact_3_text">
+		<text>Есть одно заданьице... несколько неприятное. Похоже, от военных - они занимаются разработкой новых средств защиты. Пришёл, значит, заказ на «Ночную звезду» - это артефактец редкий такой, он умеет неплохо от пуль защищать... Так ты берёшься? Плачу хорошо!..</text>
+	</string>
+	<string id="tm_find_artefact_4">
+		<text>Найти артефакт «Ломоть мяса»</text>
+	</string>
+	<string id="tm_find_artefact_4_descr">
+		<text>Найти заживляющий раны артефакт «Ломоть мяса»</text>
+	</string>
+	<string id="tm_find_artefact_4_text">
+		<text>Есть заказ на артефакт, нужен такой чтоб раны лечить мог, называется «Ломоть мяса»! Клиника у них вроде какая-то. Достанешь - и сам денег получишь и людям поможешь.</text>
+	</string>
+	<string id="tm_kill_stalker_1">
+		<text>Убить вожака бандитов</text>
+	</string>
+	<string id="tm_kill_stalker_1_descr">
+		<text>Убить вожака бандитов, перешедшего дорогу торговцу. Скорее всего, он будет не один, а с охраной... Работа сложная, но и платят соответствующе. Искать его вернее всего В Мёртвой Долине.</text>
+	</string>
+	<string id="tm_kill_stalker_1_text">
+		<text>Тебе придётся прикончить одного красавца - он у бандитов один из главных. Недавно бандюки по его приказу перехватили моего курьера и выпотрошили в ноль, а с теми, кто трогает моих людей, разговор короткий... В общем, сделаешь дело - в долгу не останусь. Так как, берёшься?</text>
+	</string>
+	<string id="tm_kill_stalker_2">
+		<text>Убить сталкера-торгаша</text>
+	</string>
+	<string id="tm_kill_stalker_2_descr">
+		<text>Убить сталкера... Да, не самая лучшая работа из всех - поднимать руку на коллегу. Однако платят неплохо, и, возможно, это главное?</text>
+	</string>
+	<string id="tm_kill_stalker_2_text">
+		<text>У меня возникли некоторые разногласия с одним торгашом. Ну не хочет со мной работать, и чёрт с ним! Только слухи подлые распускать не позволю. В общем, надо с ним кончать, чтоб другие не распускались. Чтобы знали, кто тут хозяин...</text>
+	</string>
+	<string id="tm_kill_stalker_3">
+		<text>Убить сталкера-новичка</text>
+	</string>
+	<string id="tm_kill_stalker_3_descr">
+		<text>Прикончить сталкера-новичка, который, может, и не новичок совсем... Кто же тогда? Впрочем, чёрт их разберет! Главное, работа непыльная.</text>
+	</string>
+	<string id="tm_kill_stalker_3_text">
+		<text>Есть тут один, всё крутится, под новичка косит, да только странный он какой-то... В общем, если он незаметно исчезнет, это будет мне хорошее такое одолжение. Понимаешь, о чём я?</text>
+	</string>
+	<string id="tm_kill_stalker_4">
+		<text>Убить сталкера по прозвищу Демон</text>
+	</string>
+	<string id="tm_kill_stalker_4_descr">
+		<text>Устранить одного из торговых конкурентов торговца Сидоровича - сталкера по прозвищу Демон.</text>
+	</string>
+	<string id="tm_kill_stalker_4_text">
+		<text>Демон, он же Олег Гусаров... спецназовец бывший. Пока не лез в чужие дела, к нему у меня претензий не было - одиночка как одиночка. Только мне тут кое-кто сказал, Демон народ собирает, чтоб кордон под себя подмять и подгрести переправку хабара из Зоны. А вот это уже серьёзная проблема, и её надо по-быстрому решать. Берёшь заказ?</text>
+	</string>
+	<string id="tm_kill_stalker_5">
+		<text>Убить отца Диодора</text>
+	</string>
+	<string id="tm_kill_stalker_5_descr">
+		<text>Убить человека, проповедующего в Зоне против добычи артефактов и торговли ими? Именно так.</text>
+	</string>
+	<string id="tm_kill_stalker_5_text">
+		<text>Я всегда говорил: бизнес и религия - два параллельных занятия, им и близко пересекаться нельзя, и в дела друг друга ни-ни!.. Только этому отцу, прости Господи, Диодору... м-да... ну не может он понять этой простой истины. Всё бредит, что собирательство артефактов, а наипаче торговля ими совращает на путь грешный людей не только в Зоне, но и во всём мире - ну и всё в таком духе. Он, понимаешь, призывает вообще артефакты уничтожать - а?! Ты представь только, до чего додумался!.. Самое плохое, некоторые вестись на бредни начинают. Я к этому Диодору на какой только козе уж не подъезжал, а он знай своё гнёт. Уговор такой: ты его отправляешь наверх на аудиенцию... понял, да? А я тебе артефакт какой-нибудь солидный. Так что, по рукам?</text>
+	</string>
+	<string id="tm_kill_stalker_6">
+		<text>Убить «торгового представителя»</text>
+	</string>
+	<string id="tm_kill_stalker_6_descr">
+		<text>Убить «торгового представителя». Торговец следит за своей репутацией</text>
+	</string>
+	<string id="tm_kill_stalker_6_text">
+		<text>Прикинь, тут недалеко крутится какой-то чудак, который представляется моим торговым представителем, пользуется, значит, моей репутацией, а потом толкает некондиционку! Сломанные стволы, разваливающуюся броню, просроченные консервы... У меня тут уже было пару разборок с недовольными. Короче, мне нужен человек, который пообщается с «торговым представителем». Вплоть до некондиции.</text>
+	</string>
+	<string id="tm_monster_part_1">
+		<text>Принести челюсть кровососа</text>
+	</string>
+	<string id="tm_monster_part_1_descr">
+		<text>Зуб кровососа притягивает удачу? Посмотрим повезет ли кровососу</text>
+	</string>
+	<string id="tm_monster_part_1_text">
+		<text>Слышал поверье, что зуб кровососа притягивает удачу? Будто бы того, кто на шее носит такой зуб, аномалии отпускают, и артефакты сами в руки идут? В общем, это всё фигня, но есть болваны, которые верят и готовы платить хорошие деньги. Принесешь челюсть кровососа, я тебе хорошо заплачу.</text>
+	</string>
+	<string id="tm_monster_part_2">
+		<text>Притащить хвост псевдособаки</text>
+	</string>
+	<string id="tm_monster_part_2_descr">
+		<text>Притащить хвост псевдособаки</text>
+	</string>
+	<string id="tm_monster_part_2_text">
+		<text>Зима скоро. А что зимой там, на большой земле, бабы носить любят? Правильно! Меха носить они любят. Вот и пошла мода новая, из хвостов псевдо собак аксессуары всякие делать. Шерсть там какая то особенная! Короче, есть заказ на такой хвост. Возьмешься?</text>
+	</string>
+	<string id="vip">
+		<text>Я по поводу задания.</text>
+	</string>
+	<string id="vozm">
+		<text>Берусь.</text>
+	</string>
+
+	<string id="prinesi_military_docs_start_0">
+		<text>Здорова Сидорович! Есть для меня какая-нибудь работа?</text>
+	</string>
+	 <string id="prinesi_military_docs_start_1">
+		<text>Есть кое-что, говорят военные задумали что-то по захвату некоторых территорий Зоны, и здесь, на блок-посте лежат те самые документы с их планами, мне нужны эти документы.</text>
+	</string>
+	<string id="prinesi_military_docs_start_21">
+		<text>Берусь</text>
+	</string>
+	<string id="prinesi_military_docs_start_22">
+		<text>Знаешь, пожалуй нет. Мне моя жизнь дорога.</text>
+	</string>
+	<string id="prinesi_military_docs_start_31">
+		<text>Вот и отлично, когда будет готово возвращайся за наградой.</text>
+	</string>
+	<string id="prinesi_military_docs_done_0">
+		<text>Я нашёл их, вот.</text>
+	</string>
+	<string id="prinesi_military_docs_done_1">
+		<text>Вот твоя награда.</text>
+	</string>
+	<string id="zabrat_tovar_0">
+		<text>Мне нужна работа, есть что-нибудь?</text>
+	</string>
+	<string id="zabrat_tovar_1">
+		<text>Есть сталкер один, он нёс мне товар. Но вот вчера он мне сказал, что он не пойдёт на Кордон, и чтобы я послал кого-нибудь у нему. Секёшь о чём я?</text>
+	</string>
+	<string id="zabrat_tovar_21">
+		<text>Я согласен.</text>
+	</string>
+	<string id="zabrat_tovar_22">
+		<text>Сам иди к нему, если так нужно.</text>
+	</string>
+	<string id="zabrat_tovar_31">
+		<text>Ну вот и отлично. Сейчас он в Баре, кличут Сёмой Толстым. И учти, товар мне нужен в целости и сохранности. Хоть что-то будет не так ты пожалеешь.</text>
+	</string>
+	<string id="tovar_orines_0">
+		<text>Вот твой кейс. А идти он сюда не хотел, потому что его на Свалке бандиты грабанули!</text>
+	</string>
+	<string id="tovar_orines_1">
+		<text>Кто бы сомневался. Дальше тебя не касается, вот твоя награда и проваливай.</text>
+	</string>
+</string_table>

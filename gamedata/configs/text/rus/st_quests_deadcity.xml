@@ -26,7 +26,7 @@
 	<string id="cit_killers_merc_trader_stalker_task_2_finish">
 		<text>Отличная работа, боец.</text>
 	</string>
-	<!-- FIND LEVEL 1 TOOLS FOR HOG TASK -->
+	<!-- FIND LEVEL 1 TOOLS FOR ROLL TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_1_name">
 		<text>Найти Роллу %s</text>
 	</string>
@@ -42,12 +42,12 @@
 	<string id="cit_killers_merc_mechanic_stalker_task_1_fetch_finish">
 		<text>Неплохо, именно то, что я искал.</text>
 	</string>
-	<!-- FIND LEVEL 2 TOOLS FOR HOG TASK -->
+	<!-- FIND LEVEL 2 TOOLS FOR ROLL TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_2_name">
-		<text>Найти Хогу %s</text>
+		<text>Найти Роллу %s</text>
 	</string>
 	<string id="cit_killers_merc_mechanic_stalker_task_2_text">
-		<text>Необходимо достать %s и отнести их Хогу. Технику нужны инструменты получше.</text>
+		<text>Необходимо достать %s и отнести их Роллу. Технику нужны инструменты получше.</text>
 	</string>
 	<string id="cit_killers_merc_mechanic_stalker_task_2_about">
 		<text>Есть ещё одно предложение. Тот ремнабор, что ты мне принес, конечно, хорош, но в нём есть не всё, что мне нужно. Сможешь найти мне набор получше?</text>
@@ -58,12 +58,12 @@
 	<string id="cit_killers_merc_mechanic_stalker_task_2_fetch_finish">
 		<text>Спасибо. Порадовал.</text>
 	</string>
-	<!-- FIND LEVEL 3 TOOLS FOR HOG TASK -->
+	<!-- FIND LEVEL 3 TOOLS FOR ROLL TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_3_name">
-		<text>Найти Хогу %s</text>
+		<text>Найти Роллу %s</text>
 	</string>
 	<string id="cit_killers_merc_mechanic_stalker_task_3_text">
-		<text>Необходимо достать %s и отнести их Хогу. Технику нужны наилучшие инструменты.</text>
+		<text>Необходимо достать %s и отнести их Роллу. Технику нужны наилучшие инструменты.</text>
 	</string>
 	<string id="cit_killers_merc_mechanic_stalker_task_3_about">
 		<text>Есть ещё одно предложение. Тот второй ремнабор, что ты мне принес, конечно, хорош, но и в нём кое-чего недостаёт. Сможешь найти мне набор получше?</text>

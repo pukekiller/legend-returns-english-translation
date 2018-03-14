@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<string id="csky_start_new_story_name">
-		<text>По следам Стрелка</text>
+    <string id="csky_start_new_story_name">
+	    <text>По следам Стрелка</text>
 	</string>
 	<string id="csky_start_new_story_descr">
-		<text>Найти любую информацию по Стрелку в подземельях НИИ «Медприбор»</text>
+	    <text>Найти любую информацию по Стрелку в подземельях НИИ «Медприбор»</text>
 	</string>
 	<string id="csky_start_new_story_descr_0">
-		<text>Отдать найденую информацию Ведрову</text>
+	    <text>Отдать найденую информацию Ведрову</text>
 	</string>
 	<string id="csky_start_first_story_descr">
-		<text>Найти записку, адресованную Стрелку, которая находится где-то на Ростке. Если быть точнее, то следует искать где-то в недостроенном здании.</text>
+	    <text>Найти записку, адресованную Стрелку, которая находится где-то на Ростке. Если быть точнее, то следует искать где-то в недостроенном здании.</text>
 	</string>
 	<string id="csky_start_first_story_descr_0">
-		<text>Отдать записку Ведрову</text>
+	    <text>Отдать записку Ведрову</text>
 	</string>
 	<string id="talk_to_sidor_descr">
-		<text>Поговорить с Сидоровичем</text>
+	    <text>Поговорить с Сидоровичем</text>
 	</string>
 	<string id="kill_stalker_for_sidor_descr">
-		<text>Убить «торгового представителя»</text>
+	    <text>Убить «торгового представителя»</text>
 	</string>
 	<string id="kill_stalker_for_sidor_descr_0">
-		<text>Вернуться к Сидоровичу</text>
+	    <text>Вернуться к Сидоровичу</text>
 	</string>
 	<string id="talk_to_csky_mechanik_descr">
-		<text>Поговорить с Новиковым насчёт расшифровки КПК</text>
+	    <text>Поговорить с Новиковым насчёт расшифровки КПК</text>
 	</string>
 	<string id="kill_the_strelok_name">
-		<text>Найти Стрелка</text>
+	    <text>Найти Стрелка</text>
 	</string>
 	<string id="kill_the_strelok_descr">
-		<text>Стрелок скрывается где-то на Затоне, необходимо найти его и ликвидировать.</text>
+	    <text>Стрелок скрывается где-то на Затоне, необходимо найти его и ликвидировать.</text>
 	</string>
 	<string id="kill_the_strelok_descr_0">
-		<text>Доложить Ведрову о выполненом задании</text>
+	    <text>Доложить Ведрову о выполненом задании</text>
 	</string>
 	<string id="talk_to_vedrov_descr">
-		<text>Рассказать Ведрову о примерном местоположении Стрелка</text>
+	    <text>Рассказать Ведрову о примерном местоположении Стрелка</text>
 	</string>
 	<string id="poisk_propavshih_name">
-		<text>Поиск пропавших</text>
+	    <text>Поиск пропавших</text>
 	</string>
 	<string id="poisk_propavshih_descr">
-		<text>Найти пропавший отряд разведчиков</text>
+	    <text>Найти пропавший отряд разведчиков</text>
 	</string>
 	<string id="poisk_propavshih_descr_0">
-		<text>Доложить Ведрову</text>
+	    <text>Доложить Ведрову</text>
 	</string>
 	<string id="poisk_info_name">
-		<text>Найти спасённого сталкера</text>
+	    <text>Найти спасённого сталкера</text>
 	</string>
 	<string id="poisk_info_descr">
-		<text>Найти спасённого Чистым Небом сталкера</text>
+	    <text>Найти спасённого Чистым Небом сталкера</text>
 	</string>
 	<string id="poisk_info_descr_0">
-		<text>Доложить Ведрову</text>
+	    <text>Доложить Ведрову</text>
 	</string>
 	<string id="talk_to_csky_mechanik_name">
-		<text>Поговорить с Новиковым</text>
-	</string>
+        <text>Поговорить с Новиковым</text>
+    </string>
 	<string id="talk_to_csky_mechanik_1_descr">
-		<text>Поговорить с Новиковым насчёт ремонта КПК</text>
+	    <text>Поговорить с Новиковым насчёт ремонта КПК</text>
 	</string>
 	<string id="talk_to_vedrov_2_name">
-		<text>Поговорить с Ведровым</text>
+	    <text>Поговорить с Ведровым</text>
 	</string>
 	<string id="talk_to_vedrov_2_descr">
-		<text>Доложить Ведрову о полученой информации</text>
+	    <text>Доложить Ведрову о полученой информации</text>
 	</string>
 	<string id="talk_to_osvedomitel_name">
-		<text>Поговорить с Осведомителем</text>
+	    <text>Поговорить с Осведомителем</text>
 	</string>
 	<string id="talk_to_osvedomitel_descr">
-		<text>Узнать у Осведомителя про наёмника Шрама</text>
+	    <text>Узнать у Осведомителя про наёмника Шрама</text>
 	</string>
 	<string id="poisk_stepana_task_name">
-		<text>Найти пропавшего сталкера</text>
+	    <text>Найти пропавшего сталкера</text>
 	</string>
 	<string id="poisk_stepana_task_descr">
-		<text>Найти Степана Бесстрашного по просьбе Осведомителя</text>
+	    <text>Найти Степана Бесстрашного по просьбе Осведомителя</text>
 	</string>
 	<string id="poisk_stepana_task_descr_0">
-		<text>Рассказать Осведомителю о смерти его друга</text>
+	    <text>Рассказать Осведомителю о смерти его друга</text>
 	</string>
 	<string id="talk_to_shram_task_name">
-		<text>Найти наёмника Шрама</text>
+	    <text>Найти наёмника Шрама</text>
 	</string>
 	<string id="talk_to_shram_task_descr">
-		<text>Встретиться со Шрамом и узнать все подробности того рокового дня</text>
+	    <text>Встретиться со Шрамом и узнать все подробности того рокового дня</text>
 	</string>
 	<string id="talk_to_csky_leader_name">
-		<text>Доложить Ведрову</text>
+	    <text>Доложить Ведрову</text>
 	</string>
 	<string id="talk_to_csky_leader_descr">
-		<text>Рассказать Ведрову про Шрама и гибель отрядов</text>
+	    <text>Рассказать Ведрову про Шрама и гибель отрядов</text>
 	</string>
 	
 	<string id="csky_sever_case_poisk_name">
-		<text>Найти похищеный ящик</text>
+	    <text>Найти похищеный ящик</text>
 	</string>
 	<string id="csky_sever_case_poisk_descr">
-		<text>Найти ящик, украденный неизвестными грабителями</text>
+	    <text>Найти ящик, украденный неизвестными грабителями</text>
 	</string>
 	<string id="csky_sever_case_poisk_descr_0">
-		<text>Отдать ящик Сове</text>
+	    <text>Отдать ящик Сове</text>
 	</string>
 	<string id="kill_the_killers_sever_name">
-		<text>Предотвратить переговоры Свободы и Наёмников</text>
+	    <text>Предотвратить переговоры Свободы и Наёмников</text>
 	</string>
 	<string id="kill_the_killers_sever_descr">
-		<text>Убить наёмников</text>
+	    <text>Убить наёмников</text>
 	</string>
 	<string id="kill_the_killers_sever_descr_0">
-		<text>Рассказать липовую историю Чёрному</text>
+	    <text>Рассказать липовую историю Чёрному</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_name">
-		<text>Зачистить заброшенный госпиталь</text>
+	    <text>Зачистить заброшенный госпиталь</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_descr">
-		<text>Ликвидировать неверных в заброшенном госпитале</text>
+	    <text>Ликвидировать неверных в заброшенном госпитале</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_descr_0">
-		<text>Доложить Проповеднику</text>
+	    <text>Доложить Проповеднику</text>
 	</string>	
 	<string id="esc_military_docs_task_name">
 		<text>Выкрасть документы с блок-поста</text>

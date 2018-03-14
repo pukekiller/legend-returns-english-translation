@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-
-<!--===========================================================
-<
-< QUESTS FOR HABARWIK (COLLECTOR)
-<
-<===========================================================-->
-
 <string_table>
-<string id="army_task_title_1">
+	<!--===========================================================
+	<
+	< QUESTS FOR HABARWIK (COLLECTOR)
+	<
+	<===========================================================-->
+
+	<string id="army_task_title_1">
 		<text>Поиск документов</text>
 	</string>
-<string id="army_task_text_1">
+	<string id="army_task_text_1">
 		<text>Найти документы в заброшенных лабораториях.</text>
-</string>
+	</string>
 
 	<string id="bar_visitors_barman_stalker_trader_task_3_name">
 		<text>Охота</text>
@@ -26,8 +25,8 @@
 	<string id="bar_visitors_barman_stalker_trader_task_3_finish">
 		<text>Молодец, я доволен.</text>
 	</string>
-	
-<!--kill FOR greh TASK1 -->
+
+	<!-- kill FOR greh TASK1 -->
 
 	<string id="red_voron_task_4_name">
 		<text>Охота на «Монолит»</text>
@@ -41,8 +40,8 @@
 	<string id="red_voron_task_4_finish">
 		<text>Молодец, я доволен.</text>
 	</string>
-	
-<!--kill FOR greh TASK2 -->
+
+	<!-- kill FOR greh TASK2 -->
 
 	<string id="red_voron_task_5_name">
 		<text>Зачистка</text>
@@ -56,7 +55,7 @@
 	<string id="red_voron_task_5_finish">
 		<text>Отлично. Теперь эти черви будут знать, что Зона - им не место.</text>
 	</string>
-	
+
 	<string id="red_kurkul_task_2_name">
 		<text>Охота на паразитов Зоны</text>
 	</string>
@@ -72,7 +71,7 @@
 	<string id="red_kurkul_task_2_fetch_finish">
 		<text>Хорошо сработано.</text>
 	</string>
-	
+
 	<string id="red_kurkul_task_3_name">
 		<text>Охота на паразитов Зоны</text>
 	</string>
@@ -80,203 +79,203 @@
 		<text>Нужно достать %s.</text>
 	</string>
 	<string id="red_kurkul_task_3_about">
-		<text>Нужно достать %s. Возьмешься?</text>
+		<text>Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="red_kurkul_task_3_fetch_about">
-		<text>Нужно достать %s. Возьмешься?</text>
+		<text>Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="red_kurkul_task_3_fetch_finish">
 		<text>Хорошо сработано.</text>
 	</string>
-	
-<!--асперен -->
 
-	<string id="prapor_3_task_name_0"> 
-       <text>На побегушках : Передать документы капитану</text> 
-</string> 
-<string id="prapor_3_task_text_0"> 
-       <text>СБУшник решил дать мне проверку, я должен доставить важные документы командиру военных на Агропроме. С другой стороны, информаторы в Зоне думаю щедро заплатят за эти документы.</text> 
-</string> 
-<string id="prapor_3_task_name_1"> 
-       <text>На побегушках: Отчитаться Прапору</text> 
-</string> 
-<string id="prapor_3_task_text_1"> 
-       <text>Документы доставлены, теперь нужно вернуться к Прапору.</text> 
-</string>
+	<!-- асперен -->
+
+	<string id="prapor_3_task_name_0">
+		<text>На побегушках : Передать документы капитану</text>
+	</string>
+	<string id="prapor_3_task_text_0">
+		<text>СБУшник решил дать мне проверку, я должен доставить важные документы командиру военных на Агропроме. С другой стороны, информаторы в Зоне думаю щедро заплатят за эти документы.</text>
+	</string>
+	<string id="prapor_3_task_name_1">
+		<text>На побегушках: Отчитаться Прапору</text>
+	</string>
+	<string id="prapor_3_task_text_1">
+		<text>Документы доставлены, теперь нужно вернуться к Прапору.</text>
+	</string>
 
 
-	<string id="sergant_task_name_0"> 
-       <text>Откуда дятлы в лесу : Встретить отряд</text> 
-</string> 
-<string id="sergant_task_text_0"> 
-       <text>С Радара должен был вернуться отряд, который я бы смог расспросить о Выжигателе. Заодно нужно узнать, почему они так долго задерживаются. Начать поиски стоит со стоянок на холме южнее деревни на Тихих Холмах. Оттуда хороший обзор.</text> 
-</string> 
-<string id="sergant_task_name_1"> 
-       <text>Откуда дятлы в лесу : Доложить Воронину</text> 
-</string> 
-<string id="sergant_task_text_1"> 
-       <text>Рассказы сталкеров о тех, кто вернулся с Радара и тронулся умом, не такой уж вымысел, как я думал. Стоит рассказать об этом Воронину.</text> 
-</string>
+	<string id="sergant_task_name_0">
+		<text>Откуда дятлы в лесу : Встретить отряд</text>
+	</string>
+	<string id="sergant_task_text_0">
+		<text>С Радара должен был вернуться отряд, который я бы смог расспросить о Выжигателе. Заодно нужно узнать, почему они так долго задерживаются. Начать поиски стоит со стоянок на холме южнее деревни на Тихих Холмах. Оттуда хороший обзор.</text>
+	</string>
+	<string id="sergant_task_name_1">
+		<text>Откуда дятлы в лесу : Доложить Воронину</text>
+	</string>
+	<string id="sergant_task_text_1">
+		<text>Рассказы сталкеров о тех, кто вернулся с Радара и тронулся умом, не такой уж вымысел, как я думал. Стоит рассказать об этом Воронину.</text>
+	</string>
 
-	<string id="dolg_task_title_0"> 
-       <text>Смена власти : Ливкидировать Миклуху</text> 
-</string> 
-<string id="dolg_task_text_0"> 
-       <text>Генерал Воронин поручил мне задание устранить лидера Свободы, Миклуху. Он - преграда для «нашего» человека, чье имя мне неизвестно. Нужно так же пообщаться с Аспирином для деталей миссии.</text> 
-</string> 
-<string id="dolg_task_title_1"> 
-       <text>Смена власти : Доложить о выполнении</text> 
-</string> 
-<string id="dolg_task_text_1"> 
-       <text>Задание выполнено, Миклуха мёртв. Теперь Свобода будет искать нового лидера, а мне нужно идти за наградой, предварительно вернув Аспирину винтовку.</text> 
-</string>
+	<string id="dolg_task_title_0">
+		<text>Смена власти : Ливкидировать Миклуху</text>
+	</string>
+	<string id="dolg_task_text_0">
+		<text>Генерал Воронин поручил мне задание устранить лидера Свободы, Миклуху. Он - преграда для «нашего» человека, чьё имя мне неизвестно. Нужно так же пообщаться с Аспирином для деталей миссии.</text>
+	</string>
+	<string id="dolg_task_title_1">
+		<text>Смена власти : Доложить о выполнении</text>
+	</string>
+	<string id="dolg_task_text_1">
+		<text>Задание выполнено, Миклуха мёртв. Теперь Свобода будет искать нового лидера, а мне нужно идти за наградой, предварительно вернув Аспирину винтовку.</text>
+	</string>
 
-<!--асперен 7-->
-	<string id="voronin_first_task_name_0"> 
-       <text>Первое дело : Отыскать разведчика</text> 
-</string> 
-<string id="voronin_first_task_text_0"> 
-       <text>На юго-востоке Свалки, в лесу пропал разведчик, нужно найти его или то, что он него осталось.</text> 
-</string> 
-<string id="voronin_first_task_name_1"> 
-       <text>Первое дело : Рассказать о судьбе разведчика</text> 
-</string> 
-<string id="voronin_first_task_text_1"> 
-       <text>Задание выполнено, нужно доложить начальству.</text> 
-</string>
+	<!-- асперен 7 -->
+	<string id="voronin_first_task_name_0">
+		<text>Первое дело : Отыскать разведчика</text>
+	</string>
+	<string id="voronin_first_task_text_0">
+		<text>На юго-востоке Свалки, в лесу пропал разведчик, нужно найти его или то, что он него осталось.</text>
+	</string>
+	<string id="voronin_first_task_name_1">
+		<text>Первое дело : Рассказать о судьбе разведчика</text>
+	</string>
+	<string id="voronin_first_task_text_1">
+		<text>Задание выполнено, нужно доложить начальству.</text>
+	</string>
 
-<string id="voronin_prefirst_task_name_0"> 
-       <text>Обноски : Забрать снарягу</text> 
-</string> 
-<string id="voronin_prefirst_task_text_0"> 
-       <text>На Кладбище Техники у аномалии в овраге стоит КамАЗ. Там должно быть нужное мне снаряжение.</text> 
-</string> 
-<string id="voronin_prefirst_task_name_1"> 
-       <text>Обноски : Вернуться к генералу</text> 
-</string> 
-<string id="voronin_prefirst_task_text_1"> 
-       <text>Задание выполнено, нужно доложить начальству.</text> 
-</string>
+	<string id="voronin_prefirst_task_name_0">
+		<text>Обноски : Забрать снарягу</text>
+	</string>
+	<string id="voronin_prefirst_task_text_0">
+		<text>На Кладбище Техники у аномалии в овраге стоит КамАЗ. Там должно быть нужное мне снаряжение.</text>
+	</string>
+	<string id="voronin_prefirst_task_name_1">
+		<text>Обноски : Вернуться к генералу</text>
+	</string>
+	<string id="voronin_prefirst_task_text_1">
+		<text>Задание выполнено, нужно доложить начальству.</text>
+	</string>
 
-<!--асперен 6-->
-<string id="voronin_2_task_name_0"> 
-       <text>Убить в зародише</text> 
-</string> 
-<string id="voronin_2_task_text_0"> 
-       <text>Недалеко, на севере от завода на МедПриборе были замечены необычные кровососы, нужно проверить правда это или нет.</text> 
-</string> 
-<string id="voronin_2_task_name_1"> 
-       <text>Убить в зародыше: Выполнено</text> 
-</string> 
-<string id="voronin_2_task_text_1"> 
-       <text>Кровосос оказался всего один, но, видимо, с пси-способностями. Надеюсь, этот был единственным.</text> 
-</string>
-<!--асперен 7-->
-<string id="tm_lukash_vstrecha_name_0"> 
-       <text>Волк в шкуре анархиста</text> 
-</string> 
-<string id="tm_lukash_vstrecha_text_0"> 
-       <text>В домике на окраине города меня будет ждать агент с позывным Лукаш, на юго-западе. Нужно встретиться с ним и помочь ему стать новым лидером Свободы.</text> 
-</string> 
+	<!-- асперен 6 -->
+	<string id="voronin_2_task_name_0">
+		<text>Убить в зародише</text>
+	</string>
+	<string id="voronin_2_task_text_0">
+		<text>Недалеко, на севере от завода на МедПриборе были замечены необычные кровососы, нужно проверить правда это или нет.</text>
+	</string>
+	<string id="voronin_2_task_name_1">
+		<text>Убить в зародыше: Выполнено</text>
+	</string>
+	<string id="voronin_2_task_text_1">
+		<text>Кровосос оказался всего один, но, видимо, с пси-способностями. Надеюсь, этот был единственным.</text>
+	</string>
+	<!-- асперен 7 -->
+	<string id="tm_lukash_vstrecha_name_0">
+		<text>Волк в шкуре анархиста</text>
+	</string>
+	<string id="tm_lukash_vstrecha_text_0">
+		<text>В домике на окраине города меня будет ждать агент с позывным Лукаш, на юго-западе. Нужно встретиться с ним и помочь ему стать новым лидером Свободы.</text>
+	</string>
 
-<string id="join_to_cs_name_0"> 
-       <text>Дезертир</text> 
-</string> 
-<string id="join_to_cs_text_0"> 
-       <text>К чертям этот «Долг»! Чистое небо - вот где я нужен, а не этим подстилкам военных.</text> 
-</string> 
-<string id="prapor_task_name_0"> 
-       <text>Какого цвета небо над головою?</text> 
-</string> 
-<string id="prapor_task_text_0"> 
-       <text>Сталкеры, что расположились на заводе, привлекли внимание СБУ. Нужно разузнать их цели. Стоит расспросить завсегдатаев лагеря.</text> 
-</string> 
-<string id="prapor_task_name_1"> 
-       <text>Небо Чистого цвета</text> 
-</string> 
-<string id="prapor_task_text_1"> 
-       <text>Мне нужно вернуться и сдать информацию о Чистом небо. Или оставить их цели в тайне...</text> 
-</string>
+	<string id="join_to_cs_name_0">
+		<text>Дезертир</text>
+	</string>
+	<string id="join_to_cs_text_0">
+		<text>К чертям этот «Долг»! Чистое небо - вот где я нужен, а не этим подстилкам военных.</text>
+	</string>
+	<string id="prapor_task_name_0">
+		<text>Какого цвета небо над головою?</text>
+	</string>
+	<string id="prapor_task_text_0">
+		<text>Сталкеры, что расположились на заводе, привлекли внимание СБУ. Нужно разузнать их цели. Стоит расспросить завсегдатаев лагеря.</text>
+	</string>
+	<string id="prapor_task_name_1">
+		<text>Небо Чистого цвета</text>
+	</string>
+	<string id="prapor_task_text_1">
+		<text>Мне нужно вернуться и сдать информацию о Чистом небо. Или оставить их цели в тайне...</text>
+	</string>
 
-<!--асперен 7-->
-<string id="prapor_2_task_name_0"> 
-       <text>Казнить нельзя помиловать</text> 
-</string> 
-<string id="prapor_2_task_text_0"> 
-       <text>Необходимо устранить лидера Чистого неба, либо предупредить его.</text> 
-</string> 
-<string id="prapor_2_task_name_1"> 
-       <text>Казнить! Нельзя помиловать.</text> 
-</string> 
-<string id="prapor_2_task_text_1"> 
-       <text>Лидер клана убит. Мне нужно доложиться Прапору.</text> 
-</string>
-<string id="prapor_21_task_name_1"> 
-       <text>Казнить нельзя! Помиловать.</text> 
-</string> 
-<string id="prapor_21_task_text_1"> 
-       <text>Лидер клана пощажен. Мне нужно доложиться Прапору.</text> 
-</string>
-<!--асперен 5-->
-	<string id="maddog_4_task_name_0"> 
-       <text>Секретные материалы</text> 
-</string> 
-<string id="maddog_4_task_text_0"> 
-       <text>Из информации Крота удалось определить местоположение предполагаемых документов или чего либо. Это в одной из вентиляционных труб, в катакомбах.</text> 
-</string> 
-<string id="maddog_4_task_name_1"> 
-       <text>Лицом к лицу</text> 
-</string> 
-<string id="maddog_4_task_text_1"> 
-       <text>Я нашел какой-то огнеупорный кейс. Судя по содержимому - это точно то, что мы ищем. Нужно доставить документы заказчику, пароль - Dwarf swims, but he says Hello.</text> 
-</string>
+	<!-- асперен 7 -->
+	<string id="prapor_2_task_name_0">
+		<text>Казнить нельзя помиловать</text>
+	</string>
+	<string id="prapor_2_task_text_0">
+		<text>Необходимо устранить лидера Чистого неба, либо предупредить его.</text>
+	</string>
+	<string id="prapor_2_task_name_1">
+		<text>Казнить! Нельзя помиловать.</text>
+	</string>
+	<string id="prapor_2_task_text_1">
+		<text>Лидер клана убит. Мне нужно доложиться Прапору.</text>
+	</string>
+	<string id="prapor_21_task_name_1">
+		<text>Казнить нельзя! Помиловать.</text>
+	</string>
+	<string id="prapor_21_task_text_1">
+		<text>Лидер клана пощажён. Мне нужно доложиться Прапору.</text>
+	</string>
+	<!-- асперен 5 -->
+	<string id="maddog_4_task_name_0">
+		<text>Секретные материалы</text>
+	</string>
+	<string id="maddog_4_task_text_0">
+		<text>Из информации Крота удалось определить местоположение предполагаемых документов или чего либо. Это в одной из вентиляционных труб, в катакомбах.</text>
+	</string>
+	<string id="maddog_4_task_name_1">
+		<text>Лицом к лицу</text>
+	</string>
+	<string id="maddog_4_task_text_1">
+		<text>Я нашёл какой-то огнеупорный кейс. Судя по содержимому - это точно то, что мы ищем. Нужно доставить документы заказчику, пароль - Dwarf swims, but he says Hello.</text>
+	</string>
 
-<!--асперен 4-->
-	<string id="maddog_3_task_title_0"> 
-       <text>Поиск</text> 
-</string> 
-<string id="maddog_3_task_text_0"> 
-       <text>Нужно найти сталкера, который нашел что-то или бывал в катакомбах МедПрибора. Начать стоит с Бара.</text> 
-</string> 
-<string id="maddog_3_task_title_1"> 
-       <text>Напоить Крота</text> 
-</string> 
-<string id="maddog_3_task_text_1"> 
-       <text>Этим сталкером оказался Крот. Нужно как-то выудить у него информацию, для этого хорошо подойдут три пузырька с сывороткой правды «Казаки».</text> 
-</string>
-<string id="maddog_3_task_title_2"> 
-       <text>Вернуться за наградой</text> 
-</string> 
-<string id="maddog_3_task_text_2"> 
-       <text>Крот не заставил себя долго ждать. Нужно показать карту Мэд Догу.</text> 
-</string>
-<!--асперен 3-->
-	<string id="maddog_task_title_0"> 
-       <text>Первый заказ</text> 
-</string> 
-<string id="maddog_task_text_0"> 
-       <text>Вот и первое серьезное дело. Нужно прикончить перебежчика из Синдиката, какого-то долговца. Если всё сделать аккуратно, меня даже не заметят</text> 
-</string> 
-<string id="maddog_task_title_1"> 
-       <text>Первый заказ</text> 
-</string> 
-<string id="maddog_task_text_1"> 
-       <text>Сержант Вилкаманов мертв, а меня ждет награда</text> 
-</string>
-<!--асперен 2-->
-	<string id="maddog_first_task_name_0"> 
-       <text>Обновление гардероба</text> 
-</string> 
-<string id="maddog_first_task_text_0"> 
-       <text>Командир поручил мне найти костюм Долга для будущего задания. Он указал на местного торговца Жабу, стоит поискать у него.</text> 
-</string> 
-<string id="maddog_first_task_name_1"> 
-       <text>Обновление гардероба</text> 
-</string> 
-<string id="maddog_first_task_text_1"> 
-       <text>Костюм у меня. Теперь нужно вернуться за наградой и дальнейшими указаниями.</text> 
-</string>
-<!-- DEFEND TERRITORY FOR monics TASK2 -->
+	<!-- асперен 4 -->
+	<string id="maddog_3_task_title_0">
+		<text>Поиск</text>
+	</string>
+	<string id="maddog_3_task_text_0">
+		<text>Нужно найти сталкера, который нашёл что-то или бывал в катакомбах МедПрибора. Начать стоит с Бара.</text>
+	</string>
+	<string id="maddog_3_task_title_1">
+		<text>Напоить Крота</text>
+	</string>
+	<string id="maddog_3_task_text_1">
+		<text>Этим сталкером оказался Крот. Нужно как-то выудить у него информацию, для этого хорошо подойдут три пузырька с сывороткой правды «Казаки».</text>
+	</string>
+	<string id="maddog_3_task_title_2">
+		<text>Вернуться за наградой</text>
+	</string>
+	<string id="maddog_3_task_text_2">
+		<text>Крот не заставил себя долго ждать. Нужно показать карту Мэд Догу.</text>
+	</string>
+	<!-- асперен 3 -->
+	<string id="maddog_task_title_0">
+		<text>Первый заказ</text>
+	</string>
+	<string id="maddog_task_text_0">
+		<text>Вот и первое серьёзное дело. Нужно прикончить перебежчика из Синдиката, какого-то долговца. Если всё сделать аккуратно, меня даже не заметят</text>
+	</string>
+	<string id="maddog_task_title_1">
+		<text>Первый заказ</text>
+	</string>
+	<string id="maddog_task_text_1">
+		<text>Сержант Вилкаманов мёртв, а меня ждёт награда</text>
+	</string>
+	<!-- асперен 2 -->
+	<string id="maddog_first_task_name_0">
+		<text>Обновление гардероба</text>
+	</string>
+	<string id="maddog_first_task_text_0">
+		<text>Командир поручил мне найти костюм Долга для будущего задания. Он указал на местного торговца Жабу, стоит поискать у него.</text>
+	</string>
+	<string id="maddog_first_task_name_1">
+		<text>Обновление гардероба</text>
+	</string>
+	<string id="maddog_first_task_text_1">
+		<text>Костюм у меня. Теперь нужно вернуться за наградой и дальнейшими указаниями.</text>
+	</string>
+	<!-- DEFEND TERRITORY FOR monics TASK2 -->
 
 	<string id="pri_haron_task_4_name">
 		<text>Упреждающий удар</text>
@@ -290,8 +289,8 @@
 	<string id="pri_haron_task_4_finish">
 		<text>Задание выполнено. Да осветит Монолит твой путь.</text>
 	</string>
-	
-<!-- DEFEND TERRITORY FOR monics TASK3 -->
+
+	<!-- DEFEND TERRITORY FOR monics TASK3 -->
 
 	<string id="pri_haron_task_5_name">
 		<text>Бой с неверными</text>
@@ -305,7 +304,7 @@
 	<string id="pri_haron_task_5_finish">
 		<text>Задание выполнено. Да осветит Монолит твой путь.</text>
 	</string>
-<!-- art FOR cs TASK -->
+	<!-- art FOR cs TASK -->
 
 	<string id="agr_stalker_leader_task_5_name">
 		<text>Поиск артефакта</text>
@@ -314,15 +313,15 @@
 		<text>Нужно достать %s.</text>
 	</string>
 	<string id="agr_stalker_leader_task_5_about">
-		<text>Пришел заказ на определенный артефакт. Нужно достать %s. Возьмешься?</text>
+		<text>Пришёл заказ на определённый артефакт. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="agr_stalker_leader_task_5_fetch_about">
-		<text>Пришел заказ на определенный артефакт. Нужно достать %s. Возьмешься?</text>
+		<text>Пришёл заказ на определённый артефакт. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="agr_stalker_leader_task_5_fetch_finish">
 		<text>Хорошо сработано. Миру чистое небо.</text>
 	</string>
-	
+
 	<!-- mutantpart FOR cs TASK -->
 
 	<string id="agr_stalker_leader_task_6_name">
@@ -332,16 +331,16 @@
 		<text>Нужно достать %s.</text>
 	</string>
 	<string id="agr_stalker_leader_task_6_about">
-		<text>Нам для исследования нужны некоторые образцы. Нужно достать %s. Возьмешься?</text>
+		<text>Нам для исследования нужны некоторые образцы. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="agr_stalker_leader_task_6_fetch_about">
-		<text>Нам для исследования нужны некоторые образцы. Нужно достать %s. Возьмешься?</text>
+		<text>Нам для исследования нужны некоторые образцы. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="agr_stalker_leader_task_6_fetch_finish">
 		<text>Хорошо сработано. Миру чистое небо.</text>
 	</string>
 
-<!-- DEFEND TERRITORY FOR lolg TASK2 -->
+	<!-- DEFEND TERRITORY FOR lolg TASK2 -->
 
 	<string id="bar_dolg_general_petrenko_stalker_task_5_name">
 		<text>Война со свободой</text>
@@ -350,13 +349,13 @@
 		<text>Поставлена задача нейтрализовать лагерь группировки «Свобода».</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_5_about">
-		<text>Эти анархисты разбили здесь лагерь. Их нужно убрать, координаты я скину на твой ПДА. Возьмешься?</text>
+		<text>Эти анархисты разбили здесь лагерь. Их нужно убрать, координаты я скину на твой ПДА. Возьмёшься?</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_5_finish">
 		<text>Задание выполнено в срок. Слава «Долгу».</text>
 	</string>
-	
-<!-- DEFEND TERRITORY FOR freedom TASK2 -->
+
+	<!-- DEFEND TERRITORY FOR freedom TASK2 -->
 
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_51_name">
 		<text>Война с монолитом</text>
@@ -365,28 +364,28 @@
 		<text>Поставлена задача нейтрализовать лагерь группировки «Монолит».</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_51_about">
-		<text>Фанатики разбили тут лагерь. Их нужно убрать, координаты я скину на твой ПДА. Возьмешься?</text>
+		<text>Фанатики разбили тут лагерь. Их нужно убрать, координаты я скину на твой ПДА. Возьмёшься?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_51_finish">
-		<text>Хорошо сработано. Свобода всем даром.</text>
+		<text>Хорошо сработано. Свобода всём даром.</text>
 	</string>
-	
-<!-- DEFEND TERRITORY FOR freedom TASK3 -->
+
+	<!-- DEFEND TERRITORY FOR freedom TASK3 -->
 
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_61_name">
-		<text>Охота на наемника</text>
+		<text>Охота на наёмника</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_61_text">
 		<text>Поставлена задача нейтрализовать члена группировки группировки «Наемники».</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_61_about">
-		<text>Один наемник серьезно насолил нашему делу. Его нужно убрать. Возьмешься?</text>
+		<text>Один наёмник серьёзно насолил нашему делу. Его нужно убрать. Возьмёшься?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_61_finish">
-		<text>Хорошо сработано. Свобода всем даром.</text>
+		<text>Хорошо сработано. Свобода всём даром.</text>
 	</string>
-	
-<!-- art FOR freedom TASK -->
+
+	<!-- art FOR freedom TASK -->
 
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_71_name">
 		<text>Поиск артефакта</text>
@@ -395,16 +394,16 @@
 		<text>Нужно достать %s.</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_71_about">
-		<text>Пришел заказ на определенный артефакт. Нужно достать %s. Возьмешься?</text>
+		<text>Пришёл заказ на определённый артефакт. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_71_fetch_about">
-		<text>Пришел заказ на определенный артефакт. Нужно достать %s. Возьмешься?</text>
+		<text>Пришёл заказ на определённый артефакт. Нужно достать %s. Возьмёшься?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_71_finish">
-		<text>Хорошо сработано. Свобода всем даром.</text>
+		<text>Хорошо сработано. Свобода всём даром.</text>
 	</string>
-	
-<!-- DEFEND TERRITORY FOR lolg TASK3 -->
+
+	<!-- DEFEND TERRITORY FOR lolg TASK3 -->
 
 	<string id="bar_dolg_general_petrenko_stalker_task_6_name">
 		<text>Война с Монолитом</text>
@@ -413,13 +412,13 @@
 		<text>Поставлена задача нейтрализовать лагерь группировки «Монолит».</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_6_about">
-		<text>Эти фанатики из группы «Монолит» представляют серьезную угрозу для порядка в зоне. Нужно  уничтожить их лагерь. Возьмешься?</text>
+		<text>Эти фанатики из группы «Монолит» представляют серьёзную угрозу для порядка в зоне. Нужно уничтожить их лагерь. Возьмёшься?</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_6_finish">
 		<text>Задание выполнено в срок. Слава «Долгу».</text>
 	</string>
-	
-<!-- DEFEND TERRITORY FOR lolg TASK4 -->
+
+	<!-- DEFEND TERRITORY FOR lolg TASK4 -->
 
 	<string id="bar_dolg_general_petrenko_stalker_task_7_name">
 		<text>Охота</text>
@@ -428,13 +427,13 @@
 		<text>Уничтожить логово опасных мутантов.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_7_about">
-		<text>Обнаружено логово опасных мутантов, которое следует зачистить. Возьмешься?</text>
+		<text>Обнаружено логово опасных мутантов, которое следует зачистить. Возьмёшься?</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_7_finish">
 		<text>Задание выполнено в срок. Слава «Долгу».</text>
 	</string>
-	
-<!-- Охота на слизней -->
+
+	<!-- Охота на слизней -->
 
 	<string id="bar_dolg_general_petrenko_stalker_task_8_name">
 		<text>Чистка от слизней</text>
@@ -443,13 +442,13 @@
 		<text>Убить слизня.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_8_about">
-		<text>«Слизней» знаешь? Ну это те, кого больше ни в какие кланы не берут. В общем отбросы. Есть задание на нейтрализацию одного из них. Возьмешься?</text>
+		<text>«Слизней» знаешь? Ну это те, кого больше ни в какие кланы не берут. В общем отбросы. Есть задание на нейтрализацию одного из них. Возьмёшься?</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_8_finish">
 		<text>Задание выполнено в срок. Слава «Долгу».</text>
 	</string>
-	
-<!-- Охота на монолит -->
+
+	<!-- Охота на монолит -->
 
 	<string id="bar_dolg_general_petrenko_stalker_task_9_name">
 		<text>Чистка от фанатиков</text>
@@ -458,30 +457,30 @@
 		<text>Убить фанатика.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_9_about">
-		<text>Один монолитовец вырезал целую нашу группу. Такое нельзя оставлять. Возьмешься?</text>
+		<text>Один монолитовец вырезал целую нашу группу. Такое нельзя оставлять. Возьмёшься?</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_9_finish">
 		<text>Задание выполнено в срок. Слава «Долгу».</text>
 	</string>
-	
-<!-- квесты армии на мутантов1 -->
-<string id="bar_dolg_general_petrenko_stalker_task_10_name">
+
+	<!-- квесты армии на мутантов1 -->
+	<string id="bar_dolg_general_petrenko_stalker_task_10_name">
 		<text>Заказ на мутанта</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_10_text">
 		<text>Нужно достать %s .</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_10_about">
-		<text>Ученым понадобилась одна из частей мутантов %s.</text>
+		<text>Учёным понадобилась одна из частей мутантов %s.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_10_fetch_about">
-		<text>Ученым понадобилась одна из частей мутантов %s.</text>
+		<text>Учёным понадобилась одна из частей мутантов %s.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_10_fetch_finish">
 		<text>Отличная работа.</text>
 	</string>
-	
-<!-- Kuznetsov (Military Honcho) Capture Enemy Combatant Task2 -->
+
+	<!-- Kuznetsov (Military Honcho) Capture Enemy Combatant Task2 -->
 
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_name">
 		<text>Охота на врага!</text>
@@ -490,13 +489,13 @@
 		<text>Поставлена задача нейтрализовать особо опасного врага.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_about">
-		<text>От высшего командования пришел приказ нейтрализовать одного сталкера. Не знаю, чем он так провинился. Возьмешься?</text>
+		<text>От высшего командования пришёл приказ нейтрализовать одного сталкера. Не знаю, чем он так провинился. Возьмёшься?</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_finish">
 		<text>Выдающаяся работа! Командир будет доволен.</text>
 	</string>
 
-<!-- Kuznetsov (Military Honcho) Stop Unauthorized Incursions Task2 -->
+	<!-- Kuznetsov (Military Honcho) Stop Unauthorized Incursions Task2 -->
 
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_name">
 		<text>Зачистка опасного района.</text>
@@ -505,48 +504,48 @@
 		<text>Вам поручено возглавить операцию по зачистке местности.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_about">
-		<text>Пришел приказ зачистить один квадрат в глубине зоны. Берешься?</text>
+		<text>Пришёл приказ зачистить один квадрат в глубине зоны. Берёшься?</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_finish">
 		<text>Отличная работа. </text>
-	</string>	
+	</string>
 
-<!-- квесты армии на мутантов1 -->
-<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_name">
+	<!-- квесты армии на мутантов1 -->
+	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_name">
 		<text>Заказ на мутанта</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_text">
 		<text>Нужно достать %s .</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_about">
-		<text>Ученым понадобилась одна из частей мутантов %s.</text>
+		<text>Учёным понадобилась одна из частей мутантов %s.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_fetch_about">
-		<text>Ученым понадобилась одна из частей мутантов %s.</text>
+		<text>Учёным понадобилась одна из частей мутантов %s.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_fetch_finish">
 		<text>Отличная работа.</text>
 	</string>
-	
+
 	<!-- квесты армии на мутантов2 -->
-<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_name">
+	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_name">
 		<text>Заказ на мутантов</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_text">
 		<text>Нужно достать %s .</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_about">
-		<text>Пойдешь на задание или в патруль, собери %s. Ученым это очень нужно для каких-то исследований.</text>
+		<text>Пойдёшь на задание или в патруль, собери %s. Учёным это очень нужно для каких-то исследований.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_fetch_about">
-		<text>Пойдешь на задание или в патруль, собери %s. Ученым это очень нужно для каких-то исследований.</text>
+		<text>Пойдёшь на задание или в патруль, собери %s. Учёным это очень нужно для каких-то исследований.</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_fetch_finish">
 		<text>Отличная работа.</text>
 	</string>
-	
+
 	<!-- квесты армии на пда -->
-<string id="agr_smart_terrain_1_6_army_trader_stalker_task_8_name">
+	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_8_name">
 		<text>Чистка зоны</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_8_text">
@@ -561,131 +560,131 @@
 	<string id="agr_smart_terrain_1_6_army_trader_stalker_task_8_fetch_finish">
 		<text>Отличная работа.</text>
 	</string>
-	
+
 	<!-- Найти Призрака -->
-	<string id="doctor_prizrak_quest_title_0"> 
-       <text>Пропавшие друзья: Узнать о судьбе группы Стрелка</text> 
-	</string> 
-	<string id="doctor_prizrak_quest_text_0"> 
-       <text>Доктор мне рассказал о своей группе - о Стрелке, Клыке и Призраке. Может, удастся узнать о них хоть какую-то информацию?</text> 
-	</string> 
-	<string id="doctor_prizrak_quest_title_1"> 
-       <text>Пропавшие друзья: Рассказать Доктору о Призраке</text> 
-	</string> 
-	<string id="doctor_prizrak_quest_text_1"> 
-       <text>Призрак жив! Нужно вернуться к Доктору с этой радостной новостью.</text> 
-	</string> 
-	
+	<string id="doctor_prizrak_quest_title_0">
+		<text>Пропавшие друзья: Узнать о судьбе группы Стрелка</text>
+	</string>
+	<string id="doctor_prizrak_quest_text_0">
+		<text>Доктор мне рассказал о своей группе - о Стрелке, Клыке и Призраке. Может, удастся узнать о них хоть какую-то информацию?</text>
+	</string>
+	<string id="doctor_prizrak_quest_title_1">
+		<text>Пропавшие друзья: Рассказать Доктору о Призраке</text>
+	</string>
+	<string id="doctor_prizrak_quest_text_1">
+		<text>Призрак жив! Нужно вернуться к Доктору с этой радостной новостью.</text>
+	</string>
+
 	<!-- Тайна Зоны -->
-	<string id="tz_quest_title_0"> 
-       <text>Тайна Зоны: Узнать загадку возникновения ЧЗО</text> 
-	</string> 
-	<string id="tz_quest_text_0"> 
-       <text>Кто-то пришёл в Зону разбогатеть, а кто-то - порвать все связи с прошлой жизнью... Вы же стремитесь познать истину.</text> 
-	</string> 
-	
+	<string id="tz_quest_title_0">
+		<text>Тайна Зоны: Узнать загадку возникновения ЧЗО</text>
+	</string>
+	<string id="tz_quest_text_0">
+		<text>Кто-то пришёл в Зону разбогатеть, а кто-то - порвать все связи с прошлой жизнью... Вы же стремитесь познать истину.</text>
+	</string>
+
 	<!-- Пропавшая экспедиция -->
-	<string id="sidor_and_army_task_title_0"> 
-       <text>Сотрудничество: Наладить контакт с Сидоровичем</text> 
-	</string> 
-	<string id="sidor_and_army_task_text_0"> 
-       <text>В моих целях мне пригодится знающий человек. Сидорович - фигура известная и уважаемая в сталкерских кругах. Он может помочь мне в разгадке тайны Зоны.</text> 
-	</string> 
-	<string id="sidor_and_army_task_title_1"> 
-       <text>Пропавшая экспедиция: Проверить ангар на Свалке</text> 
-	</string> 
-	<string id="sidor_and_army_task_text_1"> 
-       <text>Экспедиция военных, возможно, нашла что-то важное в ангаре на Свалке... А потом пропали. Моя задача - разузнать об этой экспедиции как можно больше.</text> 
-	</string> 
-	<string id="sidor_and_army_task_title_2"> 
-       <text>Пропавшая экспедиция: Доложить торговцу</text> 
-	</string> 
-	<string id="sidor_and_army_task_text_2"> 
-       <text>Теперь всё предельно ясно. Нужно возвращаться к Сидоровичу.</text> 
-	</string> 
-	
+	<string id="sidor_and_army_task_title_0">
+		<text>Сотрудничество: Наладить контакт с Сидоровичем</text>
+	</string>
+	<string id="sidor_and_army_task_text_0">
+		<text>В моих целях мне пригодится знающий человек. Сидорович - фигура известная и уважаемая в сталкерских кругах. Он может помочь мне в разгадке тайны Зоны.</text>
+	</string>
+	<string id="sidor_and_army_task_title_1">
+		<text>Пропавшая экспедиция: Проверить ангар на Свалке</text>
+	</string>
+	<string id="sidor_and_army_task_text_1">
+		<text>Экспедиция военных, возможно, нашла что-то важное в ангаре на Свалке... А потом пропали. Моя задача - разузнать об этой экспедиции как можно больше.</text>
+	</string>
+	<string id="sidor_and_army_task_title_2">
+		<text>Пропавшая экспедиция: Доложить торговцу</text>
+	</string>
+	<string id="sidor_and_army_task_text_2">
+		<text>Теперь всё предельно ясно. Нужно возвращаться к Сидоровичу.</text>
+	</string>
+
 	<!-- Травка для Дока -->
-	<string id="meet_doc_task_title_0"> 
-       <text>Болотный Доктор: Найти Доктора на Болотах</text> 
-	</string> 
-	<string id="meet_doc_task_text_0"> 
-       <text>Сидорович согласился помочь мне в моём деле и дал наводку на некоего Болотного Доктора. Я должен буду отдать ему посылку с неизвестным содержимым, а потом разговорить его.</text> 
-	</string> 
-	
+	<string id="meet_doc_task_title_0">
+		<text>Болотный Доктор: Найти Доктора на Болотах</text>
+	</string>
+	<string id="meet_doc_task_text_0">
+		<text>Сидорович согласился помочь мне в моём деле и дал наводку на некоего Болотного Доктора. Я должен буду отдать ему посылку с неизвестным содержимым, а потом разговорить его.</text>
+	</string>
+
 	<!-- Спираль для Жабы -->
-	<string id="mil_toad_doverie_task_title_0"> 
-       <text>Доверие: Найти зацепку в поиске «Спирали»</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_text_0"> 
-       <text>Жаба поручил найти артефакт «Спираль», который находится где-то на Тихих Холмах. Также он рассказывал о сталкере «Свободы», который уже занимался поисками, но после выброса связь с ним оборвалась.</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_title_1"> 
-       <text>Доверие: Решить, что предпринять</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_text_1"> 
-       <text>Наёмник по кличке Бешеный Пёс забрал артефакт у «свободовца». Мне нужно решить, как поступить : отнять артефакт у мерков, либо же встать на их сторону...</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_title_2"> 
-       <text>Доверие: Отдать «добычу» Жабе</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_text_2"> 
-       <text>Артефакт у меня. Следует возвращаться к Жабе.</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_title_2_1"> 
-       <text>Доверие: Отдать «добычу» Жабе</text> 
-	</string> 
-	<string id="mil_toad_doverie_task_text_2_1"> 
-       <text>Нужно возвращаться к Жабе и наплести ему что-нибудь.</text> 
-	</string> 
+	<string id="mil_toad_doverie_task_title_0">
+		<text>Доверие: Найти зацепку в поиске «Спирали»</text>
+	</string>
+	<string id="mil_toad_doverie_task_text_0">
+		<text>Жаба поручил найти артефакт «Спираль», который находится где-то на Тихих Холмах. Также он рассказывал о сталкере «Свободы», который уже занимался поисками, но после выброса связь с ним оборвалась.</text>
+	</string>
+	<string id="mil_toad_doverie_task_title_1">
+		<text>Доверие: Решить, что предпринять</text>
+	</string>
+	<string id="mil_toad_doverie_task_text_1">
+		<text>Наёмник по кличке Бешеный Пёс забрал артефакт у «свободовца». Мне нужно решить, как поступить : отнять артефакт у мерков, либо же встать на их сторону...</text>
+	</string>
+	<string id="mil_toad_doverie_task_title_2">
+		<text>Доверие: Отдать «добычу» Жабе</text>
+	</string>
+	<string id="mil_toad_doverie_task_text_2">
+		<text>Артефакт у меня. Следует возвращаться к Жабе.</text>
+	</string>
+	<string id="mil_toad_doverie_task_title_2_1">
+		<text>Доверие: Отдать «добычу» Жабе</text>
+	</string>
+	<string id="mil_toad_doverie_task_text_2_1">
+		<text>Нужно возвращаться к Жабе и наплести ему что-нибудь.</text>
+	</string>
 
 	<!-- val_neum -->
 	<string id="ds2_domik_st_neum_task_1_name">
-		<text>Найти Неумехе %s</text>
+		<text>Найти Неумёхе %s</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_1_text">
-		<text>Необходимо принести Неумехе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
+		<text>Необходимо принести Неумёхе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_1_about">
 		<text>Мне нужна помощь, сталкер. Множество сталкеров приходят ко мне с просьбой починить их оружие, но я не могу. У меня нет для этого подходящих инструментов. Я бы с радостью мог апгрейдить практически любую снарягу, будь у меня нужный набор. Братан, можешь мне с этим помочь?</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_1_fetch_about">
-		<text>Отлично, брат! Мне нужен набор инструментов для грубой работы. В нем должно быть всё, что мне нужно.. Если сможешь принести, наградой не обижу.</text>
+		<text>Отлично, брат! Мне нужен набор инструментов для грубой работы. В нём должно быть всё, что мне нужно.. Если сможешь принести, наградой не обижу.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_1_fetch_finish">
 		<text>Спасибо, именно то, что мне нужно. Вот, я обещал тебе награду, держи:</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_2_name">
-		<text>Найти Неумехе %s</text>
+		<text>Найти Неумёхе %s</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_2_text">
-		<text>Необходимо принести Неумехе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
+		<text>Необходимо принести Неумёхе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_2_about">
-		<text>Дела ощутимо пошли вверх, всё больше сталкеров приходят ко мне за улучшениями, но я был бы способен на большее, будь у меня больше инструментов. Тот набор, что ты принес отличный, но в нем есть не всё, что мне нужно. Если бы ты принес более полный набор, я был бы тебе благодарен.</text>
+		<text>Дела ощутимо пошли вверх, всё больше сталкеров приходят ко мне за улучшениями, но я был бы способен на большее, будь у меня больше инструментов. Тот набор, что ты принёс отличный, но в нём есть не всё, что мне нужно. Если бы ты принёс более полный набор, я был бы тебе благодарен.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_2_fetch_about">
-		<text>Мне нужны %s. Если принесешь, получишь награду.</text>
+		<text>Мне нужны %s. Если принесёшь, получишь награду.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_2_fetch_finish">
-		<text>Отлично! Вот твоя награда, ты ее заслужил!</text>
+		<text>Отлично! Вот твоя награда, ты её заслужил!</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_3_name">
-		<text>Найти Неумехе %s</text>
+		<text>Найти Неумёхе %s</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_3_text">
-		<text>Необходимо принести Неумехе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
+		<text>Необходимо принести Неумёхе %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_3_about">
-		<text>Тот набор, что ты принес отличный, но в нем есть не всё, что мне нужно. Если бы ты принес инструменты для калибровки, я был бы тебе благодарен.</text>
+		<text>Тот набор, что ты принёс отличный, но в нём есть не всё, что мне нужно. Если бы ты принёс инструменты для калибровки, я был бы тебе благодарен.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_3_fetch_about">
-		<text>Мне нужны %s. Если принесешь, получишь награду.</text>
+		<text>Мне нужны %s. Если принесёшь, получишь награду.</text>
 	</string>
 	<string id="ds2_domik_st_neum_task_3_fetch_finish">
 		<text>Да! Да! Вот твоя награда, ты её заслужил!</text>
-	</string>	
+	</string>
 
-<!-- ASSASINATION TASK FOR SLIMES -->
+	<!-- ASSASINATION TASK FOR SLIMES -->
 	<string id="simulation_task_19_name">
 		<text>Возмездие</text>
 	</string>
@@ -704,7 +703,7 @@
 		<text>Хвосты для медика</text>
 	</string>
 	<string id="esc_2_12_stalker_doctor_task_1_text">
-		<text>Необходимо доставить Колеснику %s.</text>
+		<text>Необходимо доставить Колёснику %s.</text>
 	</string>
 	<string id="esc_2_12_stalker_doctor_task_1_about">
 		<text>Послушай, мне тут нужны хвосты местных зверюшек, чтобы изготовить из них мазь для суставов... Подсоби, хорошо?</text>
@@ -715,13 +714,13 @@
 	<string id="esc_2_12_stalker_doctor_task_1_fetch_finish">
 		<text>Вот спасибо, выручил! С меня причитается.</text>
 	</string>
-	
+
 		<!-- FIND MEDKOMPLEKT FOR KOLESNIK -->
 	<string id="esc_2_12_stalker_doctor_task_2_name">
-		<text>Принести медкомплект Колеснику</text>
+		<text>Принести медкомплект Колёснику</text>
 	</string>
 	<string id="esc_2_12_stalker_doctor_task_2_text">
-		<text>Колеснику, медику на Кордоне, нужен %s.</text>
+		<text>Колёснику, медику на Кордоне, нужен %s.</text>
 	</string>
 	<string id="esc_2_12_stalker_doctor_task_2_about">
 		<text>Дружище, тут такое дело... У меня тут, понимаешь ли, не клиника... Поэтому я испытываю трудности с медицинскими инструментами. А вот если бы ты достал мне медкомплект - я был бы признателен, а также мог бы лечить тебя абсолютно бесплатно!</text>
@@ -733,7 +732,7 @@
 		<text>Ничего себе! Вечное тебе уважение. Теперь я могу предоставить медицинские услуги... Безвозмездно.</text>
 	</string>
 
-	
+
 		<!-- FIND ARTEFACT FOR SIDOROVICH TASK -->
 	<string id="esc_m_trader_task_3_name">
 		<text>Заказ артефакта</text>
@@ -750,7 +749,7 @@
 	<string id="esc_m_trader_task_3_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND ARTEFACT FOR SOROKA TASK -->
 	<string id="ds2_domik_st_shukin_task_1_name">
 		<text>Заказ артефакта</text>
@@ -767,7 +766,7 @@
 	<string id="ds2_domik_st_shukin_task_1_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR SOROKA TASK -->
 	<string id="ds2_domik_st_shukin_task_2_name">
 		<text>Мародёрство</text>
@@ -784,7 +783,7 @@
 	<string id="ds2_domik_st_shukin_task_2_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND OUTFIT FOR SOROKA TASK -->
 	<string id="ds2_domik_st_shukin_task_3_name">
 		<text>Доставка комбинезона</text>
@@ -793,7 +792,7 @@
 		<text>Нужно найти и доставить Щукину защитный комбинезон %s.</text>
 	</string>
 	<string id="ds2_domik_st_shukin_task_3_about">
-		<text>Видишь, какой костюм на мне надет? Необходимо найти и принести такой же... Из него Неумеха пересоберёт броники для наших бойцов. Ну что, можно полагаться на тебя?</text>
+		<text>Видишь, какой костюм на мне надет? Необходимо найти и принести такой же... Из него Неумёха пересоберёт броники для наших бойцов. Ну что, можно полагаться на тебя?</text>
 	</string>
 	<string id="ds2_domik_st_shukin_task_3_fetch_about">
 		<text>Отлично. Тогда мне нужно принести %s.</text>
@@ -801,7 +800,7 @@
 	<string id="ds2_domik_st_shukin_task_3_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND FOOD FOR SOROKA TASK -->
 	<string id="ds2_domik_st_shukin_task_4_name">
 		<text>Доставка пищи</text>
@@ -818,7 +817,7 @@
 	<string id="ds2_domik_st_shukin_task_4_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- KILL MUTANTS FOR UPIR TASK -->
 	<string id="ds2_domik_st_upir_task_1_name">
 		<text>Охота</text>
@@ -835,9 +834,9 @@
 	<string id="ds2_domik_st_upir_task_1_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- ASSASSINATION FOR UPIR TASK -->
-	
+
 	<string id="ds2_domik_st_upir_task_2_name">
 		<text>Охота на охотника</text>
 	</string>
@@ -850,9 +849,9 @@
 	<string id="ds2_domik_st_upir_task_2_fetch_finish">
 		<text>Отлично, ты избавился от этого мудака! Вот награда, как обещал.</text>
 	</string>
-	
+
 	<!-- ASSASSINATION 2 FOR UPIR TASK -->
-	
+
 	<string id="ds2_domik_st_upir_task_3_name">
 		<text>Устранение свидетеля</text>
 	</string>
@@ -860,12 +859,12 @@
 		<text>Упырь попросил разобраться со шпионом группировки «Свобода», который прознал слишком много о каналах сбыта Щукина.</text>
 	</string>
 	<string id="ds2_domik_st_upir_task_3_about">
-		<text>Короче, есть серьёзное задание. Думаю, ты справишься. Когда наш торговец, Щукин, покидал группировку, с ним ушло несколько его приближенных людей из «Свободы», которые якобы были тоже в деле. Ан нет, казачками засланными оказались. После того, как привязались к «Слизням», так начали потихоньку Миклухе всё сливать. Как горячим запахло, так и ушли. А недавно доложили, что видели одного из них... Надо бы устранить, сечёшь?</text>
+		<text>Короче, есть серьёзное задание. Думаю, ты справишься. Когда наш торговец, Щукин, покидал группировку, с ним ушло несколько его приближённых людей из «Свободы», которые якобы были тоже в деле. Ан нет, казачками засланными оказались. После того, как привязались к «Слизням», так начали потихоньку Миклухе всё сливать. Как горячим запахло, так и ушли. А недавно доложили, что видели одного из них... Надо бы устранить, сечёшь?</text>
 	</string>
 	<string id="ds2_domik_st_upir_task_3_fetch_finish">
 		<text>Хорошая работа. Надеюсь, Щукин обрадуется.</text>
 	</string>
-	
+
 	<!-- FIND WEAPONS FOR MORGAN TASK -->
 	<string id="ds2_domik_st_upir_task_4_name">
 		<text>Доставка арсенала</text>
@@ -882,7 +881,7 @@
 	<string id="ds2_domik_st_upir_task_1_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND AMMO FOR MORGAN TASK -->
 	<string id="ds2_domik_st_upir_task_5_name">
 		<text>Доставка боеприпасов</text>
@@ -899,7 +898,7 @@
 	<string id="ds2_domik_st_upir_task_5_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR MORGAN TASK -->
 	<string id="ds2_domik_st_upir_task_6_name">
 		<text>Мародёрство</text>
@@ -916,7 +915,7 @@
 	<string id="ds2_domik_st_upir_task_6_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND FOOD FOR MORGAN TASK -->
 	<string id="ds2_domik_st_upir_task_7_name">
 		<text>Доставка пищи</text>
@@ -933,7 +932,7 @@
 	<string id="ds2_domik_st_upir_task_7_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND MEDKOMPLEKT FOR DEATH TASK -->
 	<string id="ds2_domik_st_death_task_1_name">
 		<text>Медкомплект для Смерти</text>
@@ -950,7 +949,7 @@
 	<string id="ds2_domik_st_death_task_1_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- Инструменты для Новикова 2.0 -->
 	<string id="agr_stalker_tech_task_1_name">
 		<text>Найти Новикову %s</text>
@@ -962,7 +961,7 @@
 		<text>Мне нужна помощь, сталкер. Множество сталкеров приходят ко мне с просьбой починить их оружие, но я не могу. У меня нет для этого подходящих инструментов. Я бы с радостью мог апгрейдить практически любую снарягу, будь у меня нужный набор. Братан, можешь мне с этим помочь?</text>
 	</string>
 	<string id="agr_stalker_tech_task_1_fetch_about">
-		<text>Отлично, брат! Мне нужен набор инструментов для грубой работы. В нем должно быть всё, что мне нужно.. Если сможешь принести, наградой не обижу.</text>
+		<text>Отлично, брат! Мне нужен набор инструментов для грубой работы. В нём должно быть всё, что мне нужно.. Если сможешь принести, наградой не обижу.</text>
 	</string>
 	<string id="agr_stalker_tech_task_1_fetch_finish">
 		<text>Спасибо, именно то, что мне нужно. Вот, я обещал тебе награду, держи:</text>
@@ -974,13 +973,13 @@
 		<text>Необходимо принести Новикову %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
 	</string>
 	<string id="agr_stalker_tech_task_2_about">
-		<text>Дела ощутимо пошли вверх, всё больше сталкеров приходят ко мне за улучшениями, но я был бы способен на большее, будь у меня больше инструментов. Тот набор, что ты принес отличный, но в нем есть не всё, что мне нужно. Если бы ты принес более полный набор, я был бы тебе благодарен.</text>
+		<text>Дела ощутимо пошли вверх, всё больше сталкеров приходят ко мне за улучшениями, но я был бы способен на большее, будь у меня больше инструментов. Тот набор, что ты принёс отличный, но в нём есть не всё, что мне нужно. Если бы ты принёс более полный набор, я был бы тебе благодарен.</text>
 	</string>
 	<string id="agr_stalker_tech_task_2_fetch_about">
-		<text>Мне нужны %s. Если принесешь, получишь награду.</text>
+		<text>Мне нужны %s. Если принесёшь, получишь награду.</text>
 	</string>
 	<string id="agr_stalker_tech_task_2_fetch_finish">
-		<text>Отлично! Вот твоя награда, ты ее заслужил!</text>
+		<text>Отлично! Вот твоя награда, ты её заслужил!</text>
 	</string>
 	<string id="agr_stalker_tech_task_3_name">
 		<text>Найти Новикову %s</text>
@@ -989,15 +988,15 @@
 		<text>Необходимо принести Новикову %s, чтобы он мог обеспечить более серьёзную модернизацию оружия или бронежилета.</text>
 	</string>
 	<string id="agr_stalker_tech_task_3_about">
-		<text>Тот набор, что ты принес отличный, но в нем есть не всё, что мне нужно. Если бы ты принес инструменты для калибровки, я был бы тебе благодарен.</text>
+		<text>Тот набор, что ты принёс отличный, но в нём есть не всё, что мне нужно. Если бы ты принёс инструменты для калибровки, я был бы тебе благодарен.</text>
 	</string>
 	<string id="agr_stalker_tech_task_3_fetch_about">
-		<text>Мне нужны %s. Если принесешь, получишь награду.</text>
+		<text>Мне нужны %s. Если принесёшь, получишь награду.</text>
 	</string>
 	<string id="agr_stalker_tech_task_3_fetch_finish">
 		<text>Да! Да! Вот твоя награда, ты её заслужил!</text>
-	</string>	
-	
+	</string>
+
 	<!-- FIND PLATES FOR CS TRADER TASK -->
 	<string id="agr_stalker_trader_task_2_name">
 		<text>Найти бронепластины</text>
@@ -1006,7 +1005,7 @@
 		<text>Новикову требуются бронепластины, чтобы он мог собрать несколько новых защитных комбинезонов. Спора попросил достать их для него.</text>
 	</string>
 	<string id="agr_stalker_trader_task_2_about">
-		<text>Послушай, тут Новиков попросил меня достать ему бронепластины... А откуда у меня они? Списанных комбезов у меня тем более нету. Если вдруг найдешь штуки три - принеси мне, я ему отдам.</text>
+		<text>Послушай, тут Новиков попросил меня достать ему бронепластины... А откуда у меня они? Списанных комбезов у меня тем более нету. Если вдруг найдёшь штуки три - принеси мне, я ему отдам.</text>
 	</string>
 	<string id="agr_stalker_trader_task_2_fetch_about">
 		<text>Отлично. Наш техник будет очень рад, если ты добудешь %s.</text>
@@ -1014,9 +1013,9 @@
 	<string id="agr_stalker_trader_task_2_fetch_finish">
 		<text>Отлично, наши «золотые руки» будут довольны! Держи награду.</text>
 	</string>
-	
+
 	<!-- ASSASSINATION FOR HARON TASK -->
-	
+
 	<string id="pri_haron_task_3_name">
 		<text>Уничтожение зомбированного</text>
 	</string>
@@ -1029,9 +1028,9 @@
 	<string id="pri_haron_task_3_finish">
 		<text>Отлично... Наши тайны теперь в безопасности.</text>
 	</string>
-		
+
 	<!-- ASSASSINATION FOR CHUGU TASK -->
-	
+
 	<string id="esc_captain_task_1_name">
 		<text>Преступление и наказание</text>
 	</string>
@@ -1044,7 +1043,7 @@
 	<string id="esc_captain_task_1_fetch_finish">
 		<text>Отлично, ты избавился от этого мудака! Вот награда, как обещал.</text>
 	</string>
-	
+
 	<!-- FIND FOOD FOR MORGAN TASK -->
 	<string id="esc_captain_task_2_name">
 		<text>Доставка пищи</text>
@@ -1061,7 +1060,7 @@
 	<string id="esc_captain_task_2_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR CHUGU TASK -->
 	<string id="esc_captain_task_3_name">
 		<text>Мародёрство</text>
@@ -1078,7 +1077,7 @@
 	<string id="esc_captain_task_3_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- KILL MUTANTS FOR CHUGU TASK -->
 	<string id="esc_captain_task_4_name">
 		<text>Охота</text>
@@ -1095,7 +1094,7 @@
 	<string id="esc_captain_task_4_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR WOLF TASK -->
 	<string id="esc_2_12_stalker_wolf_task_2_name">
 		<text>Мародёрство</text>
@@ -1112,7 +1111,7 @@
 	<string id="esc_2_12_stalker_wolf_task_2_fetch_finish">
 		<text>Отлично, преподал подонкам урок! Теперь они сто раз подумают, прежде чем соваться на Кордон.</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR BOROV TASK -->
 	<string id="val_borov_task_1_name">
 		<text>Мародёрство</text>
@@ -1129,7 +1128,7 @@
 	<string id="val_borov_task_1_fetch_finish">
 		<text>Я доволен.</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR LOLKODAV TASK -->
 	<string id="ros_volkodav_task_1_name">
 		<text>Мародёрство</text>
@@ -1146,9 +1145,9 @@
 	<string id="ros_volkodav_task_1_fetch_finish">
 		<text>Молодец, вот твоя награда.</text>
 	</string>
-	
+
 	<!-- ASSAULT CAMP FOR GOVNODAV TASK -->
-	
+
 	<string id="ros_volkodav_task_2_name">
 		<text>Зачистка лагеря</text>
 	</string>
@@ -1161,9 +1160,9 @@
 	<string id="ros_volkodav_task_2_finish">
 		<text>Теперь нашим отрядам будет поспокойнее в окрестностях. Это тебе.</text>
 	</string>
-	
+
 	<!-- ASSASSINATION FOR DOBRODAV TASK -->
-	
+
 	<string id="ros_volkodav_task_3_name">
 		<text>Ликвидация свидетеля</text>
 	</string>
@@ -1176,7 +1175,7 @@
 	<string id="ros_volkodav_task_3_finish">
 		<text>Отлично, ты избавился от этого мудака! Вот награда, как обещал.</text>
 	</string>
-	
+
 	<!-- KILL MUTANTS FOR SAHAR TASK -->
 	<string id="yan_stalker_sakharov_task_2_name">
 		<text>Зачистка местности</text>
@@ -1193,7 +1192,7 @@
 	<string id="yan_stalker_sakharov_task_2_fetch_finish">
 		<text>Спасибо Вам большое! Держите вознаграждение.</text>
 	</string>
-	
+
 	<!-- KILL MUTANTS FOR ЧН TASK -->
 	<string id="agr_stalker_leader_task_2_name">
 		<text>Зачистка местности</text>
@@ -1210,7 +1209,7 @@
 	<string id="agr_stalker_leader_task_2_fetch_finish">
 		<text>Отлично, теперь монстры мешать не будут. Держи награду.</text>
 	</string>
-	
+
 	<!-- FIND PATCHES FOR CSKY TASK -->
 	<string id="agr_stalker_leader_task_1_name">
 		<text>Мародёрство</text>
@@ -1227,5 +1226,4 @@
 	<string id="agr_stalker_leader_task_1_fetch_finish">
 		<text>Так-с, задание выполнено, а вот и гонорар!</text>
 	</string>
-
 </string_table>

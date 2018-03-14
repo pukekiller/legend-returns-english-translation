@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-<!---------------------------- doctor --->
-	 <string id="cit_doctor_hello_dialog_11">
-        <text>Да, что ты хочешь?.. Стрелок?! Это ты?!</text>
+    <string id="cit_doctor_hello_dialog_11">
+        <text>Yes? What do you want? Strelok? Is that you?</text>
     </string>
     <string id="cit_doctor_hello_dialog_21">
         <text>Каким попутным тебя сюда занесло, друг?</text>
@@ -38,61 +37,75 @@
         <text>Благодарю тебя. Безопасной тебе дороги, сталкер...</text>
     </string>
     <string id="mar_base_owl_stalker_trader_start_dialog_1">
-       <text>Нужна снаряга? Информация?.. Или, может быть, ты хочешь продать информацию?</text>
+        <text>Need supplies or equipment? Information?... Or maybe you want to sell information?</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_need_health_care_0">
-        <text>Мне нужна медицинская помощь.</text>
+        <text>I need medical assistance.</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_need_health_care_1">
-        <text>Ладно, я посмотрю что можно сделать.</text>
+        <text>Alright, I'll see what I can do.</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_need_health_care_11">
-        <text>[далее...]</text>
+        <text>[continue...]</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_need_health_care_111">
-        <text>Не так уж и больно, правда? Можешь идти.</text>
+        <text>That wasn't so bad, eh? You can go.</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_need_health_care_2">
-        <text>Так, давай глянем... Ранений нет... Никаких признаков радиационного облучения. Думаю, всё в порядке, можешь идти.</text>
+        <text>Alright, I'll take a look... No wounds? You show no signs of radiation sickness. I think everything is in order; You are good to go.</text>
     </string>
     <string id="mar_smart_terrain_base_doctor_start_1">
-        <text>Что привело тебя сюда?</text>
+        <text>Whatcha' need stalker?</text>
     </string>
     <string id="marsh_stalker_barmen_start_dialog_1">
-        <text>О, новые лица! Меня здесь Наливайко кличут, я - местный бармен, кто же ещё? С удовольствием отвечу на все твои вопросы. Нужна будет работёнка, или новости последние услышать захочешь - подходи, поговорим.</text>
+        <text>A fresh face! People around here call me Librarian. I'm the local bartender. I'll be glad to answer any questions you have. Sometimes I post job offerings or hear some interesting rumours, so check back often.</text>
     </string>
     <string id="marsh_stalker_barmen_start_dialog_2">
-        <text>Здорово, сталкер! Нужно что?</text>
+        <text>Hey, stalker. What do you need?</text>
     </string>
     <string id="marsh_stalker_tech_start_1">
-        <text>Приветствую, сталкер. Могу чем-то помочь? С хорошими инструментами в Зоне напряг, но я пока могу починить твою снарягу или сделать простенькие апгрейды.</text>
+        <text>Greetings, stalker. Can I be of assistance? Good tools are hard to come by in the Zone, but I can still repair your kit and do minor upgrades.</text>
     </string>
     <string id="marsh_stalker_medic_background">
-        <text>Я проводником был, хочешь верь, хочешь нет. В основном здесь, на Болотах, но часто приходилось отводить клиентов и поглубже в Зону. Но всё это было до того, как мы обнаружили этого проклятого наёмника, почти утонувшего в камышах возле железки, с полным ртом болотной воды. Он оказался нужен для каких-то дел нашим лидерам, Лебедеву и Каланче. Правда, они явно не доверяли ему до конца - каждый день я должен был водить его с повязкой на глазах до рыбацкой деревушки и обратно. А до неё идти - не больше пяти минут. Потом, в течение всего лишь нескольких недель, ему каким-то образом удалось убедить большинство наших и наше руководство идти к ЧАЭС. Само собой разумеется, что ни он, ни большая часть нашей группировки не вернулись из своего безумного похода - сгинули вместе с командирами.\n Теперь мне некого водить, но есть кого лечить.\n И вот я здесь. Всё из-за этого чёртова сумасшедшего наёмника.</text>
+        <text>Me? I used to be a guide believe it or not. I mostly stuck to the marshes, but often took stalkers to places quite far from here. But that was a different time, before they found that damned mercenary in the reeds with a mouth full of swamp water.
+		      Every single day he'd forget the way in and out of the base and I'd have to take him not more than a five minute walk from here to the fishing hamlet and back. And then within only a few weeks he'd somehow managed to convince our leadership and most of our men to charge into the power station.
+			  Needless to say neither he nor much of our faction came back from his madness.\nBy the end of it I had nobody left to guide but plenty of people to patch up.\nSo here I am. All because of that fuckin' crazy merc.</text>
     </string>
     <string id="marsh_stalker_barman_background">
-        <text>Я бармен. Продаю еду и выпивку, а также заведую местным радио. Работа, конечно, не предел мечтаний, но всё лучше, чем по топям лазить. Раньше служил делу «Долга», да... В одном рейде выброс тут, на Болотах, и настиг, так я и застрял здесь. Мы пытались с выжившими ребятами прорваться на север, но нарвались на бандитов, и я оказался одним из немногих, кто не получил пулю. Чудом наткнулись на эту базу и присоединились к «Чистому небу». Выхода не было - лучше так, чем умереть в луже где-нибудь. Первые несколько недель простым бойцом отбивался от тех же бандитов и монстров на точках, а потом свезло - Холод предложил за стойку бара встать. Естественно, что я согласился - хавка да напитки куда интересней пуль да клыков. Но что-то я заболтался. Может, по рюмочке холодненькой?</text>
+        <text>I'm the bartender. I serve drinks, food, and keep the radio playing. It's not an exciting job, but still preferable to being out in the field. Been working here for quite a few years now, got caught on the inside of the swamps when the emission hit so I was pretty much stuck here.
+		      Headed south like most people tried to but I was one of the few that didn't get picked off by bandits on the way. I searched out this base and joined up with Clear Sky. It was either that or die in a puddle somewhere. Spent the first few weeks as a grunt repelling the anarchists from our lookout posts
+			  and then got the job as the new bartender when Cold got promoted. Naturally I accepted, I'd rather be shooting drinks than bullets. But enough talk, how about a nice cold one?</text>
     </string>
     <string id="marsh_stalker_trader_background">
-        <text>Меня зовут Дрозд, я в Зоне уже много лет. Пришёл сюда за богатством, как и все. \nСлучай свёл меня с Шустрым, мы стали работать вместе и обнаружили, что у нас много общего. Оба завели много полезных связей, хорошо нажились на обороте товаров между Зоной и Большой Землёй, продаже информации.\nИ когда с бизнесом на севере стало туго, мы последовали на юг. Удалось найти себе хорошее место здесь, после того, как Шустрый рекомендовал меня Холоду. Он ведь раньше был членом «Чистого неба», не знал? Всё это даёт нам обоим неплохие возможности: у нас есть доступ к армейской контрабанде по маршруту через Болота, да и «Чистое небо» получает право первого выбора из всего, что проходит через наши руки - все только в выигрыше. При случае наведайся к нему, я слышал, что он вроде неплохо устроился в деревне новичков. Если надо заполучить хорошее оружие или снаряжение - он именно тот, кто нужен.</text>
+        <text>Spore's the name, I took over this gig about a year ago. Came to the Zone looking for wealth like everybody does and ran into a stalker called Nimble.\nFound out we shared a lot of the same talents, both got a lot of outside contacts,
+		      good at trafficking goods in and out of the Zone, and selling info.\nSo when the Monolith resurgence happened and business was driven south, we followed. Managed to land myself a nice job here after Nimble recommended me to Cold. He was a member
+			  of Clear Sky back in the day, y'know? Gives us both a nice little operation here, we have access to an army-free smuggling route through the swamps and Clear Sky gets first pick of everything we get our hands on. Pay Nimble a visit if you're ever
+			  in the Cordon, last I heard he was hanging out around the rookie camp. If you ever need a hard to obtain weapon or outfit smuggled in from the outside he's the guy who peddles the goods.</text>
     </string>
     <string id="marsh_stalker_tech_background">
-        <text>Фамилия моя Новиков, но ребята кличут Серый. Я тот, кто чинит тут всё - от чихающего дизель-генератора и не морозящего барного холодильника до заклинившего пистолета или продырявленного броника. Вообще-то я тут работал ещё давно, до того злополучного рейда. После разгрома группировки ушёл к учёным на Юпитер, там по контракту ишачил. Потом услышал, что кто-то из наших уцелел и вновь возрождает базу. Тут как раз мой контракт подошёл к концу, и я вернулся сюда. С моими умениями да ещё и контактами у научников Холод меня без разговоров взял, да ещё и хочет теперь вернуться к нашим старым исследованиям. Кстати, если вы знакомы с местными аномалиями и хотите подзаработать, поговорите с Дроздом.</text>
+        <text>The name's Novikov, but some call me Grey. I'm the technician who keeps everything working, and the only person any good stalker goes to if their shooter starts jamming. Used to work here a long time ago until just before Cold took over. When everything went to shit I looked for somewhere greener
+		      and got contracted by the Ecologists up in Jupiter. Was up there for a good few years until one day I heard that somehow these guys pulled through, and as soon as my contract was up I headed back. They took me in without question, my skills with a workbench and my contacts within the Ecologists
+			  were sorely needed. I got us set up working with their guys so we could carry on with our old research. If you fancy the work they're always looking for guides to the local anomalies, talk to Spore about it if you're interested.</text>
     </string>
     <string id="marsh_stalker_leader_background">
-        <text>Ну, давай знакомиться. С чего бы начать? В этих краях меня Холодом кличут - местный старожил, так сказать. Когда-то давно был барменом, но после того, что случилось с Лебедевым, Сусловым и основным отрядом, начался тут разброд по поводу того, кто главным будет. Долгие и напряженные переговоры, не без помощи запасов из бара, разумеется, закончились единогласными выборами моей кандидатуры. Одно время прям из-за стойки и руководил. Но потом нашел себе замену - и теперь только командирствую. Опять же, «старички» вроде Новикова помогают... Так что потихоньку восстанавливаем мощь группировки.</text> 
+        <text>Where do I begin? They call me Cold in these parts, I'm the leader of Clear Sky. Used to be the old drinks dispenser here a long time ago until I handed that honour over to Librarian once we caught wind of what happened to Lebedev, Suslov and the rest of our commanders.
+		      After long and intense negotiations with the latest shipment of smuggled vodka, the local force decided that I was best suited for taking over the reins, and I've been holding on to them ever since.</text> 
     </string>
 	<string id="marsh_csky_history_ask1">
-		<text>Расскажи мне о «Чистом небе».</text>
+		<text>Tell me about Clear Sky.</text>
 	</string>
 	<string id="marsh_csky_history_ask2">
-		<text>Что рассказать?</text>
+		<text>What is it you want to know?</text>
 	</string>
 	<string id="marsh_csky_history_destroyed1">
-		<text>Как группировка смогла выжить?</text>
+		<text>Wasn't the faction destroyed?</text>
 	</string>
 	<string id="marsh_csky_history_destroyed2">
-		<text>Да, группировка едва не погибла - большинство наших ребят погибло на ЧАЭС. А те, кто выжил, после выброса спасались где могли, по всей территории Зоны Отчуждения - но мы тогда этого ещё не знали. У нас самих тут на Болотах ад был. Когда все поняли, что выбросом нас тут заперло на неопределенный срок, люди как с ума посходили.  Кто-то скурвился и к бандитам переметнулся, кто-то поддался панике и погиб от аномалий или мутантов, но всё-таки большинство к нам на Базу прибились. Ну, потом всё утряслось, новички к нам пошли -  харчей и припасов у нас в достатке было. А потом и слухи дошли о гибели командования - стало очевидно, что нам нужен новый лидер. Я взял это бремя на себя. Попросил Наливайко, бывшего «долговца», за короткий срок доказавшего, что на него можно положиться, заменить меня в баре. Он согласился. Постепенно расставил людей и по другим ключевым постам. Через несколько месяцев с бандюками разобрались - повыжимали их со стратегических точек. Вот теперь подумываем дальше двигаться - благо дело, сил и на защиту Болот хватает, и на дальнейшую экспансию.</text>
+		<text>Almost, but we managed to pull through. While most of our guys were wiped out at the power plant, not all of us were. A good number were still in our other territories, which were later cut off from the rest of the Zone by anomalies following the emission.
+		      When it became obvious to those in the swamps at the time that they were almost trapped here with no easy way out everything went to hell. Honest stalkers became bandits overnight whilst the rest tried to flee to our base or live off the area's mutants.
+			  We took on a lot of men and our food stores ensured their loyalty, after a little while it became obvious we'd need a new leader. I took on the burden and asked our Librarian to man the bar in my place, he'd earned quite a name for himself in the short time since he joined.
+			  After a few months of tit-for-tat raiding with the bandits we managed to smoke most of them out, but that didn't stop the army from feeling like they needed to move in and finish the job. Even now, they still have that bird of theirs watching the areas they took over.
+			  </text>
 	</string>
 
 	<!-- Legend Returns -->

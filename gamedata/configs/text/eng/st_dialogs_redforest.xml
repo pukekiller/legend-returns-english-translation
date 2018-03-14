@@ -40,13 +40,13 @@
 		<text>Who are you?</text>
 	</string>
 	<string id="red_forester_who_are_you_1">
-		<text>What can I tell you about myself? I'm Forester. I've been here a long time; I've spent my whole life living next to this forest. I'm old. At my age you grow attached to your place of residence, no matter what it is. I refused to be evacuated after the accident at the power plant; I also survived the appearance of the Zone. I remember a flash on the horizon... many folks died that day, but the Zone spared me, you see? Heck, it didn't just spare me, it gave me a gift! I used to be able to find paths in the forest, and now I can feel a safe way of getting through real deadly anomalies. Stalkers envy me, but I can't say I'm all that happy about my gift. You must understand that everything comes at a price. Some day the Zone will take payment for my gift. That's what I am afraid of, buddy. </text>
+		<text>What can I tell you about myself? I'm Forester. I've been here a long time; I've spent my whole life living next to this forest. I'm old. At my age you grow attached to your place of residence, no matter what it is. I refused to be evacuated after the accident at the power plant; I also survived the appearance of the Zone. I remember a flash on the horizon... many folks died that day, but the Zone spared me, you see? Heck, it didn't just spare me, it gave me a gift! I used to be able to find paths in the forest, and now I can feel out a safe path through deadly anomalies. Stalkers envy me, but I can't say I'm all that happy about my gift. You must understand that everything comes at a price. Some day the Zone will take payment for my gift. That's what I am afraid of, buddy. </text>
 	</string>
 	<string id="red_forester_who_are_you_111">
 		<text>No, this was your typical pine forest. Well, it was also a nature reserve, but that was about as special as it got at the time. It became red after the accident at the Chernobyl NPP in 1986. It was green when I went to bed, and when I woke up it was as you see it now. Then the Zone appeared, and animals and birds abandoned this forest. I was the only living being that stayed behind. Just me, a red forest and this thick mist that never clears.</text>
 	</string>
 	<string id="red_forester_who_are_you_11111">
-		<text>Yes, many stalkers have met their end here. I even heard rumours that an evil spirit lives in the Red Forest. The way I see it, this forest is just like everything else in the Zone. If you treat it right it won't touch you. The trouble is you stalkers don't treat anything right. You seek to own parts of the Zone and in return you get... what you're due.</text>
+		<text>Yes, many stalkers have met their end here. I've even heard rumours that an evil spirit lives in the Red Forest. The way I see it, this forest is just like everything else in the Zone. If you treat it right it won't touch you. The trouble is you stalkers don't treat anything right. You seek to own parts of the Zone and in return you get... what you're due.</text>
 	</string>
 
 	<string id="gutorenko_hello_dialog_0">
@@ -57,7 +57,7 @@
 		<text>Is there any mission to be done?</text>
 	</string>
 	<string id="kill_themall_1">
-		<text>There is. As a protector of the Zone, you must destroy those who represent Its threat. Kill them for the good of us and our lesser brothers.</text>
+		<text>There is. As a protector of the Zone, you must destroy those who represent a threat to It. Kill them for the good of us and our lesser brothers.</text>
 	</string>
 	<string id="kill_themall_2">
 		<text>The mission is complete.</text>
@@ -70,19 +70,19 @@
 		<text>Are there any special tasks?</text>
 	</string>
 	<string id="key_2">
-		<text>Listen carefully: you need to find the Doctor in the swamps, take him down, and snatch a key from him. If you manage, there will be other tasks for you at hand.</text>
+		<text>Listen carefully: you need to find the Doctor in the swamps, take him down, and snatch a key from him. If you manage that, there will be more tasks waiting for you.</text>
 	</string>
 	<string id="key_3">
 		<text>Here is the key, as per your request.</text>
 	</string>
 	<string id="key_4">
-		<text>Excellent. Here's the situation: our faction was once engaged in the manufacturing of gravity guns based on item number sixty-two under the name of Cerberus, but our only model was stolen by Strelok's group, along with the respective blueprints.</text>
+		<text>Excellent. Here's the situation: our faction once engaged in an operation to mass produce gravity guns,  based on model sixty-two, under codename "Cerberus." However, our only model was stolen by Strelok's group, along with the respective blueprints.</text>
 	</string>
 	<string id="key_5">
 		<text>What do I need to do?</text>
 	</string>
 	<string id="key_6">
-		<text>Your task is to enter hotel Polissya in Pripyat, find room number twenty-six, and retrieve the gravity gun, together with its blueprints. Judging by my sources, a stash having formerly belonged to Strelok's group is located there. And, here. Take this psy-helmet; it will protect you from psy-emissions.</text>
+		<text>Your task is to enter hotel Polissya in Pripyat, find room number twenty-six, and retrieve the gravity gun, together with its blueprints. Judging by my sources, a stash left behind by Strelok's group is located there. And, here. Take this psy-helmet; it will protect you from psy-emissions.</text>
 	</string>
 	<string id="key_7">
 		<text>I have retrieved the Cerberus model and its blueprints.</text>
@@ -117,7 +117,7 @@
 	</string>
 
 	<string id="old_sinner_done_0">
-		<text>The operation was a success; the squad of storm troopers has been liquidated. I was unable to escape without making some noise, though, and in the course of the operation, the leader of Duty and other inhabitants of the bar were killed. Morpheus and our other brothers—those who had been notified of my troubles from Shaman—came to my rescue.</text>
+		<text>The operation was a success; the squad of storm troopers has been liquidated. I was unable to escape without making some noise, though, and in the course of the operation, the leader of Duty and other inhabitants of the bar were killed. Morpheus and our other brothersâ€”those who had been notified of my troubles from Shamanâ€”came to my rescue.</text>
 	</string>
 	<string id="old_sinner_done_1">
 		<text>I am already aware, as Morpheus has notified me of the situation. You have displayed true devotion, bravery, and composure, and for that, I shall grant you one of two existing exoskeleton models we have: the Minotaur.</text>
@@ -239,10 +239,10 @@
 		<text>I'm ready. What needs to be done?</text>
 	</string>
 	<string id="about_shaman_7">
-		<text>You need to find a specific flower by the name of ‘black bat’. I already have everything else needed.</text>
+		<text>You need to find a specific flower by the name of â€˜black batâ€™. I already have everything else needed.</text>
 	</string>
 	<string id="about_shaman_8">
-		<text>Where can this ‘black bat flower’ be found?</text>
+		<text>Where can this â€˜black bat flowerâ€™ be found?</text>
 	</string>
 	<string id="about_shaman_9">
 		<text>The last time I saw one was in the vicinity of Jupiter, at the back of the plant. I saw it in a chemical anomaly. Didn't take it with me at the time, because I knew nothing about its properties...</text>

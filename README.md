@@ -31,8 +31,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [izmer_mpd_config.xml](gamedata/configs/text/eng/izmer_mpd_config.xml)
 		- done
-	- [soc_quests.xml](gamedata/configs/text/rus/soc_quests.xml)
-		- not started
+	- [soc_quests.xml](gamedata/configs/text/eng/soc_quests.xml)
+		- done (Most of the texts taken from SoC dialogues)
 	- [st_achievement.xml](gamedata/configs/text/rus/st_achievement.xml)
 		- not started
 	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/rus/st_addon_companion_quick_menu.xml)

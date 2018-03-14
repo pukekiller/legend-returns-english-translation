@@ -104,7 +104,8 @@ function death_npc(victim, who)	--Новости о смерти сталкеров
 	if (m_post_message ~= "") then
 		local fname = game.translate_string("zone_news_dead_fnames_" .. math.random(45))
 		-- local fname = game.translate_string("zone_news_dead_snames_" .. math.random(0))
-		local news_text = "%c[255,160,160,160]"..fname.." "..sname.."\\n%c[default]" .. m_post_message
+		local news_text = "%c[255,160,160,160]" ..fname .. "\\n%c[default]" .. m_post_message
+		-- local news_text = "%c[255,160,160,160]" ..fname.. " " ..sname.. "\\n%c[default]" .. m_post_message
 		db.actor:give_game_news(news_caption_answer, news_text, "ui_iconsTotal_kanal",25000, 15000)
 	end
 end

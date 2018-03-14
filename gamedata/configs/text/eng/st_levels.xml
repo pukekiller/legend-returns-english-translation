@@ -198,13 +198,13 @@
 
 	<!-- Legend Returns -->
 	<string id="factory">
-		<text>Rostok</text>
+		<text>Factory</text>
 	</string>
 	<string id="promzona">
 		<text>Industrial Area</text>
 	</string>
 	<string id="space_restrictor_to_factory_desc">
-		<text>To Rostok</text>
+		<text>To Factory</text>
 	</string>
 	<string id="space_restrictor_to_promzona_desc">
 		<text>To Industrial Area</text>

@@ -133,7 +133,7 @@
 		<text>Вернуться к торговцу.</text>
 	</string>
 
-	<st ring id="esc_2_12_stalker_trader_small_quest_title_3">
+	<string id="esc_2_12_stalker_trader_small_quest_title_3">
 		<text>Поручение Сидоровича: Принести обещанный артефакт торговцу</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_small_quest_text_3">

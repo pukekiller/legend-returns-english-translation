@@ -34,7 +34,7 @@ A list of all files with their detailed progress can be found below.
 	- [soc_quests.xml](gamedata/configs/text/eng/soc_quests.xml)
 		- done (Most of the texts taken from SoC dialogues)
 	- [st_achievement.xml](gamedata/configs/text/rus/st_achievement.xml)
-		- not started
+		- unrevised
 	- [st_addon_companion_quick_menu.xml](gamedata/configs/text/eng/st_addon_companion_quick_menu.xml)
 		- done
 	- [st_characters.xml](gamedata/configs/text/rus/st_characters.xml)
@@ -98,7 +98,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_levels.xml](gamedata/configs/text/rus/st_levels.xml)
 		- not started
 	- [st_mm_atmosfear_texts.xml](gamedata/configs/text/rus/st_mm_atmosfear_texts.xml)
-		- not started
+		- done
 	- [st_mm_faction_select.xml](gamedata/configs/text/rus/st_mm_faction_select.xml)
 		- in progress (new faction descriptions need translating)
 	- [st_quests_agroprom.xml](gamedata/configs/text/rus/st_quests_agroprom.xml)

@@ -174,7 +174,7 @@ A list of all files with their detailed progress can be found below.
 	- [LR_random_events.script](gamedata/scripts/LR_random_events.script)
 		- not started
 	- [LR_skills_system.script](gamedata/scripts/LR_skills_system.script)
-		- not started
+		- done
 	- [monolith_event.script](gamedata/scripts/monolith_event.script)
 		- not started
 	- [outcast.script](gamedata/scripts/outcast.script)

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="encyclopedia_perks_system">
+		<text>Level system</text>
+	</string>
+	<string id="encyclopedia_perks_system_main">
+		<text>General information about the level system</text>
+	</string>
+	<string id="encyclopedia_perks_system_main_text">
+		<text>
+		The levelling system will allow your character to turn from a novice into a warlord!\n
+		Unable to carry a 10 kilogram suit? Attain experience and acquire the Power skill!\n
+		Or perhaps you haven't attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill!\n
+		Incapable of grabbing an artefact without getting hurt? What do you know about survival?!\n
+		But that's not all. It is also possible to unlock certain perks, and not just attain skills for all sorts of things.\n
+		There are various perks, and they are at times even necessary. More details in the remaining paragraphs.\n \n
+
+		To open the skills menu, press the "B" key.
+		</text>
+	</string>
+
+	<string id="encyclopedia_photomode">
+		<text>Photo mode</text>
+	</string>
+	<string id="encyclopedia_photomode_main">
+		<text>Summary of the photo mode</text>
+	</string>
+	<string id="encyclopedia_photomode_main_text">
+		<text>
+		A piece that'll allow you to create beautiful screenshots.\n
+		The photo mode features the following:\n
+		1) Quick toggle of the HUD\n
+		2) Adjust the view angle. You can create the best option for a comfortable experience.\n
+		3) Toggle depth of field. In total, there are 4 presets. However, it works only on the second renderer with depth of field turned on.\n
+		4) Quick toggle of demo_record.\n
+		A small change, but it has its use.\n
+		To activate the camera menu, press the "-" key.
+		</text>
+	</string>
+
+	<string id="encyclopedia_perks_system_navyk">
+		<text>About skills</text>
+	</string>
+	<string id="encyclopedia_perks_system_navyk_text">
+		<text>
+		In total, there are five types of skills: Strength, Medicine, Looting, Repair, and Survival.\n
+		Skills can be enhanced with the help of acquired skill points, and they can be achieved by attaining additional experience points; specifically, after 1000 points (with Long Levelling enabled, more than 2000). You can see how many experience points you have on the main screen, just below the experience and character levels.
+		</text>
+	</string>
+
+	<string id="encyclopedia_perks_system_navyk_all">
+		<text>Brief skill descriptions</text>
+	</string>
+	<string id="encyclopedia_perks_system_navyk_all_text">
+		<text>
+		The Strength skill will allow you to carry heavy arms and armour, as well as kick small mutants and use gauss rifles.\n
+		The Medicine skill allows for more effective use of first-aid kits and medical capsules. The higher the level of the skill, the more your health will increase after using medical supplies. As levelling starts from level 2, you can learn how to disassemble medical supplies for personal use.\n
+		The Looting skill allows you to collect money from dead stalkers and steal caches after receiving training (starting at level 2). As levelling increases, so does the chance of taking a tip on the cache, as well as the amount of money. At the maximum level, you can learn to rob the arsenals of larger factions with a key card.\n
+		The Repair skill allows you to use repair kits for repairing weapons and armour by yourself. Further increasing the skill raises the overall effectiveness of independent repairs.\n
+		The Survival skill allows you to carve up mutant carcasses, reduce health loss when consuming raw meat, make the most out of all types of food, and also minimize damage from harmful artifacts.
+		</text>
+	</string>
+
+	<string id="encyclopedia_perks_system_perki">
+		<text>About perks</text>
+	</string>
+	<string id="encyclopedia_perks_system_perki_text">
+		<text>
+		Everything changes a bit here; perks are only attainable after the third level.\n
+		There are not many of them, but you will not be able to choose everything at once. After receiving a new level, you can choose only one perk of three possible perks for the same level.\n
+		Levelling everything immediately is not an option, so choosing wisely is in your benefit.
+		</text>
+	</string>
+
+
+	<string id="encyclopedia_perks_system_perki_all">
+		<text>Perk descriptions</text>
+	</string>
+	<string id="encyclopedia_perks_system_perki_all_text">
+		<text>
+		Level 1 perks:\n
+		ACUITY - you discover a new cold weapon, making it easier to deal with enemies\n
+		PARAMEDIC - bandages heal slightly\n
+		HEALTH PROMOTION - vodka reduces more radiation, but the player character gets intoxicated faster\n \n
+
+		Level 4 perks:\n
+		GONZALEZ - you discover an artefact that allows you to run around with additional stamina\n
+		ASPIRANT - anti-radiation drugs become more effective\n
+		LEGEND - you can recruit additional stalkers into a squad\n \n
+
+		Level 7 perks:\n
+		DISCIPLE - stalkers of the Monolith become neutral towards you, though your neutrality is unlikely to please the representatives of Duty\n
+		HERCULES - you discover an artefact that allows additional storage in your backpack\n
+		METALLIC - you discover an artefact that increases your bullet resistance\n \n
+
+		Level 10 perks:\n
+		BOUNDLESS - your PDA can now display the location of every living soul throughout the Zone\n
+		TECHNICIAN'S FRIEND - all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n
+		PROSPEROUS CUSTOMER - traders offer you expensive products more frequently\n \n
+
+		Level 13 perks:\n
+		NEO - ??? - Nobody knows.\n
+		INCREASED METABOLISM - you discover an artefact that helps you regenerate at the highest speed
+		</text>
+	</string>
+
+</string_table>

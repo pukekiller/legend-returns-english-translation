@@ -138,7 +138,7 @@ A list of all files with their detailed progress can be found below.
 	- [ui_st_inventory.xml](gamedata/configs/text/eng/ui_st_inventory.xml)
 		- done
 	- [ui_st_loadscreen.xml](gamedata/configs/text/eng/ui_st_loadscreen.xml)
-		- in progress, unrevised
+		- done, unrevised
 	- [ui_st_mm.xml](gamedata/configs/text/eng/ui_st_mm.xml)
 		- done, unrevised
 	- [ui_st_screen.xml](gamedata/configs/text/eng/ui_st_screen.xml)

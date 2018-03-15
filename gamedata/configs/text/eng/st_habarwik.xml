@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="habarwik_inventory_box_use">
+		<text>Ransack</text>
+	</string>
+	<string id="trader_locked_door">
+		<text>The bunker is temporarily closed</text>
+	</string>
+
+	<string id="fac_anomaly_1_name">
+		<text>Anomaly "Insulator"</text>
+	</string>
+	<string id="fac_anomaly_2_name">
+		<text>Anomaly "Tunnel steam-room"</text>
+	</string>
+	<string id="pro_anomaly_1_name">
+		<text>Anomaly "Call of Chernobyl"</text>
+	</string>
+	<string id="pro_anomaly_2_name">
+		<text>Anomaly "Shimmering Forest"</text>
+	</string>
+
+	<string id="st_messer">
+		<text>Messer</text>
+	</string>
+
+	<string id="st_unknown_stalker">
+		<text>Unknown Stalker</text>
+	</string>
+
+	<string id="st_faction_slime">
+		<text>"Black Slugs"</text>
+	</string>
+
+	<string id="st_faction_sin">
+		<text>"Sin"</text>
+	</string>
+
+	<string id="st_faction_neutral">
+		<text>Unknown</text>
+	</string>
+
+	<string id="neutral">
+		<text>Unknown</text>
+	</string>
+
+	<string id="actor_outcast">
+		<text>Renegade</text>
+	</string>
+	<string id="slime">
+		<text>Slug</text>
+	</string>
+
+	<string id="actor_slime">
+		<text>Slug</text>
+	</string>
+
+	<string id="sin">
+		<text>Sin</text>
+	</string>
+
+	<string id="actor_sin">
+		<text>Sin</text>
+	</string>
+
+	<string id="st_faction_slime_desc">
+		<text>The members of this faction are bandits who have fallen to the "bottom of society", as well as stalkers who were "Marked by the Zone", feared  by everyone and that can't join any faction. They make a living killing and robbing tired or wounded stalkers - those who can't fight back, or resist weakly. They avoid stalker clans. The dregs of society, so to speak. They are mostly dressed in rags, but they got their name from their cloaks - shiny and slippery. Camouflage and ambush experts, they can be found mainly along the edges of the Zone - they don't dare going deeper.</text>
+	</string>
+
+	<string id="st_faction_sin_desc">
+		<text>These sinister and hostile people (if this word is applicable to them) have many names - "Sinners", "Dark stalkers"... They are mysterious zombielike stalkers, whose origins are shrouded in a veil of secrecy and mystery. Some argue that the representatives of "Sin" faced the Second Explosion, survived, but received terrible injuries and mutations. Others say that these wretches were guinea pigs in secret X-Laboratories. Sins believe in the divine essence of the Zone, believing that it is the last redemption of mankind. Their religion is akin to Satanism, since it involves rituals with human sacrifices. Their activities are seriously troubled by the Duty faction; they are actively hunt and exterminated next to the zones of influence of Duty. They fiercely carry on a feud with the Monolith faction over religious grounds. "Sin" stalkers can be found outside the laboratory in the Dark Valley, Darkscape, Truck Cemetery, Serene Hills and Red Forest.</text>
+	</string>
+
+	<string id="w_knife_name">
+		<text>Bowie knife</text>
+	</string>
+
+	<string id="stalker_docs_desc">
+		<text>A token given for the merits of soldiers and members of some stalker clans. It is exchanged for equipment.</text>
+	</string>
+
+	<string id="x16_secrets_name">
+		<text>Classified documents</text>
+	</string>
+
+	<string id="stalker_chevron_name">
+		<text>Stalker patch</text>
+	</string>
+
+	<string id="stalker_chevron_desc">
+		<text>Insignia. Patch used by stalkers of all ranks to denote their affiliation among strangers. Use it to take on the appearance of a lone Stalker.</text>
+	</string>
+
+	<string id="freedom_chevron_name">
+		<text>Freedom patch</text>
+	</string>
+
+	<string id="freedom_chevron_desc">
+		<text>Insignia belonging to the Freedom faction. Use it to disguise as a Freedomer</text>
+	</string>
+
+	<string id="sin_chevron_name">
+		<text>Skinned face for camouflage</text>
+	</string>
+
+	<string id="sin_chevron_desc">
+		<text>A face cut off from a stalker. Stored in a special solution to prevent rotting. Used by Sinners for disguise.</text>
+	</string>
+
+	<string id="trader_chevron_name">
+		<text>Снятие лица</text>
+	</string>
+
+	<string id="trader_chevron_desc">
+		<text>...</text>
+	</string>
+	<string id="freedom_case_name">
+		<text>Case for the government</text>
+	</string>
+
+	<string id="st_wpn_pm_fucked">
+		<text>Reassembled PM</text>
+	</string>
+
+	<string id="st_wpn_pm_fucked_descr">
+		<text>Roughly reassembled from old and rusty parts, this Makarov pistol was issued by a gunsmith as unique. Only a madman will risk pulling the trigger of this "weapon of murder".</text>
+	</string>
+
+	<string id="darklab_docs_1_name">
+		<text>Experiment report</text>
+	</string>
+
+	<string id="darklab_docs_2_name">
+		<text>Security correspondence</text>
+	</string>
+
+	<string id="darklab_docs_1_desc">
+		<text>TOP SECRET.
+			Prisoner No. 38: Artyom Ignatov. Convicted for the murder of his family. In the pre-trial detention facility, he injured himself through self-harming. Declared that he does not feel pain. Ideal subject for experiment.
+			Test No. 42: "Possible human pain threshold." Within the framework of the "Universal Soldier" project.
+
+			Location: precinct of the CEZ. Laboratory X-18.
+			Start of the experiment: July 5, 1996. 14:32.
+
+			14:40.
+			Subject is placed in an incubator while under anesthesia. Pulse is steady, heartbeat is steady.
+
+			14:45
+			Psychosomatic signals are emitted into the incubator. Subject woke up. Sinoauric blockade. Heartbeat raising.
+
+			14:50
+			Neuroleptics are injected into the body of the test subject. Pupils sharply dilate, statistical devices fail.
+
+			15:00
+			The subject doesn't show signs of life. Guards are dispatched to dispose of the corpse.
+
+			15:20
+			Three out of five guards were critically injured. In order to avoid getting the experiment out of control, nerve gas was pumped into the room. The remaining two guards died in a matter of seconds, while the test subject still trashed for a long time, trying to break the armored glass.
+
+			Test No. 42 declared a failure.
+		 	NIPC observer Grishin M. A.</text>
+	</string>
+
+	<string id="darklab_docs_2_desc">
+		<text>Andrei, we recently received a new batch of prisoners. I processed them, put all the goodies in our cache. There's one ring with a sparkler, you can give it to your daughter. These prisoners, by the way, are told that they will be tested for a vaccine from some new kind of flu there. I always laugh at the tears of these assholes! It's a pity they did not hear their predecessors' screams. By the way, you lost to me last time at cards, that's why you'll clean the crematorium by yourself :)</text>
+	</string>
+
+	<string id="freedom_case_desc">
+		<text>The very container with contents that are extremely undesirable for the eyes of the authorities. Duty kept it secure... Until recently.</text>
+	</string>
+
+	<string id="death_zapiska_desc">
+		<text>The note contains work recordings of a stalker from the Death group guarding the cache. The last record is that the stalker spotted an armed detachment of unknown stalkers moving towards the tower.</text>
+	</string>
+
+	<string id="unknown_pda_locked_desc">
+		<text>PDA, looted from an unknown assailant. Password protected. Perhaps you should show it to someone who works with classified information.</text>
+	</string>
+
+	<string id="unknown_pda_unlocked_desc">
+		<text>Almost all files are corrupted and cannot be recovered. The remaining documents - tables and formulas, as well as maps of the Zone. On the map of Pripyat there's a marker on a place, called X-8.</text>
+	</string>
+
+	<string id="x16docs_1_desc">
+		<text>In order to provide greater security and stability of the research work (after a few unfortunate incidents), it was decided to expose to third-type psy-waves all the Laboratories' employees, starting with the janitors and ending with scientists. Everyone will be fitted with adaptive psi blocks that will not allow anyone to disrupt operations, rebel, steal data, organize riots or escape attempts.</text>
+	</string>
+
+	<string id="x16docs_2_desc">
+		<text>A message from the Professor to the head of the strict regime penitentiary on the delivery of 20 prisoners for psi-experiments./n Private and confidential. To the head of the strict regime colony 1296-bis Pakhlo K.P./n Kirill Petrovich, good day. How are you? I've heard that you flew to the Mauritius on New Year. How was it? I hope your young wife is happy now?.. Anyways, let's get to the point. We need 20 sheep from your farm. Preferably younger. Again, I understand that your staff would love a nice barbecue grill. You understand the work in the radioactive zone... we need people to relax, heh... Payment guaranteed. As always, on time. Transportation is on us./n Prof. Chubko V. M; 17. 01. 2008</text>
+	</string>
+
+	<string id="x16docs_3_desc">
+		<text>To the staff of the laboratory Х-16 /n In connection with the catastrophic events that began on April 12 of this year in the center of the Exclusion Zone around the Chernobyl Nuclear Power Plant, I order:/n Laboratory staff to copy all lab reports and collect 4 sets of documentation. Destroy the original documents marked confidential./n Activate contingency plan to eliminate all bio-materials./n Prepare the laboratory for standby status./n Prepare the experimental program "Shroud of darkness" to be loaded into the pseudo-brain "I-1M", as well as activate all external tracking sensors./n Activate wind generators and backup power supplies. Switch the laboratory into energy-saving mode./n Head to the main laboratory in the area Z17-45 in groups of 3 people. Each group carries 1 set of documentation. Each group is assigned one guard. Everyone must be wearing MOPP gear. 7. Good luck everyone./n Head of laboratory Х-16, Dr. Prikhodko P.S.</text>
+	</string>
+
+	<string id="x16docs_4_desc">
+		<text>Message from the head of the strict regime colony about the delivery of 20 prisoners to the Professor./n Vadim Mikhailovich, by the fear of God, to what lengths would you go? They are going to send me a Commission from the Ministry of health from -- for the deaths of prisoners serving a lifelong term. I am very grateful, of course, for your gratitude and its magnitude, but I can not send more people. Sorry, but I'm afraid./n Yours sincerely. Head of the strict regime penitentiary 1296-bis Pakhlo K.P. 18.01.2008</text>
+	</string>
+
+	<string id="x16docs_5_desc">
+		<text>Message from the Professor to the head of the strict regime colony about the delivery of 20 prisoners for conducting psi experiments./n Oh, what do I hear? He speaks of God now. Ha-ha-ha, don't act pharisaically, Kirill Petrovich. It's too late now, I think. You know perfectly well that you will send me this batch of prisoners and you will send whenever and whatever I demand. And in the unfortunate event you might refuse - up in here, with all your colleagues. Because you understand perfectly well that if they learn about your business, then you will have to sit with those very people whom you bring to us massy. And they have to die by suffering - believe me. Can you imagine being around them in a cell? Huh? And, if we kill them for the sake of the benefit of all mankind, then you are simply doing it for trivial money. Although it's better to say for VERY non-trivial money. However, we are not greedy people - take as much as you need. After all, your young, beautiful wife is worth the money. Come on, don't be sad - stop worrying about all the ministerial checks there. I have already explained to you several times — to me and my people even the president is not an edict, never mind some shitty ministry. So, relax our dear Kirill Petrovich, enjoy life's pleasures - with the ministry the matter will be closed. That, as with all other possible checks. And concerning God - do not worry - he will forgive us, too, when he finds out what a GREAT thing we did. Moreover, we, personally, ask him about it. Grabbing his beard. Ha ha ha./n Prof. Chubko V. M. 17. 01. 2008 </ text></text>
+	</string>
+
+	<string id="domino_task_descr">
+		<text>The principle is extremely simple: the enemy dies, I get money.</text>
+	</string>
+
+	<string id="domino_task_bandit">
+		<text>Stick-up</text>
+	</string>
+
+	<string id="domino_task_army">
+		<text>Elimination</text>
+	</string>
+
+	<string id="domino_task_monolith">
+		<text>Holy war</text>
+	</string>
+
+	<string id="domino_task_killer">
+		<text>Head hunting</text>
+	</string>
+
+	<string id="domino_task_sin">
+		<text>Ritual</text>
+	</string>
+
+	<string id="saharok_registrator">
+		<text>Detector</text>
+	</string>
+
+	<string id="jeka_duplet_name">
+		<text>Jeka Duplet</text>
+	</string>
+
+	<string id="st_pda_recon_descr">
+		<text>Vetrovenko's PDA, smeared with blood, but still in working condition. Contains, in addition to personal notes, information on the location, the size and armament of the group "Black slugs".</text>
+	</string>
+	<string id="st_pda_recon_name">
+		<text>Vetrovenko's PDA</text>
+	</string>
+</string_table>

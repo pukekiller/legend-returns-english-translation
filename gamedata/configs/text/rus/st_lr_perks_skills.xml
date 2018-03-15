@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_lr_skills_system_menu_perk_enter">
+		<text>Меню перков</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_enter">
+		<text>Меню навыков</text>
+	</string>
+	<string id="st_lr_skills_system_menu_exit">
+		<text>Выйти из меню</text>
+	</string>
+
+	<string id="st_lr_skills_system_menu_perk_1">
+		<text>Осторота</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_2">
+		<text>Парамедик</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_3">
+		<text>ЗОЖ</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_4">
+		<text>Гонзалес</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_5">
+		<text>Аспирант</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_6">
+		<text>Легенда</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_7">
+		<text>Последователь</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_8">
+		<text>Геркулес</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_9">
+		<text>Из метала</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_10">
+		<text>Всевидящий</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_11">
+		<text>Друг техников</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_12">
+		<text>Состоятельный клиент</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_13">
+		<text>Ускоренный метаболизм</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_14">
+		<text>???</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_info_1">
+		<text>Перки 5 уровня:\n
+		ОСТРОТА - вы обнаруживаете новое холодное оружие, с которым легче расправляться с врагами\n
+		ПАРАМЕДИК - бинты немного восполняют здоровье\n
+		ЗОЖ - водка выводит больше радиации, но ГГ быстрее пьянеет\n \n
+
+		Перки 10 уровня:\n
+		ГОНЗАЛЕС - вы обнаруживаете артефакт, с помощью которого можете бегать больше и уставать меньше\n
+		АСПИРАНТ - антирады станут более эффективнее\n
+		ЛЕГЕНДА - вы можете брать больше сталкеров в отряд\n
+		ПОСЛЕДОВАТЕЛЬ - зомбированные сталкеры становится нейтральными по отношению к вам.\n \n
+
+		Перки 20 уровня:\n
+		ГЕРКУЛЕС - вы обнаруживаете артефакт, с помощью которого можете носить больше веса в рюкзаке\n
+		ИЗ МЕТАЛЛА - вы обнаруживаете артефакт, с помощью которого повышается ваша пулестойкость.\n
+		ВСЕВИДЯЩИЙ - ваш ПДА теперь может показывать каждую живую душу по всей Зоне.\n
+		ДРУГ ТЕХНИКОВ - все техники Зоны, знают вас как никого другого. И могут предложить вам выпить, породнится и сделать все апгрейды.\n
+		СОСТОЯТЕЛЬНЫЙ КЛИЕНТ - торговцы чаще предлагают вам дорогие товары\n \n
+
+		Перки 25 уровня:\n
+		??? - этого никто не знает.\n
+		УСКОРЕННЫЙ МЕТАБОЛИЗМ - вы обнаруживаете артефакт, с помощью которого ГГ регенерирует с высочайшей скоростью.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_info_2">
+		<text>Перки — это разного рода спецспособности вашего ГГ. С начала игры они вам недоступны. После 5 уровня, вам будут доступны первые три перка, далее — после 10, еще 4 перка; 20 — 5 перков; 25 — последние два. Здесь вас никто не ограничивает выбором (почти), вы можете выбрать хоть всё перки сразу, если у вас имеются очки навыков и необходимый уровень.</text>
+	</string>
+
+	<string id="st_lr_skills_system_menu_skill_info_1">
+		<text>Навык силы позволяет переносить тяжёлое вооружение и бронекостюмы, а также пинать мелких мутантов и пользоваться гаусс-винтовкой. На 2 уровне герой реже будет получать критический урон, а на 5 - сведёт эффект от него к минимуму.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_2">
+		<text>Навык медицины позволяет более эффективно пользоваться аптечками и медкапсулами. Чем выше уровень, тем больше пополнится уровень здоровья после применения медикаментов. По мере прокачки, начиная со 2 уровня, герой может научиться разбирать медкомплекты для собственного использования и постепенно повышая пользу, которую можно из них извлечь.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_3">
+		<text>Навык мародёрства позволяет собирать деньги с мёртвых сталкеров, а также обворовывать тайники после получения на них наводки (начиная с 2 уровня). По мере прокачки повышается сумма денег. На 4 уровне появляется возможность снимать наводки на тайники с трупов. На 5 уровне герой научится грабить арсеналы крупных группировок после смерти торговца.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_4">
+		<text>Навык ремонта позволяет пользоваться ремкомплектами для самостоятельной починки оружия и брони. Дальнейшее повышение навыка повышает эффективность ремнаборов.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_5">
+		<text>Навык выживания позволяет разделывать туши мутантов, употреблять мясо мутантов без особого вреда здоровью, извлекать максимальную пользу из любой пищи, а также минимизировать урон от бьющихся артефактов.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_general">
+		<text>Система навыков позволяет вашему ГГ превратится из новичка в настоящего мастера! Не можешь носить на себе 10-ти килограмовый костюм? Наберись опыта и прокачай навык силы! Или может не научился использовать аптечку в полном её потенциале? Прокачай навык медицины! Не можешь толком взять артефакт в руки, дабы не «поранится»? Да что ты знаешь о выживании?! И так далее.</text>
+	</string>
+
+	<string id="st_lr_skills_system_max_level_1">
+		<text>Вы достигли максимального&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_max_level_2">
+		<text>Вы достигли&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_max_level_3">
+		<text>-го уровня</text>
+	</string>
+	<string id="st_lr_skills_system_rank_static">
+		<text>Ваш опыт:&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_level_static">
+		<text>Уровень -&#032;</text>
+	</string>
+
+	<!-- Перки -->
+	<string id="st_lr_skills_system_perk_unlock">
+		<text>Вы успешно активировали новый перк!</text>
+	</string>
+	<string id="st_lr_skills_system_perk_unlock_cannot">
+		<text>Вы не достигли определенного уровня или у вас мало очков, чтобы активировать этот перк</text>
+	</string>
+	<string id="st_lr_skills_system_perk_unlock_cannot_previous">
+		<text>Вы не можете активировать этот перк, если не выбрали перк предыдущего уровня</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_upgrade">
+		<text>ПРОКАЧАТЬ НАВЫК</text>
+	</string>
+	<string id="st_lr_skills_system_skill_upgrade_successful">
+		<text>Навык успешно повышен!</text>
+	</string>
+	<string id="st_lr_skills_system_skill_upgrade_cannot">
+		<text>Вы не можете повысить этот навык</text>
+	</string>
+
+	<!-- Навыки -->
+	<string id="st_lr_skills_system_skill_power_1_add">
+		<text>1/5 - теперь вы можете носить некоторое количество тяжелой брони</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_2_add">
+		<text>2/5 - теперь вы можете использовать тяжелое оружие и реже получать критический урон</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_3_add">
+		<text>3/5 - научные тяжелые костюмы больше вам не помеха</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_4_add">
+		<text>4/5 - вы узнали, как устроена Гаусс-пушка, а также можете пинать мелких мутантов</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_5_add">
+		<text>5/5 - вы крепки настолько, что теперь можете носить тяжелые экзоскелеты и сопротивляться критическим ранениям</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_medic_1_add">
+		<text>1/5 - аптечки действуют эффективнее</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_2_add">
+		<text>2/5 - появилась возможность разбирать медкомплекты, а медикаменты действуют эффективнее</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_3_add">
+		<text>3/5 - в медкомплектах появились антирады и армейские аптечки, а медикаменты действуют более эффективно</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_4_add">
+		<text>4/5 - в медкомплектах появились таблетки, а медикаменты действуют ещё эффективнее</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_5_add">
+		<text>5/5 - в медкомплектах появились научные аптечки, а медикаменты максимально эффективны</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_bandit_1_add">
+		<text>1/5 - теперь вы можете снимать с трупов деньги</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_2_add">
+		<text>2/5 - теперь вы можете получать наводки на тайники</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_3_add">
+		<text>3/5 - теперь вы находите больше денег в трупах</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_4_add">
+		<text>4/5 - теперь вы частенько находите наводки на тайники в трупах</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_5_add">
+		<text>5/5 - вы достигли максимального навыка мародерства и научились грабить арсеналы группировок</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_repair_1_add">
+		<text>1/5 - вы научились ремонтировать оружие с помощью ремкомплектов</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_2_add">
+		<text>2/5 - вы научились ремонтировать броню с помощью ремкомплектов</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_3_add">
+		<text>3/5 - вы научились эффективнее использовать ремкомплекты</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_4_add">
+		<text>4/5 - вы научились более эффективно использовать ремкомплекты</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_5_add">
+		<text>5/5 - вы достигли максимального навыка ремонта</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_survive_1_add">
+		<text>1/5 - вы научились разрезать мутантов</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_2_add">
+		<text>2/5 - вы можете есть мясо мутантов без особого вреда здоровью</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_3_add">
+		<text>3/5 - обычная еда для вас более эффективная</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_4_add">
+		<text>4/5 - артефакты для вас больше не настолько смертельны</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_5_add">
+		<text>5/5 - артефакты больше не наносят вам урон</text>
+	</string>
+</string_table>

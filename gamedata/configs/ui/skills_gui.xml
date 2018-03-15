@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<skills_gui>
+	<frame x="0" y="0" width="1024" height="768" stretch="1">
+		<main_img x="0" y="0" width="1024" height="768" stretch="1">
+			<texture>ui\skills_menu</texture>
+			<text_strength x="142" y="91" width="499" height="57" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_1</text>
+			</text_strength>
+			<text_medic x="142" y="193" width="499" height="38" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_2</text>
+			</text_medic>
+			<text_bandit x="142" y="298" width="499" height="38" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_3</text>
+			</text_bandit>
+			<text_repair x="142" y="404" width="499" height="57" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_4</text>
+			</text_repair>
+			<text_survival x="142" y="512" width="499" height="38" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_5</text>
+			</text_survival>
+			<perks_menu_b x="19" y="37" width="117" height="29">
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_enter</text>
+			</perks_menu_b>
+			<exit_b x="776" y="38" width="117" height="29">
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_exit</text>
+			</exit_b>
+			<main_skills_text x="30" y="622" width="950" height="38" stretch="1">
+				<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_skill_info_general</text>
+			</main_skills_text>
+			<shooting_b x="777" y="128" width="117" height="29">
+				<texture>ui_inGame2_Mp_bigbuttone</texture>
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_skill_upgrade</text>
+			</shooting_b>
+			<medic_b x="777" y="229" width="117" height="29">
+				<texture>ui_inGame2_Mp_bigbuttone</texture>
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_skill_upgrade</text>
+			</medic_b>
+			<bandit_b x="777" y="336" width="117" height="29">
+				<texture>ui_inGame2_Mp_bigbuttone</texture>
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_skill_upgrade</text>
+			</bandit_b>
+			<repair_b x="777" y="432" width="117" height="29">
+				<texture>ui_inGame2_Mp_bigbuttone</texture>
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_skill_upgrade</text>
+			</repair_b>
+			<survive_b x="777" y="541" width="117" height="29">
+				<texture>ui_inGame2_Mp_bigbuttone</texture>
+				<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_skill_upgrade</text>
+			</survive_b>
+		</main_img>
+	</frame>
+</skills_gui>

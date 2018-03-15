@@ -97,6 +97,8 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_items_weapons_upgrades.xml](gamedata/configs/text/eng/st_items_weapons_upgrades.xml)
 		- done
+	- [st_lr_perks_skills.xml](gamedata/configs/text/eng/st_lr_perks_skills.xml)
+		- done, unrevised
 	- [st_levels.xml](gamedata/configs/text/eng/st_levels.xml)
 		- done
 	- [st_mm_atmosfear_texts.xml](gamedata/configs/text/eng/st_mm_atmosfear_texts.xml)
@@ -131,8 +133,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [ui_st_encyclopedia.xml](gamedata/configs/text/rus/ui_st_encyclopedia.xml)
 		- not started
-	- [ui_st_encyclopedia_features.xml](gamedata/configs/text/rus/ui_st_encyclopedia_features.xml)
-		- not started
+	- [ui_st_encyclopedia_features.xml](gamedata/configs/text/eng/ui_st_encyclopedia_features.xml)
+		- done, unrevised
 	- [ui_st_faction_starts.xml](gamedata/configs/text/eng/ui_st_faction_starts.xml)
 		- unrevised
 	- [ui_st_inventory.xml](gamedata/configs/text/eng/ui_st_inventory.xml)
@@ -145,6 +147,12 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [zone_news_dead.xml](gamedata/configs/text/rus/zone_news_dead.xml)
 		- not started (there are translated strings in Last Day)
+
+- **configs/ui:**
+	- [perks_gui.xml](gamedata/configs/ui/perks_gui.xml)
+		- done
+	- [skills_gui.xml](gamedata/configs/ui/skills_gui.xml)
+		- done
 
 - **scripts:**
 	- [dialogs_bar.script](gamedata/scripts/dialogs_bar.script)

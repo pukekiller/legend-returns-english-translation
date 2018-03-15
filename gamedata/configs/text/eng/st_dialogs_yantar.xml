@@ -79,7 +79,7 @@
 		<text>Is it ready, yet?</text>
 	</string>
 	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3">
-		<text>Yes! Here you go. But I would like you to test it first. Help us with a case related to psy-emissions. There is a source, which is presumably in the territory of the cement plant. The helmet should keep you protected.</text>
+		<text>Yes! Here you go. But I would like you to test it first. Help us with a case related to psy-emissions. There is a source, which is presumably located in the vicinity of the cement plant. The helmet should keep you protected for the task.</text>
 	</string>
 	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3_1">
 		<text>Not yet. Please, come back later.</text>
@@ -161,7 +161,7 @@
 		<text>Тоже на это надеюсь. Какая тактика?</text>
 	</string>
 	<string id="ghost_naparnik_3">
-		<text>Тактика простая : ты ведёшь, я прикрываю тылы, в случае чего меняемся местами. Думаю, проблем быть не должно - у тебя ведь тоже есть тот новый прибор от профессора?</text>
+		<text>Тактика простая: ты ведёшь, я прикрываю тылы, в случае чего меняемся местами. Думаю, проблем быть не должно - у тебя ведь тоже есть тот новый прибор от профессора?</text>
 	</string>
 	<string id="ghost_naparnik_end_0">
 		<text>Фух, ну, вот и всё.</text>
@@ -221,7 +221,7 @@
 		<text>Ближе к телу, как говорится. Время - деньги.</text>
 	</string>
 	<string id="saharok_proverka_3">
-		<text>Да-да, разумеется. Давайте по порядку : мы изучаем природу пси-активности очень давно, чуть ли не с самого появления нашей экспедиции в этих краях. Не так давно наш сотрудник расставил специально настроенные регистраторы аномальной активности разной типологии.</text>
+		<text>Да-да, разумеется. Давайте по порядку: мы изучаем природу пси-активности очень давно, чуть ли не с самого появления нашей экспедиции в этих краях. Не так давно наш сотрудник расставил специально настроенные регистраторы аномальной активности разной типологии.</text>
 	</string>
 	<string id="saharok_proverka_4">
 		<text>[Далее...]</text>

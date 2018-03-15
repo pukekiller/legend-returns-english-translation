@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<perks_gui>
+	<main_image x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>ui\perks_menu</texture>
+		<menu_text x="680" y="93" width="310" height="247" stretch="1">
+			<text font="letterica16" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_perk_info_1</text>
+		</menu_text>
+		<menu_desc x="33" y="654" width="919" height="76" stretch="1">
+			<text font="letterica18" r="215" g="195" b="170" complex_mode="1">st_lr_skills_system_menu_perk_info_2</text>
+		</menu_desc>
+		<back_button x="16" y="38" width="117" height="29">
+			<texture></texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_skill_enter</text>
+		</back_button>
+		<exit_button x="776" y="38" width="117" height="29">
+			<texture></texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_exit</text>
+		</exit_button>
+		<l1p1 x="49" y="164" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_1</text>
+		</l1p1>
+		<l1p2 x="245" y="164" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_2</text>
+		</l1p2>
+		<l1p3 x="451" y="164" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_3</text>
+		</l1p3>
+		<l4p1 x="151" y="275" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_4</text>
+		</l4p1>
+		<l4p2 x="350" y="275" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_5</text>
+		</l4p2>
+		<l4p3 x="557" y="275" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_6</text>
+		</l4p3>
+		<l7p1 x="40" y="380" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_7</text>
+		</l7p1>
+		<l7p2 x="264" y="380" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_8</text>
+		</l7p2>
+		<l7p3 x="474" y="380" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_9</text>
+		</l7p3>
+		<l10p1 x="138" y="480" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_10</text>
+		</l10p1>
+		<l10p2 x="387" y="480" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_11</text>
+		</l10p2>
+		<l10p3 x="557" y="480" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_12</text>
+		</l10p3>
+		<l13p1 x="49" y="584" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_13</text>
+		</l13p1>
+		<l13p2 x="271" y="584" width="117" height="29">
+			<texture>ui_inGame2_Mp_bigbuttone</texture>
+			<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">st_lr_skills_system_menu_perk_14</text>
+		</l13p2>
+	</main_image>
+</perks_gui>

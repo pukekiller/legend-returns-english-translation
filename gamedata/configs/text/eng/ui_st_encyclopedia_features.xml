@@ -11,12 +11,12 @@
 		<text>
 		The levelling system will allow your character to turn from a novice into a warlord!\n
 		Unable to carry a 10 kilogram suit? Attain experience and acquire the Power skill!\n
-		Or perhaps you haven't attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill!\n
+		Or perhaps you haven’t attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill!\n
 		Incapable of grabbing an artefact without getting hurt? What do you know about survival?!\n
-		But that's not all. It is also possible to unlock certain perks, and not just attain skills for all sorts of things.\n
+		But that’s not all: it is also possible to unlock certain perks, and not just attain skills for all sorts of things.\n
 		There are various perks, and they are at times even necessary. More details in the remaining paragraphs.\n \n
 
-		To open the skills menu, press the "B" key.
+		To open the skills menu, press the ‘B’ key.
 		</text>
 	</string>
 
@@ -28,14 +28,14 @@
 	</string>
 	<string id="encyclopedia_photomode_main_text">
 		<text>
-		A piece that'll allow you to create beautiful screenshots.\n
+		A piece that’ll allow you to create beautiful screenshots.\n
 		The photo mode features the following:\n
 		1) Quick toggle of the HUD\n
 		2) Adjust the view angle. You can create the best option for a comfortable experience.\n
 		3) Toggle depth of field. In total, there are 4 presets. However, it works only on the second renderer with depth of field turned on.\n
 		4) Quick toggle of demo_record.\n
 		A small change, but it has its use.\n
-		To activate the camera menu, press the "-" key.
+		To activate the camera menu, press the ‘-’ key.
 		</text>
 	</string>
 
@@ -80,28 +80,28 @@
 	<string id="encyclopedia_perks_system_perki_all_text">
 		<text>
 		Level 1 perks:\n
-		ACUITY - you discover a new cold weapon, making it easier to deal with enemies\n
-		PARAMEDIC - bandages heal slightly\n
-		HEALTH PROMOTION - vodka reduces more radiation, but the player character gets intoxicated faster\n \n
+		ACUITY: you discover a new cold weapon, making it easier to deal with enemies\n
+		PARAMEDIC: bandages heal slightly\n
+		HEALTH PROMOTION: vodka reduces more radiation, but the player character gets intoxicated faster\n \n
 
 		Level 4 perks:\n
-		GONZALEZ - you discover an artefact that allows you to run around with additional stamina\n
-		ASPIRANT - anti-radiation drugs become more effective\n
-		LEGEND - you can recruit additional stalkers into a squad\n \n
+		GONZALEZ: you discover an artefact that allows you to run around with additional stamina\n
+		ASPIRANT: anti-radiation drugs become more effective\n
+		LEGEND: you can recruit additional stalkers into a squad\n \n
 
 		Level 7 perks:\n
-		DISCIPLE - stalkers of the Monolith become neutral towards you, though your neutrality is unlikely to please the representatives of Duty\n
-		HERCULES - you discover an artefact that allows additional storage in your backpack\n
-		METALLIC - you discover an artefact that increases your bullet resistance\n \n
+		DISCIPLE: stalkers of the Monolith become neutral towards you, though your neutrality is unlikely to please the representatives of Duty\n
+		HERCULES: you discover an artefact that allows additional storage in your backpack\n
+		METALLIC: you discover an artefact that increases your bullet resistance\n \n
 
 		Level 10 perks:\n
-		BOUNDLESS - your PDA can now display the location of every living soul throughout the Zone\n
-		TECHNICIAN'S FRIEND - all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n
-		PROSPEROUS CUSTOMER - traders offer you expensive products more frequently\n \n
+		BOUNDLESS: your PDA can now display the location of every living soul throughout the Zone\n
+		TECHNICIAN’S FRIEND: all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n
+		WEALTHY CLIENT: traders offer you expensive products more frequently\n \n
 
 		Level 13 perks:\n
-		NEO - ??? - Nobody knows.\n
-		INCREASED METABOLISM - you discover an artefact that helps you regenerate at the highest speed
+		NEO: ???: Nobody knows.\n
+		INCREASED METABOLISM: you discover an artefact that helps you regenerate at the highest speed
 		</text>
 	</string>
 

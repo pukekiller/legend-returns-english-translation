@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_lr_skills_system_menu_perk_enter">
+		<text>Perk menu</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_enter">
+		<text>Skill menu</text>
+	</string>
+	<string id="st_lr_skills_system_menu_exit">
+		<text>Exit menu</text>
+	</string>
+
+	<string id="st_lr_skills_system_menu_perk_1">
+		<text>Acuity</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_2">
+		<text>Paramedic</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_3">
+		<text>Health Promotion</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_4">
+		<text>Gonzalez</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_5">
+		<text>Aspirant</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_6">
+		<text>Legend</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_7">
+		<text>Disciple</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_8">
+		<text>Hercules</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_9">
+		<text>Metallic</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_10">
+		<text>Boundless</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_11">
+		<text>Technician’s Friend</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_12">
+		<text>Wealthy Client</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_13">
+		<text>Increased Metabolism</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_14">
+		<text>???</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_info_1">
+		<text>Level 5 perks:\n
+		ACUITY: you discover a new cold weapon, making it easier to deal with enemies\n
+		PARAMEDIC: bandages heal slightly\n
+		HEALTH PROMOTION: vodka reduces more radiation, but the player character gets intoxicated faster\n \n
+
+		Level 10 perks:\n
+		GONZALEZ: you discover an artefact that allows you to run around with additional stamina\n
+		ASPIRANT: anti-radiation drugs become more effective\n
+		LEGEND: you can recruit additional stalkers into a squad\n
+		DISCIPLE: zombified stalkers become neutral to you\n \n
+
+		Level 20 perks:\n
+		HERCULES: you discover an artefact that allows additional storage in your backpack\n
+		METALLIC: you discover an artefact that increases your bullet resistance\n \n
+		BOUNDLESS: your PDA can now display the location of every living soul throughout the Zone\n
+		TECHNICIAN’S FRIEND: all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n
+		PROSPEROUS CUSTOMER: traders offer you expensive products more frequently\n \n
+
+		Level 25 perks:\n
+		???: Nobody knows.\n
+		INCREASED METABOLISM: you discover an artefact that helps you regenerate at the highest speed</text>
+	</string>
+	<string id="st_lr_skills_system_menu_perk_info_2">
+		<text>Perks are different kinds of special abilities for your player character. From the beginning of the game, none are available to you, although after level 5, three perks become unlockable. After 10, 4 additional perks become available; 5 perks become available after level 20; and the last 2 perks become available after level 25. Here, you are (almost) not limited to any choice, and you can choose all perks at once if you have the necessary skill points and the required level.</text>
+	</string>
+
+	<string id="st_lr_skills_system_menu_skill_info_1">
+		<text>The Strength skill will allow you to carry heavy arms and armour, as well as kick small mutants and use gauss rifles. At level 2, you rarely receive critical damage, and at level 5, the effect is reduced to a minimum when it does appear.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_2">
+		<text>The Medicine skill allows for more effective use of first-aid kits and medical capsules. The higher the level of the skill, the more your health will increase after using medical supplies. As you progress from level 2, you can learn how to disassemble medical supplies for personal use and gradually improve the benefits that can be obtained from them.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_3">
+		<text>The Looting skill allows you to collect money from dead stalkers and steal caches after receiving training (starting at level 2). At level 4, the chance of taking a tip on the cache appears. At level 5, you can learn to rob the arsenals of larger factions with a key card.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_4">
+		<text>The Repair skill allows you to use repair kits for repairing weapons and armour by yourself. Further increasing the skill raises the overall effectiveness of independent repairs.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_5">
+		<text>The Survival skill allows you to carve up mutant carcasses, reduce health loss when consuming raw meat, make the most out of all types of food, and also minimize damage from harmful artifacts.</text>
+	</string>
+	<string id="st_lr_skills_system_menu_skill_info_general">
+		<text>The levelling system will allow your character to turn from a novice into a warlord! Unable to carry a 10 kilogram suit? Attain experience and acquire the Power skill! Or perhaps you haven’t attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill! Incapable of grabbing an artefact without getting hurt? What do you know about survival?! And so on.</text>
+	</string>
+
+	<string id="st_lr_skills_system_max_level_1">
+		<text>You have reached the maximum&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_max_level_2">
+		<text>You have reached&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_max_level_3">
+		<text>level</text>
+	</string>
+	<string id="st_lr_skills_system_rank_static">
+		<text>Your experience:&#032;</text>
+	</string>
+	<string id="st_lr_skills_system_level_static">
+		<text>Level:&#032;</text>
+	</string>
+
+	<!-- Perks -->
+	<string id="st_lr_skills_system_perk_unlock">
+		<text>You have successfully unlocked a new perk!</text>
+	</string>
+	<string id="st_lr_skills_system_perk_unlock_cannot">
+		<text>Your level or your amount of points is not high enough to activate this perk</text>
+	</string>
+	<string id="st_lr_skills_system_perk_unlock_cannot_previous">
+		<text>You can not activate this perk if you have not selected a perk on a previous level</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_upgrade">
+		<text>UPGRADE PERK</text>
+	</string>
+	<string id="st_lr_skills_system_skill_upgrade_successful">
+		<text>Skill successfully upgraded!</text>
+	</string>
+	<string id="st_lr_skills_system_skill_upgrade_cannot">
+		<text>You cannot upgrade this skill</text>
+	</string>
+
+	<!-- Skills -->
+	<string id="st_lr_skills_system_skill_power_1_add">
+		<text>1/5: you can now wear a certain amount of armour</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_2_add">
+		<text>2/5: you can now use heavy weapons and take less critical damage</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_3_add">
+		<text>3/5: heavy scientific suits no longer hinder you</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_4_add">
+		<text>4/5: you have learned the workings of the Gauss rifle, and can also kick small mutants</text>
+	</string>
+	<string id="st_lr_skills_system_skill_power_5_add">
+		<text>5/5: you are now strong enough to wear exoskeletons and resist critical injuries</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_medic_1_add">
+		<text>1/5: first-aid kits are more effective</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_2_add">
+		<text>2/5: you can now disassemble medical kits as well as use medical supplies more effectively</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_3_add">
+		<text>3/5: anti-radiation drugs and army first-aid kits now appear in medical kits, and medicines act more effectively</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_4_add">
+		<text>4/5: tablets now appear in medical kits, and medicines act more effectively</text>
+	</string>
+	<string id="st_lr_skills_system_skill_medic_5_add">
+		<text>5/5: scientific first-aid kits now appear in medical kits, and medicines are most effective</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_bandit_1_add">
+		<text>1/5: you can now loot money on corpses</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_2_add">
+		<text>2/5: you can can get tips for caches</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_3_add">
+		<text>3/5: you can now find additional money on corpses</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_4_add">
+		<text>4/5: you can now find tips on corpses</text>
+	</string>
+	<string id="st_lr_skills_system_skill_bandit_5_add">
+		<text>5/5: you have reached the maximum looting skill and have learned to rob faction arsenals</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_repair_1_add">
+		<text>1/5: you have learned how to repair weapons with repair kits</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_2_add">
+		<text>2/5: you have learned how to repair armour with repair kits</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_3_add">
+		<text>3/5: you have learned how to use repair kits more efficiently</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_4_add">
+		<text>4/5: you have learned how to use repair kits even more efficiently</text>
+	</string>
+	<string id="st_lr_skills_system_skill_repair_5_add">
+		<text>5/5: you have reached the maximum repair skill</text>
+	</string>
+
+	<string id="st_lr_skills_system_skill_survive_1_add">
+		<text>1/5: you have learned how to extract parts from mutants</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_2_add">
+		<text>2/5: you can now consume mutant meat without risking large health losses</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_3_add">
+		<text>3/5: ordinary provisions are now more effective</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_4_add">
+		<text>4/5: artefacts are no longer as deadly</text>
+	</string>
+	<string id="st_lr_skills_system_skill_survive_5_add">
+		<text>5/5: artefacts no longer inflict damage on you</text>
+	</string>
+</string_table>

@@ -145,7 +145,7 @@
 	</string>
 	<!-- MARSH DOCTOR STASH IN PRIPYAT -->
 	<string id="cit_doctor_task">
-		<text>Тайник Стрелка: Исследовать гостиницу</text>
+		<text>Strelok's stash: Search the hotel</text>
 	</string>
 	<string id="cit_doctor_task_1">
 		<text>The key and coordinates the doctor gave you indicates that Strelok has hidden a stash in a room at the Hotel Polissya in Pripyat.</text>
@@ -158,45 +158,45 @@
 	</string>
 	<!-- MARSH DOCTOR VISIT LABS -->
 	<string id="st_main_1_search_agr_ug_name">
-		<text>Исследовать подземелья Медприбора</text>
+		<text>Search Medpribor Underground</text>
 	</string>
 	<string id="st_main_1_search_agr_ug_text">
-		<text>Исследовать Подземелья Медприбора в поисках информации.</text>
+		<text>Search Medpribor Underground for information.</text>
 	</string>
 	<string id="st_main_2_search_labx18_name">
-		<text>Исследовать Темную Лабораторию</text>
+		<text>Search Dark Laboratory</text>
 	</string>
 	<string id="st_main_2_search_labx18_text">
-		<text>Исследовать лабораторию под Мёртвой Долиной в поисках информации.</text>
+		<text>Search the laboratory under Dead Valley for information.</text>
 	</string>
 	<string id="st_main_3_search_labx16_name">
-		<text>Исследовать подземелья Янтаря</text>
+		<text>Search under Yantar</text>
 	</string>
 	<string id="st_main_3_search_labx16_text">
-		<text>Исследовать лабораторию на территории озера Янтарного в поисках информации.</text>
+		<text>Search the laboratory located in Lake Yantar for information.</text>
 	</string>
 	<string id="st_main_4_search_labx10_name">
-		<text>Исследовать подземелья Радара</text>
+		<text>Search under Radar</text>
 	</string>
 	<string id="st_main_4_search_labx10_text">
-		<text>Исследовать лабораторию под Выжигателем в поисках информации.</text>
+		<text>Search the laboratory under the Scorcher for information.</text>
 	</string>
 	<string id="st_main_5_search_labx8_name">
-		<text>Исследовать подземелья Припяти</text>
+		<text>Search under Pripyat</text>
 	</string>
 	<string id="st_main_5_search_labx8_text">
-		<text>Исследовать лабораторию, расположенную на территории Припяти, в поисках информации.</text>
+		<text>Search the laboratory located in Pripyat for information.</text>
 	</string>
 	<string id="st_main_6_search_jup_ug_name">
-		<text>Исследовать Путепровод «Припять-1»</text>
+		<text>Search Pripyat Underground</text>
 	</string>
 	<string id="st_main_6_search_jup_ug_text">
-		<text>Исследовать Путепровод «Припять-1» в поисках информации.</text>
+		<text>Search Pripyat Underground for information.</text>
 	</string>
 	<string id="st_main_7_search_mon_con_name">
-		<text>Исследовать саркофаг ЧАЭС</text>
+		<text>Search the CNPP sarcophagus</text>
 	</string>
 	<string id="st_main_7_search_mon_con_text">
-		<text>Исследовать саркофаг ЧАЭС в поисках информации.</text>
+		<text>Search the CNPP sarcophagus for information.</text>
 	</string>
 </string_table>

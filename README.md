@@ -75,8 +75,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [st_generate_snames.xml](gamedata/configs/text/eng/st_generate_snames.xml)
 		- done
-	- [st_habarwik.xml](gamedata/configs/text/rus/st_habarwik.xml)
-		- not started
+	- [st_habarwik.xml](gamedata/configs/text/eng/st_habarwik.xml)
+		- unrevised
 	- [st_habarwik_outfit.xml](gamedata/configs/text/eng/st_habarwik_outfit.xml)
 		- done
 	- [st_items_artefacts.xml](gamedata/configs/text/rus/st_items_artefacts.xml)

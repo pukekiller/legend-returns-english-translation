@@ -4,37 +4,37 @@
         <text>Yes? What do you want? Strelok? Is that you?</text>
     </string>
     <string id="cit_doctor_hello_dialog_21">
-        <text>Каким попутным тебя сюда занесло, друг?</text>
+        <text>What brings you here, friend?</text>
     </string>
     <string id="cit_doctor_main_dialog_0">
-        <text>Стрелок? Нет, дед, ты меня с кем-то путаешь... Ты - Доктор? У меня для тебя посылка от Сидоровича.</text>
+        <text>Strelok? I think youвЂ™re confusing me with someone else, old man... Are you Doctor? I have a package for you from Sidorovich.</text>
     </string>
     <string id="cit_doctor_main_dialog_1">
-        <text>Путаю? Ох ... А за посылку спасибо. Сам понимаешь, таскать на своём горбу уже тяжело стало, вот и приходится сталкеров снаряжать. Это собранные лечебные травы, я из них лекарства делаю.</text>
+        <text>Someone else? Oh... Thanks for the package, though. Lugging everything around has gotten hard for me now, you know, so I have to send stalkers on errands. This is a collection of medicinal herbs, I make drugs out of them.</text>
     </string>
     <string id="cit_doctor_main_dialog_11">
-        <text>Мне Сидорович рассказал, что ты много знаешь о Зоне. Я собираюсь идти на Север. Можешь что-нибудь рассказать для меня?</text>
+        <text>Sidorovich told me that you know a lot about the Zone. IвЂ™m preparing to go north. Can you tell me anything?</text>
     </string>
     <string id="cit_doctor_main_dialog_2">
-        <text>Да уж предостаточно. Приходилось бывать и «по ту сторону» Выжигателя вместе с группой сталкеров. Не удивляйся, лазеек очень много, да не каждый их способен увидеть! Довольно долго я в сталкерах ходил, почти сроднился со своими товарищами. Лишь недавно решил остепениться здесь, в этих топях, и лечить тех, кто нуждается. И неважно, будет ли это мутант, либо человек. Я давно не различаю их.</text>
+        <text>More than enough. IвЂ™ve had to be "on that side" of the Scorcher with a group of stalkers. Don't be surprised, there are many gaps, but not everyone can spot them! I've been stalking with others for a fairly long time, IвЂ™ve become close with my comrades. Only recently IвЂ™ve decided to settle down here in these marshes and heal everyone in need. And it doesn't matter if itвЂ™s a mutant or a human. I haven't discriminated between them for a long time.</text>
     </string>
     <string id="cit_doctor_main_dialog_21">
-        <text>Ты говорил о группе сталкеров... А что с ними сейчас?</text>
+        <text>You mentioned a group of stalkers... WhatвЂ™s happened to them?</text>
     </string>
     <string id="cit_doctor_main_dialog_3">
-        <text>Они пытались найти причину возникновения Зоны, хотели проникнуть внутрь Саркофага, и у них это даже получилось. Мы с ними были буквально одержимы этой идеей, а особенно наш лидер. Когда они бывали в самых опасных местах, я обеспечивал им надёжный тыл. Однако, последний их поход завершился провалом - никто так и не вернулся...</text>
+        <text>They were trying to ascertain the cause of the Zone's appearance, they wanted to get inside the Sarcophagus, which they even managed to do. They and me were literally obsessed by this idea, especially our leader. When they were in the most dangerous places, I was providing reliable equipment for them. However, their last raid failed - nobody came back...</text>
     </string>
     <string id="cit_doctor_main_dialog_31">
-        <text>Печально... Но мой интерес сильнее страшных историй. Я всё равно проберусь за Центр Зоны. Удачи тебе, док.</text>
+        <text>How sad... But my interest is stronger than frightening stories. IвЂ™ll still make my way to the Zone's Center. Good luck, doc.</text>
     </string>
     <string id="cit_doctor_main_dialog_4">
-        <text>Подожди! Не уходи. Раз уж ты всё равно идёшь на Север... Найди хоть какую-то информацию о моих друзьях! Их звали Стрелок, Клык и Призрак. Последних двоих я очень давно не видел, а Стрелок, когда он последний раз пришёл в гости, дал мне ключ и координаты его тайника в Припяти. Наверняка там есть кое-что очень важное. Вот, возьми, они мне ни к чему. Возможно, это хоть как-то поможет тебе.\nОн ещё говорил что-то о Монолите. Я тогда мало что понимал из его слов, и я не слишком уверен, что он тоже. И ещё... Он потратил много времени на поиски разгадок тайн Зоны в подземных лабораториях. Не исключено, что ответы на кое-какие вопросы всё ещё находятся где-то там. Я тебе закачаю всё на ПДА, не переживай.</text>
+        <text>Wait! Don't go. If youвЂ™re going north no matter what... Find at least some information about my friends! They were called Strelok, Fang and Ghost. I haven't seen the latter two, but when Strelok was visiting me for the last time, he gave me a key and the coordinates for his stash in Pripyat. Surely there is something very important there. Here, take it, I have no use for it. It might help you in some way, at least.\nHe also mentioned something about the Monolith. I understood little of what he was saying then, and I'm not really convinced that he did either. What's more... He spent a lot of time searching for answers to the ZoneвЂ™s secrets in underground laboratories. ItвЂ™s not out of the question that some answers are still somewhere out there. I'll upload everything on your PDA, don't worry about it.</text>
     </string>
     <string id="cit_doctor_main_dialog_41">
-        <text>Спасибо большое за информацию и ключ. А если я найду твоих друзей, то обязательно вернусь с весточкой.</text>
+        <text>Thanks a lot for the information and the key. If I find your friends, IвЂ™ll definitely bring back news.</text>
     </string>
     <string id="cit_doctor_main_dialog_5">
-        <text>Благодарю тебя. Безопасной тебе дороги, сталкер...</text>
+        <text>Thank you. Have a safe trip, stalker...</text>
     </string>
     <string id="mar_base_owl_stalker_trader_start_dialog_1">
         <text>Need supplies or equipment? Information?... Or maybe you want to sell information?</text>
@@ -110,325 +110,325 @@
 
 	<!-- Legend Returns -->
 	<string id="greh_barter_1_0">
-		<text>Мне нужно некоторое снаряжение.</text>
+		<text>I need some equipment.</text>
 	</string>
 	<string id="greh_barter_1_1">
-		<text>Обменяю на сердца сталкеров, что тебе нужно?</text>
+		<text>IвЂ™ll trade it for stalker hearts. What do you need?</text>
 	</string>
 	<string id="greh_barter_1_9">
-		<text>Мне ничего не нужно.</text>
+		<text>I donвЂ™t need anything.</text>
 	</string>
 	<string id="greh_barter_1_8">
-		<text>Мне нужен Призывной Череп(7 сердец).</text>
+		<text>I need a Recruitment Skull (7 hearts).</text>
 	</string>
 	<string id="greh_barter_1_7">
-		<text>Мне нужна ритуальная маска(3 сердца).</text>
+		<text>I need a ritual mask (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_6">
-		<text>Мне нужны патроны.</text>
+		<text>I need ammo.</text>
 	</string>
 	<string id="greh_barter_1_555">
-		<text>Давай посмотрим.</text>
+		<text>LetвЂ™s see here.</text>
 	</string>
 	<string id="greh_barter_1_5551">
-		<text>Мне нужны патроны для дробовика(3 сердца).</text>
+		<text>I need shotgun ammo (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5552">
-		<text>Мне нужны патроны 5.45х39(3 сердца).</text>
+		<text>I need 5.45x39 ammo (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5553">
-		<text>Мне нужны патроны 9х18(3 сердца).</text>
+		<text>I need 9x18 ammo (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5554">
-		<text>Мне нужны патроны 9х19(3 сердца).</text>
+		<text>I need 9x19 ammo (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5555">
-		<text>Мне нужны патроны для аномального калаша(3 сердца).</text>
+		<text>I need ammo for an anomalous Kalashnikov (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5556">
-		<text>Мне нужны патроны для аномального дробовика(3 сердца).</text>
+		<text>I need ammo for an anomalous shotgun (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5557">
-		<text>Мне нужны патроны для аномального кольта(3 сердца).</text>
+		<text>I need ammo for an anomalous Colt (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5558">
-		<text>Мне нужны гранаты(5 сердец).</text>
+		<text>I need grenades (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5559">
-		<text>Мне нужны патроны для «Цербера"(5 сердец).</text>
+		<text>I need ammo for the "Cerberus" (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_5560">
-		<text>Мне ничего не нужно.</text>  
+		<text>I donвЂ™t need anything.</text>  
 	</string>
 	<string id="greh_barter_1_4">
-		<text>Мне нужна броня.</text>
+		<text>I need armor.</text>
 	</string>
 	<string id="greh_barter_1_333">
-		<text>Давай поглядим.</text>
+		<text>LetвЂ™s have a look.</text>
 	</string>
 	<string id="greh_barter_1_3331">
-		<text>Возьму плащ (5 сердец).</text>
+		<text>IвЂ™ll take a raincoat (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_3332">
-		<text>Возьму укрепленный плащ(15 сердец).</text>
+		<text>IвЂ™ll take a reinforced raincoat (15 hearts).</text>
 	</string>
 	<string id="greh_barter_1_3333">
-		<text>Возьму аномальный плащ(30 сердец).</text>
+		<text>IвЂ™ll take an anomalous raincoat (30 hearts).</text>
 	</string>
 	<string id="greh_barter_1_3334">
-		<text>Мне ничего не нужно.</text>
+		<text>I donвЂ™t need anything.</text>
 	</string>
 	<string id="greh_barter_1_2">
-		<text>Мне нужны стволы.</text>
+		<text>I need guns.</text>
 	</string>
 	<string id="greh_barter_1_222">
-		<text>Мне нужен «Ритуальный» нож(5 сердец).</text>
+		<text>I need a "Ritual" knife (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_222">
-		<text>Давай посмотрим.</text>
+		<text>LetвЂ™s see here.</text>
 	</string>
 	<string id="greh_barter_1_21">
-		<text>Возьму ПМ (2 сердца).</text>
+		<text>IвЂ™ll take a PM (2 hearts).</text>
 	</string>
 	<string id="greh_barter_1_22">
-		<text>Возьму двухстволку (3 сердца).</text>
+		<text>IвЂ™ll take a double-barreled shotgun (3 hearts).</text>
 	</string>
 	<string id="greh_barter_1_23">
-		<text>Возьму аксу (5 сердец).</text>
+		<text>IвЂ™ll take an AKS (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_24">
-		<text>Возьму МП-5 (5 сердец).</text>
+		<text>IвЂ™ll take an MP5 (5 hearts).</text>
 	</string>
 	<string id="greh_barter_1_25">
-		<text>Возьму АКС-74 (7 сердец).</text>
+		<text>IвЂ™ll take an AKS-74 (7 hearts).</text>
 	</string>
 	<string id="greh_barter_1_26">
-		<text>Возьму чейзер (7 сердец).</text>
+		<text>IвЂ™ll take a Chaser (7 hearts).</text>
 	</string>
 	<string id="greh_barter_1_27">
-		<text>Возьму аномальный кольт (7 сердец).</text>
+		<text>IвЂ™ll take an anomalous Colt (7 hearts).</text>
 	</string>
 	<string id="greh_barter_1_28">
-		<text>Возьму аномальный АК (15 сердец).</text>
+		<text>IвЂ™ll take an anomalous AK (15 hearts).</text>
 	</string>
 	<string id="greh_barter_1_29">
-		<text>Возьму аномальную помповуху (15 сердец).</text>
+		<text>IвЂ™ll take an anomalous pump action shotgun (15 hearts).</text>
 	</string>
 	<string id="greh_barter_1_30">
-		<text>Возьму обгорелое ружье (7 сердец).</text>
+		<text>IвЂ™ll take a burned gun (7 hearts).</text>
 	</string>
 	<string id="greh_barter_1_299">
-		<text>Мне ничего не нужно.</text>
+		<text>I donвЂ™t need anything.</text>
 	</string>
 	<string id="greh_barter_3_0">
-		<text>Мне нужна «скорость» (3 сердца).</text>
+		<text>I need "speed" (3 hearts).</text>
 	</string>
 	<string id="csky_story_start_0">
-		<text>Есть спецзадания?</text>
+		<text>Got any special tasks?</text>
 	</string>
 	<string id="csky_story_start_1">
-		<text>Да, есть. Слышал о том, как несколько месяцев назад погиб наш передовой отряд у ЧАЭС?</text>
+		<text>Yes, I do. Have you heard how our vanguard died a few months ago at the CNPP?</text>
 	</string>
 	<string id="csky_story_start_2">
-		<text>Да, слышал.</text>
+		<text>Yes, I have.</text>
 	</string>
 	<string id="csky_story_start_3">
-		<text>Так вот, мои источники докладывают, что Стрелок, за которым гнался наш клан, до сих пор жив и до сих пор скрывается в Зоне. Необходимо провести расследование. Здесь, в катакомбах, судя по нашим старым разведданным, было по меньшей мере два тайника. Попробуй найти их и обследовать. Всё, что найдёшь, покажешь мне. Прошу, без самодеятельности.</text>
+		<text>Alright, my sources report that Strelok, the guy that our clan was chasing after, is still alive and is still hiding in the Zone. You need to search for him. Here, in the catacombs, judging by our old recon data, were at least two stashes. Try finding and examining them. Show me everything you've found. Without any unauthorized actions.</text>
 	</string>
 	<string id="csky_first_dialog_0">
-		<text>Вот, я нашёл КПК с перепиской сталкеров. Судя по содержимому, это его друзья.</text>
+		<text>Here, I found a PDA with messages sent between stalkers. Judging by its contents, they are his friends.</text>
 	</string>
 	<string id="csky_first_dialog_1">
-		<text>Так-так... Хм... Незамысловатый шифр какой-то, даже странно. Вот только самого главного нет. Однако, тут есть отсылка к Ростку, где есть, скажем, более свежие переписки. Видимо, уже тогда они что-то заподозрили. Если быть точнее, то здесь упоминается недостроенное здание. Думаю, дальнейший твой маршрут ясен?</text>
+		<text>Let's see here... Hmm... ThereвЂ™s some simple cipher, thatвЂ™s odd. WhatвЂ™s missing is the most important part. However, thereвЂ™s a reference to Rostok with, letвЂ™s say, fresher messages. Obviously they were already suspicious of something back then. To be precise, thereвЂ™s mention of an unfinished building. I think your next destination is clear, right?</text>
 	</string>
 	<string id="csky_second_story_task_0">
-		<text>Нашёл. И чего мне это стоило, ты даже себе не представляешь. Прыгал по крыше завода, как малолетка по гаражам.</text>
+		<text>I found it. And you can't even imagine what it took me. I was jumping around the factoryвЂ™s roof like a boy from one garage to another.</text>
 	</string>
 	<string id="csky_second_story_task_1">
-		<text>Давай посмотрим. Твою дивизию! Тут тоже нет ничего о его нынешнем местоположении... Но радует одно. Пока тебя не было, я навёл справки и узнал, что Стрелок имел деловые отношения с торговцем на кордоне. Наведайся туда.</text>
+		<text>LetвЂ™s take a look. Fucking hell! ThereвЂ™s nothing about his current location here too... But thereвЂ™s one positive fact. While you were gone, I was asking around and found out that Strelok has had business relations with a trader in Cordon. Check that place out.</text>
 	</string>
 	<string id="talk_to_sidor_done_0">
-		<text>Ну, здарова, Сидорович! Изволь поинтересоваться личностью одного сталкера. Он имел дело с тобой, а теперь ищу его я.</text>
+		<text>Hello there, Sidorovich! Would you be so kind to let me ask about a certain stalker? He was dealing with you, and now IвЂ™m the one looking for him.</text>
 	</string>
 	<string id="talk_to_sidor_done_1">
-		<text>И кто же тебя интересует?</text>
+		<text>And who exactly are you interested in?</text>
 	</string>
 	<string id="talk_to_sidor_done_2">
-		<text>Стрелок.</text>
+		<text>Strelok.</text>
 	</string>
 	<string id="talk_to_sidor_done_3">
-		<text>О как! Не думал, что снова это услышу... Стрелок - личность не из публичных, однако, я знаю, чем тебе помочь. Давай так: выполнишь для меня пару заданий - получишь некоторую инфу. Идёт?</text>
+		<text>Look at that! I didnвЂ™t think IвЂ™d hear this again... Strelok isnвЂ™t a public person, however, I know how to help you. Let's do it like this: you do a few jobs for me and IвЂ™ll give you some info. Deal?</text>
 	</string>
 	<string id="talk_to_sidor_done_4">
-		<text>Выбора у меня нет. Что нужно делать?</text>
+		<text>I have no choice. What do I have to do?</text>
 	</string>
 	<string id="talk_to_sidor_done_5">
-		<text>Сталкер есть один, он кинул меня на серьёзные бабки. Мне нужно, чтобы он понял, что он сделал плохо... Сечёшь? Михой Вором кличут. А по моим данным, скрывается он где-то на северной части болот.</text>
+		<text>ThereвЂ™s a certain stalker who left me without serious moolah. I need him to understand that he's done wrong... Capeesh? He goes by the name Miha Thief. And, according to my data, he's hiding somewhere in the northern part of the swamps.</text>
 	</string>
 	<string id="predatel_killed_0">
-		<text>Мишаня пожалел о своем поведении, и теперь ты должен выполнить свою часть сделки.</text>
+		<text>OlвЂ™ Miha regretted his actions, and now you have to keep your side of the bargain.</text>
 	</string>
 	<string id="predatel_killed_1">
-		<text>Полегче! Я тебе не какой-то барыга. Сказал - значит, сделаю. Значит, вот, что я тебе скажу. Стрелок сейчас в Зоне. У меня есть человечек, который какое-то время выслеживал его сигнал. Однако, тот учуял что-то неладное и смылся. Всё, что от него осталось - это его КПК, но он зашифрован. Найди того, кто расшифрует его. Там наверняка будет зацепка, и не одна.</text>
+		<text>Ease up! IвЂ™m not some conman. If I said so, it means IвЂ™ll do it. So hereвЂ™s what I'm gonna tell you. Strelok is in the Zone now. I have a guy who was following his signal for a while. However, he smelt trouble and did a bunk. The only thing left of him is his PDA, but itвЂ™s encrypted. Find a guy who will decrypt it. There'll surely be a lead, and not just one.</text>
 	</string>
 	<string id="mechanik_unlock_0">
-		<text>Привет! Не поможешь? КПК один расшифровать нужно.</text>
+		<text>Hi! Mind helping me out? ThereвЂ™s a PDA that needs to be decrypted.</text>
 	</string>
 	<string id="mechanik_unlock_1">
-		<text>Ну, здарова! В курсе о твоем деле, так что всё сделаю бесплатно и в лучшем виде. Так-с... [Расшифровывает данные] Готово. Давай посмотрим. Тут есть следующие записи: «09:13 - Иду за Стрелком на Север. 14:23 - Стрелок остановился в каком-то домике, похоже, решил отдохнуть. 21:13 - Снова куда-то направился. 02:07 - Сейчас мы где-то на Затоне, не могу понять, где именно... Слишком темно... 03:15 - Зашёл на Скадовск. 12:28 - Больше не выходил. Похоже здесь и останется. 12:40 - Выдвигаюсь к Сидоровичу.». Это всё.</text>
+		<text>Hello there! IвЂ™m aware of your task, so IвЂ™ll do everything for free and to the best of my abilities. LetвЂ™s see... [Decrypting data] ItвЂ™s ready. LetвЂ™s see here. HereвЂ™s the data it contains: "09:13 - IвЂ™m going after Strelok to the north. 14:23 - Strelok stopped in some small house, it seems that heвЂ™s decided to have a rest. 21:13 - HeвЂ™s on the move again. 02:07 - We're somewhere in Zaton now, I have no idea where exactly... ItвЂ™s too dark... 03:15 - He entered the Skadovsk. 12:28 - He hasnвЂ™t come out since. Looks like heвЂ™ll be staying here. 12:40 - IвЂ™m going to Sidorovich." ThatвЂ™s all.</text>
 	</string>
 	<string id="talk_to_vedrov_0">
-		<text>Есть новости. Стрелок, судя по данным с КПК, скрывается где-то на Затоне.</text>
+		<text>I have some news. Strelok, judging by the data on the PDA, is hiding somewhere in Zaton.</text>
 	</string>
 	<string id="talk_to_vedrov_1">
-		<text>Так чего же мы ждём? Его нужно ликвидировать как можно скорее! Сделай это, мы все от этого зависим.</text>
+		<text>What are we waiting for then? He must be eliminated as soon as possible! Do it, we all depend on it.</text>
 	</string>
 	<string id="strelok_killed_0">
-		<text>Стрелок мёртв. Не могу поверить...</text>
+		<text>Strelok is dead. I cannot believe it...</text>
 	</string>
 	<string id="strelok_killed_1">
-		<text>Молодец, сталкер! Теперь точно знаем, Лебедев погиб не зря. Кстати, пока тебя не было, на связь вышел один из отрядов разведчиков. Они сообщили, что спасли от смерти одного сталкера, который в своё время здорово помог Чистому Небу. Кстати, он тоже когда-то покушался на жизнь Стрелка, но сейчас не об этом. Так вот, связь с отрядом оборвалась в Рыжем Лесу. Мы отправили им на встречу ещё один отряд, но и он в скором времени исчез. Твое следующее задание - выйти на след отрядов.</text>
+		<text>Well done, stalker! Now we definitely know that LebedevвЂ™s death was not in vain. By the way, while you were gone, one of the recon groups contacted us. They said that they'd saved a stalker from death and he had greatly helped Clear Sky back in the day. By the way, he also once made an attempt on StrelokвЂ™s life, but letвЂ™s not get off-topic here. So, we lost contact with the squad in Red Forest. We sent another squad after them, but it soon disappeared too. Your next task is to track down the squads.</text>
 	</string>
 	
 	<string id="poisk_0">
-		<text>У меня плохие новости. Я нашёл всего одного бойца, и тот мёртв.</text>
+		<text>I have bad news. I found just one fighter, and he too was dead.</text>
 	</string>
 	<string id="poisk_1">
-		<text>Проклятье! Теряем людей. Они же одни из лучших... были... Ладно, отбросим это. Что при нём было?</text>
+		<text>Goddammit! WeвЂ™re losing men. They are some of the best... Were... Fine, let's drop it. What did he have?</text>
 	</string>
 	<string id="poisk_2">
-		<text>У него я нашёл КПК, вот он. Может, инфа на нём прольет свет на то, что случилось с его группой.</text>
+		<text>I found a PDA on him, here it is. Maybe his info will shed some light on what's happened to his group.</text>
 	</string>	
 	<string id="poisk_3">
-		<text>[Читает данные с КПК] Так... Группу атаковали неизвестные сталкеры без знаков различия. Также тут сказано, что неизвестные захватили одного из группы. Это многое проясняет. Твоя задача - вернуться в Рыжий Лес и найти уцелевшего сталкера. Надеюсь, он ещё жив.</text>
+		<text>[Reading data on the PDA] LetвЂ™s see... The group was attacked by unknown stalkers without insignia. It also says that the unknown men took one group member. That explains a lot. Your task is to return to Red Forest and find the survivor. I hope heвЂ™s still alive.</text>
 	</string>
 	<string id="poisk_4">
-		<text>Понял.</text>
+		<text>Understood.</text>
 	</string>
 	<string id="dolozhit_0">
-		<text>Я вернулся и снова с плохими новостями. Я нашёл тот туннель, но никакого сталкера там уже не было. Он оставил там записку и ещё, похоже, обронил свой КПК. Но он разбит и не работает, отнесу его Новикову, возможно, он сможет что-то сделать.</text>
+		<text>I'm back and IвЂ™ve got bad news again. I found the tunnel, but there was no stalker there. He had left a note there and it seems that he had dropped his PDA. But itвЂ™s broken and doesnвЂ™t work, I'll take it to Novikov, maybe heвЂ™ll be able to do something.</text>
 	</string>
 	<string id="dolozhit_1">
-		<text>Хорошо. А я почитаю записку, возможно, узнаю новые подробности.</text>
+		<text>Alright. IвЂ™ll read the note, maybe IвЂ™ll find out more details.</text>
 	</string>
 	<string id="remont_0">
-		<text>Привет! Мне снова нужна твоя помощь.</text>
+		<text>Hi! I need your help again.</text>
 	</string>
 	<string id="remont_1">
-		<text>Здарова, парень. Что от меня требуется?</text>
+		<text>WhatвЂ™s up, man. What do you want from me?</text>
 	</string>
 	<string id="remont_2">
-		<text>Вот КПК, он разбит. Нужно выудить оттуда хоть какую-либо информацию.</text>
+		<text>Here's a PDA, itвЂ™s broken. I need any kind of information pried out from it.</text>
 	</string>
 	<string id="remont_3">
-		<text>Так-с... Ого, да он убит чуть менее, чем полностью! Ладно, попробую сделать что-нибудь. Не было такого, с чем бы я не справился.</text>
+		<text>LetвЂ™s see... Whoa, itвЂ™s been almost completely smashed! Fine, IвЂ™ll try to do something. ThereвЂ™s nothing that I havenвЂ™t been able to deal with.</text>
 	</string>
 	<string id="remont_4">
-		<text>Спасибо тебе. Колдуй.</text>
+		<text>Thank you. Work your magic.</text>
 	</string>
 	<string id="remont_5">
-		<text>Поехали. Ну-ка, ну-ка... Вот, зараза! А если вот так? Всё, поддался! На соплях, но он, похоже, еще может работать.</text>
+		<text>LetвЂ™s roll. Come on... Damn bastard! And what if we did this? There, it worked! It's busted as hell, but it seems like it still might work.</text>
 	</string>
 	<string id="remont_6">
-		<text>Ну, что там?</text>
+		<text>Well, whatвЂ™s in it?</text>
 	</string>
 	<string id="remont_7">
-		<text>Так... Тут записи с заказами, похоже, это КПК наёмника... О! А это что-то интересное... Среди неактивных заданий есть отметки на территории ЧАЭС и секретный шифр. Есть отсылки и к нашему бывшему патрону - Лебедеву. Давай дальше листать... Твою мать! Всё, КПК сдох, больше ничего вытащить не смогу, не сердчай.</text>
+		<text>LetвЂ™s see... It has notes with tasks, it seems like it's a mercвЂ™s PDA. Whoa! Now thatвЂ™s something interesting... Among inactive tasks there are notes on the CNPPвЂ™s territory and a secret code. There are references to our former boss too - Lebedev. LetвЂ™s read more... Fucking hell! ThatвЂ™s it, the PDAвЂ™s dead, I can't get anything else out of it, donвЂ™t be angry.</text>
 	</string>
 	<string id="remont_8">
-		<text>Ты всё равно хорошо помог.</text>
+		<text>You helped out a lot anyway.</text>
 	</string>
 	<string id="dolozhit_vedrovy_0">
-		<text>Новиков смог вытащить из него информацию, там записи с заказами, это КПК наёмника.</text>
+		<text>Novikov was able to get information out of it, there were notes with tasks, it was a mercвЂ™s PDA.</text>
 	</string>
 	<string id="dolozhit_vedrovy_1">
-		<text>Отлично. Там было ещё что-то?</text>
+		<text>Excellent. Was anything else there?</text>
 	</string>
 	<string id="dolozhit_vedrovy_2">
-		<text>Да, он был на ЧАЭС и как-то связан с Лебедевым.</text>
+		<text>Yes, he was at the CNPP and was somehow related to Lebedev.</text>
 	</string>
 	<string id="dolozhit_vedrovy_3">
-		<text>Мои догадки подтвердились. Это он. Его нужно срочно найти, раз он ещё жив! Немедленно отправляйся к Осведомителю, он в Баре, и узнай про Наёмника Шрама. Запомнил?</text>
+		<text>My suspicions have been confirmed. It's him. He must be found immediately if heвЂ™s still alive! Go to Snitch right now, heвЂ™s in the Bar, and find out about the mercenary Scar. Got it?</text>
 	</string>
 	<string id="dolozhit_vedrovy_4">
-		<text>Наёмник Шрам. Принято, выдвигаюсь.</text>
+		<text>Mercenary Scar. Good, IвЂ™m moving out.</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_0">
-		<text>Здравствуй, любезный! Мне нужна инфа о текущем месторасположении одного сталкера, да непростого. Он наёмник.</text>
+		<text>Hello, my good man! I need info about the current location of a certain stalker, and not an ordinary one. He's a merc.</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_1">
-		<text>Ха, а Вам оно таки надо? Эти ребята заносчивые, шо тебе тот гаишник с престижного перекрёстка! Как зовут его?</text>
+		<text>Hah, and you really need it? You guys have your head up your ass! WhatвЂ™s his name?</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_2">
-		<text>Известен как Шрам. Я так понимаю, чтобы тебя разговорить, нужны деньги? Так у меня их есть.</text>
+		<text>He's known as Scar. The way I see it, I need money to get you talking? I happen to have it.</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_3">
-		<text>Шрам?! Ой, не надо меня уговаривать, я и так соглашусь! Информация по нему у меня как раз таки есть, но деньги меня не интересуют. Просьба есть. Был у меня один, эм... хороший друг, да вот пропал он не так давно. Последняя весточка от него была с окрестностей Юпитера. Отыщи его для меня, и будет тебе инфа.</text>
+		<text>Scar?! Look, you donвЂ™t need to convince me, I agree anyway! I just happen to have information about him, but IвЂ™m not interested in money. I have a request. I had a, erm... good friend, but he disappeared not too long ago. His last message was from Jupiter Outskirts. Get hold of him for me, and youвЂ™ll get the info.</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_4">
-		<text>И как же его туда занесло?! Ладно... Как его зовут?</text>
+		<text>And what brought him there?! Fine... What's his name?</text>
 	</string>
 	<string id="osvedomitel_quest_dialog_5">
-		<text>Степан Бесстрашный.</text>
+		<text>Stepan Fearless</text>
 	</string>
 	<string id="osvedomitel_info_next_0">
-		<text>Я нашёл твоего друга.</text>
+		<text>IвЂ™ve found your friend.</text>
 	</string>
 	<string id="osvedomitel_info_next_1">
-		<text>Ну что, что с ним?!</text>
+		<text>Well, what about him?!</text>
 	</string>
 	<string id="osvedomitel_info_next_2">
-		<text>Он погиб. Жил без страха и погиб без страха.</text>
+		<text>HeвЂ™s dead. He lived without fear and died without fear.</text>
 	</string>
 	<string id="osvedomitel_info_next_3">
-		<text>Как же так?! На тебе, такое выкинуть! Взял и умер посреди полного здоровья! А ведь парень был не из слабаков. Что-нибудь еще?</text>
+		<text>How could this happen?! Everything's fine and bam, this happens! He just up and died in full health! And he wasnвЂ™t a weak guy either. Anything else?</text>
 	</string>
 	<string id="osvedomitel_info_next_4">
-		<text>Я нашёл у него КПК, но он зашифрован. Вот, держи.</text>
+		<text>I found a PDA on him, but it's encrypted. Here, take it.</text>
 	</string>
 	<string id="osvedomitel_info_next_5">
-		<text>Спасибо тебе сталкер. Пароль от него я знаю. По Шраму информации у меня не много. В последний раз он был замечен на северных подходах к Болотам. Вёл себя крайне подозрительно. Явно искал местечко, где можно спрятаться. Собственно, это всё.</text>
+		<text>Thank you, stalker. I don't know the password for it. I don't have much information about Scar. Last time he was spotted at the northern passageways to the Swamps. He was acting extremely suspicious. He was clearly looking for a place to hide. That's the gist of it.</text>
 	</string>
 	<string id="start_shram_dialog_0">
-		<text>Шрам? Это ты?</text>
+		<text>Scar? Is that you?</text>
 	</string>
 	<string id="start_shram_dialog_1">
-		<text>Хм... А ты ещё кто такой? Да, меня и вправду зовут Шрам, а вот тебя я не знаю.</text>
+		<text>Mhm... And who are you? Yes, I really am Scar, but I donвЂ™t know you.</text>
 	</string>
 	<string id="start_shram_dialog_2">
-		<text>Я из «Чистого неба». Те ребята в Рыжем Лесу... Не расскажешь, что там произошло?</text>
+		<text>IвЂ™m from "Clear Sky". The guys in Red Forest... Mind telling me what happened there?</text>
 	</string>
 	<string id="start_shram_dialog_3">
-		<text>Чистое небо?! Не ожидал. Прости за такой холодный приём, не прознал сразу. Значит, слушай: возвращался я неважно, откуда, в сторону армейских складов. Однако, недалеко от Радара меня накрыло излучение, хотя до этого я проходил там без проблем. Когда я был при смерти, меня подобрали «чистонебовцы». Через некоторое время, когда меня выходили, мы решили выбраться оттуда и вернуться к ним в лагерь, минуя Рыжий Лес. Однако, на подходах к мосту нас атаковали греховцы. Шансов на победу у нас не было. Я пытался защитить их, но ничего не вышло. Ребята полегли, а мне прострелили ноги и я, кажется, потерял сознание от болевого шока. Очнулся я уже в туннеле, где оставил записку, на случай, если туда придёт ещё один отряд, а потом все-таки смог оттуда уползти. Тех ребят, что спасли меня, на обратном пути я нашёл мёртвыми. Жаль их. А теперь ТЫ мне расскажи, что за чертовщина на Болотах? Где все?</text>
+		<text>Clear Sky?! I wasn't expecting that. Pardon the cold welcome, I didnвЂ™t recognize you immediately. Alright, listen: it doesnвЂ™t matter where I came back from, it's somewhere towards the army warehouses. However, I was caught in radiation near Radar, even if I had gone past it before without any problems. When I was close to death, I was picked up by "Clear Sky" members. Some time later, when I was nursed back to health, we decided to get out of there and go back to their camp, passing the Red Forest. However, while approaching the bridge, we were attacked by Sinners. We didnвЂ™t have any chances of winning. I tried to protect them, but to no avail. The boys were gunned down while I was shot in the legs and, it seems, I lost consciousness from the shock. I woke up in a tunnel where I left the note in case another squad went there, but later I managed to crawl out of there anyway. I found the guys whoвЂ™d saved me on the way back, all dead. I feel sorry for them. Now YOU tell me what the hell is going on in the Swamps. Where is everyone?</text>
 	</string>
 	<string id="start_shram_dialog_4">
-		<text>Мы переселились. Хочешь, я тебя проведу к нашей базе?</text>
+		<text>We've moved. Should I lead you to our base?</text>
 	</string>
 	<string id="start_shram_dialog_5">
-		<text>Нет, не стоит... Я, пожалуй, здесь останусь. Ещё полностью не пришёл в себя.</text>
+		<text>No, it's not worth it... I think IвЂ™ll stay here. I havenвЂ™t come back to my senses fully.</text>
 	</string>
 	<string id="start_shram_dialog_6">
-		<text>Как знаешь. Удачи тебе, наёмник.</text>
+		<text>Suit yourself. Good luck, merc.</text>
 	</string>
 	<string id="start_shram_dialog_7">
-		<text>Дорога бархатом, сталкер.</text>
+		<text>Farewell, stalker.</text>
 	</string>
 	<string id="skazat_vedrovy_0">
-		<text>Я нашёл его. Он на Болотах. Я его пригласил на нашу базу, но он пока не может прийти - залечивает раны.</text>
+		<text>I found him. He's in the Swamps. I invited him to our base, but he canвЂ™t come here yet - heвЂ™s healing his wounds.</text>
 	</string>
 	<string id="skazat_vedrovy_1">
-		<text>Ничего страшного. Главное, что он жив. Он был и остается ценным кадром. А ещё что ты узнал? Что тогда произошло в Лесу?</text>
+		<text>Don't sweat it. WhatвЂ™s important is that heвЂ™s alive. He was and still is a valuable asset. What else did you find out? What exactly happened in the forest?</text>
 	</string>
 	<string id="skazat_vedrovy_2">
-		<text>Их атаковали греховодники. По словам Шрама, у них не было никаких шансов... Он сам смог спастись, однако, с большим трудом.</text>
+		<text>They were attacked by Sinners. According to Scar, they were doomed... He was able to save himself, but with great difficulty.</text>
 	</string>
 	<string id="skazat_vedrovy_3">
-		<text>Треклятые фанатики... Сколько уже жизней погубили, мать их!..</text>
+		<text>Darn fanatics... How many lives theyвЂ™ve ended, the assholes!...</text>
 	</string>
 	<string id="skazat_vedrovy_4">
-		<text>Что теперь?</text>
+		<text>What now?</text>
 	</string>
 	<string id="skazat_vedrovy_5">
-		<text>Возьми это, ты в полной мере заслужил. Ты сделал огромный вклад в наше дело. А теперь я хочу побыть один...</text>
+		<text>Take this, you've fully earned it. YouвЂ™ve greatly helped our cause. But now I want to be alone...</text>
 	</string>
 </string_table>

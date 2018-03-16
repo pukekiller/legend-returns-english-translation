@@ -42,7 +42,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_characters_new.xml](gamedata/configs/text/eng/st_characters_new.xml)
 		- done
 	- [st_dialogs.xml](gamedata/configs/text/rus/st_dialogs.xml)
-		- not started
+		- done
 	- [st_dialogs_bar.xml](gamedata/configs/text/eng/st_dialogs_bar.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_darkscape.xml](gamedata/configs/text/rus/st_dialogs_darkscape.xml)
@@ -66,7 +66,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_zaton.xml](gamedata/configs/text/eng/st_dialogs_zaton.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialog_manager.xml](gamedata/configs/text/rus/st_dialog_manager.xml)
-		- not started
+		- done
 	- [st_dynamic_news.xml](gamedata/configs/text/rus/st_dynamic_news.xml)
 		- not started
 	- [st_game_relations.xml](gamedata/configs/text/eng/st_game_relations.xml)

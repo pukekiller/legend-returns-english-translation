@@ -92,7 +92,7 @@
 		<text>The Repair skill allows you to use repair kits for repairing weapons and armour by yourself. Further increasing the skill raises the overall effectiveness of independent repairs.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_5">
-		<text>The Survival skill allows you to carve up mutant carcasses, reduce health loss when consuming raw meat, make the most out of all types of food, and also minimize damage from harmful artifacts.</text>
+		<text>The Survival skill allows you to carve up mutant carcasses, reduce health loss when consuming raw meat, make the most out of all types of food, and also minimise damage from harmful artefacts.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_general">
 		<text>The levelling system will allow your character to turn from a novice into a warlord! Unable to carry a 10 kilogram suit? Attain experience and acquire the Power skill! Or perhaps you haven’t attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill! Incapable of grabbing an artefact without getting hurt? What do you know about survival?! And so on.</text>

@@ -83,7 +83,7 @@
 		<text>What do I need to do?</text>
 	</string>
 	<string id="key_6">
-		<text>Your task is to enter hotel Polissya in Pripyat, find room number twenty-six, and retrieve the gravity gun, together with its blueprints. Judging by my sources, a stash left behind by Strelok's group is located there. And, here. Take this psy-helmet; it will protect you from psy-emissions.</text>
+		<text>Your task is to enter hotel Polissya in Pripyat, find room number twenty-six, and retrieve the gravity gun, together with its blueprints. Judging by my sources, a stash left behind by Strelok's group is located there. And- here. Take this psy-helmet; it will protect you from psy-emissions.</text>
 	</string>
 	<string id="key_7">
 		<text>I have retrieved the Cerberus model and its blueprints.</text>
@@ -95,7 +95,7 @@
 		<text>Anything of interest?</text>
 	</string>
 	<string id="key_10">
-		<text>Of interest? This is exactly what I had hoped to see. No longer shall this information fall into the wrong hands, and we shall restore the production of this weapon at once. You can keep the Cerberus; you've deserved it. Kurkul will be able to provide you with the ammunition necessary to operate such weaponry.</text>
+		<text>Of interest? This is exactly what I had hoped to see. No longer do we risk this information falling into the wrong hands, and we shall restore the production of this weapon at once. You can keep the Cerberus; you've earned it. Kurkul will be able to provide you with the ammunition necessary to operate such weaponry.</text>
 	</string>
 	<string id="key_11">
 		<text>Thank you. For Sin.</text>
@@ -105,20 +105,20 @@
 		<text>How can I help the brotherhood?</text>
 	</string>
 	<string id="old_sinner_1">
-		<text>A reliable source has come with some information. Duty is planning to seize part the Forest, going so far as to conscript free stalkers... The general is a naive idiot; he didn't even think to consider keeping this information private!</text>
+		<text>A reliable source has come with some information. Duty is planning to seize part the Forest, going so far as to conscript free stalkers... The general is a naive idiot; he didn't even think to consider keeping this operation secret!</text>
 	</string>
 	<string id="old_sinner_2">
 		<text>What is my task?</text>
 	</string>
 	<string id="old_sinner_3">
-		<text>You must enrol in their ranks under the guise of an ordinary stalker and report back any information that you gather to me. This will provide your disguise. Here you go.</text>
+		<text>You must enlist in their ranks under the guise of an ordinary stalker and report back any information that you gather to me. This will provide as your disguise. Here you go.</text>
 	</string>
 	<string id="old_sinner_4">
 		<text>Understood. I'm on the move.</text>
 	</string>
 
 	<string id="old_sinner_done_0">
-		<text>The operation was a success; the squad of storm troopers has been liquidated. I was unable to escape without making some noise, though, and in the course of the operation, the leader of Duty and other inhabitants of the bar were killed. Morpheus and our other brothers—those who had been notified of my troubles from Shaman—came to my rescue.</text>
+		<text>The operation was a success; the squad of storm troopers has been liquidated. I was unable to escape without making some noise, though, and in the course of the operation, the leader of Duty and other inhabitants of the Bar were killed. Morpheus and our other brothers—those who had been notified of my troubles from Shaman—came to my rescue.</text>
 	</string>
 	<string id="old_sinner_done_1">
 		<text>I am already aware, as Morpheus has notified me of the situation. You have displayed true devotion, bravery, and composure, and for that, I shall grant you one of two existing exoskeleton models we have: the Minotaur.</text>
@@ -165,7 +165,7 @@
 		<text>That is the case. What are our next steps?</text>
 	</string>
 	<string id="dolg_otryad_2">
-		<text>We're standing by; got five minutes to prepare ourselves. After that, we'll be moving forward in the direction of the forest. Our orders are clear, and we'll be sticking together closely!</text>
+		<text>We're standing by; got five minutes to prepare ourselves. After that, we'll be moving forward in the direction of the forest. Our orders are clear, and we'll be sticking close together!</text>
 	</string>
 	<string id="dolg_otryad_3">
 		<text>That you will! [laughter]</text>
@@ -243,10 +243,10 @@
 		<text>You need to find a specific flower by the name of ‘black bat’. I already have everything else needed.</text>
 	</string>
 	<string id="about_shaman_8">
-		<text>Where can this ‘black bat flower’ be found?</text>
+		<text>Where can this ‘black bat‘ flower be found?</text>
 	</string>
 	<string id="about_shaman_9">
-		<text>The last time I saw one was in the vicinity of Jupiter, at the back of the plant. I saw it in a chemical anomaly. Didn't take it with me at the time, because I knew nothing about its properties...</text>
+		<text>The last time I saw one was in the vicinity of Jupiter, at the back of the plant. I saw it in a chemical anomaly. Didn't take it with me at the time, because I knew nothing of its properties...</text>
 	</string>
 	<string id="about_shaman_10">
 		<text>I'll find it.</text>
@@ -275,7 +275,7 @@
 		<text>Get well! Sin wouldn't be the same without your skills and expertise!</text>
 	</string>
 	<string id="shaman_thanks_2">
-		<text>You know... I can't let you go from here empty-handed. Take this Gift of the Zone. It will make you stronger.</text>
+		<text>You know... I can't let you leave here empty-handed. Take this Gift of the Zone. It will make you stronger.</text>
 	</string>
 	<string id="shaman_thanks_3">
 		<text>Thank you.</text>
@@ -291,7 +291,7 @@
 		<text>What do I need to do?</text>
 	</string>
 	<string id="cresh_intro_3">
-		<text>There is a prototype of our installation in laboratory X-8, called the Rainbow, and our team is currently collecting data about the prototype... in hopes of understanding why the Brain Scorcher heats up to such extents. Make your way to the laboratory, receive the information from the detachment, and return it to me.</text>
+		<text>There is a prototype of our installation in Laboratory X-8, called the Rainbow emitter, and our team is currently collecting data about the prototype... in hopes of understanding why the Brain Scorcher heats up to such extents. Make your way to the laboratory, receive the information from the detachment, and return it to me.</text>
 	</string>
 	<string id="cresh_intro_0">
 		<text>Moving out. Glory to the Monolith!</text>
@@ -304,20 +304,20 @@
 		<text>Brother! What's going on? What happened here?</text>
 	</string>
 	<string id="neyron_intro_2">
-		<text>Our detachment was studying the Raduga installation... We collected information for upgrading Duga-1, but the Sinners, curse them, showed up from who knows where... They slaughtered our entire detachment, and... agh, dammit... took the device with all our most recent information...</text>
+		<text>Our detachment was studying the Rainbow emitter... We collected information for upgrading the Scorcher, but the Sinners, curse them, showed up from who knows where... They slaughtered our entire detachment, and... agh, dammit... took the device with all of our most recent information...</text>
 	</string>
 	<string id="neyron_intro_3">
 		<text>Get up, brother. We must leave. I will get you out of here.</text>
 	</string>
 	<string id="neyron_intro_4">
-		<text>It's no use... I've lost too much blood... I can not offer you any more help. You must inform Charon of this at once and take action as soon as possible. Promise that you will avenge our fallen brothers... Monolith... I can see your radiance, Monolith...</text>
+		<text>It's no use... I've lost too much blood... I cannot offer you any more help. You must inform Charon of this at once and take action as soon as possible. Promise that you will avenge our fallen brothers... Monolith... I can see your radiance, Monolith...</text>
 	</string>
 	<string id="neyron_intro_5">
-		<text>I will avenge you. They shall burn in hell.</text>
+		<text>I will avenge you. They shall burn in Hell.</text>
 	</string>
 
 	<string id="haron_intro_0">
-		<text>Mentor, we've got problems. The unit that was engaged in researching Rainbow was taken out by members of Sin, and all the information collected for upgradinof the installation was also stolen.</text>
+		<text>Mentor, we've got problems. The unit that was engaged in researching Rainbow was taken out by members of Sin, and all the information collected for upgrading of the installation was also stolen.</text>
 	</string>
 	<string id="haron_intro_1">
 		<text>Damn these Sinner scum! So many brothers lost because of them... And it seems to me that a few rumours have been confirmed.</text>
@@ -342,7 +342,7 @@
 		<text>What does it say?</text>
 	</string>
 	<string id="haron_next_3">
-		<text>Evidence of rumours, which I have already mentioned... Sin does, in fact, haves a stalker who sees and hears all living things in the Zone... and he is known as Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman, along with his partner, Anubis.</text>
+		<text>Evidence of rumours, which I have already mentioned... Sin does, in fact, have a stalker who sees and hears all living things in the Zone... and he is known as Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman, along with his partner, Anubis.</text>
 	</string>
 	<string id="haron_next_4">
 		<text>Where can I find them?</text>

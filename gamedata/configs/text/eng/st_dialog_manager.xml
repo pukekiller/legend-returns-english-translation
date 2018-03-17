@@ -1190,7 +1190,7 @@
 	</string>
 <!-- TASK -->
 	<string id="st_ordered_task_query">
-		<text>Is there any work need doing today?</text>
+		<text>Is there any work that needs doing today?</text>
 	</string>
 	<string id="st_ordered_task_query_finished">
 		<text>The job is done.</text>

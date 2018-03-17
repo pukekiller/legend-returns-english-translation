@@ -77,7 +77,7 @@
 		<text>Here is the key, as per your request.</text>
 	</string>
 	<string id="key_4">
-		<text>Excellent. Here’s the situation: our faction once engaged in an operation to mass produce gravity guns,  based on model sixty-two, under codename "Cerberus." However, our only model was stolen by Strelok’s group, along with the respective blueprints.</text>
+		<text>Excellent. Here’s the situation: our faction once engaged in an operation to mass produce gravity guns, based on model sixty-two, under codename "Cerberus." However, our only model was stolen by Strelok’s group, along with the respective blueprints.</text>
 	</string>
 	<string id="key_5">
 		<text>What do I need to do?</text>
@@ -89,7 +89,7 @@
 		<text>I have retrieved the Cerberus model and its blueprints.</text>
 	</string>
 	<string id="key_8">
-		<text>Well done, brother. Let’s see...\n \n[checks blueprints]\n \nRemarkable...</text>
+		<text>Well done, brother. Let’s see…\n \n[checks blueprints]\n \nRemarkable…</text>
 	</string>
 	<string id="key_9">
 		<text>Anything of interest?</text>
@@ -105,7 +105,7 @@
 		<text>How can I help the brotherhood?</text>
 	</string>
 	<string id="old_sinner_1">
-		<text>A reliable source has come with some information. Duty is planning to seize part the Forest, going so far as to conscript free stalkers... The general is a naive idiot; he didn’t even think to consider keeping this operation secret!</text>
+		<text>A reliable source has come with some information. Duty is planning to seize part the Forest, going so far as to conscript free stalkers… The general is a naive idiot; he didn’t even think to consider keeping this operation secret!</text>
 	</string>
 	<string id="old_sinner_2">
 		<text>What is my task?</text>
@@ -146,13 +146,13 @@
 		<text>Thank you, brothers! Where can I find Shaman, so that I may thank him personally?</text>
 	</string>
 	<string id="old_sinner1_6">
-		<text>According to our doctor Anubis, Shaman won’t last for long... Go and see them. You may be helpful.</text>
+		<text>According to our doctor Anubis, Shaman won’t last for long… Go and see them. You may be helpful.</text>
 	</string>
 	<string id="old_sinner1_7">
 		<text>Where exactly is he?</text>
 	</string>
 	<string id="old_sinner1_8">
-		<text>I’ll place a marker now... There.</text>
+		<text>I’ll place a marker now… There.</text>
 	</string>
 	<string id="old_sinner1_9">
 		<text>Thank you. I’ll be moving.</text>
@@ -193,7 +193,7 @@
 		<text>Show your true face, you wretched monster! Die!</text>
 	</string>
 	<string id="voronin_next_6">
-		<text>...</text>
+		<text>…</text>
 	</string>
 
 	<string id="greh_voronin_0">
@@ -228,13 +228,13 @@
 		<text>I came to thank Shaman for saving me. Is he doing well?</text>
 	</string>
 	<string id="about_shaman_3">
-		<text>For now, yes, but my efforts are barely enough to maintain his health, so... It’s not even about how many days he can hold up anymore; hours, rather.</text>
+		<text>For now, yes, but my efforts are barely enough to maintain his health, so… It’s not even about how many days he can hold up anymore; hours, rather.</text>
 	</string>
 	<string id="about_shaman_4">
 		<text>Can I help in any way?</text>
 	</string>
 	<string id="about_shaman_5">
-		<text>You know... Yes, in fact. I have an idea that might be able to help him.</text>
+		<text>You know… Yes, in fact. I have an idea that might be able to help him.</text>
 	</string>
 	<string id="about_shaman_6">
 		<text>I’m ready. What needs to be done?</text>
@@ -246,7 +246,7 @@
 		<text>Where can this ‘black bat‘ flower be found?</text>
 	</string>
 	<string id="about_shaman_9">
-		<text>The last time I saw one was in the vicinity of Jupiter, at the back of the plant. I saw it in a chemical anomaly. Didn’t take it with me at the time, because I knew nothing of its properties...</text>
+		<text>The last time I saw one was in the vicinity of Jupiter, at the back of the plant. I saw it in a chemical anomaly. Didn’t take it with me at the time, because I knew nothing of its properties…</text>
 	</string>
 	<string id="about_shaman_10">
 		<text>I’ll find it.</text>
@@ -265,7 +265,7 @@
 		<text>Here you are. I hope you can put him back on his feet.</text>
 	</string>
 	<string id="anubis_bring_3">
-		<text>Oh, I can’t promise anything, but my chances have certainly gone up!</text>
+		<text>Oh, I can’t make any promises, but my chances have certainly gone up!</text>
 	</string>
 
 	<string id="shaman_thanks_0">
@@ -275,7 +275,7 @@
 		<text>Get well! Sin wouldn’t be the same without your skills and expertise!</text>
 	</string>
 	<string id="shaman_thanks_2">
-		<text>You know... I can’t let you leave here empty-handed. Take this Gift of the Zone. It will make you stronger.</text>
+		<text>You know… I can’t let you leave here empty-handed. Take this Gift of the Zone. It will make you stronger.</text>
 	</string>
 	<string id="shaman_thanks_3">
 		<text>Thank you.</text>
@@ -291,26 +291,26 @@
 		<text>What do I need to do?</text>
 	</string>
 	<string id="cresh_intro_3">
-		<text>There is a prototype of our installation in Laboratory X-8, called the Rainbow emitter, and our team is currently collecting data about the prototype... in hopes of understanding why the Brain Scorcher heats up to such extents. Make your way to the laboratory, receive the information from the detachment, and return it to me.</text>
+		<text>There is a prototype of our installation in Laboratory X-8, called the Rainbow emitter, and our team is currently collecting data about the prototype… in hopes of understanding why the Brain Scorcher heats up to such extents. Make your way to the laboratory, receive the information from the detachment, and return it to me.</text>
 	</string>
 	<string id="cresh_intro_0">
 		<text>Moving out. Glory to the Monolith!</text>
 	</string>
 
 	<string id="neyron_intro_0">
-		<text>...</text>
+		<text>…</text>
 	</string>
 	<string id="neyron_intro_1">
 		<text>Brother! What’s going on? What happened here?</text>
 	</string>
 	<string id="neyron_intro_2">
-		<text>Our detachment was studying the Rainbow emitter... We collected information for upgrading the Scorcher, but the Sinners, curse them, showed up from who knows where... They slaughtered our entire detachment, and... agh, dammit... took the device with all of our most recent information...</text>
+		<text>Our detachment was studying the Rainbow emitter… We collected information for upgrading the Scorcher, but the Sinners, curse them, showed up from who knows where… They slaughtered our entire detachment, and… agh, dammit… took the device with all of our most recent information…</text>
 	</string>
 	<string id="neyron_intro_3">
 		<text>Get up, brother. We must leave. I will get you out of here.</text>
 	</string>
 	<string id="neyron_intro_4">
-		<text>It’s no use... I’ve lost too much blood... I cannot offer you any more help. You must inform Charon of this at once and take action as soon as possible. Promise that you will avenge our fallen brothers... Monolith... I can see your radiance, Monolith...</text>
+		<text>It’s no use… I’ve lost too much blood… I cannot offer you any more help. You must inform Charon of this at once and take action as soon as possible. Promise that you will avenge our fallen brothers… Monolith… I can see your radiance, Monolith…</text>
 	</string>
 	<string id="neyron_intro_5">
 		<text>I will avenge you. They shall burn in Hell.</text>
@@ -320,13 +320,13 @@
 		<text>Mentor, we’ve got problems. The unit that was engaged in researching Rainbow was taken out by members of Sin, and all the information collected regarding an upgrade of the installation was also stolen.</text>
 	</string>
 	<string id="haron_intro_1">
-		<text>Blast the Sinner scum! We’ve lost enough of our brothers to their mischief... And it seems to me that a few rumours have been confirmed.</text>
+		<text>Blast the Sinner scum! We’ve lost enough of our brothers to their mischief… And it seems to me that a few rumours have been confirmed.</text>
 	</string>
 	<string id="haron_intro_2">
 		<text>What do you mean?</text>
 	</string>
 	<string id="haron_intro_3">
-		<text>Right now, it does not matter. Our other brothers will take care of it. Your task right now is to storm the main base of the Sinners in the Red Forest, and to search for any relevant information in that area. I will send a detachment of soldiers, who will wait for you at the northern outpost. Blood for blood, my brother; theirs must be spilled!</text>
+		<text>Right now, it does not matter. Our other brothers will take care of it. Your task right now is to storm the main base of the Sinners in the Red Forest, and to search for any relevant information in that area. I will send a detachment of soldiers, who will wait for you at the northern outpost. Blood for blood, brother; theirs must be spilled!</text>
 	</string>
 	<string id="haron_intro_4">
 		<text>I am going. Glory to the Monolith!</text>
@@ -336,13 +336,13 @@
 		<text>The operation was a success. The infidels have been killed, just like their leader: the Crow. In addition, I found the PDA of Neuron, which was previously stolen by the Sinners. I also found Crow’s documents and an unknown weapon sample, as well as blueprints for it.</text>
 	</string>
 	<string id="haron_next_1">
-		<text>... [examines documents]</text>
+		<text>… [examines documents]</text>
 	</string>
 	<string id="haron_next_2">
 		<text>What does it say?</text>
 	</string>
 	<string id="haron_next_3">
-		<text>Evidence of rumours, which I have already mentioned... Sin does, in fact, have a stalker who sees and hears all living things in the Zone... and he is known as Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman... along with his partner, Anubis.</text>
+		<text>Evidence of rumours, which I have already mentioned… Sin does, in fact, have a stalker who sees and hears all living things in the Zone… and he is known as Shaman. There is also a correspondence in these documents, which tells of the current location of Shaman… along with his partner, Anubis.</text>
 	</string>
 	<string id="haron_next_4">
 		<text>Where can I find them?</text>
@@ -351,7 +351,7 @@
 		<text>The exact place isn’t indicated in the correspondence, but there’s a tip-off that they’ve settled on the territory of the town of Svetly Put. I believe you know what needs to be done.</text>
 	</string>
 	<string id="haron_next_6">
-		<text>I will send their bodies into the ground for the glory of the Monolith... but what about the unknown weapon?</text>
+		<text>I will send their bodies into the ground for the glory of the Monolith… but what about the unknown weapon?</text>
 	</string>
 	<string id="haron_next_7">
 		<text>Judging by the documents, this is the same Gauss rifle as the one we have, but with a slightly different power system. A good thing that you also managed to grab the blueprints for it, because without them, it’s unlikely that the Sinners will have the chance of producing these weapons any further. And, speaking of which: here is your reward for your devotion to the Great Monolith!</text>

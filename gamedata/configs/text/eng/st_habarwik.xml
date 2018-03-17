@@ -9,16 +9,16 @@
 	</string>
 
 	<string id="fac_anomaly_1_name">
-		<text>Anomaly "Insulator"</text>
+		<text>"Insulator" anomaly</text>
 	</string>
 	<string id="fac_anomaly_2_name">
-		<text>Anomaly "Tunnel steam-room"</text>
+		<text>"Tunnel steam-room" anomaly</text>
 	</string>
 	<string id="pro_anomaly_1_name">
-		<text>Anomaly "Call of Chernobyl"</text>
+		<text>"Call of Chernobyl" anomaly</text>
 	</string>
 	<string id="pro_anomaly_2_name">
-		<text>Anomaly "Shimmering Forest"</text>
+		<text>"Shimmering Forest" anomaly</text>
 	</string>
 
 	<string id="st_messer">

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_af_baloon_descr">
+		<text>Origin: Chemical anomalies. This artifact consists of a few interconnected bubbles which are made out of an unknown organic material, the insides of said bubbles are filled with a bright emerald substance.</text>
+	</string>
+	<string id="st_af_baloon_name">
+		<text>Bubble</text>
+	</string>
+	<string id="st_af_blood_descr">
+		<text>Origin: Chemical anomalies. An artifactOriginating in chemical anomalies which is also colored unevenly. While one side is has a bright green color the other is scarlet red colored. Moreover, towards the center of the artifact the shades of both colors change.</text>
+	</string>
+	<string id="st_af_blood_name">
+		<text>Stone Blood</text>
+	</string>
+	<string id="st_af_cristall_descr">
+		<text>This artefact is formed in anomalous zones with intense thermal activity. Actively consumes excessive heat, remaining cool to the touch throughout. Emits radiation.</text>
+	</string>
+	<string id="st_af_cristall_flower_descr">
+		<text>Origin: Gravitational anomalies. A turquoise laminating substance covered by bright-brown gravel which has 6 holes around it with varying diameter.</text>
+	</string>
+	<string id="st_af_cristall_flower_name">
+		<text>Stone Flower</text>
+	</string>
+	<string id="st_af_cristall_name">
+		<text>Crystal</text>
+	</string>
+	<string id="st_af_dummy_battery_descr">
+		<text>Origin: Electrical Anomalies. A ribbed and shiny structure with six laminated layers in the center. This artifact has 3 ribs bent in the center and placed in equal distance between each other. The layers in the center move from time to time in synchronicity away from the center( 3 to one side and 3 to the other) and after a while return to their place.</text>
+	</string>
+	<string id="st_af_dummy_battery_name">
+		<text>Battery</text>
+	</string>
+	<string id="st_af_dummy_dummy_descr">
+		<text>Orgin: Electrical Anomalies. 2 disks connected by mucus which constantly move apart from each other until the mucus is stretched out and folds them back together.</text>
+	</string>
+	<string id="st_af_dummy_dummy_name">
+		<text>Shell</text>
+	</string>
+	<string id="st_af_dummy_glassbeads_descr">
+		<text>Origin: Flame anomalies. An extremely rare artifact which looks like a dna fragment. The artifact is made out of two beams which are made out of small spheres and thin sticks which are connected to each other.</text>
+	</string>
+	<string id="st_af_dummy_glassbeads_name">
+		<text>Mama's Beads</text>
+	</string>
+	<string id="st_af_electra_flash_descr">
+		<text>Origin: Electrical Anomalies. A mildly transparent and amorphous structure with emanating rays of light from the inside. Small sparks of lighting can be seen on its surface from time to time.</text>
+	</string>
+	<string id="st_af_electra_flash_name">
+		<text>Flash</text>
+	</string>
+	<string id="st_af_electra_moonlight_descr">
+		<text>Origin: Electrical Anomalies. A very rare artifact whichOriginates from electrical anomalies. It has a spherical shape and a transparent light blue color, and inside it a bright core can be observed. This core is very bright and produces small sparks of lighting.</text>
+	</string>
+	<string id="st_af_electra_moonlight_name">
+		<text>Moonlight</text>
+	</string>
+	<string id="st_af_electra_sparkler_descr">
+		<text>Origin: Electrical Anomalies. This artifact can be found in electrical anomalies. It has a dark blue color and produces small sparks.</text>
+	</string>
+	<string id="st_af_electra_sparkler_name">
+		<text>Sparkler</text>
+	</string>
+	<string id="st_af_eye_descr">
+		<text>Origin: flame anomalies. This artifact really does look like a human eye. There is a belief among experienced stalkers that it can bring good luck.</text>
+	</string>
+	<string id="st_af_eye_name">
+		<text>Eye</text>
+	</string>
+	<string id="st_af_fire_descr">
+		<text>Origin: Flame anomalies. A red transparent sphere which emits orange light from the inside.</text>
+	</string>
+	<string id="st_af_fire_name">
+		<text>Flame</text>
+	</string>
+	<string id="st_af_fireball_descr">
+		<text>Origin: Flame anomalies. This flame artifact is a glowing sphere that looks like a still ball of lava.</text>
+	</string>
+	<string id="st_af_fireball_name">
+		<text>Fireball</text>
+	</string>
+	<string id="st_af_fuzz_kolobok_descr">
+		<text>Origin: chemical anomalies. This is artifact is a sphere whose surface is covered by many long light-brown needles.</text>
+	</string>
+	<string id="st_af_fuzz_kolobok_name">
+		<text>Kolobok</text>
+	</string>
+	<string id="st_af_glass_name">
+		<text>Firefly</text>
+	</string>
+	<string id="st_af_glass_descr">
+		<text>Origin: chemical anomalies. An artifact which is shaped like a small ball and is honey colored. It’s constantly in rotation and never stops moving. Light blue rays can be found shinning from certain points on the artifact.</text>
+	</string>
+	<string id="st_af_gold_fish_descr">
+		<text>Origin: Gravitational anomalies. An artifact which is shaped like a fish’s head and emits a brown light</text>
+	</string>
+	<string id="st_af_gold_fish_name">
+		<text>Goldfish</text>
+	</string>
+	<string id="st_af_gravi_descr">
+		<text>Origin: Gravitational anomalies. This artifact looks like a cobblestone with growths on top of it. Comes</text>
+	</string>
+	<string id="st_af_gravi_name">
+		<text>Gravi</text>
+	</string>
+	<string id="st_af_ice_descr">
+		<text>Origin: Electrical anomalies. A blue sphere surrounded by long light-blue needles. It emits a dark blue light and small electrical sparks.</text>
+	</string>
+	<string id="st_af_ice_name">
+		<text>Snowflake</text>
+	</string>
+	<string id="st_af_medusa_descr">
+		<text>Origin: Gravitational anomalies. This artifact is thought to be mediocre by most stalkers. It’s shaped like an egg and has cavities in bottom. The color of this artifact is light brown.</text>
+	</string>
+	<string id="st_af_medusa_name">
+		<text>Jellyfish</text>
+	</string>
+	<string id="st_af_mincer_meat_descr">
+		<text>Origin: Chemical anomalies. This artifact emits a bright green light and has a multicolored surface whose colors range from dark-yellow to Scarlet red.</text>
+	</string>
+	<string id="st_af_mincer_meat_name">
+		<text>Meat Chunk</text>
+	</string>
+	<string id="st_af_night_star_descr">
+		<text>Origin: Gravitational anomalies. A blackish sphere covered in white and yellow needles. It also emits a light-brown glow.</text>
+	</string>
+	<string id="st_af_night_star_name">
+		<text>Night Star</text>
+	</string>
+	<string id="st_af_soul_descr">
+		<text>Origin: Gravitational anomalies. A transparent spherical artifact which emits a weak light blue glow. A strange substance is located in the center of artifact that is blue around its edges and Turquoise in the center.</text>
+	</string>
+	<string id="st_af_soul_name">
+		<text>Soul</text>
+	</string>
+	<string id="st_af_vyvert_descr">
+		<text>Origin: Gravitational anomalies. This artifact originates in gravitational anomalies and has a messy and unorganized shape. The surface of the artifact has a yellowish brown color and emits a brown light.</text>
+	</string>
+	<string id="st_af_vyvert_name">
+		<text>Wrenched</text>
+	</string>
+	<string id="st_compass">
+		<text>Compass</text>
+	</string>
+	<string id="st_compass_descr">
+		<text>A rare artefact - it's been several years since one was found. The artefact can locate gaps in anomaly fields. It is believed that it can help one traverse the most complex anomaly fields completely unharmed. However, very few know how to handle it properly.</text>
+	</string>
+	<string id="st_oasis_heart">
+		<text>Heart of the Oasis</text>
+	</string>
+	<string id="st_oasis_heart_descr">
+		<text>This artefact was once found at the center of the legendary Oasis. It appears that the Heart is a crystallized plant, which has acquired the healing properties of the Oasis. Unlike the Oasis itself, however, this artefact is extremely radioactive.</text>
+	</string>
+	<string id="af_drops">
+		<text>Droplets</text>
+	</string>
+	<string id="st_af-drops_descr">
+		<text>Origin: Flame anomalies. A water-drop shaped artifact with a cracked and glossy surface. The artifact emits a light green glow and has a dark grey surface with brown colored cracks.</text>
+	</string>
+	<string id="af_ameba_slime">
+		<text>Slime</text>
+	</string>
+	<string id="st_af_ameba_slime_descr">
+		<text>Origin: Chemical anomalies. A transparent, brown and jelly-like artifact. Its shape is unorganized.</text> 
+	</string>
+	<string id="af_ameba_slug">
+		<text>Slug</text>
+	</string>
+	<string id="st_af_ameba_slug_descr">
+		<text>Origin: Chemical anomalies. A spherical, transparent, brown and jelly-like artifact which has about 10 sinkholes which aren't very deep. This sinkholes are however very wide and are separated by a dark grey substance.</text>
+	</string>
+	<string id="af_ameba_mica">
+		<text>Mica</text>
+	</string>
+	<string id="st_af_ameba_mica_descr">
+		<text>Origin: Chemical anomalies. This transparent artifact has a spherical shape and six symmetrically distanced sinkholes. These sinkholes have a diameter that is about half of the diameter of the artifact itself. Moreover, there are three dark grey holes in the center of these sinkholes and the sinkholes are connected to each other by these cavities. Furthermore, this artifact is hard to spot due to its transparency and shape.</text>
+	</string>
+	<string id="af_dummy_spring">
+		<text>Spring</text>
+	</string>
+	<string id="st_af_dummy_spring_descr">
+		<text>Origin: Gravitational anomalies. Two hard dark grey disks which are covered by an unknown brown substance and a transparent brownish mucus. These disks constantly stretch out and fold back up again.</text>
+	</string>
+	<string id="af_dummy_pellicle">
+		<text>Pellicle</text>
+	</string>
+	<string id="st_af_dummy_pellicle_descr">
+		<text>Origin: Chemical anomalies. This artifact is a thin film made out of a vitreous substance. Its shape is similar to that of a rectangle. The color of the artifact is bright green and a few orange stripes drawn across it.</text>
+	</string>
+	<string id="af_rusty_thorn">
+		<text>Thorn</text>
+	</string>
+	<string id="st_af_rusty_thorn_descr">
+		<text>Origin: Chemical anomalies. A somewhat commonly seen artifact whichOriginates from plant life. It is shaped like sphere and is covered by many swamp colored thorns.</text>
+	</string>
+	<string id="af_rusty_kristall">
+		<text>Crystal Thorn</text>
+	</string>
+	<string id="st_af_rusty_kristall_descr">
+		<text>Origin: Chemical anomalies. A somewhat commonly seen artifact whichOriginates from plant life. The artifact is shaped like a sphere and is crystal like in appearance. Moreover it is covered by a handful of thorns.</text>
+	</string>
+		<string id="af_rusty_sea_urchin">
+		<text>Sea Urchin</text>
+	</string>
+	<string id="st_af_rusty_sea_urchin_descr">
+		<text>Origin: Chemical anomalies. A sphere that is covered by many brown colored spikes.</text>
+	</string>
+
+	<!-- Legend Returns -->
+	<string id="cev_plastin_5_name">
+		<text>Basilisk</text>
+	</string>
+	<string id="cev_plastin_5_descr">
+		<text>This unique artifact can only be found in extremely rare cases. It has the ability to weaken the stopping power of a bullet.</text>
+	</string>
+
+	<string id="st_af_soul_ghost_name">
+		<text>Stalker’s Soul</text>
+	</string>
+	<string id="st_af_soul_ghost_descr">
+		<text>It is believed that this artifact is a vessel for stalker souls and that the purity of soul effects how the artifact looks; the purer the soul, the prettier the artifact. The artifact gives its user powers from the netherworld.</text>
+	</string>
+
+	<string id="st_af_dummy_dummy_perk_name">
+		<text>Unique Shell</text>
+	</string>
+
+	<string id="st_af_night_star_perk_name">
+		<text>Unique Night Star</text>
+	</string>
+
+	<string id="st_af_night_star_perk_name">
+		<text>Unique Crystal</text>
+	</string>
+
+	<string id="st_af_fireball_perk_name">
+		<text>Unique Fireball</text>
+	</string>
+</string_table>
+

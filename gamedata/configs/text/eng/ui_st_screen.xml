@@ -422,16 +422,16 @@
 		<text>Missing skill:</text>
 	</string>
 	<string id="st_unable_med">
-		<text>I donâ€™t know how to disassemble this medical kit!</text>
+		<text>You do not have the knowledge to disassemble this medical kit</text>
 	</string>
 	<string id="st_change_faction_to_loner">
-		<text>Now the Dutyers will be unlikely to suspect me. Among the free stalkers, Iâ€™m unrecognisable.</text>
+		<text>Now the Dutyers will be unlikely to suspect me. Among the free stalkers, I’m unrecognisable.</text>
 	</string>
 	<string id="st_change_faction_to_freedom">
-		<text>Iâ€™ll have to be careful not to get caught showing this patch around to any members of Duty.</text>
+		<text>I’ll have to be careful not to get caught showing this patch around to any members of Duty.</text>
 	</string>
 	<string id="st_change_faction_to_trader">
-		<text>Ready to make myself known..</text>
+		<text>Ready to make myself known.</text>
 	</string>
 	<string id="st_change_faction_to_sin">
 		<text>Free once more.</text>
@@ -440,18 +440,18 @@
 		<text>Radiation level:</text>
 	</string>
 	<string id="st_radiation_0">
-		<text>Radiation absent</text>
+		<text>Radiation: absent</text>
 	</string>
 	<string id="st_radiation_1">
-		<text>Radiation present</text>
+		<text>Radiation: present</text>
 	</string>
 	<string id="st_radiation_2">
-		<text>Radiation insignificant</text>
+		<text>Radiation level: insignificant</text>
 	</string>
 	<string id="st_radiation_3">
-		<text>Radiation significant</text>
+		<text>Radiation level: significant</text>
 	</string>
 	<string id="st_radiation_4">
-		<text>RADIATION CRITICAL</text>
+		<text>Radiation level: CRITICAL</text>
 	</string>
 </string_table>

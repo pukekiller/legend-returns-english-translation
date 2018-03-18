@@ -14,7 +14,7 @@
 		<text>A variant of the Pripyat RKS-20.03 dosimeter, modified by an unknown craftsman to work in the conditions of the modern Chernobyl Exclusion Zone, into which it has been semi-legally distributed in small batches. It is an essential attribute of almost any novice traveller in the Zone, and is able to detect certain types of anomalies as well as hotbeds of radiation, producing characteristic sounds in the process. The dosimeter is also able to determine the presence of active radionuclides in the body, although, due to malfunctions, it can not show the amount of radiation.</text>
 	</string>
 	<string id="st_radiacion_izmer_2_em_descr">
-		<text>The IDS is an advanced and reputable device among groups of stalkers, which can measure ionizing radiation in the body of its wielder. Despite its advantages, it has a number of shortcomings, including malfunctions and possible inaccuracies in measurements. It shows only an approximate level of infection.</text>
+		<text>The IDS is an advanced and reputable device among groups of stalkers that can measure ionizing radiation in the body of its wielder. Despite its advantages, it has a number of shortcomings, including malfunctions and possible inaccuracies in measurements. It shows only an approximate level of contamination.</text>
 	</string>
 	<string id="st_radiacion_izmer_3_em_descr">
 		<text>The Pripyat-9 dosimeter was developed specifically for use in the modern-day Chernobyl Exclusion Zone. The attachment of special filters allows the device to ‘bypass’ radiation in anomalous environments, thereby eliminating any probable errors. The dosimeter able to take measurements of radiation contamination in the body of its wielder and display accurate results.</text>

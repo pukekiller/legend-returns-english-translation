@@ -1,0 +1,2370 @@
+;--------------------------------------------------------------------------------
+;-- Copyright: 2010-2012 SWM Team -----------------------------------------------
+;-- last edited: Jurok ----------------------------------------------------------
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; ARTEFACTS
+;--------------------------------------------------------------------------------
+;Артефакты, которые при активизации создают аномальные зоны
+;формат: {секция_артефакта} = {секция_зоны},Radius,Power
+[artefact_spawn_zones]
+af_medusa                                = zone_mosquito_bald_weak, 2.0, 30.0
+af_cristall_flower                       = zone_mosquito_bald_weak, 3.0, 50.0
+af_night_star                            = zone_mosquito_bald_weak, 5.0, 100.0
+af_vyvert                                = zone_gravi_zone_weak, 2.0, 30.0
+af_gravi                                 = zone_gravi_zone_weak, 3.0, 50.0
+af_gold_fish                             = zone_gravi_zone_weak, 5.0, 100.0
+af_cristall                              = torrid_zone, 3.0, 50.0
+af_blood                                 = zone_mincer_weak, 2, 30.0
+af_mincer_meat                           = zone_mincer_weak, 3, 50.0
+af_soul                                  = zone_mincer_weak, 5, 100.0
+af_electra_sparkler                      = zone_witches_galantine, 2, 30.0
+af_electra_flash                         = zone_witches_galantine, 3, 50.0
+af_electra_moonlight                     = zone_witches_galantine, 5, 100.0
+mp_af_electra_flash                      = mp_zone_witches_galantine, 3, 50.0
+mp_af_cta_green                          = mp_zone_witches_galantine, 3, 50.0
+mp_af_cta_blue                           = mp_zone_witches_galantine, 3, 50.0
+
+[af_activation_gravi]
+;----------------------------------------------------------------------------------------------------------------------------------------
+;format:						time(sec),	sound_name,	         	light_R,G,B,  	light_range,    	particle_name,						af_animation_name
+;----------------------------------------------------------------------------------------------------------------------------------------
+starting                                 = 5.0,		anomaly\gravi_idle00,	0.5, 1.0, 1.5,  	5.0,			"anomaly2\artefact_gravi_blast_start",	"idle"
+flying                                   = 2.0,		anomaly\gravi_idle01,	0.8, 1.0, 1.2,  	3.0,			"artefact\artefact_gravi",				"idle"
+idle_before_spawning                     = 5.0,		anomaly\gravi_blowout5,	1.0, 1.0, 1,    	0.0,			"anomaly2\artefact_gravi_blast_finished",	"idle"
+spawning                                 = 1,  		anomaly\gravity_entrance,	0.9, 1.1, 1.01,  	0.0,		"",		"idle"
+
+[af_activation_bold]
+;----------------------------------------------------------------------------------------------------------------------------------------
+;format:						time(sec),	sound_name,	         	light_R,G,B,  	light_range,    	particle_name,						af_animation_name
+;----------------------------------------------------------------------------------------------------------------------------------------
+starting                                 = 5.0,		anomaly\gravi_idle00,	0.8, 1.5, 0.9,  	5.0,			"anomaly2\artefact_bold_blast_start",	"idle"
+flying                                   = 2.0,		anomaly\gravi_idle01,	0.8, 0.9, 0.8,  	2.0,			"artefact\artefact_zharka",				"idle"
+idle_before_spawning                     = 2.0,		anomaly\gravity_entrance,1.0, 1.1, 1.0,  	0.0,			"anomaly2\artefact_bold_blast_finished",	"idle"
+spawning                                 = 0.5,		anomaly\pux_blast,  	1.0, 1.0, 0.5,  	5.0,			"anomaly2\gravi_anomaly_00",		"idle"
+
+[af_activation_mincer]
+;----------------------------------------------------------------------------------------------------------------------------------------
+;format:						time(sec),	sound_name,	         	light_R,G,B,  	light_range,    	particle_name,						af_animation_name
+;----------------------------------------------------------------------------------------------------------------------------------------
+starting                                 = 5.0,		anomaly\gravi_idle00,	0.5, 1.0, 1.5,  	5.0,			"anomaly2\artefact_gravi_blast_start",	"idle"
+flying                                   = 2.0,		anomaly\gravi_idle01,	0.8, 1.0, 1.2,  	3.0,			"artefact\artefact_mincer",				"idle"
+idle_before_spawning                     = 5.0,		anomaly\gravi_blowout2,	1.0, 1.0, 1.0,  	0.0,			"anomaly2\artefact_gravi_blast_finished",	"idle"
+spawning                                 = 0.0,		"",						1.0, 1.0, 0.5,  	0.0,			"",		"idle"
+
+[af_activation_electra]
+;----------------------------------------------------------------------------------------------------------------------------------------
+;format:						time(sec),	sound_name,	         	light_R,G,B,  	light_range,    	particle_name,						af_animation_name
+;----------------------------------------------------------------------------------------------------------------------------------------
+starting                                 = 5.0,		anomaly\bfuzz_blowout,	0.8, 1.0, 1.5,  	5.0,			"anomaly2\artefact_electra_blast_start",	"idle"
+flying                                   = 2.0,		anomaly\electra_idle1,	1.0, 1.0, 1.0,  	5.0,			"artefact\artefact_electra",				"idle"
+idle_before_spawning                     = 0.0,		"",	                	1.0, 1.0, 2.5,  	0,		    	"",	"idle"
+spawning                                 = 2,		"anomaly\pux_blast",	1.0, 1.0, 1.5,  	5.0,			"anomaly2\artefact_electra_blast_finished",		"idle"
+
+
+[af_base]:identity_immunities
+GroupControlSection                      = spawn_group
+cform                                    = skeleton
+hud                                      = artefact_hud
+invisible                                = false
+animation_slot                           = 11
+allow_inertion                           = true
+attach_angle_offset                      = 0,0,0
+attach_position_offset                   = -0.1,-0.1,0
+attach_bone_name                         = bip01_root
+inv_grid_width                           = 1
+inv_grid_height                          = 1
+belt                                     = true
+slot                                     = -1	                                       ;10
+default_to_ruck                          = true
+af_actor_properties                      = on
+actor_properties                         = on
+det_show_particles                       = anomaly2\plasma_generator_death
+det_hide_particles                       = anomaly2\plasma_generator_death
+
+det_show_snd                             = anomaly\bfuzz_blowout
+det_hide_snd                             = anomaly\pux_blast
+
+af_rank                                  = 0
+can_be_controlled                        = true
+script_binding                           = bind_artefact.bind
+particles_bone                           = link
+additional_inventory_weight              = 0
+idle_light_shadow                        = false
+
+;use_condition 							 = true
+degrade_rate							 = 1.0	;Artefact Degradation
+
+[artefact_hud]:hud_base
+item_visual                              = dynamics\artefacts\artefact_electra_blue_hud
+attach_place_idx                         = 0
+
+hands_position                           = 0,0,0
+hands_orientation                        = 0,0,0
+hands_position_16x9                      = 0,0,0
+hands_orientation_16x9                   = 0,0,0
+
+item_position                            = 0,0,0
+item_orientation                         = 0,0,0
+aim_hud_offset_pos                       = 0,0,0
+aim_hud_offset_rot                       = 0,0,0
+
+gl_hud_offset_pos                        = 0,0,0
+gl_hud_offset_rot                        = 0,0,0
+
+lean_hud_offset_pos                      = 0,0,0
+lean_hud_offset_rot                      = 0,0,0
+
+anm_idle                                 = dev_artefact_idle
+anm_idle_sprint                          = dev_artefact_idle
+anm_hide                                 = dev_artefact_holster
+anm_show                                 = dev_artefact_draw
+anm_activate                             = dev_artefact_use
+
+;--------------------------------------------------------------------------------
+; Артефакты для гравитационной аномалии
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; «Медуза»
+;--------------------------------------------------------------------------------
+[af_medusa]:af_base
+$spawn                                   = "artefacts\gravitational_1_medusa"
+class                                    = ARTEFACT	                                       ; будет подпрыгивать
+visual                                   = dynamics\artefacts\af_medusa.ogf
+description                              = st_af_medusa_descr
+inv_name                                 = st_af_medusa_name
+inv_name_short                           = st_af_medusa_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 0
+inv_grid_y                               = 1
+
+cost                                     = 500
+
+jump_height                              = 0	                                       ; высота прыжка
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.0025
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+fire_wound_immunity                      = 0
+wound_immunity                           = 0
+hit_absorbation_sect                     = af_medusa_absorbation
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+artefact_activation_seq                  = af_activation_bold
+
+[af_medusa_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.02
+fire_wound_immunity                      = 0.02
+
+;---------------------------------------------------------------------------------------------
+; «Каменный цветок»
+;---------------------------------------------------------------------------------------------
+[af_cristall_flower]:af_base
+$spawn                                   = "artefacts\gravitational_2_cristall_flower"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_cristall_flower.ogf
+description                              = st_af_cristall_flower_descr
+inv_name                                 = st_af_cristall_flower_name
+inv_name_short                           =
+inv_weight                               = 0.5
+
+inv_grid_x                               = 6
+inv_grid_y                               = 0
+
+cost                                     = 850
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.003
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+fire_wound_immunity                      = 0.03
+strike_immunity                          = 0
+radiation_immunity                       = 0.05
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_cristall_flower_absorbation
+
+[af_cristall_flower_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.03
+fire_wound_immunity                      = 0.03
+
+;--------------------------------------------------------------------------------
+; «Ночная звезда»
+;--------------------------------------------------------------------------------
+[af_night_star]:af_base
+$spawn                                   = "artefacts\gravitational_3_night_star"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_night_star.ogf
+description                              = st_af_night_star_descr
+inv_name                                 = st_af_night_star_name
+inv_name_short                           = st_af_night_star_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 2
+inv_grid_y                               = 1
+
+cost                                     = 2100
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0	                                       ;0.6,0.7,0.5
+trail_light_range                        = 2.0
+
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.00325
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 5
+
+hit_absorbation_sect                     = af_night_star_absorbation
+
+[af_night_star_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.04
+fire_wound_immunity                      = 0.04
+
+;--------------------------------------------------------------------------------
+; «Выверт»
+;--------------------------------------------------------------------------------
+[af_vyvert]:af_base
+$spawn                                   = "artefacts\gravitational_4_vyvert"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_vyvert.ogf
+description                              = st_af_vyvert_descr
+inv_name                                 = st_af_vyvert_name
+inv_name_short                           = st_af_vyvert_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 7
+inv_grid_y                               = 1
+
+cost                                     = 700
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+particles_bone                           = joint2
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_gravi
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.00275
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_vyvert_absorbation
+
+[af_vyvert_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0.02
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.02
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Грави»
+;--------------------------------------------------------------------------------
+[af_gravi]:af_base
+$spawn                                   = "artefacts\gravitational_5_gravi"
+class                                    = ARTEFACT
+visual                                   = dynamics\artefacts\af_gravi.ogf
+description                              = st_af_gravi_descr
+inv_name                                 = st_af_gravi_name
+inv_name_short                           = st_af_gravi_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 18
+inv_grid_y                               = 0
+
+cost                                     = 1950
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_gravi
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.0030
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 8
+
+hit_absorbation_sect                     = af_gravi_absorbation
+
+[af_gravi_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0.04
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.04
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Золотая рыбка»
+;--------------------------------------------------------------------------------
+[af_gold_fish]:af_base
+$spawn                                   = "artefacts\gravitational_6_gold_fish"
+class                                    = ARTEFACT
+visual                                   = dynamics\artefacts\af_gold_fish.ogf
+description                              = st_af_gold_fish_descr
+inv_name                                 = st_af_gold_fish_name
+inv_name_short                           = st_af_gold_fish_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 17
+inv_grid_y                               = 0
+
+cost                                     = 3220
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_gravi
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.00375
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 15
+
+hit_absorbation_sect                     = af_gold_fish_absorbation
+
+[af_gold_fish_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0.06
+radiation_immunity                       = -0.03
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.06
+fire_wound_immunity                      = 0.02
+
+;--------------------------------------------------------------------------------
+; Артефакты для термальной аномалии
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; «Кристалл»
+;--------------------------------------------------------------------------------
+[af_cristall]:af_base
+$spawn                                   = "artefacts\thermal_1_cristall"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_cristall.ogf
+description                              = st_af_cristall_descr
+inv_name                                 = st_af_cristall_name
+inv_name_short                           = st_af_cristall_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 5
+inv_grid_y                               = 0
+cost                                     = 500
+;jump_height			= 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_thermal_show
+det_hide_particles                       = artefact\af_thermal_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.9,0.4,0.2	                                       ;0.9,0.5,0.5
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_mincer
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = -0.00125
+satiety_restore_speed                    = 0
+power_restore_speed                      = -0.00225
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_cristall_absorbation
+
+[af_cristall_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Огненный шар»
+;--------------------------------------------------------------------------------
+[af_fireball]:af_base
+$spawn                                   = "artefacts\thermal_2_fireball"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_fireball.ogf
+description                              = st_af_fireball_descr
+inv_name                                 = st_af_fireball_name
+inv_name_short                           = st_af_fireball_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 15
+inv_grid_y                               = 0
+
+cost                                     = 750
+
+impulse_threshold                        = 10
+radius                                   = 10
+strike_impulse                           = 20
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_thermal_show
+det_hide_particles                       = artefact\af_thermal_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.9,0.4,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = -0.00225
+satiety_restore_speed                    = 0
+power_restore_speed                      = -0.00325
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fireball_absorbation
+
+[af_fireball_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Мамины бусы»
+;--------------------------------------------------------------------------------
+[af_dummy_glassbeads]:af_base
+$spawn                                   = "artefacts\thermal_3_dummy_glassbeads"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_dummy_glassbeads.ogf
+description                              = st_af_dummy_glassbeads_descr
+inv_name                                 = st_af_dummy_glassbeads_name
+inv_name_short                           = st_af_dummy_glassbeads_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 10
+inv_grid_y                               = 0
+
+cost                                     = 3800	                                       ;200
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_thermal_show
+det_hide_particles                       = artefact\af_thermal_hide
+particles_bone                           = joint2
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.9,0.4,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.001
+radiation_restore_speed                  = 0.00325
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0.0025
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_dummy_glassbeads_absorbation
+
+[af_dummy_glassbeads_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0.02
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.02
+fire_wound_immunity                      = 0.02
+
+;--------------------------------------------------------------------------------
+; «Глаз»
+;--------------------------------------------------------------------------------
+[af_eye]:af_base
+$spawn                                   = "artefacts\thermal_4_eye"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_eye.ogf
+description                              = st_af_eye_descr
+inv_name                                 = st_af_eye_name
+inv_name_short                           = st_af_eye_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 13
+inv_grid_y                               = 0
+
+cost                                     = 1900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_thermal_show
+det_hide_particles                       = artefact\af_thermal_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.9,0.4,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.0015
+radiation_restore_speed                  = 0.0035
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0.005
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_eye_absorbation
+
+[af_eye_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Пламя»
+;--------------------------------------------------------------------------------
+[af_fire]:af_base
+$spawn                                   = "artefacts\thermal_5_fire"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_fire.ogf
+description                              = st_af_fire_descr
+inv_name                                 = st_af_fire_name
+inv_name_short                           = st_af_fire_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 14
+inv_grid_y                               = 0
+
+cost                                     = 2900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_thermal_show
+det_hide_particles                       = artefact\af_thermal_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.9,0.4,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.00335
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0.0055
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fire_absorbation
+
+[af_fire_absorbation]
+burn_immunity                            = 0.06	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.05
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; Артефакты для химической аномалии
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; «Кровь камня»
+;--------------------------------------------------------------------------------
+[af_blood]:af_base
+$spawn                                   = "artefacts\acidic_1_blood"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_blood.ogf
+description                              = st_af_blood_descr
+inv_name                                 = st_af_blood_name
+inv_name_short                           = st_af_blood_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 4
+inv_grid_y                               = 0
+
+cost                                     = 500
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_mincer
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.0002
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_blood_absorbation
+
+[af_blood_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = -0.01
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = -0.01
+fire_wound_immunity                      = -0.01
+
+;--------------------------------------------------------------------------------
+; «Ломоть мяса»
+;--------------------------------------------------------------------------------
+[af_mincer_meat]:af_base
+$spawn                                   = "artefacts\acidic_2_mincer_meat"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_mincer_meat.ogf
+description                              = st_af_mincer_meat_descr
+inv_name                                 = st_af_mincer_meat_name
+inv_name_short                           = st_af_mincer_meat_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 1
+inv_grid_y                               = 1
+
+cost                                     = 750
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_mincer
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.0004
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_mincer_meat_absorbation
+
+[af_mincer_meat_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = -0.02
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = -0.02
+fire_wound_immunity                      = -0.02
+
+;--------------------------------------------------------------------------------
+; «Душа»
+;--------------------------------------------------------------------------------
+[af_soul]:af_base
+$spawn                                   = "artefacts\acidic_3_soul"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_soul.ogf
+description                              = st_af_soul_descr
+inv_name                                 = st_af_soul_name
+inv_name_short                           = st_af_soul_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 6
+inv_grid_y                               = 1
+
+cost                                     = 2100
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+
+artefact_activation_seq                  = af_activation_mincer
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.00085
+radiation_restore_speed                  = 0.0025
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_soul_absorbation
+
+[af_soul_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = -0.03
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = -0.03
+fire_wound_immunity                      = -0.03
+
+;--------------------------------------------------------------------------------
+; «Колобок»
+;--------------------------------------------------------------------------------
+[af_fuzz_kolobok]:af_base
+$spawn                                   = "artefacts\acidic_4_fuzz_kolobok"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_fuzz_kolobok.ogf
+description                              = st_af_fuzz_kolobok_descr
+inv_name                                 = st_af_fuzz_kolobok_name
+inv_name_short                           = st_af_fuzz_kolobok_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 12
+inv_grid_y                               = 1
+cost                                     = 1800
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fuzz_kolobok_absorbation
+
+[af_fuzz_kolobok_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0.03
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = -0.03
+
+;--------------------------------------------------------------------------------
+; «Пузырь»
+;--------------------------------------------------------------------------------
+[af_baloon]:af_base
+$spawn                                   = "artefacts\acidic_5_baloon"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_baloon.ogf
+description                              = st_af_baloon_descr
+inv_name                                 = st_af_baloon_name
+inv_name_short                           = st_af_baloon_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 3
+inv_grid_y                               = 0
+cost                                     = 1900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = -0.005
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_baloon_absorbation
+
+[af_baloon_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Светляк»
+;--------------------------------------------------------------------------------
+[af_glass]:af_base
+$spawn                                   = "artefacts\acidic_6_glass"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_glass.ogf
+description                              = st_af_glass_descr
+inv_name                                 = st_af_glass_name
+inv_name_short                           = st_af_glass_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 16
+inv_grid_y                               = 0
+cost                                     = 2900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.001125
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_glass_absorbation
+
+[af_glass_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = -0.05
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = -0.05
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; Артефакты для электрической аномалии
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; «Бенгальский огонь»
+;--------------------------------------------------------------------------------
+[af_electra_sparkler]:af_base
+$spawn                                   = "artefacts\electric_1_electra_sparkler"
+class                                    = SCRPTART	                                       ; физ объект
+
+visual                                   = dynamics\artefacts\af_electra_sparkler.ogf
+description                              = st_af_electra_sparkler_descr
+inv_name                                 = st_af_electra_sparkler_name
+inv_name_short                           = st_af_electra_sparkler_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 11
+inv_grid_y                               = 1
+
+cost                                     = 500
+
+jump_height                              = 0	                                       ; игнорируется при типе SCRPTART
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_electra
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.001
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_electra_sparkler_absorbation
+
+[af_electra_sparkler_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = -0.0625
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Вспышка»
+;--------------------------------------------------------------------------------
+[af_electra_flash]:af_base
+$spawn                                   = "artefacts\electric_2_electra_flash"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_electra_flash.ogf
+description                              = st_af_electra_flash_descr
+inv_name                                 = st_af_electra_flash_name
+inv_name_short                           = st_af_electra_flash_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 9
+inv_grid_y                               = 1
+
+cost                                     = 800
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_electra
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.003
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_electra_flash_absorbation
+
+[af_electra_flash_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = -0.08
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Лунный свет»
+;--------------------------------------------------------------------------------
+[af_electra_moonlight]:af_base
+$spawn                                   = "artefacts\electric_3_electra_moonlight"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_electra_moonlight.ogf
+description                              = st_af_electra_moonlight_descr
+inv_name                                 = st_af_electra_moonlight_name
+inv_name_short                           = st_af_electra_moonlight_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 10
+inv_grid_y                               = 1
+
+cost                                     = 1950
+
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_electra
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.003
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_electra_moonlight_absorbation
+
+[af_electra_moonlight_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = -0.05
+wound_immunity                           = 0
+radiation_immunity                       = -0.01
+telepatic_immunity                       = 0.035
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Батарейка»
+;--------------------------------------------------------------------------------
+[af_dummy_battery]:af_base
+$spawn                                   = "artefacts\electric_4_dummy_battery"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_dummy_battery.ogf
+description                              = st_af_dummy_battery_descr
+inv_name                                 = st_af_dummy_battery_name
+inv_name_short                           = st_af_dummy_battery_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 8
+inv_grid_y                               = 0
+jump_height                              = 0
+
+cost                                     = 800
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = -0.0003
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.00225
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_dummy_battery_absorbation
+
+[af_dummy_battery_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0.02
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Пустышка»
+;--------------------------------------------------------------------------------
+[af_dummy_dummy]:af_base
+$spawn                                   = "artefacts\electric_5_dummy_dummy"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_dummy_dummy.ogf
+description                              = st_af_dummy_dummy_descr
+inv_name                                 = st_af_dummy_dummy_name
+inv_name_short                           = st_af_dummy_dummy_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 9
+inv_grid_y                               = 0
+cost                                     = 1900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = -0.0002
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_dummy_dummy_absorbation
+
+[af_dummy_dummy_absorbation]
+burn_immunity                            = 0.02	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = -0.02
+wound_immunity                           = 0
+radiation_immunity                       = 0.002
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0.02
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Снежинка»
+;--------------------------------------------------------------------------------
+[af_ice]:af_base
+$spawn                                   = "artefacts\electric_6_ice"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_ice.ogf
+description                              = st_af_ice_descr
+inv_name                                 = st_af_ice_name
+inv_name_short                           = st_af_ice_name
+inv_weight                               = 0.5
+
+inv_grid_x                               = 19
+inv_grid_y                               = 0
+cost                                     = 2900
+jump_height                              = 0
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = false
+
+trail_light_color                        = 0.6,0.7,0.9
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.00375
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.00375
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_ice_absorbation
+
+[af_ice_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; Квестовые артефакты
+;--------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------
+; «Компас»
+;--------------------------------------------------------------------------------
+[af_compass]:af_base
+$spawn                                   = "artefacts\compass"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = st_compass_descr
+inv_name                                 = st_compass
+inv_name_short                           = st_compass
+inv_weight                               = 0.5
+
+inv_grid_x                               = 8
+inv_grid_y                               = 1
+jump_height                              = .2
+
+cost                                     = 10000 
+
+particles                                = artefact\af_electra_idle
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 1.0,1.0,0.75	                                       ;1.0,0.9,0.5
+trail_light_range                        = 2.0
+
+can_trade                                = false
+
+quest_item                               = false
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.005
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.001
+bleeding_restore_speed                   = 0
+hit_absorbation_sect                     = af_compass_absorbation
+degrade_rate 							 = 0	;Artefact Degradation
+
+[af_compass_absorbation]
+burn_immunity                            = 0.02	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0.05
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0.01
+chemical_burn_immunity                   = 0.02
+explosion_immunity                       = 0.02
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Сердце Оазиса»
+;--------------------------------------------------------------------------------
+[af_oasis_heart]:af_base
+$spawn                                   = "artefacts\af_oasis_heart"
+class                                    = SCRPTART
+;story_id                                 = jup_b16_oasis_artifact
+
+visual                                   = dynamics\artefacts\af_cristall_plant.ogf
+description                              = st_oasis_heart_descr
+inv_name                                 = st_oasis_heart
+inv_name_short                           = st_oasis_heart
+inv_weight                               = 0.5
+
+inv_grid_x                               = 13
+inv_grid_y                               = 1
+jump_height                              = .2
+
+cost                                     = 20000
+
+;particles			= artefact\af_acidic_idle
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+particles_bone                           = cristall
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 1.0,1.0,0.75	                                       ;1.0,0.9,0.5
+trail_light_range                        = 2.0
+
+can_trade                                = false
+
+quest_item                               = false
+
+health_restore_speed                     = 0.0003
+radiation_restore_speed                  = 0.004
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0.001
+bleeding_restore_speed                   = 0.002
+hit_absorbation_sect                     = af_oasis_heart_absorbation
+degrade_rate							 = 0 ;Artefact Degradation
+
+[af_oasis_heart_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; Изменённый изолятор
+;--------------------------------------------------------------------------------
+[jup_b1_half_artifact]:af_base
+$spawn                                   = "artefacts\af_psi_field"
+class                                    = SCRPTART
+story_id                                 = jup_b1_half_artifact
+visual                                   = dynamics\artefacts\af_psi_field.ogf
+description                              = jup_b1_half_artifact_descr
+inv_name                                 = jup_b1_half_artifact
+inv_name_short                           = jup_b1_half_artifact
+can_trade                                = false
+quest_item                               = true
+
+particles                                = artefact\artefact_mincer
+
+inv_weight                               = 1.0
+
+inv_grid_x                               = 15
+inv_grid_y                               = 1
+jump_height                              = .2
+cost                                     = 4000
+
+;particles					= artefact\af_electra_idle
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.2,0.1
+trail_light_range                        = 2.0
+
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.006
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = jup_b1_half_artifact_absorbation
+
+[jup_b1_half_artifact_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; Изменённый штурвал
+;--------------------------------------------------------------------------------
+[af_quest_b14_twisted]:af_base
+$spawn                                   = "artefacts\af_control"
+class                                    = SCRPTART
+
+visual                                   = dynamics\artefacts\af_control.ogf
+description                              = st_af_quest_b14_twisted_descr
+inv_name                                 = st_af_quest_b14_twisted
+inv_name_short                           = st_af_quest_b14_twisted
+inv_weight                               = 3.0
+inv_grid_x                               = 14
+inv_grid_y                               = 1
+jump_height                              = .2
+cost                                     = 4000
+
+;particles					= artefact\af_electra_idle
+det_show_particles                       = artefact\af_electra_show
+det_hide_particles                       = artefact\af_electra_hide
+
+af_rank                                  = 0
+lights_enabled                           = true
+trail_light_color                        = 0.4,0.6,1.0	                                       ;0.85,1.0,0.5
+trail_light_range                        = 7.5
+
+can_trade                                = false
+quest_item                               = true
+
+attach_angle_offset                      = 1.922,1.551,-0.740	                                       ;устанавливается в радианах Angle*PI/180
+attach_position_offset                   = 0.15,0.002,0.25
+attach_bone_name                         = bip01_r_hand
+auto_attach                              = false
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.006
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+hit_absorbation_sect                     = af_control_absorbation
+
+[af_control_absorbation]
+burn_immunity                            = 0
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+
+;LEGEND RETURNS
+
+;--------------------------------------------------------------------------------
+; «БРОНЕПЛАСТИНА»
+;--------------------------------------------------------------------------------
+[broneplastina]:af_base
+$spawn                                   = "artefacts\broneplastina"
+class                                    = SCRPTART
+
+visual                                   = dynamics\devices\dev_rukzak\dev_rukzak.ogf
+description                              = "Изношенная бронепластина 5-го класса защиты. Способна остановить пистолетную пулю или осколок, однако, надеяться на неё не стоит."
+inv_name                                 = "Бронепластина керамическая"
+inv_name_short                           = "Бронепластина керамическая"
+inv_weight                               = 3.1
+
+inv_grid_x                               = 16
+inv_grid_y                               = 37
+
+cost                                     = 500
+
+jump_height                              = .01
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+hit_absorbation_sect                     = af_broneplastina_absorbation
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+[af_broneplastina_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.02
+fire_wound_immunity                      = 0.04
+
+;--------------------------------------------------------------------------------
+; «РАЗГРУЗКА 2 кг»
+;--------------------------------------------------------------------------------
+[razgruzka1]:af_base
+$spawn                                   = "artefacts\razgruzka1"
+class                                    = SCRPTART
+
+visual                                   = dynamics\devices\dev_rukzak\dev_rukzak.ogf
+description                              = "Дополнительный разгрузочный пояс, не препятствующий комфортному передвижению, но повышающий мобильность носителя."
+inv_name                                 = "Разгрузка на 2 кг."
+inv_name_short                           = "Разгрузка на 2 кг."
+inv_weight                               = 0.1
+
+inv_grid_x                               = 17
+inv_grid_y                               = 37
+
+cost                                     = 200
+
+jump_height                              = .01
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+hit_absorbation_sect                     = af_razgruzka1_absorbation
+
+additional_inventory_weight              = 2.0
+
+[af_razgruzka1_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «РАЗГРУЗКА 4 кг»
+;--------------------------------------------------------------------------------
+[razgruzka2]:af_base
+$spawn                                   = "artefacts\razgruzka1"
+class                                    = SCRPTART
+
+visual                                   = dynamics\devices\dev_rukzak\dev_rukzak.ogf
+description                              = "Дополнительный разгрузочный пояс, не препятствующий комфортному передвижению, но повышающий мобильность носителя."
+inv_name                                 = "Разгрузка на 4 кг."
+inv_name_short                           = "Разгрузка на 4 кг."
+inv_weight                               = 0.2
+
+inv_grid_x                               = 17
+inv_grid_y                               = 36
+
+cost                                     = 300
+
+jump_height                              = .01
+
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+hit_absorbation_sect                     = af_razgruzka2_absorbation
+
+additional_inventory_weight              = 4.0
+
+[af_razgruzka2_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;АРТЕФАКТЫ ХАБАРЩИКА;;;;;
+
+[af_lazurniy]:af_base
+$spawn                                   = "artefacts\af_lazurniy"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Редкий артефакт, предположительно, формируется в аномалиях химического типа. При ношении вызывает неприятные колющие ощущения, но ценится, прежде всего, за своё свойство абсорбировать радиацию."
+inv_name                                 = "Лазурная Колючка"
+inv_name_short                           =
+inv_weight                               = 0.5
+
+inv_grid_x                               = 10
+inv_grid_y                               = 32
+
+cost                                     = 5000
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = -0.00125
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = -0.05
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_lazurniy_absorbation
+
+[af_lazurniy_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0.0125
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_sosulka]:af_base
+$spawn                                   = "artefacts\af_sosulka"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Учёные даже и не предполагают, как артефакт с такими противоречивыми свойствами не растворяется в зонах с высокой температурой. Крайне редкий экземпляр, сталкеры находили такой лишь несколько месяцев назад. Не имеет отрицательных свойств, забирает определённое количество тепла у носителя при сверхвысоких температурах."
+inv_name                                 = "Сосулька"
+inv_name_short                           =
+inv_weight                               = 0.5
+
+inv_grid_x                               = 11
+inv_grid_y                               = 32
+
+cost                                     = 6500
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_sosulka_absorbation
+
+[af_sosulka_absorbation]
+burn_immunity                            = 0.03	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_sgustok]:af_base
+$spawn                                   = "artefacts\af_sgustok"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Данное аномальное образование поражает умы исследователей и сталкеров. Достаточно небольшой, но состоящий из неизвестного науке материала, отчего очень тяжелый. При ношении ослабляет владельца, встречались случаи тошноты и рвоты. Тем не менее, ценится за способность укреплять защитные свойства кожи человека от химических ожогов."
+inv_name                                 = "Сгусток"
+inv_name_short                           =
+inv_weight                               = 1.25
+
+inv_grid_x                               = 12
+inv_grid_y                               = 32
+
+cost                                     = 7000
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = -0.002
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = -2
+additional_inventory_weight2             = -2
+
+hit_absorbation_sect                     = af_sgustok_absorbation
+
+[af_sgustok_absorbation]
+burn_immunity                            = 0.02	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0.03
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_orbita]:af_base
+$spawn                                   = "artefacts\af_orbita"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Крайне редкий артефакт. Спутать его нельзя ни с каким другим - внешне он напоминает планету, вокруг которой двигаются спутники. Свойства не изучены до конца, но сталкеры отметили, что артефакт способен восстановить пошатнувшуюся нервную систему и погибшие клетки организма."
+inv_name                                 = "Орбита"
+inv_name_short                           =
+inv_weight                               = 0.7
+
+inv_grid_x                               = 13
+inv_grid_y                               = 32
+
+cost                                     = 8500
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.002
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = -0.003
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_orbita_absorbation
+
+[af_orbita_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_twins]:af_base
+$spawn                                   = "artefacts\af_twins"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "С виду - два сросшихся диска красного цвета. Свойства не изучены до сих пор - приборы, которые дают показания, дают сбой."
+inv_name                                 = "Сиамские Близнецы"
+inv_name_short                           =
+inv_weight                               = 1.1
+
+inv_grid_x                               = 10
+inv_grid_y                               = 33
+
+cost                                     = 9500
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_twins_absorbation
+
+[af_twins_absorbation]
+burn_immunity                            = 0.04	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0.015
+shock_immunity                           = 0.01
+wound_immunity                           = -0.01
+radiation_immunity                       = -0.005
+telepatic_immunity                       = -0.01
+chemical_burn_immunity                   = 0.02
+explosion_immunity                       = -0.04
+fire_wound_immunity                      = -0.04
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_red_eye]:af_base
+$spawn                                   = "artefacts\af_red_eye"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Уникальный артефакт, найденный несколько лет назад неизвестным сталкером. Ходят слухи, что с помощью этого артефакта этот сталкер убил сильнейшего из телепатов-мутантов."
+inv_name                                 = "Око Химеры"
+inv_name_short                           =
+inv_weight                               = 0.65
+
+inv_grid_x                               = 11
+inv_grid_y                               = 33
+
+cost                                     = 10500
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = -0.05
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = -2
+additional_inventory_weight2             = -2
+
+hit_absorbation_sect                     = af_red_eye_absorbation
+
+[af_red_eye_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0.015
+telepatic_immunity                       = 0.025
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_black_heart]:af_base
+$spawn                                   = "artefacts\af_black_heart"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Тот самый артефакт, который отчаянно пытался найти таинственный сталкер. По его словам, артефакт должен был исцелить его от смертельной болезни. Встречается лишь в одном экземпляре."
+inv_name                                 = "Чёрное Сердце"
+inv_name_short                           =
+inv_weight                               = 3.5
+
+inv_grid_x                               = 12
+inv_grid_y                               = 33
+
+cost                                     = 20000
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.009
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = -0.02
+bleeding_restore_speed                   = 0.07
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_black_heart_absorbation
+
+[af_black_heart_absorbation]
+burn_immunity                            = -0.03	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = -0.38
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = -0.09
+chemical_burn_immunity                   = -0.05
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[af_spiralka]:af_base
+$spawn                                   = "artefacts\af_spiralka"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Редчайшее аномальное образование. Представляет собой клубу закрученных прутьев, которые покрыты толстым слоем слизи. Учёным ещё только предстоит выяснить его свойства."
+inv_name                                 = "Спираль"
+inv_name_short                           = "Спираль"
+can_trade                                = false
+quest_item     							 = true
+inv_weight                               = 0.8
+
+inv_grid_x                               = 40
+inv_grid_y                               = 0
+
+quest_item     		= true
+
+cost                                     = 0
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 5
+additional_inventory_weight2             = 5
+
+hit_absorbation_sect                     = af_spiralka_absorbation
+
+[af_spiralka_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+[af_strelok]:af_base
+$spawn                                   = "artefacts\af_strelok"
+class                                    = ARTEFACT
+
+visual                                   = dynamics\artefacts\af_compass.ogf
+description                              = "Этот таинственный артефакт Стрелок принёс из своей первой ходки к окраинам Припяти. С виду небольшая мерцающая сфера из тёмно-синего стеклоподобного материала. Имеет сложную симметричную форму. Пульсирующее яркое сияние внутри объекта. Видимо, повышает болевой порог носителя. Уникальный образец."
+inv_name                                 = "Артефакт Стрелка"
+inv_name_short                           =
+inv_weight                               = 2.5
+
+inv_grid_x                               = 39
+inv_grid_y                               = 0
+
+cost                                     = 10000
+
+jump_height                              = .6
+
+particles                                = artefact\af_gravi_idle
+det_show_particles                       = artefact\af_gravi_show
+det_hide_particles                       = artefact\af_gravi_hide
+
+af_rank                                  = 0
+
+lights_enabled                           = true
+
+trail_light_color                        = 0.4,0.4,0
+trail_light_range                        = 2.0
+
+artefact_activation_seq                  = af_activation_bold
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_strelok_absorbation
+
+[af_strelok_absorbation]
+burn_immunity                            = 0.01	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0.005
+shock_immunity                           = 0.01
+wound_immunity                           = 0.002
+radiation_immunity                       = 0.006
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0.03
+explosion_immunity                       = 0.002
+fire_wound_immunity                      = 0.05
+
+[cev_plastin_5]:af_base
+$spawn 				= "artefacts\cev_plastin_5"
+class   			= ARTEFACT
+visual				= dynamics\artefacts\af_control.ogf
+description			= cev_plastin_5_descr
+inv_name			= cev_plastin_5_name
+inv_name_short		        = cev_plastin_5_name
+inv_weight			= 1.0
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x			= 14
+inv_grid_y			= 1
+cost				= 30000
+af_rank                                  = 0
+jump_height			= 0.0001
+particles		        = artefact\af_thermal_idle
+det_show_particles		= artefact\af_thermal_show
+det_hide_particles		= artefact\af_thermal_hide
+particles_bone			= joint2
+lights_enabled                  = false
+trail_light_color 		= 0.9,0.4,0.2
+trail_light_range 		= 2.0
+health_restore_speed		= 0
+radiation_restore_speed		= 0
+satiety_restore_speed		= 0
+power_restore_speed		= 0
+bleeding_restore_speed		= 0
+additional_inventory_weight	= 0
+additional_inventory_weight2	= 0
+hit_absorbation_sect            = cev_plastin_5_absorbation
+[cev_plastin_5_absorbation]
+burn_immunity 			= 0
+strike_immunity 		= 0
+shock_immunity 			= 0
+wound_immunity 			= 0
+radiation_immunity 		= 0
+telepatic_immunity 		= 0
+chemical_burn_immunity 	        = 0
+explosion_immunity 		= 0
+fire_wound_immunity  	        = 0.25	
+				   
+[af_soul_ghost]:af_base
+$spawn                                   = "artefacts\acidic_3_soul"
+class                                    = SCRPTART
+visual                                   = dynamics\artefacts\af_soul.ogf
+description                              = st_af_soul_ghost_descr
+inv_name                                 = st_af_soul_ghost_name
+inv_name_short                           = st_af_soul_ghost_name
+inv_weight                               = 0.5
+inv_grid_x                               = 6
+inv_grid_y                               = 1
+cost                                     = 2100
+jump_height                              = 0
+particles                                = artefact\artefact_puxx
+det_show_particles                       = artefact\af_acidic_show
+det_hide_particles                       = artefact\af_acidic_hide
+af_rank                                  = 0
+lights_enabled                           = false
+trail_light_color                        = 0.5,0.7,0.2
+trail_light_range                        = 2.0
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0.00105
+radiation_restore_speed                  = 0
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+hit_absorbation_sect                     = af_soul_ghost_absorbation
+[af_soul_ghost_absorbation]
+burn_immunity 			= 0
+strike_immunity 		= 0
+shock_immunity 			= 0
+wound_immunity 			= 0
+radiation_immunity 		= 0
+telepatic_immunity 		= 0
+chemical_burn_immunity 	        = 0
+explosion_immunity 		= 0
+fire_wound_immunity  	        = 0	   
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; LR PERKS
+#include "artefacts_new.ltx"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

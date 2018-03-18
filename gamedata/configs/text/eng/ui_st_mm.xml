@@ -531,15 +531,15 @@
 	</string>
 
 	<string id="lr_skills_no_streight">
-		<text>You're not strong and agile enough to carry such a load.</text>
+		<text>You are not strong and agile enough to carry such a load.</text>
 	</string>
 	<string id="lr_skills_no_streight_2">
-		<text>And how will you use this? The damn thing's heavy too.</text>
+		<text>The gauss rifle is too heavy for you to operate.</text>
 	</string>
 	<string id="lr_skills_no_streight_3">
-		<text>It's too heavy to carry by yourself.</text>
+		<text>It’s too heavy to carry by yourself.</text>
 	</string>
 	<string id="ui_mm_sim_on_all_levels">
-		<text>Life in the entire Zone</text>
+		<text>Full A-Life simulation</text>
 	</string>
 </string_table>

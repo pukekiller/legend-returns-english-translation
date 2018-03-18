@@ -11,9 +11,15 @@
 	</string>
 	<string id="esc_event_case_2_descr">
 		<text>Кейс найден, осталось только отнести это торговцу.</text>
-	</string>	
-	
-	<string id="esc_event_case">
+	</string>
+
+	<string id="esc_event_case_name">
+		<text>Кейс</text>
+	</string>
+	<string id="esc_event_case_descr">
 		<text>Кейс, который необходимо доставить Сидоровичу.</text>
-	</string>		
+	</string>
+	<string id="agr_event_case_descr">
+		<text>Кейс, который нужен торговцам. Можно продать за хорошую цену.</text>
+	</string>
 </string_table>

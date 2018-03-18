@@ -30,11 +30,11 @@
 	</string>
 
 	<string id="st_faction_slime">
-		<text>"Black Slugs"</text>
+		<text>Black Slugs</text>
 	</string>
 
 	<string id="st_faction_sin">
-		<text>"Sin"</text>
+		<text>Sin</text>
 	</string>
 
 	<string id="st_faction_neutral">
@@ -87,7 +87,6 @@
 	<string id="stalker_chevron_name">
 		<text>Stalker patch</text>
 	</string>
-
 	<string id="stalker_chevron_desc">
 		<text>Insignia. Patch used by stalkers of all ranks to denote their affiliation among strangers. Use it to take on the appearance of a lone Stalker.</text>
 	</string>
@@ -95,7 +94,6 @@
 	<string id="freedom_chevron_name">
 		<text>Freedom patch</text>
 	</string>
-
 	<string id="freedom_chevron_desc">
 		<text>Insignia belonging to the Freedom faction. Use it to disguise as a Freedomer</text>
 	</string>
@@ -103,13 +101,12 @@
 	<string id="sin_chevron_name">
 		<text>Skinned face for camouflage</text>
 	</string>
-
 	<string id="sin_chevron_desc">
 		<text>A face cut off from a stalker. Stored in a special solution to prevent rotting. Used by Sinners for disguise.</text>
 	</string>
 
 	<string id="trader_chevron_name">
-		<text>Снятие лица</text>
+		<text>Face removal kit</text>
 	</string>
 
 	<string id="trader_chevron_desc">
@@ -234,10 +231,10 @@
 		<text>Jeka Duplet</text>
 	</string>
 
-	<string id="st_pda_recon_descr">
-		<text>Vetrovenko's PDA, smeared with blood, but still in working condition. Contains, in addition to personal notes, information on the location, the size and armament of the group "Black slugs".</text>
-	</string>
 	<string id="st_pda_recon_name">
 		<text>Vetrovenko's PDA</text>
+	</string>
+	<string id="st_pda_recon_descr">
+		<text>Vetrovenko's PDA, smeared with blood, but still in working condition. Contains, in addition to personal notes, information on the location, the size and armament of the group "Black slugs".</text>
 	</string>
 </string_table>

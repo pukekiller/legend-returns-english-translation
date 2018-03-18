@@ -4,10 +4,10 @@
 		<text>Погиб сталкер:</text>
 	</string>
 	<string id="zone_news_dead_dead_name">
-		<text>\n%c[255,255,128,128]Имя:%c[255,255,128,128]&amp32;</text>
+		<text>\n%c[255,255,128,128]Имя:%c[255,255,128,128]&#32;</text>
 	</string>
 	<string id="zone_news_dead_dead_faction">
-		<text>\n%c[255,255,128,128]Группировка:%c[255,255,128,128]&amp32;</text>
+		<text>\n%c[255,255,128,128]Группировка:%c[255,255,128,128]&#32;</text>
 	</string>
 
 	<string id="zone_news_dead_messages_none_1">

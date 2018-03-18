@@ -53,30 +53,10 @@
 		<text>???</text>
 	</string>
 	<string id="st_lr_skills_system_menu_perk_info_1">
-		<text>Level 5 perks:\n
-		ACUITY: you discover a new cold weapon, making it easier to deal with enemies\n
-		PARAMEDIC: bandages heal slightly\n
-		HEALTH PROMOTION: vodka reduces more radiation, but the player character gets intoxicated faster\n \n
-
-		Level 10 perks:\n
-		GONZALEZ: you discover an artefact that allows you to run around with additional stamina\n
-		ASPIRANT: anti-radiation drugs become more effective\n
-		LEGEND: you can recruit additional stalkers into a squad\n
-		DISCIPLE: zombified stalkers become neutral to you\n \n
-
-		Level 20 perks:\n
-		HERCULES: you discover an artefact that allows additional storage in your backpack\n
-		METALLIC: you discover an artefact that increases your bullet resistance\n \n
-		BOUNDLESS: your PDA can now display the location of every living soul throughout the Zone\n
-		TECHNICIAN’S FRIEND: all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n
-		PROSPEROUS CUSTOMER: traders offer you expensive products more frequently\n \n
-
-		Level 25 perks:\n
-		???: Nobody knows.\n
-		INCREASED METABOLISM: you discover an artefact that helps you regenerate at the highest speed</text>
+		<text>Level 5 perks:\n • ACUITY: you discover a new cold weapon, making it easier to deal with enemies\n • PARAMEDIC: bandages provide a slight amount of healing\n • HEALTH PROMOTION: vodka reduces more radiation, but you get intoxicated faster\n \nLevel 10 perks:\n • GONZALEZ: you discover an artefact that allows you to run around with additional stamina\n • ASPIRANT: anti-radiation drugs become more effective\n • LEGEND: you can recruit additional stalkers into a squad\n • DISCIPLE: zombified stalkers become neutral to you\n \nLevel 20 perks:\n • HERCULES: you discover an artefact that allows additional storage in your backpack\n • METALLIC: you discover an artefact that increases your bullet resistance\n \n • BOUNDLESS: your PDA can now display the location of every living soul throughout the Zone\n • TECHNICIAN’S FRIEND: all technicians of the Zone know you like no other, and they can offer you drinks, company, and all kinds of upgrades\n • WEALTHY CLIENT: traders offer you expensive products more frequently\n \nLevel 25 perks:\n • ???: Nobody knows.\n • INCREASED METABOLISM: you discover an artefact that helps you regenerate at the highest speed</text>
 	</string>
 	<string id="st_lr_skills_system_menu_perk_info_2">
-		<text>Perks are different kinds of special abilities for your player character. From the beginning of the game, none are available to you, although after level 5, three perks become unlockable. After 10, 4 additional perks become available; 5 perks become available after level 20; and the last 2 perks become available after level 25. Here, you are (almost) not limited to any choice, and you can choose all perks at once if you have the necessary skill points and the required level.</text>
+		<text>Perks are different kinds of special abilities for you to obtain. From the beginning of the game, none are available to you, although after level 5, three perks become unlockable. After 10, 4 additional perks become available; 5 perks become available after level 20; and the last 2 perks become available after level 25. Here, you are (almost) not limited to any choice, and you can choose all perks at once if you have the necessary skill points and the required level.</text>
 	</string>
 
 	<string id="st_lr_skills_system_menu_skill_info_1">
@@ -95,7 +75,7 @@
 		<text>The Survival skill allows you to carve up mutant carcasses, reduce health loss when consuming raw meat, make the most out of all types of food, and also minimise damage from harmful artefacts.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_general">
-		<text>The levelling system will allow your character to turn from a novice into a warlord! Unable to carry a 10 kilogram suit? Attain experience and acquire the Power skill! Or perhaps you haven’t attained the know-how to use the first-aid kit to its full potential? Get the Medicine skill! Incapable of grabbing an artefact without getting hurt? What do you know about survival?! And so on.</text>
+		<text>The levelling system will allow you to turn from a novice into a warlord! Unable to carry a 10 kg suit? Attain experience and acquire the Power skill! Or perhaps you haven’t acquired the know-how to utilise the first-aid kit to its full potential? Get the Medicine skill! Incapable of grabbing an artefact without getting hurt? What do you know about survival?! And so on.</text>
 	</string>
 
 	<string id="st_lr_skills_system_max_level_1">

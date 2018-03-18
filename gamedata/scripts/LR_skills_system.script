@@ -341,7 +341,7 @@ function skill_on_message()
 	local skillup_snd = sound_object("skills\\skill_added")
 	skillup_snd:play_at_pos(actor, vector():set(0,0,0), 0, sound_object.s2d)
 	hud:AddCustomStatic("main_task", true)
-	hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_skill_upgrade"))
+	hud:GetCustomStatic("main_task"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_skill_upgrade_successful"))
 	hud:GetCustomStatic("main_task").m_endTime = time_global()/1000 + 5
 	flag_gui = 0
 	skill_points = skill_points - 1

@@ -111,7 +111,7 @@ function levelup_effect_15()
 	hud:AddCustomStatic("newlevel_text", true)
 	hud:AddCustomStatic("newlevel_text_skill", true)
 	hud:GetCustomStatic("newlevel_text"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_max_level_1")..actor_level..game.translate_string("st_lr_skills_system_max_level_2"))
-	hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_newlevel_text_skill"))
+	hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_max_level_4"))
 	hud:GetCustomStatic("newlevel_text").m_endTime = time_global()/1000 + 5
 	hud:GetCustomStatic("newlevel_texture").m_endTime = time_global()/1000 + 5
 	hud:GetCustomStatic("newlevel_text_skill").m_endTime = time_global()/1000 + 5
@@ -128,7 +128,7 @@ function levelup_effect()
 	hud:AddCustomStatic("newlevel_text", true)
 	hud:AddCustomStatic("newlevel_text_skill", true)
 	hud:GetCustomStatic("newlevel_text"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_max_level_2")..actor_level..game.translate_string("st_lr_skills_system_max_level_3"))
-	hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_newlevel_text_skill"))
+	hud:GetCustomStatic("newlevel_text_skill"):wnd():TextControl():SetTextST(game.translate_string("st_lr_skills_system_max_level_4"))
 	hud:GetCustomStatic("newlevel_text").m_endTime = time_global()/1000 + 5
 	hud:GetCustomStatic("newlevel_texture").m_endTime = time_global()/1000 + 5
 	hud:GetCustomStatic("newlevel_text_skill").m_endTime = time_global()/1000 + 5

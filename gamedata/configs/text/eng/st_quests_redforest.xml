@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- Убить лидеров -->
+	<!-- Kill the leaders -->
 	<string id="first_kill_task">
-		<text>Убить лидера Бандитов</text>
+		<text>Kill the leader of the bandits</text>
 	</string>
 	<string id="second_kill_task">
-		<text>Убить лидера «Слизней»</text>
+		<text>Kill the leader of the Black Slugs</text>
 	</string>
 	<string id="third_kill_task">
-		<text>Убить лидера «Чистого неба»</text>
+		<text>Kill the leader of Clear Sky</text>
 	</string>
 	<string id="kill_voronin_descr">
-		<text>Нужно уничтожить особо опасных представителей сталкерских кланов, которые представляют угрозу Зоне.</text>
+		<text>The dangerous representatives of various stalker clans that pose a threat to the Zone must be exterminated.</text>
 	</string>
 	<string id="quest_key_give">
-		<text>Убить Болотного Доктора и отобрать ключ</text>
+		<text>Kill the Swamp Doctor and obtain the key</text>
 	</string>
 	<string id="quest_key_give_descr">
-		<text>Ворон поручил отобрать у Доктора ключ. Цель задания не ясна, но он обещал объясниться.</text>
+		<text>Crow has instructed you to take away a key from the Doctor. The purpose of the assignment is not clear, but Crow has promised to explain himself.</text>
 	</string>
 	<string id="quest_docks_give_descr">
-		<text>Необходимо проникнуть в 26 номер гостиницы «Полесье» и забрать то, что принадлежит «Греху».</text>
+		<text>You must enter room 26 of the Polissya hotel and retrieve what belongs to Sin.</text>
 	</string>
 	<string id="quest_docks_give">
-		<text>Достать и принести чертежи эксперементального оружия</text>
+		<text>Obtain and retrieve the blueprints of the experimental weapons</text>
 	</string>
 	<string id="spy_sin_task">
-		<text>Саботаж: Влиться в ряды противника</text>
+		<text>Sabotage: join the ranks of the enemy</text>
 	</string>
 	<string id="spy_sin_task_descr">
-		<text>Необходимо проникнуть на базу «Долга» под видом одиночки и предложить Воронину свою «помощь».</text>
+		<text>You have been called to infiltrate Duty’s base under the guise of a free stalker and offer Voronin ‘help’.</text>
 	</string>
 	<string id="spy_sin_task_1">
-		<text>Блицкриг: Поговорить с Морфиусом</text>
+		<text>Blitzkrieg: Talk to Morpheus</text>
 	</string>
 	<string id="spy_sin_task_descr_1">
-		<text>Братья пришли мне на помощь. Нужно поговорить с командиром - Морфиусом.</text>
+		<text>The brothers have come to your rescue. Morpheus, the commander, may know what comes next.</text>
 	</string>
 	<string id="spy_sin_task_2">
-		<text>Должник: Встретиться с Анубисом</text>
+		<text>In debt: Meet with Anubis</text>
 	</string>
 	<string id="spy_sin_task_descr_2">
-		<text>Нужно встретиться с Анубисом и предложить помощь</text>
+		<text>Anubis could use some assistance.</text>
 	</string>
 	<string id="spy_sin_task_3">
-		<text>Должник: Найти и принести редкое растение</text>
+		<text>In debt: Find and retrieve a rare plant</text>
 	</string>
 	<string id="spy_sin_task_descr_3">
-		<text>Анубис поручил найти «Мышецвет» для лечебного снадобья. По его сведениям, его можно найти где-то у кислотной аномалии неподалеку от радиозавода «Юпитер».</text>
+		<text>Anubis has instructed you to find a black cat flower for a medicinal potion. According to his information, it can be found near an acid anomaly near the Jupiter plant.</text>
 	</string>
 	<string id="spy_sin_task_4">
-		<text>Должник: Поговорить с Шаманом</text>
+		<text>In debt: Speak to Shaman</text>
 	</string>
 	<string id="spy_sin_task_descr_4">
-		<text>Шаману больше ничего не угрожает. Надо поговорить с ним.</text>
+		<text>Shaman is no longer threatened by the illness. You must speak to him.</text>
 	</string>
 	<string id="spy_sin_task_5">
-		<text>Контр-Штурм: Направиться к отряду</text>
+		<text>Counter-attack: meet with the detachment</text>
 	</string>
 	<string id="spy_sin_task_descr_5">
 		<text>О местоположении отряда я сообщил. Теперь осталось отправиться туда с весточкой</text>
@@ -76,34 +76,34 @@
 
 	<!-- Сюжет «Монолита» -->
 	<string id="cresh_task_1">
-		<text>Откликнуться на помощь Братьям</text>
+		<text>Respond to the brothers’ call for help</text>
 	</string>
 	<string id="cresh_task_1_descr">
-		<text>На КПК пришло сообщение с просьбой о помощи. Нужно поспешить, Братья ждут.</text>
+		<text>A message has appeared in your PDA asking for help. The brothers are waiting.</text>
 	</string>
 	<string id="neyron_task_1">
-		<text>«Курьер»</text>
+		<text>Courier</text>
 	</string>
 	<string id="neyron_task_1_descr">
-		<text>Крэш попросил сходить к исследовательскому отряду «Монолита» в лаборатории Х-8 и забрать результаты исследований.</text>
+		<text>Crash has asked you to meet with the research squad of the Monolith in laboratory X-8 and retrieve results of their research.</text>
 	</string>
 	<string id="haron_task_1">
-		<text>«Совпадения?»</text>
+		<text>Coincidence?</text>
 	</string>
 	<string id="haron_task_1_descr">
-		<text>Нужно доложить Харону о том, что случилось в лаборатории. И откуда только эти твари узнали?</text>
+		<text>Charon will want to know about what has happened in the laboratory. How did those degenerates know?</text>
 	</string>
 	<string id="avangers_task_1">
-		<text>Встретить отряд Братьев</text>
+		<text>Regroup with a squad of brothers</text>
 	</string>
 	<string id="avangers_task_1_descr">
-		<text>Необходимо встретить отряд братьев в Рыжем лесу.</text>
+		<text>You must meet with a Monolith detachment in the Red Forest.</text>
 	</string>
 	<string id="docks_monolith_task_1">
-		<text>«Инквизиция»</text>
+		<text>Inquisition</text>
 	</string>
 	<string id="docks_monolith_descr">
-		<text>Нужно отомстить «Греху» за смерть Братьев и найти на их базе необходимую информацию.</text>
+		<text>The brothers must be avenged for the death of your brothers. You must also retrieve some necessary information.</text>
 	</string>
 	<string id="kill_shaman_task_1">
 		<text>«ОКО Зоны»</text>
@@ -112,7 +112,7 @@
 		<text>Харон поручил уничтожить необычного греховца в городе Светлый Путь и забрать информацию.</text>
 	</string>
 	<string id="cresh_task_2">
-		<text>«Лучше поздно, чем никогда»</text>
+		<text>Better late than never</text>
 	</string>
 	<string id="cresh_task_2_descr">
 		<text>Принести Крэшу устройство с информацией о прототипе излучателя «Радуга».</text>

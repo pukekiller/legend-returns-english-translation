@@ -99,19 +99,22 @@
 	</string>
 
 	<string id="st_lr_skills_system_max_level_1">
-		<text>Вы достигли максимального&#032;</text>
+		<text>Вы достигли максимального&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_max_level_2">
-		<text>Вы достигли&#032;</text>
+		<text>Вы достигли&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_max_level_3">
 		<text>-го уровня</text>
 	</string>
+	<string id="st_lr_skills_system_max_level_4">
+		<text>Очки навыков: + 1</text>
+	</string>
 	<string id="st_lr_skills_system_rank_static">
-		<text>Ваш опыт:&#032;</text>
+		<text>Ваш опыт:&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_level_static">
-		<text>Уровень -&#032;</text>
+		<text>Уровень -&#32;</text>
 	</string>
 
 	<!-- Перки -->

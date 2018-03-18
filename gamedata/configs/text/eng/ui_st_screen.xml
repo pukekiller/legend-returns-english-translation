@@ -160,7 +160,7 @@
 		<text>Are you ready to leave the Zone? There's no way back.</text>
 	</string>
 	<string id="st_game_over">
-		<text>Lost to the Zone</text>
+		<text>Game over.</text>
 	</string>
 	<string id="st_game_over_press_jump">
 		<text>Press ($$ACTION_JUMP$$) to exit to the main menu.</text>
@@ -279,9 +279,6 @@
 	<string id="st_resupply_ready">
 		<text>You can restock on medical supplies and ammo by visiting Lieutenant Rogovets and Lieutenant Kirillov.</text>
 	</string>
-	<string id="st_storm_while_asleep">
-		<text>A psi-storm has recently occurred in the Zone.</text>
-	</string>
 	<string id="st_surge_while_asleep">
 		<text>An emission has recently occurred in the Zone.</text>
 	</string>
@@ -299,9 +296,6 @@
 	</string>
 	<string id="st_press_any_key">
 		<text>Press any key to play</text>
-	</string>
-	<string id="tips_labx16switcher_press">
-		<text>Turn off the Miracle Machine ($$ACTION_USE$$)</text>
 	</string>
 	<string id="tips_rad_switcher_press">
 		<text>Turn off the Brain Scorcher ($$ACTION_USE$$)</text>

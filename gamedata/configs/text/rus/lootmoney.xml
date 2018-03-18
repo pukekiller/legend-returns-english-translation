@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="lootmoney_1">
+		<text>Покойник:&#32;</text>
+	</string>
+	<string id="lootmoney_2">
+		<text>Обнаружено денег:&#32;</text>
+	</string>
+	<string id="lootmoney_3">
+		<text>%c[default] RU.</text>
+	</string>
+	<string id="lootmoney_4">
+		<text>. Его тайник.</text>
+	</string>
+	<string id="lootmoney_eye">
+		<text>Вырезана часть тела: Глаз</text>
+	</string>
+	<string id="lootmoney_ear">
+		<text>Отрезана часть тела: Ухо</text>
+	</string>
+	<string id="lootmoney_finger">
+		<text>Отрезана часть тела: Палец</text>
+	</string>
+	<string id="lootmoney_liver">
+		<text>Вырезана часть тела: Печень</text>
+	</string>
+	<string id="lootmoney_brain">
+		<text>Вырезана часть тела: Мозг</text>
+	</string>
+	<string id="lootmoney_heart">
+		<text>Вырезана часть тела: Сердце</text>
+	</string>
+</string_table>

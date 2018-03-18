@@ -80,13 +80,13 @@
 	</string>
 
 	<string id="st_lr_skills_system_menu_skill_info_1">
-		<text>The Strength skill will allow you to carry heavy arms and armour, as well as kick small mutants and use gauss rifles. At level 2, you rarely receive critical damage, and at level 5, the effect is reduced to a minimum when it does appear.</text>
+		<text>The Strength skill will allow you to carry heavy arms and armour, as well as kick small mutants and operate gauss rifles. At level 2, you rarely receive critical damage, and at level 5, the effect is reduced to a minimum when it does appear.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_2">
 		<text>The Medicine skill allows for more effective use of first-aid kits and medical capsules. The higher the level of the skill, the more your health will increase after using medical supplies. As you progress from level 2, you can learn how to disassemble medical supplies for personal use and gradually improve the benefits that can be obtained from them.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_3">
-		<text>The Looting skill allows you to collect money from dead stalkers and steal caches after receiving training (starting at level 2). At level 4, the chance of taking a tip on the cache appears. At level 5, you can learn to rob the arsenals of larger factions with a key card.</text>
+		<text>The Looting skill allows you to collect money from dead stalkers and steal caches after receiving training (starting at level 2). At level 4, the chance of discovering stash coordinates increases. At level 5, you can learn to rob the arsenals of larger factions with a key card.</text>
 	</string>
 	<string id="st_lr_skills_system_menu_skill_info_4">
 		<text>The Repair skill allows you to use repair kits for repairing weapons and armour by yourself. Further increasing the skill raises the overall effectiveness of independent repairs.</text>
@@ -99,19 +99,22 @@
 	</string>
 
 	<string id="st_lr_skills_system_max_level_1">
-		<text>You have reached the maximum&#032;</text>
+		<text>You have reached the maximum&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_max_level_2">
-		<text>You have reached&#032;</text>
+		<text>You have reached level&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_max_level_3">
-		<text>level</text>
+		<text> </text>
+	</string>
+	<string id="st_lr_skills_system_max_level_4">
+		<text>Skill points: +1</text>
 	</string>
 	<string id="st_lr_skills_system_rank_static">
-		<text>Your experience:&#032;</text>
+		<text>Your experience:&#32;</text>
 	</string>
 	<string id="st_lr_skills_system_level_static">
-		<text>Level:&#032;</text>
+		<text>Level:&#32;</text>
 	</string>
 
 	<!-- Perks -->
@@ -126,7 +129,7 @@
 	</string>
 
 	<string id="st_lr_skills_system_skill_upgrade">
-		<text>UPGRADE PERK</text>
+		<text>UPGRADE SKILL</text>
 	</string>
 	<string id="st_lr_skills_system_skill_upgrade_successful">
 		<text>Skill successfully upgraded!</text>
@@ -172,7 +175,7 @@
 		<text>1/5: you can now loot money on corpses</text>
 	</string>
 	<string id="st_lr_skills_system_skill_bandit_2_add">
-		<text>2/5: you can can get tips for caches</text>
+		<text>2/5: you can now discover stash coordinates on corpses</text>
 	</string>
 	<string id="st_lr_skills_system_skill_bandit_3_add">
 		<text>3/5: you can now find additional money on corpses</text>

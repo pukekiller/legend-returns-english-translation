@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="lootmoney_1">
+		<text>Dead stalker:&#32;</text>
+	</string>
+	<string id="lootmoney_2">
+		<text>Found money: %c[255,255,0,0]</text>
+	</string>
+	<string id="lootmoney_3">
+		<text>%c[default] RU.</text>
+	</string>
+	<string id="lootmoney_4">
+		<text>’s stash</text>
+	</string>
+	<string id="lootmoney_eye">
+		<text>Body part dissected: eye</text>
+	</string>
+	<string id="lootmoney_ear">
+		<text>Body part dissected: ear</text>
+	</string>
+	<string id="lootmoney_finger">
+		<text>Body part dissected: finger</text>
+	</string>
+	<string id="lootmoney_liver">
+		<text>Body part dissected: liver</text>
+	</string>
+	<string id="lootmoney_brain">
+		<text>Body part dissected: brain</text>
+	</string>
+	<string id="lootmoney_heart">
+		<text>Body part dissected: heart</text>
+	</string>
+</string_table>

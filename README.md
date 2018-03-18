@@ -31,6 +31,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [izmer_mpd_config.xml](gamedata/configs/text/eng/izmer_mpd_config.xml)
 		- done
+	- [lootmoney.xml](gamedata/configs/text/eng/lootmoney.xml)
+		- done
 	- [soc_quests.xml](gamedata/configs/text/eng/soc_quests.xml)
 		- done (most texts taken from SoC dialogues)
 	- [st_achievement.xml](gamedata/configs/text/eng/st_achievement.xml)
@@ -49,7 +51,7 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/eng/st_dialogs_darkvalley.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_dialogs_deadcity.xml](gamedata/configs/text/eng/st_dialogs_deadcity.xml)
+	- [st_dialogs_deadcity.xml](gamedata/configs/text/rus/st_dialogs_deadcity.xml)
 		- not started
 	- [st_dialogs_escape.xml](gamedata/configs/text/eng/st_dialogs_escape.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
@@ -128,7 +130,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_quests_pripyat2.xml](gamedata/configs/text/eng/st_quests_pripyat2.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_redforest.xml](gamedata/configs/text/rus/st_quests_redforest.xml)
-		- not started
+		- in progress
 	- [st_quests_zaton.xml](gamedata/configs/text/eng/st_quests_zaton.xml)
 		- done
 	- [ui_st_encyclopedia.xml](gamedata/configs/text/rus/ui_st_encyclopedia.xml)
@@ -168,7 +170,7 @@ A list of all files with their detailed progress can be found below.
 	- [itms_manager.script](gamedata/scripts/itms_manager.script)
 		- done
 	- [lootmoney.script](gamedata/scripts/lootmoney.script)
-		- not started
+		- done
 	- [LR_photomode.script](gamedata/scripts/LR_photomode.script)
 		- not started
 	- [LR_random_events.script](gamedata/scripts/LR_random_events.script)
@@ -176,7 +178,7 @@ A list of all files with their detailed progress can be found below.
 	- [LR_skills_system.script](gamedata/scripts/LR_skills_system.script)
 		- done
 	- [monolith_event.script](gamedata/scripts/monolith_event.script)
-		- not started
+		- done
 	- [outcast.script](gamedata/scripts/outcast.script)
 		- not started
 	- [sim_squad_scripted.script](gamedata/scripts/sim_squad_scripted.script)

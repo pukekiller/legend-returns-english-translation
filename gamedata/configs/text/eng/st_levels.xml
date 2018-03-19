@@ -26,7 +26,7 @@
 		<text>Dark Valley</text>
 	</string>
 	<string id="l09_deadcity">
-		<text>Shining Path</text>
+		<text>Bright Path</text>
 	</string>
 	<string id="l11_hospital">
 		<text>Deserted Hospital</text>
@@ -124,7 +124,7 @@
 		<text>To Dark Valley</text>
 	</string>
 	<string id="space_restrictor_to_deadcity_desc">
-		<text>To Shining Path</text>
+		<text>To Bright Path</text>
 	</string>
 	<string id="space_restrictor_to_hospital">
 		<text>To Deserted Hospital</text>

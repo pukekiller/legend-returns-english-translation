@@ -1,174 +1,200 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_antirad">
-		<text>Мексамин</text>
+		<text>Mexaminum</text>
 	</string>
 	<string id="st_antirad_descr">
-		<text>Препарат радиозащитного действия, широко распространённый на территории Зоны. При применении вызывает сужение периферических кровеносных сосудов и кислородное голодание, что в данном случае является средством профилактики и лечения лучевой болезни. Хорошо переносится подавляющим большинством людей; в отдельных случаях возможны лёгкая тошнота, головокружение, боли, реже рвота.</text>
+		<text>Radiation protection drugs are common in the Zone. When used, this drug induces contraction of peripheral blood vessels and oxygen deprivation, which serves to treat and prevent radiation exposure. The drug does not have severe side effects, although isolated cases of mild nausea, dizziness, cramps and stomach pain have been reported.</text>
 	</string>
 	<string id="st_bandage">
-		<text>Бинт</text>
+		<text>Bandage</text>
 	</string>
 	<string id="st_bandage_descr">
-		<text>Асептический бинт для остановки кровотечения и предотвращения попадания в рану инфекции. При обычном кровотечении позволяет перевязать рану, при артериальном - перетянуть артерию.</text>
+		<text>A normal elastic bandage used to stop bleeding and prevent infection of wounds. For regular bleeding, carefully apply the bandage to the wound. For arterial bleeding, urgently tie the bandage around the affected area.</text>
 	</string>
 	<string id="st_binocular_descr">
-		<text>Армейский бинокль с регулируемой (до 7,5 диоптрии) кратностью. Позволяет детально рассматривать местность и строения с большого расстояния.</text>
+		<text>Standard issue military binoculars with a maximum of x7.5 magnification. Useful in the Zone in that they allow its owner to observe things from a distance.</text>
 	</string>
 	<string id="st_binocular_name">
-		<text>Бинокль</text>
+		<text>Binoculars</text>
 	</string>
 	<string id="st_knife_descr">
-		<text>Стандартный боевой нож с зазубренным лезвием. Хорош для бесшумного устранения врагов.</text>
+		<text>Standard combat knife with a serrated blade. Useful for breaking open boxes and silently taking down enemies.</text>
 	</string>
 	<string id="st_knife">
-		<text>Нож Боуи</text>
+		<text>Bowie knife</text>
 	</string>
 	<string id="st_bread">
-		<text>Хлеб</text>
+		<text>Bread</text>
 	</string>
 	<string id="st_bread_descr">
-		<text>Неизвестно, кто умудряется печь хлеб на территории Зоны, или каким образом его протаскивают через периметр. Однако этот хлеб не заражен, не радиоактивен, достаточно свеж и вполне съедобен. Во всяком случае, никто из сталкеров пока не жаловался.</text>
+		<text>No bakers have ever been identified in the Zone, but this bread is neither contaminated nor radioactive, being fresh and quite edible. At least no complaints have been reported thus far.</text>
 	</string>
 	<string id="st_conserva">
-		<text>Консервы «Завтрак туриста»</text>
+		<text>"Tourist's Breakfast"</text>
 	</string>
 	<string id="st_conserva_descr">
-		<text>Предположительно, консервы с растащенного сталкерами армейского продовольственного склада; точно установить не представляется возможным из-за отсутствия какой-либо этикетки. Главное, что срок годности вроде бы ещё не истёк.</text>
+		<text>Presumably, these canned goods were looted by stalkers from an army ration depot. Without any kind of label on the can, it's hard to say for sure. Should still be good to eat, if you believe the best before date.</text>
 	</string>
 	<string id="st_detector1">
-		<text>Детектор «Отклик»</text>
+		<text>"Echo" detector</text>
 	</string>
 	<string id="st_detector1_descr">
-		<text>Устаревшая модель детектора аномальной активности. Реагирует звуковым сигналом на попадание аномальных частичек в специальную камеру при приближении к аномалиям. Кроме того, может регистрировать присутствие артефактов и измерять расстояние до ближайшего из них - расстояние до артефакта определяется периодичностью подаваемого звукового сигнала. Режим поиска артефактов включается поднятием крышки-антенны на лицевой панели прибора. Ввиду простоты конструкции способен находить только самые распространённые артефакты.</text>
+		<text>This dated anomalous activity detector produces an alarm signal when anomalous particles enter a special chamber as you approach an anomaly. It can also register the presence of artefacts and measure the distance to the nearest one. The distance is indicated by the frequency of the sound the detector emits. To switch to artefact search mode, open the device's front cover. Due to its simple design, Echo can only be used to locate the most common artefacts.</text>
 	</string>
 	<string id="st_detector2">
-		<text>Детектор «Медведь»</text>
+		<text>"Bear" detector</text>
 	</string>
 	<string id="st_detector3">
-		<text>Детектор «Велес»</text>
+		<text>"Veles" detector</text>
 	</string>
 	<string id="st_detector3_descr">
-		<text>Детектор-сканер нового поколения, используемый учёными. Благодаря трём усовершенствованным регистрационным камерам расположение артефакта относительно детектора отображается на специальном экране. Способен фиксировать излучение и присутствие аномалий. Режим поиска артефактов включается поднятием индикатора-табло на лицевой стороне прибора; в данном режиме способен обнаруживать все известные науке артефакты.</text>
+		<text>A next generation scientific detection scanner. Thanks to three modernized detection chambers, the position of artefacts is shown on a special display screen. When closed, the device registers only radiation and anomalies. To switch to artefact search mode, open the front LED display. When in search mode, the detector is capable of locating all artefacts known to science.</text>
 	</string>
 	<string id="st_detector4">
-		<text>Прототип детектора «Сварог»</text>
+		<text>"Svarog" detector</text>
 	</string>
 	<string id="st_detector4_descr">
-		<text>Прототип сканера аномальных зон расширенной функциональности. Добавлена программа распознавания статичных зон аномальной активности, которые имеются в базе данных; при этом сохранена возможность обнаружения артефактов. Расположение аномальных зон и артефактов относительно детектора отображаются на специальном экране. Программа поиска артефактов, включаемая при поднятии индикатора-табло на лицевой стороне прибора, усовершенствована; теоретически, это позволяет обнаружить пока не известные науке аномальные образования.</text>
+		<text>A prototype of an expanded functionality anomalous frequency scanner. This device comes with a program used to identify static areas of anomalous activity stored in its database, while retaining the ability to locate artefacts. The position of anomalous areas and artefacts is displayed on a special screen. The artefact search mode, which can be activated by opening the front LED display, has been modified to detect anomalous formations currently unknown to science.</text>
 	</string>
 	<string id="st_device_torch_descr">
-		<text>Фонарь с креплением на голову. Пригодится сталкеру, которого ночь застала в дороге; с другой стороны, может привлечь чьё-то нежелательное внимание.</text>
+		<text>A standard head-mounted flashlight. Useful for stalkers who find themselves out and about after dark, but may attract trouble if used unwisely.</text>
 	</string>
 	<string id="st_device_torch_name">
-		<text>Фонарик</text>
+		<text>Flashlight</text>
 	</string>
 	<string id="st_drug_anabiotic">
-		<text>Анабиотик</text>
+		<text>Anabiotics</text>
 	</string>
 	<string id="st_drug_antidot">
-		<text>Антитоксикант ИП2</text>
+		<text>IP2 antitoxin</text>
 	</string>
 	<string id="st_drug_antidot_descr">
-		<text>Представляет собой комплекс антидотов: метоклопрамида, пиридоксина, тиамина, рибоксина и других. Вводит в кровь вещества, способные разлагать белковые яды, а также абсорбенты синтетических ядов. Особой популярностью не пользуется, поскольку большинство сталкеров больше полагаются на противогаз и комбинезон. Обладает продолжительным действием.</text>
+		<text>A complex drug comprising several antidotes, including metoclopramidum, pyridoxine, thiamine, riboxin and other pharmaceuticals. The drug is used to inject a range of antibiotics to neutralize natural poisons, together with synthetic poison absorbers, into the bloodstream. IP2 is not particularly popular in the Zone, as most stalkers rely on a gas mask and a protective suit, there are still those who have a pack of this antidote stashed away. The effects of the drug are long-lasting.</text>
 	</string>
 	<string id="st_drug_booster">
-		<text>«Геркулес»</text>
+		<text>Hercules</text>
 	</string>
 	<string id="st_drug_coagulant">
-		<text>Викасол</text>
+		<text>Vikasolum</text>
 	</string>
 	<string id="st_drug_coagulant_descr">
-		<text>Синтетический аналог витамина К. Основное действие заключается в повышении свёртываемости крови. Пользуется спросом среди сталкеров, поскольку позволяет организму быстрее рубцевать рваные раны. Обладает продолжительным действием.</text>
+		<text>An artificial equivalent of vitamin K. The main purpose of this drug is to increase blood coagulation speed. In great demand among stalkers who want slow-healing wounds and lacerations inflicted by mutants to close up faster. The effects of the drug are long-lasting.</text>
 	</string>
 	<string id="st_drug_psy_blockade">
-		<text>Пси-блокада</text>
+		<text>Psi-block</text>
 	</string>
 	<string id="st_drug_psy_blockade_descr">
-		<text>Наркотический препарат, блокирующий лавинообразные нервные импульсы. Интересен побочный эффект: после приёма препарата наблюдается кратковременное исчезновение каких-либо эмоций. В Зоне используется для противодействия аномальным полям повышенной пси-активности; за её пределами применения не нашёл. Обладает продолжительным действием.</text>
+		<text>A drug that blocks avalanche-like nerve impulses. Consumption induces short-term loss of all emotion. Used exclusively in the Zone to counteract the effects of anomalous psi-fields. The effects of the drug are long-lasting.</text>
 	</string>
 	<string id="st_drug_radioprotector">
-		<text>Индралин-Б190</text>
+		<text>B190 Indraline</text>
 	</string>
 	<string id="st_energy_drink">
-		<text>Энергетический напиток «Non Stop»</text>
+		<text>Non Stop energy drink</text>
 	</string>
 	<string id="st_energy_drink_descr">
-		<text>Часто используется сталкерами в многодневных походах, когда нет возможности остановиться и отдохнуть. Содержит легко усваиваемые углеводы, а также препараты, вызывающие выброс адреналина в кровь.</text>
+		<text>Often used by stalkers on long trips when no breaks can be afforded. The drink contains easily digestible carbohydrates, as well as drugs that stimulate the release of adrenaline into the bloodstream.</text>
 	</string>
 	<string id="st_guitar_descr">
-		<text>Поговори хоть ты со мной, гитара семиструнная!..</text>
+		<text>A trusty guitar.</text>
 	</string>
 	<string id="st_guitar_name">
-		<text>Гитара</text>
+		<text>Guitar</text>
 	</string>
 	<string id="st_kolbasa">
-		<text>Колбаса «Диетическая»</text>
+		<text>Diet sausage</text>
 	</string>
 	<string id="st_kolbasa_descr">
-		<text>Часто за неимением лучшего эта колбаса - смесь курятины и соевого заменителя - становится завтраком, обедом и ужином сталкера. Из-за большого количества консервантов довольно долго не портится.</text>
+		<text>For better or worse, this sausage - a mix of chicken and a soy substitute - is often a stalker's breakfast, lunch and dinner in one. Can be stored for a long time due to high preservative content.</text>
 	</string>
 	<string id="st_medkit">
-		<text>Диагностическая аптечка</text>
+		<text>Diagnostic first-aid kit</text>
 	</string>
 	<string id="st_medkit_army">
-		<text>Армейская аптечка</text>
+		<text>Army medkit</text>
 	</string>
 	<string id="st_medkit_army_descr">
-		<text>Специализированный медицинский набор для оказания первой помощи при ранениях на поле боя. В набор входят средства для ускорения свертывания крови на основе «Менадиона», обезболивающие, антибиотики и стимуляторы иммунитета; кроме того, здесь имеется простейший хирургический набор для извлечения осколков и пуль. Стандартная армейская аптечка; реже встречается в экипировке «долговцев».</text>
+		<text>A specialized medical kit for providing first aid to combat casualties. The kit includes blood coagulants based on menadione, painkillers, antibiotics and immunostimulants, as well as a kit for removing bullets and fragments from the body. This medkit is issued to army personnel as standard and is sometimes used by Duty forces.</text>
 	</string>
 	<string id="st_medkit_descr">
-		<text>Диагностическая аптечка с инъектором «HEALTH-13» - универсальный медицинский набор. Позволяет справляться с травмами различного типа и степени сложности: ранениями, ушибами мягких тканей, термическими и химическими ожогами, разного рода отравлениями. Пользуется неизменной популярностью у сталкеров.</text>
+		<text>A general purpose medical kit with a HEALTH-13 type injector. Handy for treating various injuries - wounds, bruises, regular and chemical burns and various types of poisoning. In demand among stalkers.</text>
 	</string>
 	<string id="st_medkit_science">
-		<text>Научная аптечка</text>
+		<text>Scientific medkit</text>
 	</string>
 	<string id="st_medkit_science_descr">
-		<text>Медицинский набор, разработанный специально для научных сотрудников, которые работают в условиях Зоны. Содержит средства как для заживления механических травм, так и для предотвращения развития лучевой болезни. В отличие от других наборов, в этом можно найти «Викасол», «Батилол» и С-нафтизин.</text>
+		<text>A medical kit designed specifically for use in the Zone. The kit contains products for handling wounds, as well as preventing the development of radiation poisoning and reducing accumulated radiation in the body. Contains Vikasolum, Batilolum and Naphazoline, unlike other medkits.</text>
 	</string>
 	<string id="st_pda_descr">
-		<text>Данные зашифрованы.</text>
+		<text>Might have useful information on it.</text>
 	</string>
 	<string id="st_pda_name">
-		<text>КПК</text>
+		<text>PDA</text>
+	</string>
+	<string id="st_pda_spore_name">
+		<text>Spore's PDA</text>
 	</string>
 	<string id="st_vodka">
-		<text>Водка «Казаки»</text>
+		<text>Cossacks Vodka</text>
 	</string>
 	<string id="st_vodka_descr">
-		<text>Водка производства компании «GSC». Хорошо пьётся, заметно снижает воздействие радиации на организм, хотя злоупотреблять ею не следует.</text>
+		<text>Made by GSC. Goes down easy and considerably lowers the effects of radiation. Should be enjoyed in moderation.</text>
 	</string>
 	<string id="st_detector2_descr">
-		<text>Детектор аномальной активности прошлого поколения. Снабжён локатором аномальных образований и светодиодным табло для отображения направления на артефакт, причём способен не только обнаруживать артефакты, но и определять расстояния до них. Режим поиска артефактов включается поднятием крышки-антенны на лицевой стороне прибора. К сожалению, уже несколько устаревший список обнаруживаемых артефактов вшит в прибор намертво - на аппаратном уровне.</text>
+		<text>This last generation anomalous activity detector can be used to locate anomalous formations and has a colour diode panel, which not only indicates the direction of artefacts, but also measures the distance to them. To switch to artefact search mode, open the device's front cover. Unfortunately, the device is programmed with a somewhat outdated list of detectable artefacts.</text>
 	</string>
 	<string id="st_drug_anabiotic_descr">
-		<text>Экспериментальный препарат, разработанный для научно-исследовательских групп, действующих в Зоне. Входящий в формулу препарата тетрадотоксин, известный как «порошок зомби», вызывает полный паралич центральной нервной системы; предположительно, это может обеспечить выживание вне укрытия во время выброса. Препарат не испытывался в полевых условиях и не прошёл клинических испытаний, что ставит под сомнение его эффективность и заставляет задуматься о возможных побочных эффектах.</text>
+		<text>An experimental drug developed by Professor Ozersky for scientific research teams working in the Zone. At its core, the drug contains tetrodotoxin, known colloquially as "zombie powder," which causes a complete shutdown of the body's central nervous system that may allow people to survive emissions outside cover. The drug has not undergone clinical or field testing, which puts its effectiveness in doubt and raises the issue of possible side effects.</text>
 	</string>
 	<string id="st_bolt">
-		<text>Болт</text>
+		<text>Bolt</text>
 	</string>
 	<string id="st_drug_booster_descr">
-		<text>Основной компонент - искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц. Помогает значительно увеличить переносимый вес. Препарат длительного действия.</text>
+		<text>The main component of this product is an anabolic androgen, an artificial steroid, the chemical composition of which resembles testosterone. Often used by stalkers during long raids to reduce muscle fatigue. Significantly increases weight-carrying capacity. The effects of the drug are long-lasting.</text>
 	</string>
 	<string id="st_drug_radioprotector_descr">
-		<text>Радиопротектор входил в состав личных аптечек работников АЭС. Появился в Зоне как замена излишне токсичному цистамину гидрохлорида (РС1). Уменьшает воздействие гамма-излучения на ткани живого организма. Данный препарат желательно применять превентивно, до облучения, поскольку он не оказывает мгновенного эффекта. Обладает продолжительным действием.</text>
+		<text>A radioprotectant, included in medkits issued to nuclear power plant personnel. Used in the Zone instead of the excessively toxic PC1 cystamine hydrochloride, repeated use of which often caused death. Reduces the effects of gamma radiation on live tissue. Best consumed before exposure, as effects are not instant. The effects of the drug are long-lasting.</text>
 	</string>
 	<string id="st_harmonica_name">
-		<text>Губная гармоника</text>
+		<text>Harmonica</text>
 	</string>
 	<string id="st_harmonica_descr">
-		<text>Для любителей блюза и тюремной романтики.</text>
+		<text>For blues and prison romance lovers.</text>
 	</string>
 	
 	<string id="st_itm_deployable_mgun_name">
-		<text>РП-74 «Скорпион»</text>
+		<text>Deployable RP-74</text>
 	</string>
 	<string id="st_itm_deployable_mgun_desc">
-		<text>Эта система боепитания пулемета представляет собой портативное устройство со сложной системой двухступенчатой подачи патронов непосредственно из рюкзака прямо к оружию посредством гибкого рукава. Несмотря на свой вес и низкую точность, это оружие нашло своих почитателей в Зоне. Используется в основном для борьбы с превосходящими силами противника в войнах группировок и зачистках логовищ мутантов.</text>
+		<text>This belt-fed machine gun is a portable modification with a complex two-stage feeding system. Despite its weight and low precision, this LMG has found admirers in the Zone. Used primarily to fight off outnumbering enemy forces during faction conflicts and clear out mutant lairs.</text>
 	</string>
-	
 	<string id="st_memory_stick_name">
-		<text>Карта памяти</text>
+		<text>Memory stick</text>
+	</string>
+	<string id="st_equ_backpack_name">
+		<text>Backpack</text>
+	</string>
+	<string id="st_equ_backpack_desc">
+		<text>A regular water resistant backpack. It has high popularity among stalkers who travel around the Zone.</text>
+	</string>
+	<string id="st_equ_smallpack_name">
+		<text>Small backpack</text>
+	</string>
+	<string id="st_equ_smallpack_desc">
+		<text>Small backpack usually worn by rookies. The inside has been modified to keep water out. Not a pretty solution, but it works.</text>
+	</string>
+	<string id="st_equ_milpack_name">
+		<text>Combat backpack</text>
+	</string>
+	<string id="st_equ_milpack_desc">
+		<text>A combat backpack used by the military, often to store additional munitions and medical supplies.</text>
+	</string>
+	<string id="st_equ_touristpack_name">
+		<text>Tourist backpack</text>
+	</string>
+	<string id="st_equ_touristpack_desc">
+		<text>A tourist's backpack with a lot of storage space. Not very popular due to its cumbersome size.</text>
 	</string>
 
 	<!-- Legend Returns -->
@@ -347,7 +373,7 @@
 		<text>Кейс с кодовым замком, несёт исключительную ценность для Сидоровича.</text>
 	</string>
 
-	<!-- Сюжет Монолита -->
+	<!-- Monolith storyline -->
 	<string id="gauss_cont">
 		<text>Контейнер(можно открыть)</text>
 	</string>

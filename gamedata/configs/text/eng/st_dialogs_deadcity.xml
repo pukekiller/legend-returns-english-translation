@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="start_mikluha_2">
+		<text>Hey, stalker! What do you need?</text>
+	</string>
+	<string id="start_mikluha_21">
+		<text>What’s up?</text>
+	</string>
+	<string id="start_mikluha_22">
+		<text>Hey, man!</text>
+	</string>
+	<string id="start_mikluha_23">
+		<text>A warm welcome to you!</text>
+	</string>
+	<string id="svoboda_info_0">
+		<text>Tell me about Freedom.</text>
+	</string>
+	<string id="svoboda_info_1">
+		<text>It’s a long story. What do you want to know?</text>
+	</string>
+	<string id="svoboda_info_2">
+		<text>What is it that you do here?</text>
+	</string>
+	<string id="svoboda_info_21">
+		<text>We’re making sure that various officials don’t conceal anything from the common folk. You know how it is: as soon as they find a new lab or some documents that shed light on the secrets of the Zone, they immediately organise a military operation and clean everything up better than a friggin’ hoover. The only way of finding shit out is by getting there first.</text>
+	</string>
+	<string id="svoboda_info_3">
+		<text>What brought you to the centre of the Zone?</text>
+	</string>
+	<string id="svoboda_info_31">
+		<text>Well, the boys felt like taking a stroll in a new place. Just kidding. It’s an opportunity to find stuff that the world ain’t seen before. Neither the army nor stalkers have been here before, so there’s something new everywhere you look.</text>
+	</string>
+	<string id="svoboda_info_4">
+		<text>How did you end up in Freedom?</text>
+	</string>
+	<string id="svoboda_info_41">
+		<text>Well, I was friends with Freedom leaders back when there was no Zone. Mind you, in those days they weren’t leaders, they were regular hippies. So when I made a move into the Zone in search of artefacts and ran into familiar faces, I figured I might as well go with what I know.</text>
+	</string>
+	<string id="svoboda_info_42">
+		<text>And what happened to the previous leader of Freedom?</text>
+	</string>
+	<string id="svoboda_info_43">
+		<text>You mean Chekhov? He died in a brush with the government troops, when we were all trying to break through the centre of the Zone.</text>
+	</string>
+	<string id="svoboda_info_5">
+		<text>What do you think about Duty?</text>
+	</string>
+	<string id="svoboda_info_51">
+		<text>They’re idiots, that’s what I think. I mean, why the hell would they want to destroy the Zone? It’s not consuming precious resources or getting bigger... or anything. They could just sit there and study it to their heart’s content - just think of how many scientific discoveries could be made... I mean, in the history of man-kind, no one has never been able to understand antigravitation, right? And in the Zone you’ve got ready-made antigravitation devices lying all over the place. It wouldn’t hurt to kick their asses out of here, but it’s too much hassle. By the way, don’t be confused by our relations here at Yanov. We are at war... it’s just that Yanov has been made neutral territory, if you know what I mean.</text>
+	</string>
+</string_table>

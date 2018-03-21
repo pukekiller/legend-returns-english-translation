@@ -85,8 +85,8 @@ A list of all files with their detailed progress can be found below.
 		- unrevised
 	- [st_items_equipment.xml](gamedata/configs/text/eng/st_items_equipment.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_items_habarwik.xml](gamedata/configs/text/rus/st_items_habarwik.xml)
-		- not started
+	- [st_items_habarwik.xml](gamedata/configs/text/eng/st_items_habarwik.xml)
+		- Almost done, just 5 lines remaining
 	- [st_items_mutant_parts.xml](gamedata/configs/text/eng/st_items_mutant_parts.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_outfit.xml](gamedata/configs/text/eng/st_items_outfit.xml)

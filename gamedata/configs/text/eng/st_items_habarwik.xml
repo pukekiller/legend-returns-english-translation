@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<!-- Bolts -->
+	<string id="bolt_name">
+		<text>Bolt</text>
+	</string>
+	<string id="bolt_govno_name">
+		<text>Bolt</text>
+	</string>
+	<string id="bolt_description">
+		<text>Used by stalkers in the Zone to explore unsafe anomalous paths and to disorientate opponents in case of emergency.</text>
+	</string>
+
+	<string id="item_actor_backpack">
+		<text>Hiking backpack (With quick-release system)</text>
+	</string>
+	<string id="item_actor_backpack_desc">
+		<text>Sometimes critical situations require maximum mobility. Stalkers who use such backpacks in the Zone know this perfectly, so they came up with a tactic for quickly dropping most of their equipment.</text>
+	</string>
+
+	<!-- PBS-1 -->
+	<string id="st_addon_sil_pbs-1">
+		<text>PBS-1 silencer</text>
+	</string>
+	<string id="st_addon_sil_pbs-1_descr">
+		<text>PBS-1. This device enables soundless and flameless shooting for the Kalashnikov assault rifle.</text>
+	</string>
+<!-- ПБС-4 -->
+	<string id="st_addon_sil_pbs-4">
+		<text>PBS-4 silencer</text>
+	</string>
+	<string id="st_addon_sil_pbs-4_descr">
+		<text>PBS-4. A device for soundless and flameless shooting for the 5.45-mm shortened Kalashnikov assault rifle (AKS-74U).</text>
+	</string>
+
+	<!-- ACOG sight -->
+	<string id="st_addon_scope_acog">
+		<text>ACOG sight</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>4x optical sight for NATO rifles.</text>
+	</string>
+
+	<!-- Optical sight PO 4x34 -->
+	<string id="st_addon_scope_4x34">
+		<text>PO 4x34</text>
+	</string>
+	<string id="st_addon_scope_4x34_descr">
+		<text>Optical sights of constant and variable magnification, mounted on hunting rifles and designed for aiming while firing. These sights are mounted on the gun using special brackets for rifles of models such as "Los-7", "Bars-4".</text>
+	</string>
+
+	<!-- Silencer -->
+	<string id="st_addon_silencer5561">
+		<text>Silencer for 5.56x45 mm (1)</text>
+	</string>
+
+	<string id="st_addon_silencer5562">
+		<text>Silencer for 5.56x45 mm (2)</text>
+	</string>
+
+	<string id="st_addon_silencer5562">
+		<text>9mm silencer</text>
+	</string>
+
+	<string id="gar_military_docs_name">
+		<text>Notebook from the hangar</text>
+	</string>
+	<string id="avgusts_docs_desc">
+		<text>Augustus' ID card</text>
+	</string>
+	<string id="gar_military_docs_descr">
+		<text>Notebook, filled with drawings and formulas, which can not be understood without specialized education. Judging by the title page, it belonged to an engineer. On the back, there's some geographic coordinates and an informal report on the successful exploration of that point written in pencil. In the end it mentions a powerful mutant who attacked the expedition during nighttime, but then fell back and disappeared.</text>
+	</string>
+
+	<string id="travka_name">
+		<text>Parcel for Doctor</text>
+	</string>
+	<string id="travka_descr">
+		<text>A small bag containing something very light. Judging by the distinctive smell and rustle when shaken, it is a herb. This parcel must be delivered to the Doctor.</text>
+	</string>
+
+	<string id="medkomplekt_name">
+		<text>Medical kit</text>
+	</string>
+	<string id="medkomplekt_descr">
+		<text>Bag containing a variety of drugs, antiseptic dressings and medical instruments. It's quite valuable for physicians in the Zone. It can be dismantled for personal use.</text>
+	</string>
+
+	<string id="item_habarwik_zapiska_1_name">
+		<text>Note No. 1</text>
+	</string>
+	<string id="item_habarwik_zapiska_1_descr">
+		<text>"Hello, stranger. If you are reading this, then I'm already dead. I'm a roamer to the Zone, just like you. But I did not come here for the same reason as everyone. Doctors gave me a terrible diagnosis, which I won't even write about, you do not need it. There was nothing left for me to live for, but then I heard that here, in the Zone, there are artifacts that are able to cure any disease. "Well let's just give it a try," I thought. You would have done the same in a situation like mine, wouldn't you? As the weeks passed, the months passed, I have trodden the Zone..."- the note abruptly ends here. There's a number, 73, written on the back in large print, and below it - "Garbage, metal mesh on the unit under the roof of the hangar."</text>
+	</string>
+	<string id="item_habarwik_zapiska_2_name">
+		<text>Note No. 2</text>
+	</string>
+	<string id="item_habarwik_zapiska_2_descr">
+		<text>"I started my journey from the Cordon, like most stalkers. Bribing the commander of the checkpoint, I freely entered the Zone. It was the year 2010, spring. At that time, while everything in the Big Earth was green and alive, in the Zone it felt as it was still winter. But, nevertheless, a great time for stalking; mutants and beasts will think ten times before setting up a night hunt in the cold weather, and the factions, instead of fighting, warm themselves sitting in front of the fires, sharing stories, joking and playing the guitar. And hunting for artifacts was initially very simple. In the tunnel, which lies under the railway, there were the "Burners". Warm place, it was possible to warm up there in the evenings. But since there were no artifacts in that place, no one went there. I decided to check it out myself and went there. Lo and behold - a faint glow in the middle of the anomalies. It was an artifact, my first one! I jumped up and ran out of the tunnel in joy... I didn't run for long. I got stuck into someone's hideous face, full of tentacular appendages. As I later learned from the veterans, it was a bloodsucker. Without thinking twice, I reached for my artifact and jammed it directly into his eyeball, until he stopped. He crashed right there on the spot, and I blacked out for a while when I realized I was about to be swallowed. I downed some vodka, and returned to the village. Fanatic didn't believe me, screw him. As for the artifact, I've kept it for myself...". There's a number, 60, written on the back in large print, and below it - "Rostok, roof of the building with an arch and acid anomalies."</text>
+	</string>
+	<string id="item_habarwik_zapiska_3_name">
+		<text>Note No. 3</text>
+	</string>
+	<string id="item_habarwik_zapiska_3_descr">
+		<text>A piece of paper with notes smeared with blood. It's impossible to make out what's written on it. There's a number, 21, written on the back in large print, and below it - "Truck Cemetery, a lonely tower in the North."</text>
+	</string>
+	<string id="item_habarwik_zapiska_4_name">
+		<text>Note No. 4</text>
+	</string>
+	<string id="item_habarwik_zapiska_4_descr">
+		<text>"Hello, again. I can feel the pain pulling my life out of me... I started coughing up blood and my legs are often weak and will not obey me. That sucks. I hope I can finish what I've started... During one of my trips to the North, I discovered that all my artifacts are not unique at all, and that are easily found in the territory of the dried-up bed of Lake Prypiat, or to be more precise, it..." All further notes are blurred and impossible to read. There's a number, 48, written on the back in large print, and below it - "Silent Hills, Tunnel."</text>
+	</string>
+	<string id="item_habarwik_zapiska_5_name">
+		<text>Note No. 5</text>
+	</string>
+	<string id="item_habarwik_zapiska_5_descr">
+		<text>"Year 2011. There's more and more Stalkers around, and thus, lots of scum among them. And every carrion bastard aspires to get into the Scorcher first and get filthy rich, even at the cost of the lives of his "comrades". I'm not one of them. Having carefully thought through my route, I decided to go around the antennas, through the Red Forest. These places are wretched, no one has been here since the war of the factions. Everyone said that there are terrible creatures here - take care... But the devil is not so terrible as he is painted. Silence, grace. And artifacts - a dime a dozen. I even could find the Compass; yes, that one. However I wasn't able to carry it, so it stayed in the mines... I've been a guest of the Forester. A great man, he knows more about the Zone than eggheads or master stalkers. He gave me some kind of magic potion, which, according to him, will help me bear the disease a little bit more easily. But I didn't really believe him, and as it turned out, I was right. My health has been steadily deteriorating." There's a number, 48, written on the back in large print, and below it - "Red Forest. Stones near the tank."</text>
+	</string>
+	<string id="item_habarwik_zapiska_6_name">
+		<text>Note No. 6</text>
+	</string>
+	<string id="item_habarwik_zapiska_6_descr">
+		<text>"For a year and a half, as I roamed the Zone, I just couldn't find what I was looking for, no matter where I went. My most important and most recent find is an artifact with healing properties that should help me... I found it at the end of 2011. All wounded, emaciated and irradiated, I crawled to the coveted anomaly. With a last-ditch effort I pulled out of her the artifact, which was similar to a man's heart, but in black... It was unusually light, and slightly tingly to the touch, probably due some sort of an electric current it was emanating. I've found it in the Northern territories outside the Station. But it was too late, the disease has reached such a stage that my days were numbered. Anti-radiation drugs completely refused to withdraw stuff from my body, which makes me feel even more disgusting. I decided I had to hide all my stuff in the Zone so it wouldn't fall into the hands of marauders. But you're different, you're a good Stalker, I'm sure of it. There's a number, 90, written on the back in large print, and below it - "Radar. The lodging across the road to Pripyat." </text>
+	</string>
+	<string id="item_habarwik_zapiska_final_name">
+		<text>Note No. 7</text>
+	</string>
+	<string id="item_habarwik_zapiska_final_descr">
+		<text>"Well, that's all... It's a pity that this is how it ended, the artifact did not have the proper effect. Probably too late... I don't have days, it's just a matter of hours now. I'm about to give my worthless soul to the Zone. I hope that my swag is now in good hands. Good hunting, stalker. Godspeed.</text>
+	</string>
+
+	<string id="item_zapiska_1_desc">
+		<text>«Короче, те, кто переступили полотенце - вам все равно, вас никто трогать не будет, но и за авторитетов вас никто не держит. Те, кто вытер ноги - вы дерзкие щеглы и решили бросить вызов. Вы можете стать как авторитетом, так и творожком подзалупным, все зависит от вас. Те кто поднял полотенцы - вы зашкварники еб...» - дальше текст разобрать невозможно.</text>
+	</string>
+
+	<string id="item_zapiska_2_desc">
+		<text>«Говорят, что Крысолов в сталкеры подался. Вот так неждан. А ещё говорят, что он спрятал свой хабар где-то западнее болотца на Медприборе, а потом его военный снайпер — «шлёп!» — и нету бедолаги. А хабар есть... Наведаться бы туда...»</text>
+	</string>
+
+	<string id="item_zapiska_3_desc">
+		<text>"December 20, 2011. I settled out in the Cordon... I decided to spend the night at the Mill, put out my stuff, trip-wired the entrances and the exits... I warmed up somehow, drank some vodka and sat down under my blanket... I fell asleep... In the morning I was waken up by explosions, my ears are still ringing! My grenades were blown up, and in their place there were some kind of thick, oily black smoke... Hell knows what was that. Apparently it's some kind of anomaly... How can I get out - I need to ask Fanatic what it is. He knows for sure, he's been here in the Zone for such a long time..."
+
+		December 22, 2011. I finally got out! After a blowout those anomalies dissolved. Trouble is that they are on the road now, like mushrooms after the rain.
+
+		December 22, 2011. Fanatic told me that 3 years ago there were anomalies like those... They were called "Gravity-concentrates"... Master stalkers say that this was the first anomaly to ever appear. But then they disappeared somewhere... Man, this is fucking bullshit, I'm leaving and going back to the Big Earth. I want to be at home for new year, and something's going on here, I'm feeling it!"</text>
+	</string>
+
+	<string id="item_zapiska_4_desc">
+		<text>March 10, 2011. We conducted reconnaissance with the Alpha squad in Pripyat underground. I came across some interesting rooms that were previously unavailable — apparently, a poltergeist or a burer locked the doors. We've found tools and various devices, but we'll pick them up later — the guys are already over-encumbered...»</text>
+	</string>
+
+	<string id="item_zapiska_5_desc">
+		<text>"Attention all squads! On our order military vehicles will drive in Darkscape in the amount of two units. If someone is in the vicinity - use those on behalf of Duty."</text>
+	</string>
+
+	<string id="item_zapiska_6_desc">
+		<text>«В оптике прицела показалась часть головы. Далековато. Хоть винторез и убойная машинка, но – далековато. СВД бы сейчас. Этот на вышке тоже не с детским совочком стоит, в момент мне «диалог снайперов» устроит. Попробую чуть ближе подойти, авось не заметит.Медленно, не отрывая глаза от прицела, перемещаюсь ближе, ногой ощупывая землю впереди себя. Стоп. Вот так нормально. Еще бы ты, родной полшага вправо сделал. Вот так, ай, молодец!, ай, умница! Задержал дыхание и плавно потянул курок.В оптику видно, как пуля мотнула голову, тело мешком осело на площадку смотровой вышки. Дело сделано. Теперь можно возвращаться к работодателю, получить заработанное и валить отсюда подальше.Выпущенная ранним утром пуля оборвала жизнь молодого часового-снайпера «Свободы», разом разрушила хрупкое перемирие и послужила началом нового затяжного вооруженного конфликта между группировками «Долг» и «Свобода», сделав территорию Армейских складов малопроходимой для одиночных свободных сталкеров.»</text>
+	</string>
+
+	<string id="item_zapiska_7_desc">
+		<text>Sergeant, I'm tired of waiting. You will bring the Niva to the northern checkpoint, not far away anyway.. I went to take a leak...»</text>
+	</string>
+
+	<string id="item_zapiska_8_desc">
+		<text>«Вот военсталы лохи, конечно — во время одной из спецопераций бросили транспорт на входах-выходах из станции. Нужно будет потом с мужиками в Припять пригнать машинки... Когда-нибудь...»</text>
+	</string>
+
+	<string id="item_zapiska_9_desc">
+		<text>"— Say, Ashot, have you finished repairing the "Buggy"?
+			— You bet I have! You can come get the masterpiece. I drove it to Kopachi. True, it's there - Good luck! Be careful."</text>
+	</string>
+
+	<string id="item_zapiska_10_desc">
+		<text>"In other news... They say that the legendary mercenary Scar disappeared at the Power plant... The one, who almost caught up with Strelok's group. Rumor has it that Strelok himself suffered the same fate. The Zone decided once again to teach a lesson to all who encroach on her secrets."</text>
+	</string>
+
+	<string id="item_zapiska_11_desc">
+		<text>" "Black Monolith", that's the name of a thirty-meter block of black stone inside the former Chernobyl nuclear power plant. How it appeared in there, no one knows. But it's from that thing that all the inexplicable changes to the Zone originated. Strong radiation, abnormal distortions of the surrounding reality. The power of "Monolith" was recognized by everyone, from scientists to ordinary mortals. Some perceived it as an alien object, a guest from another world, others called it "the second coming of God" and organized religious sects. Every self-respecting Stalker knew some stories about him. All of them really looked more like fairy tales than reality. But my friend was absolutely right. I was philosophical about it. For example, tell me who in 2005 that in a year around the Chernobyl nuclear power plant, on its old burial grounds will walk the zombie controlled by beings - with telepathic abilities; that there will live dwarfs throwing stones at a distance of several meters only by force of thought, I would laugh to such person in the own face. Today I'm walking around the Zone, swallowing antirads, breathing through filters and hiding among the bushes from those same zombies. So when I hear the story of a Stalker in a bar about a Black Monolith, its miraculous abilities, I take it as a possible truth. There is no truth but only possible truth. But when dying is close, very close people, even a possible, negligible probability of the truth of the miracles gives me hope. Hope for a miracle."</text>
+	</string>
+
+	<string id="item_zapiska_12_desc">
+		<text>"Silence... It covers every person who comes into the Zone, like a soft duvet. Everyone knows that in the Zone there are no living beings, except birds (crows, which probably do not care about radiation) and those who are better off not remembering aloud. However, these can be considered for living with great reserve. Both they, and the birds always try not to make noise when moving, not to disturb the silence in vain. Because in the Zone is generally better not to bother the silence – any offender can always expect a death sentence. Many people do not tolerate staying in the Zone - this silence can't be bore by everyone. Some left the Zone with mental disorders, exacerbated chronic diseases... There were many fools who had gone far into the Zone without a dosimeter, a survival suit and weapons. Many of them did not return at all, or returned irradiated, their hair white from the horror they experienced. However, of those who went into the Zone with a full set of equipment, not all returned too. It didn't take a month for stalkers to fall prey to their own imprudence. Some of them were torn by zombies, some got eaten by dwarves. If the cause of death was a zombie, you could find the bones, but dwarfs eat those too. Others die for other reasons... But of those who ventured into the Zone and survived, others perished. Many more."
+</text>
+	</string>
+
+	<string id="item_zapiska_13_desc">
+		<text>"The Zone likes surprises, and after each blowout, closes some Venus flytraps, and opens others. A pair of harmless hills became a meat grinder, and the fate of a stalker caught between them was unenviable. The Zone... She's not fond of strangers invading her territory. But there are ways to become "invisible" to her. First, in the Zone you must never shout or make too much noise. Screams and noise will attract unwanted guests – the guardians of the Zone's tranquility. Secondly, there is no place for emotions in the Zone. It is much easier for a balanced and calm person to survive than to an unbalanced one. The Zone can feel a person's soul, and her traps can be triggered only by those with a guilty conscience; they can be ignored by those whose conscience is clear. Third, you can not run in the Zone. If her traps slam on you - running won't help, but if you don't - you can safely avoid them. Basically, everything in the Zone is subject to a special rhythm, and one who has learned to get used to the special atmosphere of this place has nothing to be afraid of - you just have to look around carefully."</text>
+	</string>
+
+	<string id="item_zapiska_14_desc">
+		<text>"The Zone rose and splashed out in all directions, increasing the size of the affected land at a frantic speed; those who fell under the waves of ejection died out, and the territory of the Zone grew, expanding in all directions. Satellite pictures shows a monstrous black blot that grows, absorbing the earth. When everything was quiet, more than 100 square kilometers turned into hell on Earth. The earth, vegetation, buildings were covered with black dust. In the air, a cloud of tons of radioactive dust rose, which was blown by hurricane winds into vast areas, infecting clean water and fertile soil..."</text>
+	</string>
+
+	<string id="item_zapiska_15_desc">
+		<text>"I.. I do not remember what my name is... But I remember her name... Her name was Maria. And I remember... the color of her eyes. Who am I? I'm a loving guy, who raced for his girlfriend in the Zone... And then He called me. He showed me that my goal was negligible. How stupid was I to give my life for some girl? It is better to die defending The Great Monolith. The Monolith that gave us... The hope of salvation... But... Then why do I dream about her eyes?"</text>
+	</string>
+
+	<string id="item_zapiska_16_desc">
+		<text>"Hell, I got in touch with these scientists. Now crawl to fulfill the contract in some underground lab or whether storage. They are very obsessed with their experiments, set up a bunch of labs across the Chernobyl Exclusion Zone. I hope the helmet will protect me from radiation. If you do not become a zombie, you'll be out soon."</text>
+	</string>
+
+	<string id="item_zapiska_17_desc">
+		<text>«Упырь, я тут кароче с одним лохом скорефанился, позвал его с собой в ходку, гы. Ну кароче как только мои тапки покажутся в лощине, я тебе маякну. Ты пацанов направь к нам навстречу, устроим тёпленький приём лоху. И только давай мля не как в прошлый раз.»</text>
+	</string>
+
+	<string id="item_zapiska_18_desc">
+		<text>"I went hunting a couple of times with Petrovich. I noticed this pattern: he constantly shoots wild boars in the back legs. To any question I ask him, he remains silent. Oh, I think the boars have some kind of a neuralgic spot there... damn, must be painful! I'll have to try it alone. I'll just get a shotgun."</text>
+	</string>
+
+	<string id="item_zapiska_19_desc">
+		<text>"I, Doctor of Biological Sciences M.V. Zolotarev, declare that almost everything that happens in the Zone is amenable to a logical or scientific explanation. Due to the deteriorating situation in academic circles and the possibility of the destruction of my work, I am sending messengers to hide in special places electronic media with my works until better times. Coordinates..North...2.....213...34....longitudes. 28.09.2010"</text>
+	</string>
+
+	<string id="item_zapiska_20_desc">
+		<text>"Walrus has recently gone missing. Witnesses said he just took off his overalls and went to the Zone at night.  They also said that he had had some dreams. About some stone in the center of the destroyed sarcophagus. Little brother, how is that? We have been together for so many years. No, I'll find you. Tramp."</text>
+	</string>
+
+	<string id="item_zapiska_21_desc">
+		<text>"Two years ago there used to be a group of veterans. All outfitted with good suits and rifles, they always took on difficult tasks, and always returned together unharmed. Like... In July, Barkeep assigned them some sort of task, like picking up some weird artifact right next to the Brain Scorcher. He gave them Psi-helmets, some kind of pills and a bunch of money up front.  A week passed... Then a second... We already thought they were gone for good, when the boys got back. It would have been a lot better if they didn't. Of the four they were, only two returned. The first one came back completely grey-haired, like he suddenly got decades older, and completely lost his ability to speak. The second was mutilated beyond recognition, tried to say something, but what can a stump say? The first shot himself the same night in his room, without uttering a single word. The other one's still out by the bar. Experienced stalkers show that poor bastard to newcomers; they say, look what the Zone does to people."</text>
+	</string>
+
+	<string id="item_zapiska_22_desc">
+		<text>"Tomorrow's show time, remember? Basically, I'll wear a stalker uniform and pretend to be wounded, and you'll go hide in that broken-down building. When everything is ready, I will throw an SOS in the common channel. I'm sure some sucker will bite. When he does, I'll give you a sign. Well, then everything is as usual, we take away their belongings and push them to the huckster."</text>
+	</string>
+
+	<string id="item_zapiska_23_desc">
+		<text>"I'm writing this down with trembling hands.
+		Literally 5 minutes ago I was sitting and smoking, peering into the gray sky. I was approached by a rookie, who introduced himself as Yuri. At the same time I received a message on the PDA: "Lyshy died. Blood loss." Yuri asked what I recieved on my PDA. I was still surprised, because even if I roamed everywhere on the Zone, no one that I've met had so brazenly asked a me question like that. Well, I told him that our bloodsucker had finished having lunch. Yuri was silent for a couple of minutes, and then asked me if I knew a guy named Semetsky. I replied that I knew. This newcomer started to bore me. But he calmly began to tell a story about Semetsky, which I had heard a hundred times already. At the moment when Semetsky got to the Monolith, I interrupted him and told him to go to hell. I surely have better things to do, especially when off-duty, than to listen to any beginner I come across?! He stood up in silence and walked toward the Bar. I saw from the corner of my eye that he was walking straight into an anomaly. I cried out, but it was too late. It drew him in and scattered all his insides over a large radius.
+		Immediately after that, I received a message on my PDA: "Dead stalker: Yuri Semetsky. Place of Death: Garbage. Cause of death: Sucked into a gravitational anomaly."</text>
+	</string>
+
+	<string id="item_zapiska_24_desc">
+		<text>"Recently they gave me the mission to eliminate one of the anarchists' commanders. I cleaned and reassembled my SVD, patched up the suit and went on the mission. My target lived in the town of Bright Path, in one of the main building near the monument to Lenin. I arrived without incidents, just a couple of the dogs that tried to bite my ankles, but my Colt quickly assured them that fasting is useful. My position was the roof of some collapsed high-rise building. I clung to the optics. There he is... A short blond man with a scar on his cheek... He sits at a table near a window... Who even thought of putting a table in front of a window, when you know you can get shot?! He's writing something... How many times have I already reaped a man's life in this way? I've lost count. Ok. I have to focus. The distance was noticeable, so for a successful shot it was necessary to know the wind speed, humidity, and calculate the Coriolis force. I pulled the trigger... Misfire. Damn, what is it? I went through my weapons quite recently! One more time. Misfire again! Suddenly, the target raised its head and looked directly at me with a disapproving look. I recoiled from the optics, but then curiosity again took possession of me. I looked once again at the optics and saw that he was already smiling sadly and beckoning me to him, as if inviting me to tea. I picked up my rifle in a hurry and walked away from this cursed city. I should apply for work as a scientist..."</text>
+	</string>
+
+	<string id="item_zapiska_25_desc">
+		<text>"Tomorrow's show time, remember? Basically, I'll wear a stalker uniform and pretend to be wounded, and you'll go hide in that broken-down building. When everything is ready, I will throw an SOS in the common channel. I'm sure some sucker will bite. When he does, I'll give you a sign. Well, then everything is as usual, we take away their belongings and push them to the huckster."</text>
+	</string>
+
+	<string id="item_zapiska_26_desc">
+		<text>"They say that there is one group of friends, some call them Shamans, others call them Druids. They say they don't carry any kind of electronic equipment with them - so that, as they say, they can be closer to nature, and stuff like that... Well, they say that the Zone emanates a strong electromagnetic radiation, and that it reacts with any kind of electronic device... Yes, and this incites monsters to go to people who carry those, and attack them. According to them, the Zone is a massive, living organism. They say that it's impossible to go into it with any kind of devices- the right person, even without any instruments and extra stuff will cope. And indeed, they don't carry anything, not even mechanical stuff such as guns; they do however carry sometimes animals, such as goats. If they too die in the Zone, it seems like not so much. They seem to prefer to stick together, without interacting with other groups. Who knows, maybe they actually got it right... They are however much more likely to go and roam near the Belorussian side of the Zone... It would be pretty nice to go see them... Also maybe to check how many artifacts they have in their pockets..."</text>
+	</string>
+
+	<string id="item_zapiska_27_desc">
+		<text>"Brothers, we patrolled the outskirts of the Red Forest, and encountered an infidel - alone. He was converting himself, so we didn't kill him, but he was still half in his animal state... I know The Wise Monolith has done this for all of us: He has shown us again the true face of His enemies. Now our faith is even stronger! He is coming, brothers!.. The victory over the infidels is nearing, and then The Monolith will fulfill our innermost desire! He will bring the true devotees closer to Himself, to His glory, to His greatness! We will eternally abide in His radiance..."</text>
+	</string>
+
+	<string id="item_zapiska_28_desc">
+		<text>"I was in the Dark Valley. There are a lot of infidels there, because the power of Monolith has not yet reached these places. We guarded. We were attacked last night. We fought fiercely against those animals. My brothers' services were great: Monolith soon called for them to Himself. For me he had prepared another test. My weapon didn't fire any more. But the Monolith said to me: "You are with Me, and My strength is with you. If you stand firm in your faith, you will crush my enemies and come closer to Me!". Then I became a shadow. I ducked down and walked to their right. Stupid spies didn't notice anything. They thought they were done with us, laughing at the empty bodies of our brothers. But I was behind their backs. And then my hands were struck with the power of The Monolith. So He killed them all. I am happy to serve you, o Absolute Paragon!"</text>
+	</string>
+
+	<string id="item_zapiska_29_desc">
+		<text>"Brothers, recently, The Monolith has tested my faith and I almost went astray. But I survived! Praise The Monolith! His trials temper us! We were coming back from the Dark Valley, and I was sightly behind my brothers. Evil took advantage of it and suddenly started playing with me. And... I doubted. True images were distorted; the Enemy whispered to me that Monolith was using us as slaves. But then I realized it was a challenge. I remembered the power and radiance of The Monolith, and then the will and confidence returned to me. Since then, I am not afraid of any test and do not know doubt. Praise The Monolith!"</text>
+	</string>
+
+	<string id="item_zapiska_30_desc">
+		<text>"Brothers, the Monolith spoke to me last night. I talked to Him. He was so beautiful in His greatness. I almost went blind, but His light filled me with great force! I know, I feel that His power is with us all! He told me that only firm faith can defeat evil. He said his power will only fill the faithful. He also revealed to me that our victory is close!"</text>
+	</string>
+
+	<string id="item_zapiska_31_desc">
+		<text>"Brothers, have you heard that a few infidels got close to the antennas recently? The Monolith guided us, and the brothers noticed them on time. One got killed right away. The other two fled. Cowards. They are all cowards. Only true faith leaves no room for fear! Two were able to escape, but Monolith is wise and omniscient. He wants them alive."</text>
+	</string>
+
+</string_table>

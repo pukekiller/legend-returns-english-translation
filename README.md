@@ -50,7 +50,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_darkscape.xml](gamedata/configs/text/rus/st_dialogs_darkscape.xml)
 		- not started
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/eng/st_dialogs_darkvalley.xml)
-		- merged with Call of Chernobyl 1.5, awaiting translation
+		- merged with Call of Chernobyl 1.5, done
 	- [st_dialogs_deadcity.xml](gamedata/configs/text/eng/st_dialogs_deadcity.xml)
 		- done
 	- [st_dialogs_escape.xml](gamedata/configs/text/eng/st_dialogs_escape.xml)

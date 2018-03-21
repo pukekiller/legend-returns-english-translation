@@ -689,4 +689,15 @@
 			</phrase>
 		</phrase_list>
 	</dialog>
+	<dialog id="rust_story">
+		<phrase_list>
+			<phrase id="0">
+				<text>rust_story_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rust_story_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
 </game_dialogs>

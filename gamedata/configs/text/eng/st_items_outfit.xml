@@ -475,14 +475,14 @@
 	</string>
 
 	<string id="dolg_novice_outfit_description">
-		<text>Устаревшая модель стандартного комбинезона «Долга». В отличие от серии ПС3, не может обеспечить хорошую защиту от аномального воздействия. Встроенный бронежилет способен остановить пистолетную пулю, однако, на большее рассчитывать не приходится.</text>
+		<text>An outdated version of the standard Duty uniform, which, unlike the PS3 series, cannot provide adequate protection against anomalous effects. It is capable of stopping pistol bullets, but nothing more.</text>
 	</string>
 
 	<string id="hunter_outfit_name">
-		<text>«Охотничий» ПС5-М</text>
+		<text>PS5-M</text>
 	</string>
 	<string id="hunter_outfit_description">
-		<text>Простое добавление особой резины в волокна кевларовой ткани сделало её более устойчивой к порезам. Получившаяся защита, в отличии от обычного кевлара, отлично защищает укусов и ударов монстров.</text>
+		<text>The simple addition of special rubber in the kevlar fibers of the Hunter uniform have made it more resistant to cuts and bites, making it an ideal piece of apparel for mutant hunts.</text>
 	</string>
 
 	<!-- Ecologists -->

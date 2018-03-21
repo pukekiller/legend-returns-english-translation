@@ -62,16 +62,16 @@
 		<text>О местоположении отряда я сообщил. Теперь осталось отправиться туда с весточкой</text>
 	</string>
 	<string id="spy_sin_task_5_1">
-		<text>Отрицание: Оправдаться перед генералом</text>
+		<text>Negation: justify before the general</text>
 	</string>
 	<string id="spy_sin_task_descr_5_1">
-		<text>Вернуться в бар и доложить Воронину свою версию того что случилось.</text>
+		<text>Return to the Bar and report your version on what has happened to General Voronin.</text>
 	</string>
 	<string id="spy_sin_task_6">
-		<text>Отчет: Поговорить с Вороном</text>
+		<text>Report: speak to Crow</text>
 	</string>
 	<string id="spy_sin_task_descr_6">
-		<text>Отчитаться перед Вороном за выполненное задание</text>
+		<text>All that is left is to report back to Raven about the completed task.</text>
 	</string>
 
 	<!-- Сюжет «Монолита» -->
@@ -106,15 +106,15 @@
 		<text>The brothers must be avenged for the death of your brothers. You must also retrieve some necessary information.</text>
 	</string>
 	<string id="kill_shaman_task_1">
-		<text>«ОКО Зоны»</text>
+		<text>Eye of the Zone</text>
 	</string>
 	<string id="kill_shaman_descr">
-		<text>Харон поручил уничтожить необычного греховца в городе Светлый Путь и забрать информацию.</text>
+		<text>Charon has instructed you to eliminate an unusual Sinner hiding in the town of Bright Path and retrieve information.</text>
 	</string>
 	<string id="cresh_task_2">
 		<text>Better late than never</text>
 	</string>
 	<string id="cresh_task_2_descr">
-		<text>Принести Крэшу устройство с информацией о прототипе излучателя «Радуга».</text>
+		<text>Crash may have use for Neuron’s device with information about the Rainbow emitter.</text>
 	</string>
 </string_table>

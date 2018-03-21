@@ -51,7 +51,7 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/eng/st_dialogs_darkvalley.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_dialogs_deadcity.xml](gamedata/configs/text/rus/st_dialogs_deadcity.xml)
+	- [st_dialogs_deadcity.xml](gamedata/configs/text/eng/st_dialogs_deadcity.xml)
 		- done
 	- [st_dialogs_escape.xml](gamedata/configs/text/eng/st_dialogs_escape.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
@@ -67,10 +67,10 @@ A list of all files with their detailed progress can be found below.
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_zaton.xml](gamedata/configs/text/eng/st_dialogs_zaton.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_dialog_manager.xml](gamedata/configs/text/rus/st_dialog_manager.xml)
+	- [st_dialog_manager.xml](gamedata/configs/text/eng/st_dialog_manager.xml)
 		- done
-	- [st_dynamic_news.xml](gamedata/configs/text/rus/st_dynamic_news.xml)
-		- not started
+	- [st_dynamic_news.xml](gamedata/configs/text/eng/st_dynamic_news.xml)
+		- done (untested)
 	- [st_game_relations.xml](gamedata/configs/text/eng/st_game_relations.xml)
 		- done
 	- [st_generate_fnames.xml](gamedata/configs/text/eng/st_generate_fnames.xml)
@@ -87,7 +87,7 @@ A list of all files with their detailed progress can be found below.
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_habarwik.xml](gamedata/configs/text/rus/st_items_habarwik.xml)
 		- not started
-	- [st_items_mutant_parts.xml](gamedata/configs/text/rus/st_items_mutant_parts.xml)
+	- [st_items_mutant_parts.xml](gamedata/configs/text/eng/st_items_mutant_parts.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_outfit.xml](gamedata/configs/text/eng/st_items_outfit.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
@@ -95,8 +95,8 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_items_quest.xml](gamedata/configs/text/eng/st_items_quest.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_items_weapons.xml](gamedata/configs/text/rus/st_items_weapons.xml)
-		- not started
+	- [st_items_weapons.xml](gamedata/configs/text/eng/st_items_weapons.xml)
+		- in progress
 	- [st_items_weapons_upgrades.xml](gamedata/configs/text/eng/st_items_weapons_upgrades.xml)
 		- done
 	- [st_lr_perks_skills.xml](gamedata/configs/text/eng/st_lr_perks_skills.xml)
@@ -129,7 +129,7 @@ A list of all files with their detailed progress can be found below.
 		- not started
 	- [st_quests_pripyat2.xml](gamedata/configs/text/eng/st_quests_pripyat2.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
-	- [st_quests_redforest.xml](gamedata/configs/text/rus/st_quests_redforest.xml)
+	- [st_quests_redforest.xml](gamedata/configs/text/eng/st_quests_redforest.xml)
 		- in progress
 	- [st_quests_zaton.xml](gamedata/configs/text/eng/st_quests_zaton.xml)
 		- done

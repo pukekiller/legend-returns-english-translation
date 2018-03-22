@@ -1903,36 +1903,36 @@
 		<dont_has_info>upir_poison_quest_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>yoga_stole_quest_done_0</text>
+				<text>upir_poison_quest_done_0</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
-				<text>yoga_stole_quest_done_1</text>
+				<text>upir_poison_quest_done_1</text>
 				<next>2</next>
 			</phrase>
 			<phrase id="2">
-				<text>yoga_stole_quest_done_2</text>
+				<text>upir_poison_quest_done_2</text>
 				<action>dialogs_darkescape.upir_take_docks</action>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
-				<text>yoga_stole_quest_done_3</text>
+				<text>upir_poison_quest_done_3</text>
 				<next>4</next>
 			</phrase>
 			<phrase id="4">
-				<text>yoga_stole_quest_done_4</text>
+				<text>upir_poison_quest_done_4</text>
 				<next>5</next>
 			</phrase>
 			<phrase id="5">
-				<text>yoga_stole_quest_done_5</text>
+				<text>upir_poison_quest_done_5</text>
 				<next>6</next>
 			</phrase>
 			<phrase id="6">
-				<text>yoga_stole_quest_done_6</text>
+				<text>upir_poison_quest_done_6</text>
 				<next>7</next>
 			</phrase>
 			<phrase id="7">
-				<text>yoga_stole_quest_done_7</text>
+				<text>upir_poison_quest_done_7</text>
 				<give_info>upir_poison_quest_done</give_info>
 			</phrase>
 		</phrase_list>

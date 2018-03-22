@@ -68,7 +68,8 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_yantar.xml](gamedata/configs/text/eng/st_dialogs_yantar.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_zaton.xml](gamedata/configs/text/eng/st_dialogs_zaton.xml)
-		- merged with Call of Chernobyl 1.5, awaiting translation
+		- merged with Call of Chernobyl 1.5
+		- done
 	- [st_dialog_manager.xml](gamedata/configs/text/eng/st_dialog_manager.xml)
 		- done
 	- [st_dynamic_news.xml](gamedata/configs/text/eng/st_dynamic_news.xml)

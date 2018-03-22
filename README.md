@@ -11,6 +11,8 @@ A list of all files with their detailed progress can be found below.
 		- done
 	- [dialogs_bar.xml](gamedata/configs/gameplay/dialogs_bar.xml)
 		- done
+	- [dialogs_darkscape.xml](gamedata/configs/gameplay/dialogs_darkscape.xml)
+		- done
 	- [dialogs_darkvalley.xml](gamedata/configs/gameplay/dialogs_darkvalley.xml)
 		- done
 	- [dialogs_escape.xml](gamedata/configs/gameplay/dialogs_escape.xml)

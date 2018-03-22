@@ -885,4 +885,199 @@
 	<string id="vedrov_doc_dialog_5">
 		<text>Отлично, буду ждать. По выполнению я свяжусь с тобой.</text>
 	</string>
+	<string id="last_day_grenade_story_0">
+		<text>Вот это да... В этих документах, что ты нарыл подробно описан способ создания этих аномальных гранат в кустарных условиях, так что даже я смогу собирать эти штуки!</text>
+	</string>
+	<string id="last_day_grenade_story_1">
+		<text>[далее]</text>
+	</string>
+	<string id="last_day_grenade_story_2">
+		<text>Вот, держи. Даю несколько штук на пробу. Если захочешь ещё - обращайся.</text>
+	</string>
+	<string id="last_day_grenade_story_3">
+		<text>Договорились.</text>
+	</string>
+	<string id="slime_barter_0">
+		<text>Мне нужны аномальные гранаты.</text>
+	</string>
+	<string id="slime_barter_1">
+		<text>Хорошо. Какие конкретно?</text>
+	</string>
+	<string id="slime_barter_2">
+		<text>Ручные.</text>
+	</string>
+	<string id="slime_barter_3">
+		<text>Для подствольника.</text>
+	</string>
+	<string id="slime_barter_4">
+		<text>Выбирай:</text>
+	</string>
+	<string id="slime_barter_5">
+		<text>Ручная граната «Электра» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_6">
+		<text>Ручная граната «Карусель» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_7">
+		<text>Ручная граната «Химка» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_8">
+		<text>Выбирай:</text>
+	</string>
+	<string id="slime_barter_9">
+		<text>Подствольная граната «Электра» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_10">
+		<text>Подствольная граната «Карусель» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_11">
+		<text>Подствольная граната «Химка» (3 жетона)</text>
+	</string>
+	<string id="slime_barter_12">
+		<text>Пока никакие.</text>
+	</string>
+	<string id="slime_barter_13">
+		<text>Я передумал.</text>
+	</string>
+	<string id="upir_poison_quest_0">
+		<text>Есть желания поднять лаванды и заодно помочь «Слизням"?</text>
+	</string>
+	<string id="upir_poison_quest_1">
+		<text>Валяй.</text>
+	</string>
+	<string id="upir_poison_quest_2">
+		<text>Думаю, объяснять какие у нас сейчас сложные отношения с бандосами тебе не стоит, если с порядками Борова мы ещё могли мириться и молча сосуществовать, то с беспредельщиками Йоги всё совсем по другому. Его цели слишком категоричны, он начал забывать своё место и мешать нашим ребятами делать своё маленькое дело.</text>
+	</string>
+	<string id="upir_poison_quest_3">
+		<text>Ты предлагаешь мне его грохнуть? Мне оттуда в дырявых трусах что ли возвращаться?</text>
+	</string>
+	<string id="upir_poison_quest_4">
+		<text>Не парься... есть у меня человечек в их шайке, который мне должен по гроб жизни, так что ты сможешь сделать всё тихо и безболе... ну почти безболезненно.</text>
+	</string>
+	<string id="upir_poison_quest_5">
+		<text>Ну и каким макаром?</text>
+	</string>
+	<string id="upir_poison_quest_6">
+		<text>Вот, держи. Это - сильнодействующий яд. При попадании в организм вызывает паралич дыхательных путей, хехе... Отнеси его Зубу, он местный торгаш на базе бандитов, а он в свою очередь сделает своё дело. Остался только один нюанс...</text>
+	</string>
+	<string id="upir_poison_quest_7">
+		<text>Какой же?</text>
+	</string>
+	<string id="upir_poison_quest_8">
+		<text>Тебе придётся побыть у Йоги на побегушках. Просто так он с тобой бухать не будет.</text>
+	</string>
+	<string id="upir_poison_quest_9">
+		<text>Охрененный расклад...</text>
+	</string>
+	<string id="upir_poison_quest_10">
+		<text>А ты думал, что в сказку попал? Плата будет более чем достойная, это я тебе гарантирую.</text>
+	</string>
+	<string id="upir_poison_quest_11">
+		<text>Ну давай попробуем.</text>
+	</string>
+	<string id="upir_poison_quest_12">
+		<text>Отлично, возвращайся как только его бренная тушка вознесётся к праотцам. И да, не забудь передать Зубу, что ты от меня.</text>
+	</string>
+	<string id="zub_poisoning_0">
+		<text>Я от нашего общего знакомого - Упыря.</text>
+	</string>
+	<string id="zub_poisoning_1">
+		<text>А, вы те придурки? Давай свою бодягу сюда. Всё равно мне Йога никогда не нравился...</text>
+	</string>
+	<string id="zub_poisoning_2">
+		<text>Держи. И что б без глупостей.</text>
+	</string>
+	<string id="zub_poisoning_3">
+		<text>Я добавлю в яд ингибитор и он замедлит реакцию, поэтому яд не должен по идее убить того, кто первый выпьет, смекаешь?</text>
+	</string>
+	<string id="zub_poisoning_4">
+		<text>Спятил, что ли? И это ты нас без башенными называл?</text>
+	</string>
+	<string id="zub_poisoning_5">
+		<text>Га-га! Та не ссы, впервые думаешь таким занимаюсь? К тому же Йога будет настаивать чтобы ты пил первым, он не настолько дурак.</text>
+	</string>
+	<string id="zub_poisoning_6">
+		<text>Ладно, я понял. Когда всё будет готово?</text>
+	</string>
+	<string id="zub_poisoning_7">
+		<text>К тому времени как понадобиться, уже всё будет пучком.</text>
+	</string>
+	<string id="zub_poisoning_8">
+		<text>Хороши, тогда жди.</text>
+	</string>
+	<string id="yoga_stole_quest_0">
+		<text>Есть работа для реального пацана?</text>
+	</string>
+	<string id="yoga_stole_quest_1">
+		<text>Для реального пацана говоришь? Ну... Да, пожалуй есть одна скользкая работёнка.</text>
+	</string>
+	<string id="yoga_stole_quest_2">
+		<text>Кхм, и какая же?</text>
+	</string>
+	<string id="yoga_stole_quest_3">
+		<text>Мы перехватили сигнал от военных, их грузовик застрял где-то на территории Кладбища Техники, недалеко от переезда на Промзону Судя по их взволнованным голосам, у них там куча добра.</text>
+	</string>
+	<string id="yoga_stole_quest_4">
+		<text>А что с оплатой?</text>
+	</string>
+	<string id="yoga_stole_quest_5">
+		<text>Не боись, всё будет оплачено по заслугам.</text>
+	</string>
+	<string id="yoga_stole_quest_6">
+		<text>Согласен.</text>
+	</string>
+	<string id="zub_poisoning_done_0">
+		<text>Что там, твоя «настойка» уже готова?</text>
+	</string>
+	<string id="zub_poisoning_done_1">
+		<text>Да, забирай. Только сильно не болтай, иначе откинешь коньки раньше Йоги.</text>
+	</string>
+	<string id="zub_poisoning_done_2">
+		<text>Благодарю.</text>
+	</string>
+	<string id="yoga_stole_quest_done_0">
+		<text>А вот он я.</text>
+	</string>
+	<string id="yoga_stole_quest_done_1">
+		<text>Показывай, чё принёс.</text>
+	</string>
+	<string id="yoga_stole_quest_done_2">
+		<text>Держи, полюбуйся.</text>
+	</string>
+	<string id="yoga_stole_quest_done_3">
+		<text>Ай красава! Держи бабло!</text>
+	</string>
+	<string id="yoga_stole_quest_done_4">
+		<text>Может, хряпнем за столь успешное дело?</text>
+	</string>
+	<string id="yoga_stole_quest_done_5">
+		<text>Базара ноль! Пей, я сразу после тебя.</text>
+	</string>
+	<string id="yoga_stole_quest_done_6">
+		<text>Будьмо!</text>
+	</string>
+	<string id="yoga_stole_quest_done_0">
+		<text>Йога труп.</text>
+	</string>
+	<string id="yoga_stole_quest_done_1">
+		<text>Молодцом! Такое не забывается. Теперь можешь рассчитывать на моё уважения и уважения от наших ребят!</text>
+	</string>
+	<string id="yoga_stole_quest_done_2">
+		<text>Это ещё не всё. Взгяни, что я нашёл в ходе выполнения задания.</text>
+	</string>
+	<string id="yoga_stole_quest_done_3">
+		<text>Нихрена себе интересности! Да тут же по полочкам расписано как производить аномальные гранаты!</text>
+	</string>
+	<string id="yoga_stole_quest_done_4">
+		<text>Что за гранаты то такие?<</text>
+	</string>
+	<string id="yoga_stole_quest_done_5">
+		<text>Разработка «Последнего Дня». В этих гранатах помещена энергия артефактов, что прибавило им значительной мощи, но в свою очередь увеличило стоимость. Я передам это Неумехе. Я думаю, он быстро сообразит как их делать.</text>
+	</string>
+	<string id="yoga_stole_quest_done_6">
+		<text>Это всё очень интересно, но что с моей наградой?</text>
+	</string>
+	<string id="yoga_stole_quest_done_7">
+		<text>Ах да, держи.</text>
+	</string>
 </string_table>

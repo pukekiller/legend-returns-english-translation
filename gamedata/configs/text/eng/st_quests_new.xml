@@ -1,175 +1,175 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
     <string id="csky_start_new_story_name">
-	    <text>По следам Стрелка</text>
+	    <text>On Strelok's tracks</text>
 	</string>
 	<string id="csky_start_new_story_descr">
-	    <text>Найти любую информацию по Стрелку в подземельях НИИ «Медприбор»</text>
+	    <text>Find any information regarding Strelok in the underground parts of the scientific research institute "Medpribor"</text>
 	</string>
 	<string id="csky_start_new_story_descr_0">
-	    <text>Отдать найденую информацию Ведрову</text>
+	    <text>Give the newfound information to Vedrov</text>
 	</string>
 	<string id="csky_start_first_story_descr">
-	    <text>Найти записку, адресованную Стрелку, которая находится где-то на Ростке. Если быть точнее, то следует искать где-то в недостроенном здании.</text>
+	    <text>Find a note addressed to Strelok, which is somewhere in Rostock. To be more precise, it should be looked for somewhere in an unfinished building.</text>
 	</string>
 	<string id="csky_start_first_story_descr_0">
-	    <text>Отдать записку Ведрову</text>
+	    <text>Give the note to Vedrov</text>
 	</string>
 	<string id="talk_to_sidor_descr">
-	    <text>Поговорить с Сидоровичем</text>
+	    <text>Talk to Sidorovich</text>
 	</string>
 	<string id="kill_stalker_for_sidor_descr">
-	    <text>Убить «торгового представителя»</text>
+	    <text>Kill the "sales representative"</text>
 	</string>
 	<string id="kill_stalker_for_sidor_descr_0">
-	    <text>Вернуться к Сидоровичу</text>
+	    <text>Get back to Sidorovich</text>
 	</string>
 	<string id="talk_to_csky_mechanik_descr">
-	    <text>Поговорить с Новиковым насчёт расшифровки КПК</text>
+	    <text>Talk to Novikov about decrypting the PDA</text>
 	</string>
 	<string id="kill_the_strelok_name">
-	    <text>Найти Стрелка</text>
+	    <text>Find Strelok</text>
 	</string>
 	<string id="kill_the_strelok_descr">
-	    <text>Стрелок скрывается где-то на Затоне, необходимо найти его и ликвидировать.</text>
+	    <text>Strelok's hiding somewhere in Zaton. You must find him and eliminate him.</text>
 	</string>
 	<string id="kill_the_strelok_descr_0">
-	    <text>Доложить Ведрову о выполненом задании</text>
+	    <text>Report to Vedrov on the assignment</text>
 	</string>
 	<string id="talk_to_vedrov_descr">
-	    <text>Рассказать Ведрову о примерном местоположении Стрелка</text>
+	    <text>Tell Vedrov the approximate location of Strelok</text>
 	</string>
 	<string id="poisk_propavshih_name">
-	    <text>Поиск пропавших</text>
+	    <text>Search for the missing squad</text>
 	</string>
 	<string id="poisk_propavshih_descr">
-	    <text>Найти пропавший отряд разведчиков</text>
+	    <text>Find the missing reconnaissance squad</text>
 	</string>
 	<string id="poisk_propavshih_descr_0">
-	    <text>Доложить Ведрову</text>
+	    <text>Report back to Vedrov</text>
 	</string>
 	<string id="poisk_info_name">
-	    <text>Найти спасённого сталкера</text>
+	    <text>Find the rescued stalker</text>
 	</string>
 	<string id="poisk_info_descr">
-	    <text>Найти спасённого Чистым Небом сталкера</text>
+	    <text>Find the stalker saved by Clear Sky</text>
 	</string>
 	<string id="poisk_info_descr_0">
-	    <text>Доложить Ведрову</text>
+	    <text>Report back to Vedrov</text>
 	</string>
 	<string id="talk_to_csky_mechanik_name">
-        <text>Поговорить с Новиковым</text>
+        <text>Talk to Novikov</text>
     </string>
 	<string id="talk_to_csky_mechanik_1_descr">
-	    <text>Поговорить с Новиковым насчёт ремонта КПК</text>
+	    <text>Talk to Novikov about repairing the PDA</text>
 	</string>
 	<string id="talk_to_vedrov_2_name">
-	    <text>Поговорить с Ведровым</text>
+	    <text>Talk to Vedrov</text>
 	</string>
 	<string id="talk_to_vedrov_2_descr">
-	    <text>Доложить Ведрову о полученой информации</text>
+	    <text>Report to Vedrov the information received</text>
 	</string>
 	<string id="talk_to_osvedomitel_name">
-	    <text>Поговорить с Осведомителем</text>
+	    <text>Talk to Snitch</text>
 	</string>
 	<string id="talk_to_osvedomitel_descr">
-	    <text>Узнать у Осведомителя про наёмника Шрама</text>
+	    <text>Ask Snitch about a Mercenary, Scar</text>
 	</string>
 	<string id="poisk_stepana_task_name">
-	    <text>Найти пропавшего сталкера</text>
+	    <text>Find the missing stalker</text>
 	</string>
 	<string id="poisk_stepana_task_descr">
-	    <text>Найти Степана Бесстрашного по просьбе Осведомителя</text>
+	    <text>Find Stepan Fearless, under Snitch's request</text>
 	</string>
 	<string id="poisk_stepana_task_descr_0">
-	    <text>Рассказать Осведомителю о смерти его друга</text>
+	    <text>Tell Snitch about the death of his friend</text>
 	</string>
 	<string id="talk_to_shram_task_name">
-	    <text>Найти наёмника Шрама</text>
+	    <text>Find the mercenary Scar</text>
 	</string>
 	<string id="talk_to_shram_task_descr">
-	    <text>Встретиться со Шрамом и узнать все подробности того рокового дня</text>
+	    <text>Meet with Scar and learn all the details of that fateful day from him</text>
 	</string>
 	<string id="talk_to_csky_leader_name">
-	    <text>Доложить Ведрову</text>
+	    <text>Report back to Vedrov</text>
 	</string>
 	<string id="talk_to_csky_leader_descr">
-	    <text>Рассказать Ведрову про Шрама и гибель отрядов</text>
+	    <text>Tell Vedrov about Scar and about the squad's ultimate fate</text>
 	</string>
-	
+
 	<string id="csky_sever_case_poisk_name">
-	    <text>Найти похищеный ящик</text>
+	    <text>Find the stolen box</text>
 	</string>
 	<string id="csky_sever_case_poisk_descr">
-	    <text>Найти ящик, украденный неизвестными грабителями</text>
+	    <text>Find a box stolen by unknown robbers</text>
 	</string>
 	<string id="csky_sever_case_poisk_descr_0">
-	    <text>Отдать ящик Сове</text>
+	    <text>Give the box to Owl</text>
 	</string>
 	<string id="kill_the_killers_sever_name">
-	    <text>Предотвратить переговоры Свободы и Наёмников</text>
+	    <text>Prevent the negotiations between Freedom and Mercenaries</text>
 	</string>
 	<string id="kill_the_killers_sever_descr">
-	    <text>Убить наёмников</text>
+	    <text>Kill the mercenaries</text>
 	</string>
 	<string id="kill_the_killers_sever_descr_0">
-	    <text>Рассказать липовую историю Чёрному</text>
+	    <text>Tell some phony story to Black</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_name">
-	    <text>Зачистить заброшенный госпиталь</text>
+	    <text>Clear the Abandoned Hospital</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_descr">
-	    <text>Ликвидировать неверных в заброшенном госпитале</text>
+	    <text>Eliminate all the infidels in the Abandoned Hospital</text>
 	</string>
 	<string id="kill_the_stalkers_in_katakomb_descr_0">
-	    <text>Доложить Проповеднику</text>
-	</string>	
+	    <text>Report back to Preacher</text>
+	</string>
 	<string id="esc_military_docs_task_name">
-		<text>Выкрасть документы с блок-поста</text>
+		<text>Steal the documents from the checkpoint</text>
 	</string>
 	<string id="esc_military_docs_task_descr">
-		<text>Выкрасть у военных документы с планами о захвате территорий</text>
+		<text>Steal the military documents detailing plans to seize various territories</text>
 	</string>
 	<string id="esc_military_docs_task_descr_0">
-		<text>Отдать документы Сидоровичу</text>
+		<text>Give the documents to Sidorovich</text>
 	</string>
 	<string id="pogovorit_s_semoy_name">
-		<text>Найти сталкера по имени Сёма Толстой</text>
+		<text>Find a stalker named Sam Tolstoy</text>
 	</string>
 	<string id="pogovorit_s_semoy_descr">
-		<text>Забрать у сталкера товар Сидоровича</text>
+		<text>Pick up Sidorovich's goods from a stalker</text>
 	</string>
 	<string id="case_for_sidor_escape_task_name">
-		<text>Забрать у бандитов кейс Сидоровича</text>
+		<text>Take back Sidorovich's case from the bandits</text>
 	</string>
 	<string id="case_for_sidor_escape_task_descr">
-		<text>Забрать у бандитов то, что пренадлежит Сидоровичу</text>
+		<text>Take away from the bandits what belongs to Sidorovich</text>
 	</string>
 	<string id="case_for_sidor_escape_task_descr_0">
-		<text>Отдать кейс Сидоровичу</text>
+		<text>Give the case to Sidorovich</text>
 	</string>
 	<string id="killers_docs_x16_task_1_name">
-		<text>Найти пропавшего наёмника</text>
+		<text>Find the missing mercenary</text>
 	</string>
 	<string id="killers_docs_x16_task_1_descr">
-		<text>Найти наёмника, пропавшего вместе с важными документами в лаборатории Х-16.</text>
+		<text>Find a mercenary who disappeared along with important documents in the X-16 laboratory.</text>
 	</string>
 	<string id="killers_docs_x16_task_2_name">
-		<text>Документы наймита</text>
+		<text>Documents of the mercenary</text>
 	</string>
 	<string id="killers_docs_x16_task_2_descr">
-		<text>Найти спрятанные мерком документы.</text>
+		<text>Find the documents hidden by a merc</text>
 	</string>
 	<string id="killers_docs_x16_task_2_descr_0">
-		<text>Отдать Душману найденные в Х-16 документы.</text>
+		<text>Give to Dushman the documents found in X-16</text>
 	</string>
 	<string id="killers_radiocase_task_descr_name">
-		<text>Ценный кейс</text>
+		<text>Valuable case</text>
 	</string>
 	<string id="killers_radiocase_task_descr">
-		<text>Найти кейс с радиооборудованием. Детальная инфа отсутствует, известно лишь то, что спрятан он в глубине Зоны. А то, что о нём знают монолитовцы, наталкивает на определённые мысли...</text>
+		<text>Find a case with radio equipment. We don't have detailed info, we only know that it is hidden in the depths of the Zone. And the fact the Monolith knows about it, suggests certain ideas...</text>
 	</string>
 	<string id="killers_radiocase_task_descr_0">
-		<text>Отдать ценный кейс Душману.</text>
+		<text>Bring the valuable case to Dushman</text>
 	</string>
 	</string_table>

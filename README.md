@@ -127,8 +127,8 @@ A list of all files with their detailed progress can be found below.
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_military.xml](gamedata/configs/text/eng/st_quests_military.xml)
 		- done
-	- [st_quests_new.xml](gamedata/configs/text/rus/st_quests_new.xml)
-		- not started
+	- [st_quests_new.xml](gamedata/configs/text/eng/st_quests_new.xml)
+		- done
 	- [st_quests_pripyat2.xml](gamedata/configs/text/eng/st_quests_pripyat2.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_quests_redforest.xml](gamedata/configs/text/eng/st_quests_redforest.xml)

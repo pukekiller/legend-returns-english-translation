@@ -28,7 +28,7 @@ A list of all files with their detailed progress can be found below.
 
 - **configs/text/eng:**
 	- [events_texts.xml](gamedata/configs/text/eng/events_texts.xml)
-		- done
+		- in progress
 	- [izmer_mod_string.xml](gamedata/configs/text/eng/izmer_mod_string.xml)
 		- done
 	- [izmer_mpd_config.xml](gamedata/configs/text/eng/izmer_mpd_config.xml)
@@ -176,7 +176,7 @@ A list of all files with their detailed progress can be found below.
 	- [LR_photomode.script](gamedata/scripts/LR_photomode.script)
 		- not started
 	- [LR_random_events.script](gamedata/scripts/LR_random_events.script)
-		- not started
+		- done
 	- [LR_skills_system.script](gamedata/scripts/LR_skills_system.script)
 		- done
 	- [monolith_event.script](gamedata/scripts/monolith_event.script)

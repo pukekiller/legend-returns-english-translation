@@ -207,7 +207,7 @@
 		<text>Greetings, General!</text>
 	</string>
 	<string id="greh_voronin_1">
-		<text>Hello, stalker! What is the matter?</text>
+		<text>Hello, stalker! What’s the matter?</text>
 	</string>
 	<string id="greh_voronin_2">
 		<text>I’ve heard you’re looking for experienced fighters for an assault on the Red Forest?</text>
@@ -235,7 +235,7 @@
 		<text>I came to thank Shaman for saving me. Is he doing well?</text>
 	</string>
 	<string id="about_shaman_3">
-		<text>For now, yes, but my efforts are barely enough to maintain his health, so… It’s not even about how many days he can hold up anymore; hours, rather.</text>
+		<text>For now, yes, but my efforts are barely enough to maintain his health, so… It’s not even about how many days he can hold up anymore; rather, hours.</text>
 	</string>
 	<string id="about_shaman_4">
 		<text>Can I help in any way?</text>
@@ -340,10 +340,10 @@
 	</string>
 
 	<string id="haron_next_0">
-		<text>The operation was a success. The infidels have been killed, just like their leader: the Crow. In addition, I found the PDA of Neuron, which was previously stolen by the Sinners. I also found Crow’s documents and an unknown weapon sample, as well as blueprints for it.</text>
+		<text>The operation was a success. The infidels have been killed, just like their leader: the Crow. In addition, I found the PDA of Neuron, which was previously stolen by the Sinners. I also found a few of Crow’s documents and an unknown weapon sample, as well as blueprints for it.</text>
 	</string>
 	<string id="haron_next_1">
-		<text>… [examines documents]</text>
+		<text>…\n \n[examines documents]</text>
 	</string>
 	<string id="haron_next_2">
 		<text>What does it say?</text>
@@ -355,7 +355,7 @@
 		<text>Where can I find them?</text>
 	</string>
 	<string id="haron_next_5">
-		<text>The exact place isn’t indicated in the correspondence, but there’s a tip-off that they’ve settled in the territory of the town of Bright Path. I believe you know what needs to be done.</text>
+		<text>The exact location isn’t indicated in the correspondence, but there’s a tip-off that they’ve settled in the territory of the town of Bright Path. I believe you know what needs to be done.</text>
 	</string>
 	<string id="haron_next_6">
 		<text>I will send their bodies into the ground for the glory of the Monolith… but what about the unknown weapon?</text>

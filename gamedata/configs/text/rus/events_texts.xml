@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<string id="sinoptik_message_0">
+		<text>Синоптик:</text>
+	</string>
+	<string id="sinoptik_message_1">
+		<text>Погода сегодня тёплая и ничего не происходит.</text>
+	</string>
+
+	<string id="sos_event_0">
+		<text>Сигнал SOS:</text>
+	</string>
+	<string id="sos_event_1">
+		<text>Сталкеры, помогите, я в тоннеле возле железнодорожной насыпи! Помогите, а то копыта двину! Блин, да есть кто-нибудь рядом?!</text>
+	</string>
+
+	<string id="case_event_0">
+		<text>Перехваченное сообщение:</text>
+	</string>
+	<string id="case_event_1">
+		<text>Оставил кейс возле южного блокпоста, где куча всякого металлолома и прочего мусора. Сидорович, пошли кого-то из своих, пока никто не заметил пропажу.</text>
+	</string>
+
+	<string id="controller_event_0">
+		<text>На блокпосту какая-то ахинея творится. Ребята, лучше из насиженных мест не высовывайтесь, пока всё не утихнет.</text>
+	</string>
+
+	<string id="agr_event_0">
+		<text>Видел как вояки раскопали какие-то документы. Думаю, торговцы хорошо заплатят за эти документы.</text>
+	</string>
+
+	<string id="bar_event_0">
+		<text>Проклятые мутанты лезут в Бар! Ребята, поможем отбиться!</text>
+	</string>
+
+	<string id="ros_event_0">
+		<text>Помогите, СОС! Тут стрёмный мутант! Я на стройке!</text>
+	</string>
+
+	<string id="mil_event_0">
+		<text>Помогите отбиться от мутантов! Мы на военной базе!</text>
+	</string>
+
 	<string id="esc_event_case_1">
 		<text>Случайное поручение: найти кейс на Кордоне</text>
 	</string>

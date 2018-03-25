@@ -162,7 +162,7 @@
 	<string id="st_harmonica_descr">
 		<text>For blues and prison romance lovers.</text>
 	</string>
-	
+
 	<string id="st_itm_deployable_mgun_name">
 		<text>Deployable RP-74</text>
 	</string>
@@ -199,209 +199,209 @@
 
 	<!-- Legend Returns -->
 	<string id="st_knife_greh">
-		<text>«Варг»</text>
+		<text>Warg</text>
 	</string>
 	<string id="st_knife_greh_descr">
-		<text>Используется группировкой «Грех» для проведения ритуалов и жертвоприношений.</text>
+		<text>Used by the Sin group for conducting rituals and sacrifices.</text>
 	</string>
 
 	<string id="sinner_spawn">
-		<text>Призывной Череп</text>
+		<text>Invocatory Skull</text>
 	</string>
 	<string id="sinner_spawn_descr">
-		<text>Используется «греховодниками для призыва мутантов. Отнимает здоровья при использовании.</text>
+		<text>Used by "Sinners" to invoke mutants. Leeches off health from the user when activated.</text>
 	</string>
 
 	<string id="pills_name">
-		<text>Медицинская капсула</text>
+		<text>Medical capsule</text>
 	</string>
 	<string id="pills_descr">
-		<text>Комплекс недорогих препаратов, стимулирующий физическую активность организма. Может вызывать психическую зависимость, бессонницу, анорексию, раздражительность, иногда тахикардию и повышение артериального давления. При хроническом злоупотреблении возможно возникновение стимуляторного психоза..</text>
+		<text>A complex of inexpensive drugs that stimulates the body's physical activity. May cause mental dependence, insomnia, anorexia, irritability, sometimes tachycardia and increased blood pressure. Chronic abuse of these pills might cause stimulant psychosis...</text>
 	</string>
 
 	<string id="water_name">
-		<text>Минеральная вода</text>
+		<text>Mineral water</text>
 	</string>
 	<string id="water_descr">
-		<text>Чистая природная вода, которая содержит в себе микроэлементы, растворённые соли и биологически активные компоненты. Отлично уталяет жажду и очищает организм.</text>
+		<text>Pure natural water, which contains microelements, dissolved salts and biologically active components. Perfectly quenches thirst and cleanses the body.</text>
 	</string>
 
 	<string id="vegetables_name">
-		<text>Овощи «Бондюэль»</text>
+		<text>"Bonduelle" Vegetables</text>
 	</string>
 	<string id="vegetables_descr">
-		<text>Консервированный вкусный овощной салат французкого производства. Натуральный продукт. Исключительно для сталкеров-гурманов.</text>
+		<text>Delicious canned vegetable salad of French production. Natural product. Exclusively for stalkers-gourmets.</text>
 	</string>
 
 	<string id="st_amphetamin">
-		<text>Амфетамин</text>
+		<text>Amphetamine</text>
 	</string>
 	<string id="st_amphetamin_descr">
-		<text>Амфетамин (сокр. от метилфенилэтиламин) — стимулятор центральной нервной системы. Механизм действия основан на выбросе нейромедиаторов (дофамина и норадреналина). Используется сталкерами в многодневных вылазках</text>
+		<text>Amphetamine (short of methylphenylethylamine) is a stimulant of the central nervous system. The mechanism of action is based on the release of neurotransmitters (dopamine and noradrenaline). Used by stalkers in multi-day outings</text>
 	</string>
 
 	<string id="st_lsd">
-		<text>ЛСД</text>
+		<text>LSD</text>
 	</string>
 	<string id="st_lsd_descr">
-		<text>Полусинтетическое психоактивное вещество из семейства лизергамидов. ЛСД может считаться самым известным психоделиком, использовавшимся или используемым в качестве рекреационного препарата.</text>
+		<text>Semisynthetic psychoactive substance from the family of ergoline. LSD can be considered the most famous psychedelic, often used as a recreational drug and for spiritual reasons.</text>
 	</string>
 
 	<string id="st_memory_stick_name">
-		<text>Карта памяти</text>
+		<text>Memory card</text>
 	</string>
 
 	<string id="st_heart">
-		<text>Сердце сталкера</text>
+		<text>Heart of a stalker</text>
 	</string>
 	<string id="st_heart_descr">
-		<text>Сердце, некогда принадлежавшее какому-то сталкеру. Можно обменять на снаряжения у торговца группировки «Грех».</text>
+		<text>A heart that once belonged to a stalker. You can exchange it for equipment from a merchant of the Sin faction.</text>
 	</string>
 
 	<string id="st_brain">
-		<text>Мозг сталкера</text>
+		<text>Brain of a stalker</text>
 	</string>
 	<string id="st_brain_descr">
-		<text>Мозг, некогда принадлежавший какому-то сталкеру. Употребляется «греховцами» в пищу и используется ими в жертвоприношениях. Однако, простым сталкерам есть данный «деликатес» строго запрещается. Побочные эффекты: головокружение, тошнота, диарея, болезнь Гуро. </text>
+		<text>A brain that once belonged to a stalker. It is used by "Sinners" as food and is used by them in sacrifices. However, normal stalkers have this "delicacy" strictly prohibited. Side effects: dizziness, nausea, diarrhea, Guro's disease. </text>
 	</string>
 
 	<string id="st_eye">
-		<text>Глаз сталкера</text>
+		<text>Eye of a stalker</text>
 	</string>
 	<string id="st_eye_descr">
-		<text>Глаз, некогда принадлежавший какому-то сталкеру. Употребляется «греховцами» в пищу и используется ими в жертвоприношениях. Однако, простым сталкерам есть данный «деликатес» строго запрещается. Побочные эффекты: головокружение, тошнота, диарея, болезнь Гуро.</text>
+		<text>An eye that once belonged to a stalker. It is used by "Sinners" as food and is used by them in sacrifices. However, normal stalkers have this "delicacy" strictly prohibited. Side effects: dizziness, nausea, diarrhea, Guro's disease.</text>
 	</string>
 
 	<string id="st_uho">
-		<text>Ухо сталкера</text>
+		<text>Ear of a stalker</text>
 	</string>
 	<string id="st_uho_descr">
-		<text>Ухо, некогда принадлежавшее какому-то сталкеру. Употребляется «греховцами» в пищу и используется ими в жертвоприношениях. Однако, простым сталкерам есть данный «деликатес» строго запрещается. Побочные эффекты: головокружение, тошнота, диарея, болезнь Гуро.</text>
+		<text>An ear that once belonged to a stalker. It is used by "Sinners" as food and is used by them in sacrifices. However, normal stalkers have this "delicacy" strictly prohibited. Side effects: dizziness, nausea, diarrhea, Guro's disease.</text>
 	</string>
 
 	<string id="st_liver">
-		<text>Печень сталкера </text>
+		<text>Liver of a stalker </text>
 	</string>
 	<string id="st_liver_descr">
-		<text>Печень, некогда принадлежавшая какому-то сталкеру. Употребляется «греховцами» в пищу и используется ими в жертвоприношениях. Однако, простым сталкерам есть данный «деликатес» строго запрещается. Побочные эффекты: головокружение, тошнота, диарея, болезнь Гуро.</text>
+		<text>A liver that once belonged to a stalker. It is used by "Sinners" as food and is used by them in sacrifices. However, normal stalkers have this "delicacy" strictly prohibited. Side effects: dizziness, nausea, diarrhea, Guro's disease.</text>
 	</string>
 
 	<string id="st_finger">
-		<text>Палец сталкера</text>
+		<text>Finger of stalker</text>
 	</string>
 	<string id="st_finger_descr">
-		<text>Палец, некогда принадлежавший какому-то сталкеру. Употребляется «греховцами» в пищу и используется ими в жертвоприношениях. Однако, простым сталкерам есть данный «деликатес» строго запрещается. Побочные эффекты: головокружение, тошнота, диарея, болезнь Гуро.</text>
+		<text>A brain that once belonged to a stalker. It is used by "Sinners" as food and is used by them in sacrifices. However, normal stalkers have this "delicacy" strictly prohibited. Side effects: dizziness, nausea, diarrhea, Guro's disease.</text>
 	</string>
 
 	<string id="strelok_friends_pda_name">
-		<text>КПК с перепиской друзей Стрелка</text>
+		<text>PDA containing the correspondence of Strelok's friends</text>
 	</string>
 	<string id="strelok_friends_pda_descr">
-		<text>В КПК содержится следующая переписка:\n \n«— Привет! Ты Стрелку записку оставил?\n— Да, на Ростке, он знает где. Недостройка, как всегда.\n— Ну тогда ладно, встретимся на нашем месте и обсудим всё уже там.</text>
+		<text>This PDA contains the following correspondence:\n \n«— Hello! Did you leave a note for Strelok?\n— Yes, in Rostok, he knows where. In the unfinished building, as always.\n— Well then, okay, we'll meet at our place and discuss everything there.</text>
 	</string>
 
 	<string id="sidor_informer_pda_locked_name">
-		<text>КПК</text>
+		<text>PDA</text>
 	</string>
 	<string id="sidor_informer_pda_locked_descr">
-		<text>Нет доступа.</text>
+		<text>No access.</text>
 	</string>
 
 	<string id="strelok_perepiska_name">
-		<text>Записка Стрелку</text>
+		<text>Note for Strelok</text>
 	</string>
 	<string id="strelok_perepiska_descr">
-		<text>Стрелок, мы всё узнали о том сталкере, расскажем при встрече, сам знаешь, где. Ещё мы оставили тебе еды и медикаментов во втором тайнике.</text>
+		<text>Strelok, we learned everything about that stalker, we'll tell you when we meet, you know where. We also left you some food and medicines in the second cache.</text>
 	</string>
 
 	<string id="pda_leader_name">
-		<text>КПК лидера отряда разведчиков</text>
+		<text>PDA of the reconnaissance squad's leader</text>
 	</string>
 	<string id="pda_leader_descr">
-		<text>Последняя заметка: «01:13 Направляемся через Рыжий Лес. 01:23 Мы атакованы группой неизвестных, долго нам не продержаться, сталкера мы спрячем в туннеле.</text>
+		<text>His last note: "01:13 We are heading through the Red Forest. 01:23 We are attacked by a group of unknown people, we won't last long, we'll hide the stalker in the tunnel.</text>
 	</string>
 
 	<string id="zapiska_shrama_name">
-		<text>Записка неизвестного</text>
+		<text>Note of the unknown</text>
 	</string>
 	<string id="zapiska_shrama_descr">
-		<text>Я очнулся в каком-то тоннеле, сталкеры из отряда Чистого неба отсутствуют, сейчас допишу эту записку и выдвинусь...\n \nДалее записка внезапно обрывается.</text>
+		<text>I woke up in some tunnel, the stalkers from the detachment of Clear Sky are missing, I will now finish this note and move forward...\n \n The note suddenly stops.</text>
 	</string>
 
 	<string id="pda_stepana_name">
-		<text>КПК Степана Бесстрашного</text>
+		<text>PDA of Stepan Fearless</text>
 	</string>
 	<string id="pda_stepana_descr">
-		<text>Информация зашифрована.</text>
+		<text>All the data is encrypted.</text>
 	</string>
 
 	<string id="pda_shrama_name">
-		<text>КПК неизвестного</text>
+		<text>Unknown PDA</text>
 	</string>
 	<string id="pda_shrama_descr">
-		<text>КПК разбит, информация недоступна.</text>
+		<text>This PDA is broken, all info is irrecoverable.</text>
 	</string>
 
 	<!-- LONER'S PDA -->
 	<string id="st_stalker_novice_pda_name">
-		<text>ПДА сталкера. Ранг - Новичок</text>
+		<text>PDA of a stalker. Rank - Novice</text>
 	</string>
 	<string id="st_stalker_novice_pda_descr">
-		<text>ПДА сталкера-новичка. Торговцы возьмут за него максимум %c[default]%c[110,0,128,64]300 рублей%c[default], так как ничего интересного на нём нет.</text>
+		<text>PDA of a novice stalker. Traders will probably buy it for maximum of %c[default]%c[110,0,128,64]300 rubles%c[default], since there is nothing interesting on it.</text>
 	</string>
 
 	<string id="st_stalker_experienced_pda_name">
-		<text>ПДА сталкера. Ранг - Стажёр</text>
+		<text>PDA of a stalker. Rank - Experienced</text>
 	</string>
 	<string id="st_stalker_experienced_pda_descr">
-		<text>ПДА сталкера-стажёра. Торговцы возьмут за него около %c[default]%c[0,100,100,0]500 рублей.</text>
+		<text>PDA of an experienced stalker. Traders will probably offer %c[default]%c[0,100,100,0]500 rubles for it.</text>
 	</string>
 
 	<string id="csky_sever_case_name">
-		<text>Кейс с кодовым замком</text>
+		<text>Briefcase with a combination lock</text>
 	</string>
 	<string id="csky_sever_case_descr">
-		<text>Кейс с кодовым замком, достаточно тяжёлый. По словам Совы, набит радиодеталями для техника.</text>
+		<text>Briefcase with a combination lock, quite heavy. According to Owl, it is full of radio parts for a technician.</text>
 	</string>
 	<string id="military_escape_docs_name">
-		<text>Документы</text>
+		<text>Documents</text>
 	</string>
 	<string id="military_escape_docs_descr">
-		<text>Документы с паланами военных о захвате южных территорий Зоны. Несут исключительную ценность для Сидоровича.</text>
+		<text>Documents detailing military plans about seizing the southern territories of the Zone. Sidorovich considers them of exceptional value.</text>
 	</string>
 	<string id="escpae_sidor_case_descr">
-		<text>Кейс с кодовым замком, несёт исключительную ценность для Сидоровича.</text>
+		<text>Briefcase with a combination lock, Sidorovich considers it of exceptional value.</text>
 	</string>
 
 	<!-- Monolith storyline -->
 	<string id="gauss_cont">
-		<text>Контейнер(можно открыть)</text>
+		<text>Case (can be opened)</text>
 	</string>
 	<string id="gauss_cont_descr">
-		<text>Тяжелый контейнер, судя по звуку, внутри лежит внушающих габаритов оружие. Можно открыть.</text>
+		<text>Heavy container, sounds like it contains a weapon of fearsome size. It can be opened.</text>
 	</string>
 
 	<string id="killer_x16_pda_name">
-		<text>КПК Наёмника</text>
+		<text>PDA of a Mercenary</text>
 	</string>
 	<string id="killer_x16_pda_descr">
-		<text>В КПК содержится неотправленное сообщение: «Командир, пси-шлем начал барахлить, придётся отремонтировать и делать второй заход в лабу. Вот только доки спрячу куда-нить...» Далее сообщение обрывается.</text>
+		<text>The PDA contains an unsent message: "Commander, the psi-helmet is starting to act up, it will require repairs and extensive tests in the lab. But I'll hide the docs where..." The message ends.</text>
 	</string>
 	<string id="killer_x16_docs_name">
-		<text>Документы</text>
+		<text>Documents</text>
 	</string>
 	<string id="killer_x16_docs_descr">
-		<text>Документы, несут исключительную ценность для Душмана.</text>
+		<text>These documents are of exceptional value to Dushman.</text>
 	</string>
 	<string id="killers_radiocase_descr">
-		<text>Кейс с радиооборудованием, несёт исключительную ценность для Душмана.</text>
+		<text>The case with the radio equipment, carries exceptional value for Dushman.</text>
 	</string>
 
-	<!-- Бояра -->
+	<!-- Bohr's -->
 	<string id="boyarushnik">
-		<text>Настойка</text>
+		<text>Tincture</text>
 	</string>
 	<string id="boyarushnik_descr">
-		<text>Настойка с различных трав и «Паутинника»</text>
+		<text>Tincture containing various herbs and "Cortinarius arboricola"</text>
 	</string>
 </string_table>

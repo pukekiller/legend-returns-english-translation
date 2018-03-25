@@ -98,7 +98,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_items_quest.xml](gamedata/configs/text/eng/st_items_quest.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_items_weapons.xml](gamedata/configs/text/eng/st_items_weapons.xml)
-		- in progress
+		- done
 	- [st_items_weapons_upgrades.xml](gamedata/configs/text/eng/st_items_weapons_upgrades.xml)
 		- done
 	- [st_lr_perks_skills.xml](gamedata/configs/text/eng/st_lr_perks_skills.xml)

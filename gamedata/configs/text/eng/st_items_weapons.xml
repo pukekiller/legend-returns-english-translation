@@ -645,126 +645,126 @@
 		<text>The small dimensions of this rifle make it possible to use it in urban conditions and small spaces, and the penetrative effect of the bullet is very effective. It has an integrated muffler and a collimator sight. Developed specifically for the USS, but has fallen into the hands of stalkers.</text>
 	</string>
 	<string id="st_wpn_akm_descr">
-		<text>Одновременно с автоматом АКМ в 1959 г, на вооружение была принята его модификация АКМС (индекс 6П4), предназначенная для вооружения ВДВ и частей специального назначения. Его отличия от АКМ — складывающийся металлический приклад, такой как у АКС. В сложенном виде упор укладывается под цевьем и не мешает удержанию и стрельбе. Принадлежность для ухода за оружием, в отличие от АКМ с постоянным прикладом, носится отдельно. Оружие ценится среди опытных сталкеров за свою простоту и надёжность, но встречается крайне редко ввиду дефицита боеприпасов на сей автомат в Зоне.</text>
+		<text>Simultaneously with the AKM automatic weapon in 1959, the armament was adopted by its modification, the AKMS (index 6P4), intended for arming the Airborne Forces and special-purpose units. Its difference from AKM is a folding metal butt, such as that of the AKC. In its folded form the support fits under the forearm and does not interfere with retention and shooting. The issued cleaning kit, in contrast to the AKM with a fixed butt, is worn separately. These weapons are valued among experienced stalkers for their simplicity and reliability, but they are extremely rare due to the shortage of ammunition for this rifle in the Zone.</text>
 	</string>
 	<string id="st_wpn_akspc_descr">
-		<text>По своим габаритам и массе близок к пистолетам-пулемётам, однако он является представителем автоматов. Достоинства: малые габариты и довольно высокая пробивающая способность. Главные недостатки - малая прицельная дальность и склонность к быстрому перегреву при стрельбе очередями. Модифицированный вариант снабжённый несъёмным глушителем и коллиматорным прицел Кобра.</text>
+		<text>While by dimensions and weight it closely resembles a submachine gun it's actually a machine-gun. Advantages: small size and fairly high penetration capacity. Main disadvantages - a small firing range and a tendency to quickly overheat when firing bursts. The modified version is equipped with a non-removable silencer and a Kobra collimator sight.</text>
 	</string>
 	<string id="st_wpn_ak74p">
-		<text>АК-74</text>
+		<text>АК-74P</text>
 	</string>
 	<string id="st_wpn_akmsmf">
-		<text>АКМС-МФ1</text>
+		<text>AKMS-MF1</text>
 	</string>
 	<string id="st_wpn_akmsmf_descr">
-		<text>Модернизированная версия АКМС. Попала в зону через черный рынок. Популярна среди ветеранов, охотников и долговцев из-за высокого останавливающего действия патрона, что очень полезно при встрече с крупным мутантом.</text>
+		<text>An upgraded version of the AKMS. It entered the Zone through the black market. Popular among veterans, hunters and Duty due to the high stopping power of its rounds, which is very useful when encountering a large mutant.</text>
 	</string>
 	<string id="st_wpn_akspc">
-		<text>АКС-74УБ</text>
+		<text>AKS-74UB</text>
 	</string>
 	<string id="st_wpn_aksinr">
-		<text>«Антихрист»</text>
+		<text>Antichrist</text>
 	</string>
 	<string id="st_wpn_aksinr_descr">
-		<text>Оружие, пролежавшее около термической аномалии немалое количество времени. Следовательно, некоторые детали автомата подверглись процедуре закаления, тем самым увеличив некоторые свойства. Несмотря на ржавый внешний вид, все внутренние детали перебраны и смазаны. </text>
+			<text>Weapon left lying around thermal anomalies for a considerable amount of time. Consequently, some parts of the rifle were subjected to some kind of hardening procedure, thereby increasing some properties. Despite the rusty appearance, all internal parts are overamped and lubricated.</text>
 	</string>
 	<string id="st_wpn_aps_descr">
-		<text>9-мм автоматический пистолет Стечкина — автоматический пистолет, разработанный в конце 1940-х — начале 1950-х годов конструктором И. Я. Стечкиным и принятый на вооружение Вооружённых Сил СССР в 1951 году, одновременно с пистолетом Макарова. АПС предназначен для вооружения офицеров, принимающих непосредственное участие в боевых действиях, а также для солдат и сержантов некоторых специальных подразделений.</text>
+		<text>The Stechkin 9-mm automatic pistol is an automatic pistol developed in the late 1940s and early 1950s by designer I.Ya. Stechkin and adopted by the Armed Forces of the USSR in 1951, along with the Makarov pistol. The APS is intended for the arming of officers taking direct part in hostilities, as well as for soldiers and sergeants of some special units.</text>
 	</string>
 	<string id="st_wpn_bizon">
-		<text>ПП «Бизон»</text>
+		<text>PP Bizon</text>
 	</string>
 	<string id="st_wpn_bizon_descr">
-		<text>ПП-19 «Бизон» — пистолет-пулемёт, разработанный в 1993 году Виктором Михайловичем Калашниковым (сыном конструктора М. Т. Калашникова) и Алексеем Драгуновым (сыном Е. Ф. Драгунова). Оружие было создано по заказу МВД на основе конструкции автомата Калашникова АКС-74У (от которого заимствованы ствольная коробка и до 60 % остальных деталей), однако автоматика работает за счет энергии отдачи свободного затвора. Внешней отличительной особенностью этого пистолета-пулемёта является шнековый подствольный магазин ёмкостью до 64 патронов.</text>
+		<text>The PP-19 "bison" is a submachine gun developed in 1993 by Viktor Mikhailovich Kalashnikov (son of the designer M. T. Kalashnikov) and Alexey Dragunov (son of E. F. Dragunov). This weapon was created by order of the Ministry of Internal affairs on the basis of the Kalashnikov AKS-74U assault rifle (from which the receiver and up to 60% of the remaining parts were borrowed), but it uses a simple straight blowback method of operation, with an unlocked breech system which reduces cost and build complexity. The external distinctive feature of this submachine gun is a helical-feed magazine with a capacity of up to 64 rounds.</text>
 	</string>
 	<string id="st_wpn_bm16_full">
-		<text>ТОЗ-66</text>
+		<text>TOZ-66</text>
 	</string>
 	<string id="st_wpn_bm16_full_descr">
-		<text>Обычное охотничье ружьё-горизонталка. Ничем не примечательна. Одно из самых распространённых видов оружия у новичков. Боеприпасы: 12x70 «Дробь» — картечь, 12x76 «Жекан» — тяжёлая пуля.</text>
+		<text>A weapon that every stalker can afford, the TOZ 66 is a close range firearm possessing both reliability and effectiveness. However, being large and unwieldy, many stalkers prefer to spend their hard earned rubles on a modern handgun instead.</text>
 	</string>
 	<string id="st_wpn_coltkiller">
-		<text>Бесшумная Кора-919</text>
+		<text>Silenced Kora-919</text>
 	</string>
 	<string id="st_wpn_coltkiller_descr">
-		<text>Модификация популярного американского пистолета ХХ века. Имеет интегрированный глушитель, так же была повышена изностойкость, путем замены некоторых деталей на более качественные. Оружие настоящих киллеров. На рукояти выгравированы цифры «47».</text>
+		<text>Modification of a popular American pistol of the twentieth century. Has an integrated silencer, together with increased wear resistance obtained by replacing some parts with better quality ones. It's the weapon of real killers. The digits "47" are engraved on the handle.</text>
 	</string>
 	<string id="st_wpn_coltsinr">
-		<text>«Люцифер»</text>
+		<text>Lucifer</text>
 	</string>
 	<string id="st_wpn_coltsinr_descr">
-		<text>Оружие, пролежавшее долгое время около химической аномалии, что неоднозначно сказалось на его свойствах. Химические процессы позволили увеличить настильность, но в свою очередь не лучшим образом отразились на качестве внешних деталей пистолета, снизив прочность. Несмотря на ржавый внешний вид, все внутренние детали перебраны и смазаны. </text>
+		<text>This weapon had lain for a long time near chemical anomalies which had an anomalous impact on its properties. The chemical processes allowed to increase the pliability, but in turn did not affect the quality of the external parts of the pistol in the best way, reducing the strength. Despite the rusty appearance, all internal parts are fully working and lubricated.</text>
 	</string>
 	<string id="st_wpn_fn2000_nimble">
 		<text>FN F2000М</text>
 	</string>
 	<string id="st_wpn_fn2000_nimble_descr">
-		<text>Модернизированный экземпляр и без того любимой сталкерами-ветеранами штурмовой винтовки. Внутрь подствольного гранатомёта встроен грави-стабилизатор пули: это позволило значительно увеличить убойную силу.</text>
+		<text>The upgraded version of the assault rifle already beloved by master stalkers. It can fire gravity-stimulated slugs from the under-barrel mounted grenade launcher, allowing a significant increase in lethality and stopping power.</text>
 	</string>
 	<string id="st_wpn_gauss_greh">
-		<text>«Цербер»</text>
+		<text>Cerberus</text>
 	</string>
 	<string id="st_wpn_gauss_greh_descr">
-		<text>Разработано умельцами группировки «Грех» на основе «изделие №62». В отличие от своего предшественника, аккумуляторы используют энергию гравитационных артефактов, а не электрических что негативно сказалось на убойности и скорости пули, но увеличило отталкивающее действие и уменьшило вес оружия.</text>
+		<text>Developed by Sin craftsmen on the basis of "Project N.62". Unlike its predecessor, the batteries use the energy of gravitational artifacts, rather than electrical ones, which negatively affects the destructive force and speed of the bullet, but increases the repulsive effect and reduces the weight of the weapon.</text>
 	</string>
 	<string id="st_wpn_greh_toz">
-		<text>«Опустошитель»</text>
+		<text>Ravager</text>
 	</string>
 	<string id="st_wpn_greh_toz_descr">
-		<text>Данное ружье было найдено в заброшенных крематориях Греха, вследствие чего приобрело уникальный внешний вид и характеристики.</text>
+		<text>This gun was found in an abandoned Sin crematorium, and as a result acquired an unique appearance and characteristics.</text>
 	</string>
 	<string id="st_wpn_gsh">
-		<text>ГШ-18</text>
+		<text>GSh-18</text>
 	</string>
 	<string id="st_wpn_gsh_descr">
-		<text>Пистолет Грязева и Шипунова, разработанный в самом конце XX века в качестве современного армейского пистолета. Однако особого распространения пистолет не получил, массово не был закуплен ни правоохранительными органами, ни армейскими подразделениями. Достоинствами оружия можно назвать исключительно малый вес для своего класса, большую ёмкость магазина и неплохую кучность стрельбы. Недостатком можно считать открытый затвор, куда легко может проникнуть грязь в полевых условиях, что снижает надёжность оружия.</text>
+		<text>9 mm semi-automatic pistol developed by the KBP Instrument Design Bureau in Tula during the 1990s as a modern army pistol. This pistol did not receive a special distribution, nor was it mass-produced for law enforcement agencies or army units. Its main advantages are an extremely low weight for its class, a large magazine capacity and good shooting accuracy. Its main disadvantage is an open bolt, where dirt can easily penetrate into while in the field, reducing the weapon's reliability.</text>
 	</string>
 	<string id="st_wpn_m134">
 		<text>M134</text>
 	</string>
 	<string id="st_wpn_m134_descr">
-		<text>Также известный как «Миниган». Многоствольный скорострельный пулемёто, построенный по схеме Гатлинга. Привод поворота блока стволов — электрический. По всей видимости, такой на Зону всего один.</text>
+		<text>Also known as the "Minigun". Multi-barreled quick-firing machine gun, built according to the Gatling scheme. The drive rotation of the barrel block is electric. Apparently, this specimen is the only one in the whole Zone.</text>
 	</string>
 	<string id="st_wpn_p90">
 		<text>FN P90</text>
 	</string>
 	<string id="st_wpn_p90_descr">
-		<text>Бельгийский пистолет-пулемёт, разработанный фирмой FN Herstal. Был разработан, в первую очередь, для танкистов и водителей боевых автомобилей и машин. Имеет прогрессивный и удобный эргономичный дизайн. Ввиду своей компактности и практичности, иногда используется представителями сталкерских группировок.</text>
+		<text>Belgian submachine gun developed by FN Herstal. It was developed primarily for tank crews and drivers of military vehicles. Has a progressive and convenient ergonomic design. In view of its compactness and practicality, it is sometimes used by various stalker groups.</text>
 	</string>
 	<string id="st_wpn_rpk">
-		<text>РПК-74</text>
+		<text>RPK-74</text>
 	</string>
 	<string id="st_wpn_rpk_descr">
-		<text>Ручной пулемёт Калашникова РПК-74 построен на основе автомата АК-74, откуда и идентичная ему автоматика на основе газоотвода с запирание ствола поворотом затвора. Пользуется популярностью среди тяжеловооружённых сталкеров-ветеранов.</text>
+		<text>The Kalashnikov machine gun RPK-74 is built on the basis of the AK-74 assault rifle, from which the identical automation is based on the gas outlet with the barrel locking by turning the bolt. It is popular among heavily armed veteran stalkes.</text>
 	</string>
 	<string id="st_wpn_saiga">
-		<text>«Сайга-12С»</text>
+		<text>Saiga-12S</text>
 	</string>
 	<string id="st_wpn_saiga_descr">
-		<text>Сайга — охотничий карабин на базе автомата, выпускаемый разработчиками оригинального АК — Ижевским машиностроительным заводом. Самозарядное гладкоствольное ружьё (или гладкоствольный карабин как его именует производитель), может быть представлено в охотничьем-спортивном, охотничьем-промысловом, специальном служебном, тактическом или комбинированном исполнении. В конструкцию введён механизм блокировки, который не позволяет снять оружие с предохранителя до тех пор, пока не будет откинут приклад.</text>
+		<text>The Saiga-12 is a 12-gauge shotgun available in a wide range of configurations, patterned after the Kalashnikov series of rifles and named for the Saiga antelope. Like the Kalashnikov rifle variants, it is a rotating bolt, gas-operated gun that feeds from a box magazine. All Saiga-12 configurations are recognizable as Kalashnikov-pattern guns by the large lever-safety on the right side of the receiver, the optic mounting rail on the left side of the receiver and the large top-mounted dust cover held in place by the rear of the recoil spring assembly. The version S comes with an AK-style separate pistol grip and folding stock.</text>
 	</string>
 	<string id="st_wpn_tiss">
-		<text>ОЦ-12 «Тисс»</text>
+		<text>OTs-12 Tiss</text>
 	</string>
 	<string id="st_wpn_tiss_descr">
-		<text>Автомат, разработанный в Тульском Центральном КБ Спортивного и Охотничьего Оружия на базе АКС74У. Ключевое отличие — использование специальных дозвуковых патронов 9х39 мм, что повлекло за собой изменения в стволе, надульном устройстве, габаритах зеркала затвора и магазине. На 90% унифицирован с АКС-74У.</text>
+		<text>Fully automatic compact assault rifle developed in the Tula Central Design Bureau of Sport and Hunting Weapons on the basis of AKS74U. The main design changes from the AK-74 are in the bolt, barrel, muzzle-brake, and magazine. It is basically an AKS-74U re-chambered for 9x39 subsonic rounds, designed as alternative to the AKS-74U.</text>
 	</string>
 	<string id="st_wpn_toz34_obrez">
-		<text>Обрез ТОЗ-34</text>
+		<text>Sawed-off TOZ-34</text>
 	</string>
 	<string id="st_wpn_toz34_obrez_descr">
-		<text>Широко распространённый обрез охотничьего ружья-«вертикалки» благодаря достаточной точности и хорошему останавливающему действию обеспечивает более надёжную защиту от мутантов, чем пистолет. Очень дёшево и доступно в сравнении с большинством видов оружия, поэтому активно применяется новичками и бандитами на окраинах Зоны.</text>
+		<text>Intended for professional and amateur hunting the TOZ-34 is a over/under shotgun. Modifications made to this gun by removing much of the barrel and the stock makes this shotgun more compact and easier to carry. Popular among rookies and bandits as they can hide it easily in their trench coats.</text>
 	</string>
 	<string id="st_wpn_wincheastersinr">
-		<text>«Абаддон»</text>
+		<text>Abaddon</text>
 	</string>
 	<string id="st_wpn_wincheastersinr_descr">
-		<text>Производитель неизвестен. После детального осмотра оружия становится ясно, что оно пролежало долгое время около гравитационной аномалии, что положительно сказалось на убойности. Несмотря на ржавый внешний вид, все внутренние детали перебраны и смазаны.</text>
+		<text>Manufacturer unknown. After a detailed inspection, it becomes clear that it's been a long time near gravitational anomalies, which reduced its recoil when firing. Despite the rusty appearance, all internal parts are well lubricated and perfectly working.</text>
 	</string>
 	<string id="st_wpn_vsk">
-		<text>ВСК-94</text>
+		<text>VSK-94</text>
 	</string>
 	<string id="st_wpn_vsk_descr">
-		<text>Бесшумная снайперская винтовка ВСК-94 была разработана в Тульском КБП на основе автомата 9А-91 в качестве дешевого аналога ВСС Винторез. Кроме механического прицела, аналогичного 9А-91, винтовка комплектуется оптическим прицелом ПСО-1, адаптированным под баллистику используемых патронов с дозвуковой скоростью пули. Эффективный глушитель значительно снижает уровень звука при выстреле и полностью исключает дульное пламя. Это обеспечивает скрытное уничтожение целей на дальности до 400 м.</text>
+		<text>The silenced sniper rifle VSK-94 was developed in the Tula KBP on the basis of the 9A-91 assault rifle as a cheap analogue of the VSS Vintorez. In addition to the mechanical sight, similar to the one mounted on te 9A-91, the rifle is equipped with a PSO-1 optical sight, adapted for the ballistics of subsonic bullets. The effective silencer significantly reduces the sound level when firing and completely eliminates muzzle flames. This ensures covert elimination of targets at ranges up to 400 m.</text>
 	</string>
 </string_table>

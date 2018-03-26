@@ -39,14 +39,14 @@
 	<string id="ecolog_outfit_orn_description">
 		<text>The SSP-99 chemical protection suit is specially designed by the Ecologists for use in the Zone. The suit has an integrated air-filtering and air-conditioning system, it is also heat and electricity resistant and provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides little bullet and splinter protection. The suit has two artefact containers.</text>
 	</string>
-	
+
 	<string id="ecolog_outfit_grn_name">
 		<text>SSP-99M protection suit</text>
 	</string>
 	<string id="ecolog_outfit_grn_description">
 		<text>The SSP-99M chemical protection suit is specially designed for scientific expeditions into the Zone. The SSP-99M is a high quality modified SSP-99 suit. It provides increased body protection from bullets and splinters, as it was designed for guards working with scientific expeditions. The suit has two artefact containers.</text>
 	</string>
-	
+
 	<string id="ecologist_guard_outfit_name">
 		<text>Ecologist guard suit</text>
 	</string>
@@ -487,146 +487,146 @@
 
 	<!-- Ecologists -->
 	<string id="specops_ecolog_outfit_name">
-		<text>«УЗК-5»</text>
+		<text>UZK-5</text>
 	</string>
 	<string id="specops_ecolog_outfit_description">
-		<text>Модифицированная версия армейского бронежилета Берилл-5М, созданная специально для работы в жёстких условиях Зоны. В составе: средний армейский бронежилет, усиленный титановыми пластинами двухслойный костюм и шлем Сфера-08. В результате улучшения стойкости к условиям внешней среды, у костюма появилась неплохая защита от аномальных воздействий, однако, пострадала пулестойкость.</text>
+		<text>A modified version of the army bullet-proof vest Beryl-5M, created specifically to work in the harsh conditions of the Zone. It's composed of s standard army body armor reinforced with titanium plates, a two-layer suit and a Sphere-08 helmet. As a result of improving the resistance to environmental conditions, the suit has a good protection against abnormal influences; however, bullet resistance has suffered.</text>
 	</string>
 
 	<!-- Loners -->
 	<string id="scientific_germ_outfit_name">
-		<text>Гермокомбинезон</text>
+		<text>Thermo-Suit</text>
 	</string>
 	<string id="scientific_germ_outfit_description">
-		<text>Кустарная модификация обычного костюма, дополненный антирадиационной защитой и баллонами с научного защитного костюма. Видимо, сталкерам не хватало денег на научный и они начали модифицировать свой, повысив ему защиту от ПСИ.</text>
+		<text>Artisan modification of the usual stalker suit, complemented by anti-radiation protection and a closed-cycle respiratory module taken from a scientific protective suit. Apparently, stalkers did not have enough money for a proper scientific suit and they began to modify their own, raising their protection from psi-waves.</text>
 	</string>
 
 	<string id="tourist_outfit_name">
-		<text>Комбинезон туриста</text>
+		<text>Tourist's overalls</text>
 	</string>
 	<string id="tourist_outfit_description">
-		<text>Бывший хозяин этой вещи был настоящим туристом, и, видать, не раз хаживал в тяжёлые, на грани человеческих возможностей походы. Он знал, как правильно распределить вес, который нёс и каким вещам отдать предпочтение.Благодаря снижению веса костюма без вреда защите,позволяет нести больший вес.</text>
+		<text>The former owner of this thing was a real tourist, and, it's seen, more than once he was hiking in difficult paths, on the verge of human abilities. He knew how to correctly distribute the weight that he carried and to what things give preference. Due to the weight reduction of the outfit without harm to the protection, it allows carrying more weight.</text>
 	</string>
 
 	<string id="magic_outfit_name">
-		<text>Заколдованный Комбенизон</text>
+		<text>Enchanted Suit</text>
 	</string>
 	<string id="magic_outfit_description">
-		<text>Пролежав долгое время в аномалии, комбинезон приобрёл способность отталкивать пули. Окончательно остановить пулю он не в состоянии, но способен понизить её энергию ещё до физического контакта, тем самым оберегая своего хозяина.</text>
+		<text>After lying in an anomaly for a long time, this suit acquired the ability to repel bullets. It actually can't stop bullets, but is able to lower their energy even before physical contact, thereby protecting its wearer.</text>
 	</string>
 
 	<string id="novup_outfit_name">
-		<text>Уплотнённая куртка</text>
+		<text>Padded suit</text>
 	</string>
 	<string id="novup_outfit_description">
-		<text>В основе это обычная сталкерская куртка, но за счёт вшитого уплотнителя (толстого войлока) повышены защитные характеристики, особенно от когтей и порезов.</text>
+		<text>It's basically a standard stalker jacket, but due to the woven sealing (thick felt), it offers enhanced protective characteristics, especially from claws and cuts.</text>
 	</string>
 
 	<string id="noval_outfit_name">
-		<text>Аномальная кожанка</text>
+		<text>Anomalous jacket</text>
 	</string>
 	<string id="noval_outfit_description">
-		<text>Эту куртку сняли с трупа одного из сталкеров, умерших в аномалии «кисель». Пролежав долгое время в аномалии, куртка значительно повысила устойчивость к огню и химическим воздействиям.</text>
+		<text>This jacket was removed from the corpse of a stalker who died in the Fruit Punch anomaly. Having lain for a long time in the anomaly, this jacket significantly increases resistance to fire and chemical influences.</text>
 	</string>
 
 	<!-- Freedom -->
 	<string id="svoboda_novice_outfit_description">
-		<text>Устаревшая модель стандартного комбинезона «Cвободы». Даёт слабую защиту от аномального воздействия. Встроенный бронижилет сможет защитить только от пистолетных пуль.</text>
+		<text>Obsolete model of the standard Freedom suit. Provides little protection against anomalous exposure. The built-in body armor can only protect from pistol bullets.</text>
 	</string>
 
 	<string id="svobodam1_light_outfit_name">
-		<text>«Ветер Свободы» М2</text>
+		<text>Wind of Freedom M2</text>
 	</string>
 	<string id="svobodam1_light_outfit_description">
-		<text>Производимый ремесленниками группировки «Свобода» облегченный комбинезон сталкера. Легкий армейский бронежилет плюс накладные усиливающие кевларовые элементы. В комбинезон интегрирована металлическая сетка, защищающая от электрических и магнитных полей. В комплект также включён прибор ночного видения.</text>
+		<text>Made by artisans of the Freedom faction as a lightweight suit designed for stalkers. It consists of a light army body armor coupled with additional reinforcing kevlar elements. The suit has an integrated metal mesh, protecting from electric and magnetic fields. It also includes a night vision device.</text>
 	</string>
 
 	<!-- Mercenaries -->
 	<string id="mercup_outfit_name">
-		<text>Укреплённый комбинезон Наёмника</text>
+		<text>Reinforced Mercenary suit</text>
 	</string>
 	<string id="mercup_outfit_description">
-		<text>Броня была усиленна набором бронепластин и кольчужной сеткой, которые улучшили защиту от огнестрельного оружия и укусов монстров. В остальном это обычный комбинезон группировки «Наёмники». В комплект также включён ПНВ.</text>
+		<text>The armor was reinforced using a set of armored plates and chain mail, improving the protection from firearms and monster bites. Otherwise it's a standard Mercenary suit. It also includes a night-vision device.</text>
 	</string>
 
 	<!-- Bandits -->
 	<string id="basta_outfit_name">
-		<text>Кольчужная куртка</text>
+		<text>Chain mail jacket</text>
 	</string>
 	<string id="basta_outfit_description">
-		<text>В подкладку этой куртки было вшито кольчужное полотно, изготовленное из калёной проволоки каким-то странным мастером. Кольчуга прекрасно защищает от укусов и порезов, но совершенно не эффективна против пуль и аномалий. К тому же добавление металла сделало куртку тяжелее.</text>
+		<text>In the lining of this jacket was sewn a chain mail fabric made of wire. The chain mail perfectly protects from bites and cuts, but it is completely ineffective against bullets and anomalies. On top of that, the addition of metal made the jacket quite heavier.</text>
 	</string>
 
 	<!-- Military -->
 	<string id="military_novice_outfit_name">
-		<text>Армейский бронежилет ПСЗ-7</text>
+		<text>Army bullet-proof vest PSZ-7</text>
 	</string>
 	<string id="military_novice_outfit_description">
-		<text>Армейский бронежилет серии ПСЗ-7 обеспечивает уровень защиты, достаточный для проведения боевых операций против легковооружённого противника.</text>
+		<text>The army body armor series PSZ-7 provides a level of protection sufficient to conduct combat operations against a lightly armed enemy.</text>
 	</string>
 
 	<!-- Sin -->
 	<string id="greh_outfit_name">
-		<text>Плащ «греховца»</text>
+		<text>Sinner Cloak</text>
 	</string>
 	<string id="greh_outfit_description">
-		<text>С виду — обычный кожаный плащ, испорченный зубами слепых псов и простреленный всеми возможными калибрами. Однако, при детальном осмотре становится ясно, что в плащ особым способом вшиты кусочки артефактов, защищающих человека от проникающего воздействия радиации. Пока что среди сталкеров не нашлось смельчака, который готов встать в очаг в этом плаще. Непопулярности этому плащу добавляют легенды об ужасных смертях сталкеров, как-то запятнавшими себя контактом с этой проклятой одеждой.</text>
+		<text>In appearance it looks like an ordinary leather cloak, spoiled by the teeth of blind dogs and shot through with all possible calibers. However, on closer inspection it becomes clear that pieces of artifacts were sewn in a particular way inside the cloak, protecting the wearer from radiation exposure. So far, among the stalkers there was no daredevil who was ready to wear a cloak such as this one. Unpopularity of this cloak is added by legends about the terrible deaths of stalkers who dared to wear it, somehow stained with contact with this accursed clothing.</text>
 	</string>
 
 	<string id="greh_outfit_heavy">
-		<text>Кевларовый плащ «греховца»</text>
+		<text>Sinner Heavy Cloak</text>
 	</string>
 	<string id="greh_outfit_heavy_description">
-		<text>Производитель неизвестен. В плащ особым методом «вплавлены» кевларовые пластины, вероятно, посредством аномального воздействия термической природы, что обеспечивает своему владельцу защиту, сравнимую с армейскими бронежилетами. Так же при детальном осмотре становится ясно, что в плащ особым способом вшиты кусочки артефактов, защищающих человека от проникающего воздействия радиации. Пока что среди сталкеров не нашлось смельчака, который готов встать в очаг в этом плаще. Непопулярности этому плащу добавляют легенды об ужасных смертях сталкеров, как-то запятнавшими себя контактом с этой проклятой одеждой.</text>
+		<text>Manufacturer unknown. A cloak in which Kevlar plates were "fused" in a special way, probably through an anomalous thermal effect, which provides their owner with a protection comparable to an army body armor. Also, on closer inspection it becomes clear that pieces of artifacts were sewn in a particular way inside the cloak, protecting the wearer from radiation exposure. So far, among the stalkers there was no daredevil who was ready to wear a cloak such as this one. Unpopularity of this cloak is added by legends about the terrible deaths of stalkers who dared to wear it, somehow stained with contact with this accursed clothing.</text>
 	</string>
 
 	<string id="greh_outfit_anomaly">
-		<text>Аномальный плащ «греховца»</text>
+		<text>Sinner anomalous cloak</text>
 	</string>
 	<string id="greh_outfit_anomaly_description">
-		<text>По преданиям, в этом плаще совершают жертвоприношения жрецы группировки «Грех», и таких на всю Зону и десяти штук не сосчитать. Грамотно скомпонованные артефакты и кевларовые пластины дают своему владельцу почти полную неуязвимость от любых воздействий, встречающихся в Зоне. Ходят легенды, что одевший этот плащ не сможет снять его уже никогда. При осмотре чувствуется, как от него разливается тепло и слышится еле различимый шёпот.</text>
+		<text>According to legend, in this cloak sacrifices are made by the priests of the Sin faction, and apparently there's only ten of these in the whole Zone. Competently arranged artifacts and Kevlar plates give their owner almost complete invulnerability from any influences found in the Zone.  Legend has it that the wearer of this cloak won't ever be able to remove it. When you look at it, you can feel a warmth spreading from it and you can hear a barely discernible whisper.</text>
 	</string>
 
 	<string id="exo_min_name">
-		<text>Экзоскелет «Минотавр»</text>
+		<text>Minotaur Exoskeleton</text>
 	</string>
 	<string id="exo_min_description">
-		<text>Очень редкий образец экзоскелета. Разработанный умельцами группировки «Грех». Кроме стандартных свойств присущим экзоскелетам, имеет несколько уникальных.</text>
+		<text>Very rare exoskeleton variant. Developed by Sin craftsmen. Besides the standard properties inherent to an exoskeleton, is somewhat unique.</text>
 	</string>
 
 	<!-- Helmets -->
 	<string id="helm_brain_name">
-		<text>«BRAIN-6»</text>
+		<text>BRAIN-6</text>
 	</string>
 	<string id="helm_brain_descr">
-		<text>Экспериментальный эмулятор мозговых волн (BRAIN-6) - прибор, который экранирует электрическую активность мозга, вводя в заблуждение телепатов мутантов. Создатель этого устройства также включил в него несъемный ПНВ.</text>
+		<text>Experimental brain wave emulator (BRAIN-6) - a device that shields the electrical activity of the brain while emitting jamming signals, misleading telepathic mutants. The Creator of this device has also included a fixed night vision module.</text>
 	</string>
 
 	<string id="st_helm_respirator_mask">
-		<text>Респиратор-полумаска</text>
+		<text>Half-mask respirator</text>
 	</string>
 	<string id="st_helm_respirator_mask_descr">
-		<text>Cредство индивидуальной защиты органов дыхания, обеспечивающее минимальную защиту от попадания вредных газов и радиоактивной пыли.</text>
+		<text>Personal respiratory protection mask, which provides minimal protection against harmful gases and radioactive dust.</text>
 	</string>
 
 	<string id="st_helm_scarf">
-		<text>Шарф-маска</text>
+		<text>Cloth mask</text>
 	</string>
 	<string id="st_helm_scarf_descr">
-		<text>За неимением лучшего, эта тряпка защитит от ветра и вредоносной пыли, однако, надеятся на неё не стоит. Сталкеры с сомнительной репутацией часто носят такие, чтобы скрыть свою личность.</text>
+		<text>A simple piece of cloth, folded into a mask. It is often used by stalkers to prevent dangerous particles from entering the body, as a precautionary measure. It's surely better than nothing. Often worn by stalkers with a dubious reputation to conceal their identity.</text>
 	</string>
 
 	<string id="st_helm_exo">
-		<text>«СФЕРА S-10»</text>
+		<text>SPHERE S-10</text>
 	</string>
 	<string id="st_helm_exo_descr">
-		<text>Алюминиево-титановый шлем с карманами для стальных бронеэлементов и бронемаской, лишённый какой-либо маркировки. Обычно поставляется в комплекте с экзоскелетом. Очень редок в Зоне из-за своей высокой цены и противоречивых свойств. Не обеспечивает защиту от аномалий или радиации, но способен отклонить прилетевшую по касательной пулю среднего калибра. Предусмотрена возможность установки прибора ночного видения.</text>
+		<text>Aluminum-titanium helmet with pockets for steel armored elements and armor ballistic bullet proof face mask, devoid of any marking. Usually comes complete with an exoskeleton. Very rare in the Zone because of its high price and conflicting properties. It does not provide protection against anomalies or radiation, but it is capable of deflecting a medium-caliber bullet that has arrived at an angle. It can be fitted with a night vision device.</text>
 	</string>
 
 	<string id="st_helm_greh">
-		<text>Ритуальная маска</text>
+		<text>Ritual mask</text>
 	</string>
 	<string id="st_helm_greh_descr">
-		<text>Ритуальная маска группировки «Грех». Используется «Грешниками» во время проведения ритуалов для защиты от пси-излучения. Больше положительных свойств не обнаружено.</text>
+		<text>Ritual mask of the Sin group. Used by "Sinners" during rituals to protect against psi-radiation. It has no other positive qualities.</text>
 	</string>
 </string_table>

@@ -111,7 +111,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_mm_atmosfear_texts.xml](gamedata/configs/text/eng/st_mm_atmosfear_texts.xml)
 		- done
 	- [st_mm_faction_select.xml](gamedata/configs/text/eng/st_mm_faction_select.xml)
-		- in progress (new faction descriptions need translating)
+		- done
 	- [st_quests_agroprom.xml](gamedata/configs/text/eng/st_quests_agroprom.xml)
 		- done
 	- [st_quests_bar.xml](gamedata/configs/text/eng/st_quests_bar.xml)

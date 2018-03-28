@@ -28,7 +28,7 @@ A list of all files with their detailed progress can be found below.
 
 - **configs/text/eng:**
 	- [events_texts.xml](gamedata/configs/text/eng/events_texts.xml)
-		- in progress
+		- done
 	- [izmer_mod_string.xml](gamedata/configs/text/eng/izmer_mod_string.xml)
 		- done
 	- [izmer_mpd_config.xml](gamedata/configs/text/eng/izmer_mpd_config.xml)

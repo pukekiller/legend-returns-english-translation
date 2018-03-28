@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="sinoptik_message_0">
-		<text>Синоптик:</text>
+		<text>Weather forecast:</text>
 	</string>
 	<string id="sinoptik_message_1">
-		<text>Погода сегодня тёплая и ничего не происходит.</text>
+		<text>The weather is warm today and nothing happens.</text>
 	</string>
 
 	<string id="sos_event_0">
-		<text>Сигнал SOS:</text>
+		<text>SOS signal:</text>
 	</string>
 	<string id="sos_event_1">
-		<text>Сталкеры, помогите, я в тоннеле возле железнодорожной насыпи! Помогите, а то копыта двину! Блин, да есть кто-нибудь рядом?!</text>
+		<text>Stalkers, help, I'm in the tunnel near the railway embankment! Help, hurry up! Damn, is there anyone around here?!</text>
 	</string>
 
 	<string id="case_event_0">
@@ -22,23 +22,23 @@
 	</string>
 
 	<string id="controller_event_0">
-		<text>На блокпосту какая-то ахинея творится. Ребята, лучше из насиженных мест не высовывайтесь, пока всё не утихнет.</text>
+		<text>Some nonsense is happening at the checkpoint. Guys, it's better to steer away from there until everything stops.</text>
 	</string>
 
 	<string id="agr_event_0">
-		<text>Видел как вояки раскопали какие-то документы. Думаю, торговцы хорошо заплатят за эти документы.</text>
+		<text>I saw a group of soldiers unearth some documents. I think traders will pay well for these documents.</text>
 	</string>
 
 	<string id="bar_event_0">
-		<text>Проклятые мутанты лезут в Бар! Ребята, поможем отбиться!</text>
+		<text>Damned mutants are trying to enter into the Bar! Guys, help us fight them back!</text>
 	</string>
 
 	<string id="ros_event_0">
-		<text>Помогите, СОС! Тут стрёмный мутант! Я на стройке!</text>
+		<text>Help, SOS! There's a powerful mutant! I'm at the construction site!</text>
 	</string>
 
 	<string id="mil_event_0">
-		<text>Помогите отбиться от мутантов! Мы на военной базе!</text>
+		<text>We need help fighting off the mutants! We are at the military base!</text>
 	</string>
 
 	<string id="esc_event_case_1">
@@ -61,6 +61,6 @@
 		<text>A container. Sidorovich may have use for it.</text>
 	</string>
 	<string id="agr_event_case_descr">
-		<text>Кейс, который нужен торговцам. Можно продать за хорошую цену.</text>
+		<text>A case that traders need. You can sell for a good price.</text>
 	</string>
 </string_table>

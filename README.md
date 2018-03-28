@@ -56,7 +56,8 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_deadcity.xml](gamedata/configs/text/eng/st_dialogs_deadcity.xml)
 		- done
 	- [st_dialogs_escape.xml](gamedata/configs/text/eng/st_dialogs_escape.xml)
-		- merged with Call of Chernobyl 1.5, awaiting translation
+		- merged with Call of Chernobyl 1.5
+		- in progress
 	- [st_dialogs_habarwik.xml](gamedata/configs/text/rus/st_dialogs_habarwik.xml)
 		- in progress
 	- [st_dialogs_jupiter.xml](gamedata/configs/text/eng/st_dialogs_jupiter.xml)
@@ -120,7 +121,8 @@ A list of all files with their detailed progress can be found below.
 	- [st_quests_deadcity.xml](gamedata/configs/text/eng/st_quests_deadcity.xml)
 		- done
 	- [st_quests_escape.xml](gamedata/configs/text/eng/st_quests_escape.xml)
-		- merged with Call of Chernobyl 1.5, awaiting translation
+		- merged with Call of Chernobyl 1.5
+		- done
 	- [st_quests_habarwik.xml](gamedata/configs/text/rus/st_quests_habarwik.xml)
 		- not started
 	- [st_quests_legendreturns.xml](gamedata/configs/text/rus/st_quests_legendreturns.xml)

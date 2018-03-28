@@ -18,16 +18,16 @@
 	</string>
 	<!-- ASSAULT BANDIT BASE FOR SIDOROVICH TASK -->
 	<string id="esc_m_trader_task_1_name">
-		<text>Расправа</text>
+		<text>Massacre</text>
 	</string>
 	<string id="esc_m_trader_task_1_text">
-		<text>Ликвидировать отряд сталкеров-должников, которые скрываются в «Слизнях».</text>
+		<text>Eliminate a group of indebted stalkers that are hiding among the Black Slugs.</text>
 	</string>
 	<string id="esc_m_trader_task_1_about">
-		<text>Вот очередной раз убеждаюсь, что не надо делать добро бесплатно! Были тут одни зяблики, которые наобещали мне кучи артефактов со Свалки натаскать, затарились в долг снарягой, мягко говоря, по уши, да свалили! Чисто из принципа - помоги мне рассправиться с ними! Они сейчас в рядах «слизней» прячутся. За мной не заржавеет.</text>
+		<text>Once again I have the proof that is never a good thing doing good for free! Some finches here promised me a lot of artifacts from the Garbage in exchange for weapons and equipment; they indebted themselves, to put it mildly, up to their ears, and now interests are piling up! Purely out of principle - help me deal with them! They are now hiding in the ranks of the Black Slugs. I'll be paying you good money for it.</text>
 	</string>
 	<string id="esc_m_trader_task_1_finish">
-		<text>Хорошая работа. А хорошая робота хорошо оплачивается.</text>
+		<text>Good job. A good job deserves a good reward.</text>
 	</string>
 	<!-- ASSASSINATION FOR SIDOROVICH TASK -->
 	<string id="esc_m_trader_task_2_name">
@@ -102,90 +102,90 @@
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_fetch_finish">
 		<text>Yes, yes! Here is some cash, you deserve it.</text>
-	</string>			
+	</string>
 
 	<!-- Legend Returns -->
 	<!-- Assault the vehicle station for Wolf -->
 	<string id="esc_2_12_stalker_wolf_task_3_name">
-		<text>Уничтожить бандитов на АТП</text>
+		<text>Eliminate the bandits in the vehicle station</text>
 	</string>
 	<string id="esc_2_12_stalker_wolf_task_3_text">
-		<text>Организовать нападение на АТП и уничтожить бандитов, занимающих локацию.</text>
+		<text>Organize an assault on the vehicle station and destroy the bandits occupying the location.</text>
 	</string>
 	<string id="esc_2_12_stalker_wolf_task_3_about">
-		<text>Бандиты снова захватили АТП. Эти сволочи грабят и убивают всех, кто пользуется этой дорогой к деревне. Они отпугивают новичков, которые надеются найти тут убежище... В общем, нужно, чтоб ты о них «позаботился». Соглашайся! Пойдёшь ты не один, а ещё два добровольца.</text>
+		<text>The bandits captured the vehicle station again. These bastards rob and kill everyone who uses this road to the village. They frighten off newcomers who hope to find shelter here... Anyway, you must take care of them. Come on! You won't go alone, you'll have two volunteers watching your back.</text>
 	</string>
 	<string id="esc_2_12_stalker_wolf_task_3_finish">
-		<text>Отлично сработал, сталкер! Держи, от чистого сердца.</text>
+		<text>Well done, stalker! Here, right from my heart.</text>
 	</string>
 
-	<!-- Сердце для Сидора -->
+	<!-- Heart for Sidor -->
 	<string id="esc_2_12_stalker_trader_small_quest_title_0">
-		<text>Поручение Сидоровича: найти Компас</text>
+		<text>Sidorovich's commission: find the Compass</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_small_quest_text_0">
-		<text>Сидорович попросил найти артефакт - Компас.</text>
+		<text>Sidorovich asked you to find an artifact - the Compass.</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_small_quest_title_1">
-		<text>Поручение Сидоровича: найти Компас</text>
+		<text>Sidorovich's commission: find the Compass</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_small_quest_text_1">
-		<text>Вернуться к торговцу.</text>
+		<text>Get back to the trader.</text>
 	</string>
 
 	<string id="esc_2_12_stalker_trader_small_quest_title_3">
-		<text>Поручение Сидоровича: Принести обещанный артефакт торговцу</text>
+		<text>Sidorovich's commission: Bring the promised artifact to the trader</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_small_quest_text_3">
-		<text>«Компас» найден. Необходимо отдать его Сидоровичу и потребовать справедливую награду.</text>
+		<text>You have found the Compass. You must give it to Sidorovich and demand a fair reward.</text>
 	</string>
 
 	<!-- hanter_task -->
 	<string id="habarwik_task1_title_0">
-		<text>Наследие Хабарщика: Разузнать о матёром сталкере</text>
+		<text>Khabarschik's Legacy: Learn about the seasoned stalker</text>
 	</string>
 	<string id="habarwik_task1_text_0">
-		<text>В деревне обитал сталкер, по слухам который где-то спрятал свой хабар</text>
+		<text>In the village lived a stalker who, according to rumors, hid all his bountiful loot somewhere</text>
 	</string>
 	<string id="habarwik_task1_title_1">
-		<text>Наследие Хабарщика: Найти все тайники сталкера</text>
+		<text>Legacy of Khabarschik: Find all the stashes of the stalker</text>
 	</string>
 	<string id="habarwik_task1_text_1">
-		<text>Ну и задачку подкинул мне этот сталкер! Следует изрядно попотеть и отыскать все спрятанные им вещи.</text>
+		<text>Well, this stalker gave me a serious puzzle! I'll have to sweat a good deal to find all things hidden by him.</text>
 	</string>
 
 	<!-- Хабарщик -->
 	<string id="hanter_task_title_0">
-		<text>Уничтожить логово кровососов</text>
+		<text>Destroy the bloodsucker's den</text>
 	</string>
 	<string id="hanter_task_text_0">
-		<text>Охотник попросил уничтожить логово кровососов</text>
+		<text>Hunter asked you to destroy the bloodsucker's lair</text>
 	</string>
 	<string id="hanter_task_title_1">
-		<text>Уничтожить логово кровососов</text>
+		<text>Destroy the bloodsucker's den</text>
 	</string>
 	<string id="hanter_task_text_1">
-		<text>Задание выполнено. Можно идти за наградой</text>
+		<text>The job's done. You can head back for a reward.</text>
 	</string>
 
-	<!-- Убить Йогу -->
+	<!-- Kill Yoga -->
 	<string id="esc_2_12_stalker_trader_quest1_title_0">
-		<text>Поручение Сидоровича: Убить Йогу</text>
+		<text>Sidorovich's Mission: Kill Yoga</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_text_0">
-		<text>Сидорович дал задание убить пахана бандитов.</text>
+		<text>Sidorovich ordered you to kill the bandit's chieftain</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_title_1">
-		<text>Поручение Сидоровича: Убить Йогу</text>
+		<text>Sidorovich's Mission: Kill Yoga</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_text_1">
-		<text>Бугор бандитов мёртв. Можно идти за наградой.</text>
+		<text>The bandit's big cheese is dead. You can head back for a reward.</text>
 	</string>
 
 	<string id="esc_2_12_stalker_trader_quest1_title_3">
-		<text>Поручение Сидоровича: Убить Йогу</text>
+		<text>Sidorovich's Mission: Kill Yoga</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_text_3">
-		<text>Йога на том свете, нужно взять награду.</text>
+		<text>Yoga is in the afterlife, you can now cash in your reward.</text>
 	</string>
 </string_table>

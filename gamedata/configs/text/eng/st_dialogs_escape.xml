@@ -41,7 +41,7 @@
 	<string id="esc_2_12_stalker_nimble_no">
 		<text>I'm not sure you have the right person.</text>
 	</string>
-	
+
 	<string id="esc_2_12_stalker_nimble_about_0">
 		<text>Can you answer a couple of questions?</text>
 	</string>
@@ -348,31 +348,31 @@
 		<text>Ave.</text>
 	</string>
 	<string id="avgust_dialog_2_0">
-		<text>Привет, а ты кто? Вижу, на тебе форма военстала.</text>
+		<text>Hi, who are you? I see you're wearing a uniform.</text>
 	</string>
 	<string id="avgust_dialog_2_1">
-		<text>Salve. Я Август, будем знакомы. До недавнего времени я был военным сталкером. Но теперь я ушел в отставку. Помогаю тут местным.</text>
+		<text>Salve. I'm Augustus, nice to meet you. Until recently, I was a military Stalker. But now I'm retired. Helping the locals here.</text>
 	</string>
 	<string id="avgust_dialog_2_3">
-		<text>Почему тебя кличут Августом?</text>
+		<text>Why do they call you Augustus?</text>
 	</string>
 	<string id="avgust_dialog_2_4">
-		<text>На большой земле я был историком, увлекался Древним Римом. Освоил латынь. За это меня и прозвали Августом.</text>
+		<text>While I was living in the big earth I was a historian, I was quite fond of ancient Rome. Mastered Latin. That's why I was nicknamed Augustus.</text>
 	</string>
 	<string id="avgust_dialog_2_5">
-		<text>Что интересного можешь рассказать про военсталов?</text>
+		<text>What interesting things can you tell me about being a military stalker?</text>
 	</string>
 	<string id="avgust_dialog_2_6">
-		<text>Это что-то вроде элиты. Специальные войска, подготовленные к операциям внутри периметра зоны. Занимаются в основном разведкой и картографированием. Заметишь военстала, лучше обойди его стороной. Они те еще ребята.</text>
+		<text>It's something like an elite. Special troops prepared for operations inside the perimeter of the Zone. They are mainly engaged in reconnaissance and mapping. If you spot stalkers dressed in a military style, you'd be better off trying to avoid them. They are dangerous guys.</text>
 	</string>
 	<string id="avgust_dialog_2_7">
-		<text>Спасибо за рассказ.</text>
+		<text>Thanks for telling me.</text>
 	</string>
 	<string id="avgust_dialog_2_8">
 		<text>Vale.</text>
 	</string>
 	<string id="avgust_dialog_3">
-		<text>Привет.</text>
+		<text>Greetings.</text>
 	</string>
 	<string id="barmen_find_artefact_1">
 		<text>Найти артефакт «Ломоть мяса»</text>
@@ -510,7 +510,7 @@
 		<text>Да брось, парень... Иди с Богом... Прямой дороги тебе.</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_0">
-		<text>А есть высокооплачиваемая работа?</text>
+		<text>Do you have any high-paying job?</text>
 	</string>
 	<string id="esc_2_12_stalker_trader_quest1_1">
 		<text>Всегда найдётся. На этот раз нужно, хех, нейтрализовать местного бандитского авторитета, Йогой его кличат.</text>
@@ -654,7 +654,7 @@
 		<text>Принести заказчику обещанное.</text>
 	</string>
 	<string id="sidorovich_info_0">
-		<text>Мне нужны ответы на кое-какие вопросы.</text>
+		<text>I need answers to some questions.</text>
 	</string>
 	<string id="sidorovich_info_1">
 		<text>Спрашивай, только я ведь всего не знаю. Сам понимаешь, сижу тут целыми днями, а жизнь - она вся там, снаружи, в Зоне. Могу рассказать о Зоне вообще, а немного могу о ближайших окрестностях, где сам ходил.</text>
@@ -714,16 +714,16 @@
 		<text>Охраняют, что ж ещё! То ли саму Зону, то ли остальной мир от неё - непонятно. Иногда сюда целые экспедиции проходят, ищут что-то... \nНо я тебе вот что скажу. Военные Зону не уважают, так она их за это тоже не любит. То и дело цинковые гробы увозят. Ну, что ещё сказать... Смотрят на всех свысока, как будто богами тут заделались. Сталкеровские законы не чтут, на помощь никогда не придут, хоть на глазах у них погибать будешь. Пристрелить могут - это да, запросто, не наказывают их за это... Правда, кое с кем я нашёл общий язык. Нужно же людям водку, журнальчики там разные где-то доставать? Ну, ты понимаешь, о чём я. Но попусту их не зли - смахнут и не заметят.</text>
 	</string>
 	<string id="tm_find_artefact_1">
-		<text>Найти артефакт «Медуза»</text>
+		<text>Find the Jellyfish artifact</text>
 	</string>
 	<string id="tm_find_artefact_1_descr">
-		<text>Найти артефакт «Медуза», образующийся в аномалии «Трамплин».</text>
+		<text>Find the Jellyfish artifact, which forms in the Springboard anomaly.</text>
 	</string>
 	<string id="tm_find_artefact_1_text">
-		<text>Мне тут один человек с Большой земли заказал «Медузу». Работа непыльная и деньги небольшие, зато обернешься быстро. Соглашайся!</text>
+		<text>One person from the Big Land ordered a Jelliyfish. It's a cushy job and you won't get much money out of it, but you'll complete it quickly. Come on, get to it!</text>
 	</string>
 	<string id="tm_find_artefact_2">
-		<text>Найти артефакт «Каменный цветок»</text>
+		<text>Find the Stone Flower artifact</text>
 	</string>
 	<string id="tm_find_artefact_2_descr">
 		<text>Найти артефакт «Каменный цветок», образующийся в аномалии «Трамплин». Заплатить за него должны неплохо.</text>
@@ -822,23 +822,23 @@
 		<text>Зима скоро. А что зимой там, на большой земле, бабы носить любят? Правильно! Меха носить они любят. Вот и пошла мода новая, из хвостов псевдо собак аксессуары всякие делать. Шерсть там какая то особенная! Короче, есть заказ на такой хвост. Возьмешься?</text>
 	</string>
 	<string id="vip">
-		<text>Я по поводу задания.</text>
+		<text>I'm on it.</text>
 	</string>
 	<string id="vozm">
-		<text>Берусь.</text>
+		<text>I'll take it.</text>
 	</string>
 
 	<string id="prinesi_military_docs_start_0">
-		<text>Здорова Сидорович! Есть для меня какая-нибудь работа?</text>
+		<text>Good day Sidorovich! Is there any work for me?</text>
 	</string>
 	 <string id="prinesi_military_docs_start_1">
-		<text>Есть кое-что, говорят военные задумали что-то по захвату некоторых территорий Зоны, и здесь, на блок-посте лежат те самые документы с их планами, мне нужны эти документы.</text>
+		<text>There is something indeed; rumor has it that the military has hatched a plan, something about seizing some areas of the Zone; and here, in the checkpoint south of here, there are the very documents with their plans. I need these documents.</text>
 	</string>
 	<string id="prinesi_military_docs_start_21">
-		<text>Берусь</text>
+		<text>I'll take it.</text>
 	</string>
 	<string id="prinesi_military_docs_start_22">
-		<text>Знаешь, пожалуй нет. Мне моя жизнь дорога.</text>
+		<text>You know, maybe not. I care about my life.</text>
 	</string>
 	<string id="prinesi_military_docs_start_31">
 		<text>Вот и отлично, когда будет готово возвращайся за наградой.</text>

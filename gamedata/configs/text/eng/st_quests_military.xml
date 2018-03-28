@@ -136,18 +136,18 @@
 	<!-- Legend Returns -->
 	<!-- FIND WEAPON FOR ARA TASK -->
 	<string id="mil_merc_trader_task_1_name">
-		<text>Найти: %s</text>
+		<text>Find: %s</text>
 	</string>
 	<string id="mil_merc_trader_task_1_text">
-		<text>Ара попросил найти %s в безупречном состоянии. Возвратитесь к нему, когда найдёте.</text>
+		<text>Ara asked you to find %s in perfect condition. Bring it to him when you find it.</text>
 	</string>
 	<string id="mil_merc_trader_task_1_about">
-		<text>Нам необходимо найти некоторые экзепляры редкого вооружения. Берёшься?</text>
+		<text>We need to find some rare weapons. Do you want to help me?</text>
 	</string>
 	<string id="mil_merc_trader_task_1_fetch_about">
-		<text>Вот, %s - это то, что нужно.  Если ты сможешь найти его в отличном состоянии, я заплачу хорошую цену.</text>
+		<text>Here, %s is what you need. If you manage to find it in perfect condition, I will pay a good price for it.</text>
 	</string>
 	<string id="mil_merc_trader_task_1_fetch_finish">
-		<text>Спасибо за ствол. Вот платёж, как я и обещал.</text>
+		<text>Thanks for the gun. Here's the payment I promised you.</text>
 	</string>
 </string_table>

@@ -50,7 +50,7 @@ A list of all files with their detailed progress can be found below.
 	- [st_dialogs_bar.xml](gamedata/configs/text/eng/st_dialogs_bar.xml)
 		- merged with Call of Chernobyl 1.5, awaiting translation
 	- [st_dialogs_darkscape.xml](gamedata/configs/text/rus/st_dialogs_darkscape.xml)
-		- not started
+		- unrevised
 	- [st_dialogs_darkvalley.xml](gamedata/configs/text/eng/st_dialogs_darkvalley.xml)
 		- unrevised
 	- [st_dialogs_deadcity.xml](gamedata/configs/text/eng/st_dialogs_deadcity.xml)
